@@ -35,10 +35,6 @@ def detect_language(text: str) -> str:
     'other' el modelo responde en el idioma de la pregunta y el rechazo sale
     en inglés.
     """
-    # ¿ ¡ y ñ son casi una firma del español (las tildes no: el francés o el
-    # portugués también las usan).
-    if re.search(r"[¿¡ñ]", text, re.IGNORECASE):
-        return "es"
     words = re.findall(r"[^\W\d_]+", text.lower())
     spanish = sum(word in _SPANISH_WORDS for word in words)
     english = sum(word in _ENGLISH_WORDS for word in words)
@@ -47,7 +43,14 @@ def detect_language(text: str) -> str:
         return "other"
     if spanish > english:
         return "es"
-    if english > spanish or not words:
+    if english > spanish:
+        return "en"
+    # Empate: ¿ ¡ y ñ son casi una firma del español (las tildes no: el
+    # francés o el portugués también las usan). Se miran después de las
+    # palabras para que "¿Who is Solaire?" no cuente como español.
+    if re.search(r"[¿¡ñ]", text, re.IGNORECASE):
+        return "es"
+    if not words:
         return "en"
     # Empate (o ninguna palabra conocida): si hay letras fuera del alfabeto
     # inglés es otro idioma; si no, se asume inglés, el idioma por defecto.
@@ -144,11 +147,16 @@ def format_context(docs) -> str:
     return "\n\n---\n\n".join(blocks)
 
 
-def extract_sources(docs) -> list[dict]:
-    """Devuelve las fuentes únicas de los documentos, en orden de aparición."""
+def extract_sources(docs, puntaje_minimo: float = 0.55) -> list[dict]:
+    """Devuelve las fuentes únicas de los documentos con puntaje >= puntaje_minimo, en orden de aparición."""
     sources = []
     seen = set()
-    for document, _score in docs:
+    # Los fragmentos poco parecidos a la pregunta no se muestran como fuente;
+    # si ninguno llega al mínimo, se muestra al menos el de mayor puntaje.
+    relevant = [(doc, score) for doc, score in docs if score >= puntaje_minimo]
+    if not relevant and docs:
+        relevant = [max(docs, key=lambda pair: pair[1])]
+    for document, _score in relevant:
         meta = document.metadata or {}
         file = meta.get("fuente")
         if not file or file in seen:
