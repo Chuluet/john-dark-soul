@@ -7,14 +7,13 @@ fuente: https://darksouls.fandom.com/wiki/No-man's_Wharf
 
 # No-man's Wharf (DS2)
 
-right|340px
 No-man's Wharf is a location in Dark Souls II.
 
 ## Description
 
 No-man's Wharf is a dilapidated harbor and village shrouded in darkness and populated with hollowed warriors and monstrous Dark Stalkers. It is accessible via Heide's Tower of Flame once the Dragonrider boss has been defeated.
 
-The area is fairly large and the severe amount of enemies and lack of bonfires means that a player will likely need two weapons or some Repair Powder to successfully make it to the boss. There is, however, a shortcut that can be unlocked which makes it easier to access the area's boss (only in ).
+The area is fairly large and the severe amount of enemies and lack of bonfires means that a player will likely need two weapons or some Repair Powder to successfully make it to the boss. There is, however, a shortcut that can be unlocked which makes it easier to access the area's boss (only in Scholar of the First Sin).
 
 ## Adjacent locations
 
@@ -31,24 +30,6 @@ Carhillion of the Fold (merchant)
 Lonesome Gavlan (merchant)
 Lucatiel of Mirrah (white phantom) - Speaking to her will make her available for summoning later in the wharf.
 Bradley of the Old Guard (shade, SotFS)
-
-## Respawning
-
-Dark Stalker
-Hollow Infantry
-Stray Hound
-Varangian Sailor
-Suspicious Shadow (SotFS and only in NG+, or by burning a Bonfire Ascetic in DSII)
-Undead Laborer (not hostile)
-Undead Jailer <small>(SotFS)
-
-## Non-respawning
-
-Dark Spirit Aurous Knight (only appears in NG+ or by burning a Bonfire Ascetic)
-
-## Boss
-
-Flexile Sentry
 
 ## Ammunition
 

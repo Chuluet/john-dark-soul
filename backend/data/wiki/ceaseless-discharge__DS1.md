@@ -7,9 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Ceaseless_Discharge
 
 # Ceaseless Discharge (DS1)
 
-Ceaseless Discharge (爛れ続けるもの), also known as the Molten  Giant, is a boss in Dark Souls.
-
-__TOC__
+Ceaseless Discharge (爛れ続けるもの), also known as the Molten Giant, is a boss in Dark Souls.
 
 ## Location
 
@@ -23,7 +21,7 @@ Ceaseless Discharge can be found on the far end of his arena, watching over the 
 
 ## Lore
 
-Ceaseless Discharge is the youngest child and only known son of the Witch of Izalith. However he was born with sores inflamed by the lava flowing in Izalith and so his older sisters, the witches of Izalith, gave him a magical ring to ease his pain. 
+Ceaseless Discharge is the youngest child and only known son of the Witch of Izalith. However he was born with sores inflamed by the lava flowing in Izalith and so his older sisters, the witches of Izalith, gave him a magical ring to ease his pain.
 
 Around the same time, Izalith was experimenting with her Lord Soul and the power of fire and souls and at a certain point, driven by ambition and arrogance, she tried to create a "First Flame" of her own, using her own Lord Soul as a basis to make a power similar to the primordial force that had brought life into the world. The experiment, however, was not entirely successful because the result was a Flame of Chaos, an unstable power that the witch was unable to control. Izalith herself was initially consumed by it and became a beast of chaos fire along with two of her daughters in the process transforming themselves into a "Bed of Chaos". This creature, fueled by the power of the Flame of Chaos, became a seebed for a new life form: Demons.
 
@@ -43,13 +41,9 @@ Should the player have enraged Ceaseless Discharge and caused him to rip his arm
 
 The slam's area of damage is actually much larger than the tendril itself: It creates a very wide shock wave that will damage the player even if there is no contact with said tendril. Players should stay clear away from the point of impact, and attempt a dodge even if it seems unnecessary.
 
-center
-
 ## Double Slam
 
 This attack requires the player to have uninterrupted focus in order to dodge.
-
-center
 
 ## Tendril Rampage
 
@@ -61,28 +55,10 @@ This attack is triggered when the player cannot be reached by his other attacks.
 
 This attack is discernible from other slam attacks by Ceaseless Discharge lighting the tip of his tendrils on fire.
 
-center
-
 ## Swipe
 
 This move actually consists of two attacks, the second one will follow up shortly after the first. Dodging this requires correct timing.
 
-center
-
-## Burning Slam
-
-center
-
-## Double Burning Slam
-
-center
-
 ## Cliff Hanger
 
 If the player retreats back to the fog door Ceaseless Discharge will make a desperate leap over the cliff to try and crush them. Once he lands he will dangle helplessly above the cliff and will no longer be able to move or attack, becoming completely defenseless.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=20l-it3Snbw

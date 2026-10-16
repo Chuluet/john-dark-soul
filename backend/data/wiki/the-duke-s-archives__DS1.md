@@ -7,11 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/The_Duke's_Archives
 
 # The Duke's Archives (DS1)
 
-right|350px
-
 The Duke's Archives (公爵の書庫), also called the Regal Archives (神の書庫 lit. God's Archives), is a location in Dark Souls. It can be reached by going through a large hall in Anor Londo (the one with two Sentinels, a chest, and a Mimic), and running past the Sentinel on the balcony, after the Lordvessel has been placed.
-
-__TOC__
 
 ## Adjacent locations
 
@@ -24,7 +20,7 @@ The Duke's Archives is a massive library fortress located in Anor Londo. It cont
 
 ## Lore
 
-The library is home to Seath the Scaleless, and was granted to Seath by Gwyn, along with a Bequeathed Lord Soul Shard, as a reward for aiding in the birth of the Age of Fire. 
+The library is home to Seath the Scaleless, and was granted to Seath by Gwyn, along with a Bequeathed Lord Soul Shard, as a reward for aiding in the birth of the Age of Fire.
 
 It is here that Seath delves into his experiments and studies. The Six-Eyed Channelers found here are servants of Seath, seeking and kidnapping inhabitants of Lordran for his research. The Pisaca are among the results of these experiments.
 
@@ -41,22 +37,6 @@ Reah of Thorolund - If the player purchases all of the miracles that Reah has to
 Big Hat Logan (insane)
 Crystal General
 Reah of Thorolund (Hollowed)
-
-## Respawning
-
-Channeler
-Crystal Golem
-Undead Crystal Soldier
-Pisaca
-Serpent Mage
-Serpent Soldier
-
-## Non-respawning
-
-Crystal Lizard
-Fang Boar
-Golden Crystal Golem
-Mimic
 
 ## Boss
 
@@ -115,7 +95,3 @@ Enchanted Falchion (Mimic)
 Tin Crystallization Catalyst (insane Big Hat Logan drop)
 Logan's Catalyst (chest - after killing insane Big Hat Logan)
 Avelyn (chest)
-
-## Music
-
-thumb|center|335px

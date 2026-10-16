@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Lucatiel_of_Mirrah
 
 # Lucatiel of Mirrah (DS2)
 
-Character=
-
 |-|Hostile=Lucatiel of Mirrah is a character in Dark Souls II. She first appears as a talkable NPC in four different locations, with her dialogue affected not by the location but by how many times she has encountered the player before; if her dialogue has been exhausted in all four locations, she will relocate to Aldia's Keep for a fifth and final encounter. She can be summoned as a phantom for as many as five different boss fight, with each summon unlocked by one of her five dialogue interactions.
 
 A human knight from Mirrah who came to Drangleic seeking her brother and a cure for her undeath, she is terrified at the prospect of losing her memories and turning hollow. She is also a mentioned character in Dark Souls III via various item descriptions, and is mentioned by name only through her mask's name.
@@ -19,10 +17,10 @@ She is voiced by Sarah Beck Mather, who also voiced Irina of Carim in Dark Souls
 
 Lucatiel can be found for the first time in any of the following locations and she will deliver different dialogue depending on the number of times she has previously been met:
 No-man's Wharf: Next to the only bonfire in the area.
-In , she is located in a house further in the area.
+In Scholar of the First Sin, she is located in a house further in the area.
 The Lost Bastille: In the tower straight ahead when approaching the Lost Bastille from McDuff's Workshop.
 Earthen Peak: At the Lower Earthen Peak bonfire.
-In , she is located in the same area as the Poisonbite Ring.
+In Scholar of the First Sin, she is located in the same area as the Poisonbite Ring.
 Black Gulch: In a hidden cave. The player will need to drop from the cliff in order to find the cave.
 Aldia's Keep: At the first bonfire, after meeting her in all of the aforementioned locations.
 
@@ -73,12 +71,12 @@ Her AI remains problematic, which means she can still get stuck in the environme
 Lucatiel can be summoned at the following locations:
 No-Man's Wharf (Flexile Sentry)
 DS2: Her summon sign is found beyond the gate in the shortcut leading to the boss fight.
-: Her summon sign is found past the shortcut on the dock. Bradley of the Old Guard can be summoned for this fight as well.
+Scholar of the First Sin: Her summon sign is found past the shortcut on the dock. Bradley of the Old Guard can be summoned for this fight as well.
 Sinners' Rise (Lost Sinner)
-Her summon sign is located at the bottom of the elevator of Sinners' Rise. Sellsword Luet can be summoned for this fight as well. ()
+Her summon sign is located at the bottom of the elevator of Sinners' Rise. Sellsword Luet can be summoned for this fight as well. (Scholar of the First Sin)
 Iron Keep (Smelter Demon)
 Her summon sign is found in front of the fog gate of this boss.
 Black Gulch (The Rotten)
-Her summon sign is located by the Hidden Chamber bonfire. Bashful Ray () and Lone Hunter Schmidt can be summoned for this battle as well.
+Her summon sign is located by the Hidden Chamber bonfire. Bashful Ray (Scholar of the First Sin) and Lone Hunter Schmidt can be summoned for this battle as well.
 Eleum Loyce (Burnt Ivory King)
 Her summon sign will appear in the Grand Cathedral near the iron chest only after she is talked to at Aldia's Keep. Twiggy Shei can be summoned for this battle as well.

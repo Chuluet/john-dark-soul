@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/The_Painter
 
 # The Painter (DS3)
 
-The Painter, also known as  is a character in Dark Souls III: Ashes of Ariandel.
+The Painter, also known as is a character in Dark Souls III: Ashes of Ariandel.
 
 ## Location
 
@@ -25,12 +25,12 @@ After the Ashen One finds The Ringed City, the Painter mentions that she is wai
 
 The Painter is a young woman with draconic lineage. Albeit not receiving a name at birth, her mother imparted to her advanced knowledge about the First Flame and the Dark Soul. Harnessing these two primordial forces, she has the ability to create new Painted Worlds.
 
-After Friede (formerly Elfriede) left behind her role as a leader of the Sable Church of Londor, she was eventually drawn into the Painted World of Ariandel. She came to accept the Painted World as her new home; she also discovered that she wished to "protect" its forlorn inhabitants. Over time Friede earned their trust, to the point that the Corvian Knights who protected the village became infatuated with her; above all, she managed to get close to Father Ariandel, a Great Corvian who had the task of guarding the Flame within the Painted World and to burn it when the painting began to rot. This was done to bring the Painting back to life, thus avoiding the fate of the stagnant outside world, and make way for a new Painted World. However, when the painting began to rot away and its inhabitants made up their minds to burn it, Friede opposed their wish, preferring a slow death in the comforting rot to the renewing change of the Flame. She convinced Ariandel to bury the flame of the Painting and to smother it using his blood, while her Corvian Knights swore to "protect" the painting from fire, even killing their own brethren who opposed her. 
+After Friede (formerly Elfriede) left behind her role as a leader of the Sable Church of Londor, she was eventually drawn into the Painted World of Ariandel. She came to accept the Painted World as her new home; she also discovered that she wished to "protect" its forlorn inhabitants. Over time Friede earned their trust, to the point that the Corvian Knights who protected the village became infatuated with her; above all, she managed to get close to Father Ariandel, a Great Corvian who had the task of guarding the Flame within the Painted World and to burn it when the painting began to rot. This was done to bring the Painting back to life, thus avoiding the fate of the stagnant outside world, and make way for a new Painted World. However, when the painting began to rot away and its inhabitants made up their minds to burn it, Friede opposed their wish, preferring a slow death in the comforting rot to the renewing change of the Flame. She convinced Ariandel to bury the flame of the Painting and to smother it using his blood, while her Corvian Knights swore to "protect" the painting from fire, even killing their own brethren who opposed her.
 
 In service of her twisted goal, Friede ordered Sir Vilhelm to imprison and guard the Painter in the library of the corvian village to prevent her from restoring the painting. This would prompt Slave Knight Gael to escape from the painting, taking with him a rotten scrap of it and beginning his search for another Unkindled that would fulfill the prophecy, which stated that when the Ashes inside the painting became two, the Flame would return and burn the rot away.
 
 ## Theories
 
-It is possible to theorize that the Painter is the daughter of Priscilla. 
+It is possible to theorize that the Painter is the daughter of Priscilla.
 She partially shows draconic traits like reptilian pupils and nails, scaly skin and white hair that she could have inherited from Priscilla, the only creature known to have inhabited the Painting and to have draconic lineage.
 Priscilla was known as the "Lady of the Painting" (絵画の主), with the meaning of ruling Lord, of the inhabitants of the Painted World while the Painter is addressed as "Young Lady" (お嬢様), with the meaning of daughter of nobility, by them, suggesting some relation, direct or long-removed, to the only creature that the inhabitants of the Painting addressed as nobility.

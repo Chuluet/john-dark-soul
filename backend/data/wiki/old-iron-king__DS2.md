@@ -13,6 +13,8 @@ The Old Iron King (鉄の古王) is a boss in Dark Souls II.
 
 Located in Iron Keep, the Old Iron King is the final boss of this area who possesses one of the four great souls. He takes the form of a giant horned and winged monster, with rivulets of iron pouring from its body. The closest bonfire is near turtles and called Eygil's Idol.
 
+## Scholar of the First Sin
+
 Manhunter O'Harrah - In the room just below the Eygil's Idol bonfire, with the fire and spike wall traps.
 
 ## Lore
@@ -46,17 +48,3 @@ Flame Breath: Shoots a line of fire out of his mouth. Can be rolled through, or 
 Swiping Flames: Shoots flames out of mouth in a wide arc. Can be avoided by rolling, or by keeping a safe distance away from the King. Alternatively, it is possible to walk in between the flames, although it can be very difficult to do.
 
 Roar: Lets out a roar that releases a medium range area of effect explosion, similar to Wrath of the Gods. Usually only done if a player gets extremely close.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--20% strike means taking 120% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=MwRUNTCNB3E
-
-Category:Dark Souls II: Kings
-es:Viejo Rey de Hierro
-pl:Stary Żelazny Król
-ru:Старый Железный Король

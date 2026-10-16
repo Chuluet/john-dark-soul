@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Creighton_the_Wanderer
 
 # Creighton the Wanderer (DS2)
 
-Creighton the Wanderer, also known as Creighton of Mirrah, is a character in Dark Souls II. 
+Creighton the Wanderer, also known as Creighton of Mirrah, is a character in Dark Souls II.
 
 An ambiguous character, his storyline revolves around his feud to the death with Mild-Mannered Pate. He is voiced by Joe Sims, who also voiced Magerold of Lanafir.
 

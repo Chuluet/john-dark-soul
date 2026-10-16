@@ -7,13 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Prowling_Magus_and_Congregation
 
 # Prowling Magus and Congregation (DS2)
 
-Magus =
-
-|-|Priests =
-
-|-|Laborers =
-
-|-|Supplicants =
 The Prowling Magus and their Congregation are a multi-character boss in Dark Souls II. A non-optional boss battle found early in Brightstone Cove Tseldora, it consists of the Magus, with their own healthbar, and ten other enemies with both a shared boss health bar and each their individual own: two Hollow Priest, five Undead Laborers and three Undead Supplicants. All eleven enemies need to be killed individually, as the Congregation's boss health bar is merely the addition of their respective health points.
 
 Both Laborers and Supplicants are regular in-game enemies, and a second, non-boss version of the Magus can be encountered later in the game. One other Hollow Priest can be found only in NG+2, in a secret room right before the boss fight location.
@@ -68,31 +61,3 @@ There are two variants of hollows: Undead Laborers and Undead Supplicants. The l
 The Prowling Magus themself uses hexes which can deal a lot of Dark damage if they connect. However, he doesn't have much health and most of their attacks are fairly easy to dodge.
 
 Hiding behind the benches is a good way to block the priests' lightning spear attacks and provides time to heal. However, any attacks connecting with the benches will destroy them.
-
-## Prowling Magus
-
-(Stats are from Param Studio and are not estimated)
-
-## Hollow Priests x 2
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -35% slash means taking 135% damage.
-
-## Undead Laborers x 5
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -35% slash means taking 135% damage.
-
-## Undead Supplicants x 3
-
-(Stats are from Param Studio and are not estimated)
-
-## Music
-
-https://www.youtube.com/watch?v=u61kJNpHynw
-
-Category:Dark Souls II: Bosses
-Category:Dark Souls II: Enemies
-Category:Enemy Pages Missing Data
-
-es:Mago merodeador y Congregación
-pl:Mag grasant i Kongregacja
-ru:Странствующий маг и прихожане

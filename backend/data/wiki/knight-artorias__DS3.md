@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Knight_Artorias
 
 # Knight Artorias (DS3)
 
-thumb|An Abyss Watcher.
 Artorias's legacy of battling the Abyss lived on through the ages into the days of Lothric. While the name of the "Wolf Knight" was seemingly lost to history, there were many who swore themselves into a new covenant with the goal of fighting Abyss's abominations. These warriors would come to be known as Farron's Undead Legion, The Abyss Watchers. It was said that the Undead Legion vowed to partake of "wolf blood", binding their souls into one that traced its roots to Artorias, the first Abyss Watcher, in an eternal mandate to hold back the tides of the Abyss. They imitated the fighting style of their first master, becoming known for their wild, ferocious style which employed the unusual combination of an ultra-greatsword and a parrying dagger.
 
 The Abyss Watchers established dominion over Farron Keep, the swampland once known as Oolacile or Darkroot Garden. Here they closely guarded what was once the Chasm of the Abyss, the cradle of Manus and a seedbed for Abyssal beasts; these headquarters would also have been in close proximity to Artorias's tomb. The Watchers gained notoriety due to their scorched-earth approach to containing outbreaks of the Abyss, destroying kingdoms at the first sign of exposure. Nonetheless, many would enlist as their followers in a bid to partake of wolf's blood and become part of the Undead Legion.

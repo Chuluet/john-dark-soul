@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Archdragon_Peak
 
 # Archdragon Peak (DS3)
 
-right|300px
-
 Archdragon Peak (古竜の頂 Kōryū no Itadaki, Ancient Dragon Peak) is a hidden, optional location in Dark Souls III.
 
 ## Description
@@ -29,7 +27,7 @@ Archdragon Peak can be entered only after learning the Path of the Dragon gestur
 
 In Archdragon Peak, the Calamity Ring is found, reportedly made from the orange eye of a calamitous dragon, the ring considered a symbol of dragon worship. This dragon was none other than Black Dragon Kalameet, said to be the last one of ancient dragons.
 
-The Nameless King, known for once allying with ancient dragons, resides on Archdragon Peak.  He is accompanied by a stormdrake, which he tamed and fought alongside him. Dragon Slayer Ornstein's weapon and armor can be found laying around the Nameless King's arena; he was said to have left his guard in Anor Londo cathedral to search for the Nameless King.
+The Nameless King, known for once allying with ancient dragons, resides on Archdragon Peak. He is accompanied by a stormdrake, which he tamed and fought alongside him. Dragon Slayer Ornstein's weapon and armor can be found laying around the Nameless King's arena; he was said to have left his guard in Anor Londo cathedral to search for the Nameless King.
 
 ## Adjacent locations
 
@@ -38,21 +36,6 @@ Irithyll Dungeon
 ## Phantoms
 
 Hawkwood the Deserter
-
-## Respawning
-
-Drakeblood Knight
-Giant Man Serpent
-Havel the Rock
-Man Serpent
-Rapier Champion
-Rock Lizard
-Man Serpent Summoner
-
-## Non-respawning
-
-Ancient Wyvern (mini-boss)
-Crystal Lizard (×1)
 
 ## Bosses
 

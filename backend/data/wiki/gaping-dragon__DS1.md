@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Gaping_Dragon
 
 The Gaping Dragon (貪食ドラゴン) is an optional boss in Dark Souls.
 
-__TOC__
-
 ## Location
 
 The Gaping Dragon is found in a large open chamber in the Depths, near the gate to Blighttown.
@@ -52,65 +50,45 @@ Note if using the Drake Sword that its heavy two-handed attack consumes 40 dur
 
 ## Right Punch
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed252 - - -PhysicalNoneNoNeitherSlow
+Attack TypeStatusParryableTrackingSpeed252 - - -PhysicalNoneNoNeitherSlow
 The Gaping Dragon performs a punch with its right arm. The attack has a short range and can be dodged by running to the left side of it.
 
 ## Triple Stomp
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
 The Gaping Dragon brings its leg up and quickly stomps three times in succession. The Gaping Dragon focuses this attack on the area in front of it.
-
-center
 
 ## Left Leg Swipe
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed360 - - -PhysicalNoneNoNeitherSlow
+Attack TypeStatusParryableTrackingSpeed360 - - -PhysicalNoneNoNeitherSlow
 The Gaping Dragon slowly brings its left leg up and then swing across its front. This attack covers a great range so it's best to run away or stick close the Dragon's right hand side.
-
-center
 
 ## Stomach Slam
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
 The Gaping Dragon points its stomach in the air and then slams it into the ground with great force. The best option to avoid this attack is running directly away. The Gaping Dragon's teeth get stuck in the ground briefly after this attack, making it vulnerable to counter-attack.
-
-center
 
 ## Charge
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
 The Gaping Dragon begins to charge in a straight line. Running to the side is the best way to avoid this attack. This attack is always executed after a Stomach Slam.
-
-center
 
 ## Tail Whip
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed360 - - -PhysicalNoneNoBothMedium
+Attack TypeStatusParryableTrackingSpeed360 - - -PhysicalNoneNoBothMedium
 The Gaping Dragon swings its tail to one side of its body. This attack can be difficult to avoid but is best evaded by running to the enemy's front. Cutting off the tail will cause the reach of the attack to lower significantly, but it can still hit.
-
-center
 
 ## Jump
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed558 - - -PhysicalNoneNoNeitherMedium
 The Gaping Dragon will fly upwards for a brief moment and attempt to land on the player. When it is stuck or is being flanked it will trigger this move, which will result in the dragon turning itself around. Another form of this attack triggers when the player attacks from afar, after which the monster will try to land onto the player in a single bound. Both can be avoided by running away, however, the latter requires the player to focus more on timing.
-
-center
 
 ## Corroding Acid
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed180 - - -PhysicalDurabilityDamage: 22NoNeitherSlow
+Attack TypeStatusParryableTrackingSpeed180 - - -PhysicalDurabilityDamage: 22NoNeitherSlow
 The Gaping Dragon points its stomach to the ground and after a brief delay, expels acid that covers a big portion of the area. This will degrade equipment. Staying in it too long may cause all of the player's equipment to break.
-
-center
 
 ## Gorge
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeStatusParryableTrackingSpeed??? (depends) - - -PhysicalNoneNoRightSlow
-The Gaping Dragon grabs the player when close and then crunch with its vertical maw, inflicting tremendous physical damage. 
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=UQ3nqf7Ndeo
+Attack TypeStatusParryableTrackingSpeed??? (depends) - - -PhysicalNoneNoRightSlow
+The Gaping Dragon grabs the player when close and then crunch with its vertical maw, inflicting tremendous physical damage.

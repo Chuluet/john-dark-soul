@@ -7,9 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Asylum_Demon
 
 # Asylum Demon (DS1)
 
-The  is a boss in Dark Souls, located in the Northern Undead Asylum. It is the first boss in the game to be encountered by the player.
-
-__TOC__
+The is a boss in Dark Souls, located in the Northern Undead Asylum. It is the first boss in the game to be encountered by the player.
 
 ## Location
 
@@ -29,44 +27,40 @@ The attacks of the Asylum Demon are similar to, if not the same as, the Vanguard
 
 ## Butt Slam
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed305000NormalNoBothSlow
+Attack TypeParryableTrackingSpeed305000NormalNoBothSlow
 The Asylum Demon flies up, pauses, and then allows itself to fall, dealing massive damage if it hits. Very easy to dodge, as it is well telegraphed. Has a slight area of effect.
 
 ## Hammer Drive
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed190000NormalNoNeitherSlow
+Attack TypeParryableTrackingSpeed190000NormalNoNeitherSlow
 Used by the Demon when the player is standing right in front of it. Impossible to dodge if standing in front of it.
 
 ## Hammer Swing
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed190000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed190000NormalNoNeitherMedium
 A horizontal swing of the Asylum Demon's hammer. Has poor tracking, and is easy to avoid.
 
 ## Hammer Backswing
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed205000NormalNoRightMedium
+Attack TypeParryableTrackingSpeed205000NormalNoRightMedium
 Used when the player is side-stepping to its right. Can be dodged by rolling at the last second.
 
 ## Hammer Scoop
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed205000NormalNoLeftMedium
+Attack TypeParryableTrackingSpeed205000NormalNoLeftMedium
 Used when the player is side-stepping to its left. Once again, rolling at the last second allows the player to dodge it.
 
 ## Hammer Smash
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed248000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed248000NormalNoNeitherMedium
 A downward smash. Has a large range, but is fairly easy to avoid.
 
 ## Leaping Hammer Smash
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed275000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed275000NormalNoNeitherMedium
 Used when the player is far away from the Demon. Before attacking, the Asylum Demon will flutter it's wings. Easy to dodge.
 
 ## Double Hammer Swing
 
-link=Physical|28pxlink=Magic (Damage Type)|28pxlink=Fire (Damage Type)|28pxlink=Lightning (Damage Type)|28pxAttack TypeParryableTrackingSpeed200000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed200000NormalNoNeitherMedium
 A combo of Hammer Swings. It has slightly better tracking than it's predecessor, and may be followed up with a Hammer Smash attack.
-
-## Music
-
-https://www.youtube.com/watch?v=FbKoy15fwZw

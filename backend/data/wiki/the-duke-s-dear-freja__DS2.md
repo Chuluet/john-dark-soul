@@ -29,8 +29,8 @@ Ashen Knight Boyd can be summoned for this fight. His summon sign is located nex
 
 In Dark Souls II: Scholar of the First Sin, two additional summons were added:
 
- Manhunter O'Harrah's summon sign can be found in the hall of spiders preceding the webbed pit.
- Bashful Ray can be summoned in the room with spiders near the sand pit (from Lower Brightstone Cove bonfire in Brightstone Cove Tseldora go to the sandpit, then by the ledge of sandpit and turn left before Hollow Mage to enter room with several Parasite Spiders, one Parasitized Undead and a brazier). From this room he can be led all the way to the boss.
+Manhunter O'Harrah's summon sign can be found in the hall of spiders preceding the webbed pit.
+Bashful Ray can be summoned in the room with spiders near the sand pit (from Lower Brightstone Cove bonfire in Brightstone Cove Tseldora go to the sandpit, then by the ledge of sandpit and turn left before Hollow Mage to enter room with several Parasite Spiders, one Parasitized Undead and a brazier). From this room he can be led all the way to the boss.
 
 ## Attacks
 
@@ -47,16 +47,3 @@ Web Spit: Freja spits out balls of web that immobilize the player. When hit, the
 Frenzy Attack: Freja spits out multiple splatters of acid from any of her heads, which depletes armor durability and does minor damage, while constantly slamming all of her legs on the ground for a time. Getting away from her completely is advised.
 
 Beam Attack: Freja fires a deadly beam of magic horizontally from left to right. It deals extremely high damage as well as being unblockable. It is possible to roll under/through the beam with the use of invincibility frames. The most effective tactic is to recognize the set up, then run to the opposite head to negate and deal damage.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--10% strike means taking 110% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=T-FOdwrdTwE
-
-es:Amada Freja del Duque
-pl:Freja, Ulubienica Księcia
-ru:Фрея, Возлюбленная Герцога

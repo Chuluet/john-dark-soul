@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Oolacile_Township
 
 # Oolacile Township (DS1)
 
-right|340px
 Oolacile Township is a location in Dark Souls that is part of the Artorias of the Abyss DLC.
 
 ## Description
@@ -22,17 +21,6 @@ Lord's Blade Ciaran
 ## Characters
 
 Marvelous Chester (red phantom)
-
-## Respawning
-
-Bloathead
-Bloathead Sorcerer
-Chained Prisoner
-
-## Non-respawning
-
-Crystal Lizard
-Mimic
 
 ## Bosses
 

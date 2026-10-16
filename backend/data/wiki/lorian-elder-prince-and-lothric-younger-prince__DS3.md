@@ -7,10 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Lorian,_Elder_Prince_and_Lothric,_Youn
 
 # Lorian, Elder Prince and Lothric, Younger Prince (DS3)
 
-Lorian, Elder Prince =
-
-|-|Lothric, Younger Prince =
-
 Lorian, Elder Prince and Lothric, Younger Prince, also known as the Twin Princes, are a pair of bosses in Dark Souls III. They are the final of the five Lords of Cinder encountered by the Ashen One.
 
 ## Location
@@ -29,21 +25,15 @@ Lothric appears much more frail, and has noticeably dark veins, indicative of hi
 
 ## Lore
 
-Lothric and Lorian are the sons of Oceiros, King of Lothric and Gwynevere, Queen of Lothric and consequently the princes of the kingdom of Lothric. 
+Lothric and Lorian are the sons of Oceiros, King of Lothric and Gwynevere, Queen of Lothric and consequently the princes of the kingdom of Lothric.
 
 Lorian, the crown prince, received the ancient brass armor handed down by the royal family, complete with a crown patterned with flame, a symbol of the kingdom's tradition of Firelinking. Lorian was raised as a knight and proved his incredible prowess on the battlefield, leading a war against the remnants of the Chaos Demons, even capturing some of them to serve as slaves for Lothric. Lorian went on to face the Demon Prince, defeating him single-handedly in a battle that eternally scorched his greatsword with the flame of chaos burned his legs and stained his armor black.
-
-Lothric, the younger prince, was the destined Lord of Cinder, who would sacrifice himself as fuel for the First Flame to uphold the Age of Fire. The prince, born a sickly, frail child, was nevertheless viewed as the "last hope of his line", the culmination of generations of Lothric rulers obsessed with producing worthy Champions for the Flame. For the anticipated journey of the young prince to the Kiln of the First Flame, a platinum sword was crafted and blessed with strong magic by the High Priestess, long before he was ready to fulfill his destiny. Oceiros created extensive propaganda around Lothric, not only giving him the name of the kingdom, but also building statues that depicted him with his sacred sword ready to complete his task, as well as preparing his throne at the Firelink Shrine in advance. 
 
 However, the hopes of the royal family would soon fade, as Lothric remained a shriveled child from birth into adulthood, never even growing out of his baby clothes. Furthermore, Aldia, the first of the Grand Archives scholars, seemingly became a private mentor to young Prince Lothric, and likely divulged his skepticism on the nature of the Age of Fire to his student. The frail prince also demonstrated talent for sorcery, for which he did not need a medium—being the son of a deity—and learned several powerful and refined spells.
 
 When the royal family realized that Lothric would not improve from his condition, they resorted to repulsive acts in an attempt to obtain a worthy Champion: the rulers bound the souls of the two princes together with a curse. Although the exact motive behind this act is unknown, it is likely that the rulers intended for Prince Lothric to share in the strength of his elder brother's soul, which could have allowed him to qualify as worthy Ash for the First Flame. It was even said that Lorian willingly submitted to the curse, even as it crippled him. The resulting Soul of the Twin Princes was one worthy of providing kindling for the First Flame, even as the princes were physically incapable of overcoming the obstacles involved in linking the Flame. Unable and unwilling to fulfill their destiny, the princes retreated to their chamber to await the end of the world.
 
-Meanwhile King Oceiros, consumed by his search for a "worthy heir" and driven to madness, would abandon the government to try to transform himself into a dragon, condemning the kingdom to the consequences of the fading of the Flame, as well as the chaos of a war of faith among the ranks of the army.
-
-When the First Flame began to fade and the time came for Prince Lothric to fulfill his destiny and become a Lord of Cinder, he refused the call. After reflecting on his mentor's teachings, the state of the kingdom and the world, his accursed life, and the atrocities committed for the Flame, the prince denounced the legacy of the Lords, and chose to await the Flame's death from the distance. Him and Lorian retired to the peak of Lothric Castle, protected by their royal guard and the exponents of the Three Pillars: Lion Knight Albert, Black Hand Kamui and Daughter of Crystal Kriemhild. 
-
-The prince's decision led the system managing the linking of the Flame to resort to an emergency measure: ringing the bells and awakening the Lords of Cinder of the past from their graves, beings who had previously linked the Flame, to unite their cinders and energize the fading Flame. However, most of the awakened Lords of Cinder refused to sacrifice themselves again and returned to their lands, leaving their thrones at the Firelink Shrine empty.
+When the First Flame began to fade and the time came for Prince Lothric to fulfill his destiny and become a Lord of Cinder, he refused the call. After reflecting on his mentor's teachings, the state of the kingdom and the world, his accursed life, and the atrocities committed for the Flame, the prince denounced the legacy of the Lords, and chose to await the Flame's death from the distance. Him and Lorian retired to the peak of Lothric Castle, protected by their royal guard and the exponents of the Three Pillars: Lion Knight Albert, Black Hand Kamui and Daughter of Crystal Kriemhild.
 
 The ringing of the bells would also awaken the Unkindled, who would hunt down the Lords of Cinder and bring their cinders back to Firelink Shrine. Many of these Unkindled attempted to storm the castle to slay Lothric, but were all killed by the royal guards or by his brother Lorian.
 
@@ -92,7 +82,3 @@ Revive: Once Lorian's health bar has been depleted, Lothric will begin praying f
 
 Orbeck of Vinheim: after giving him all four sorcery scrolls and purchasing all of his available spells, he will disappear from Firelink Shrine, and will be available as a summon. His sign appears at the end of the great bridge, on a rampart to the left.
 Sirris of the Sunless Realms: after completing her questline by helping her defeat Holy Knight Hodrick and accepting her request to serve as your knight, her summon sign will appear to the left of the boss fog.
-
-## Music
-
-https://www.youtube.com/watch?v=2V8tqwZvGUM

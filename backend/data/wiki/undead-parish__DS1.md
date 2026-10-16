@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Parish
 
 # Undead Parish (DS1)
 
-right|300px
-The Undead Parish (城下不死教区, "Parish of the City of the Immortals under the walls") is a location in Dark Souls. 
+The Undead Parish (城下不死教区, "Parish of the City of the Immortals under the walls") is a location in Dark Souls.
 
 It is a small area containing both the new and the old Undead Church, along with various other buildings.
 
@@ -41,22 +40,6 @@ Knight Lautrec of Carim (white phantom) - Trapped in a cell requiring the Myster
 Oswald of Carim (merchant) - Appears after ringing the bell within the parish.
 Reah of Thorolund (merchant) - After rescuing her from the Tomb of the Giants.
 Solaire of Astora (gold phantom) - Summonable for the Bell Gargoyles fight. He also appears near the Sunlight Altar bonfire, after defeating Ornstein and Smough in Anor Londo, where he can initiate players into the Warrior of Sunlight covenant.
-
-## Respawning
-
-Balder Knight
-Hollow
-Hollow Warrior
-Small Undead Rat
-Undead Soldier
-
-## Non-respawning
-
-Fang Boar
-Berenike Knight
-Black Knight
-Channeler
-Titanite Demon
 
 ## Bosses
 

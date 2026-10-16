@@ -7,12 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Belfry_Gargoyles
 
 # Belfry Gargoyles (DS2)
 
-Belfry Luna =
-
-|-| Drangleic Castle =
-
-|-|Aldia's Keep =
-
 The Belfry Gargoyles are an optional boss in Dark Souls II.
 
 ## Location
@@ -42,19 +36,3 @@ Flame breath: Shoots out a fire breath from their mouth, comes in two forms. One
 Aerial Flame: Flies into the air and shoots out a fire breath in a wide arc
 
 Thunderstorm: The halberd is imbued in electricity, then holds it up in the air and fires off several lightning bolts around the caster.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Slash/Strike/Thrust defense are applied on top of Physical Defense. -35% strike means taking 135% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=z6JscBup3yY
-
-Category:Dark Souls II: Enemies
-Category:Dark Souls II: Bosses
-Category:Dark Souls II: Optional Bosses
-
-es:Gárgolas de campanario
-pl:Gargulce z dzwonnicy
-ru:Горгульи с башни

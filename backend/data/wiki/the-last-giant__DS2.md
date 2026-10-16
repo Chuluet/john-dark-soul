@@ -23,7 +23,7 @@ The Last Giant is the Giant Lord who laid waste to Drangleic before his defeat b
 
 ## Summoning
 
-Mild-Mannered Pate and Sellsword Luet may be summoned to assist in this battle. Their signs are located immediately in front of the fog gate. If Pate is summoned and survives the fight, when spoken to  in Earthen Peak, he will give the player his armor set, spear, greatshield, and the Ring of Thorns.
+Mild-Mannered Pate and Sellsword Luet may be summoned to assist in this battle. Their signs are located immediately in front of the fog gate. If Pate is summoned and survives the fight, when spoken to in Earthen Peak, he will give the player his armor set, spear, greatshield, and the Ring of Thorns.
 
 ## Attacks
 
@@ -36,18 +36,3 @@ Slam: Uses one of his hands and slams it onto the ground. Also the same move is 
 Swipe: Swipes his arm/hand across the ground.
 
 Fall: The Giant uses its entire body to hit the player by falling to the ground.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Slash/Strike/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=m1KAsKEmILc
-
-Category:Dark Souls II: Bosses
-Category:Giants (Dark Souls II)
-
-es:El Último Gigante
-pl:Ostatni Olbrzym
-ru:Последний гигант

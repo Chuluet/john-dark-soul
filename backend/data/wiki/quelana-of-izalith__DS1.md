@@ -7,13 +7,11 @@ fuente: https://darksouls.fandom.com/wiki/Quelana_of_Izalith
 
 # Quelana of Izalith (DS1)
 
-Quelana of Izalith (クラーナ) is a character and  merchant  in Dark Souls.
+Quelana of Izalith (クラーナ) is a character and merchant in Dark Souls.
 
 Found in the swamp at the bottom of Blighttown if special conditions are met, she is one of the Witch of Izalith's "Daughters of Chaos", and acts as a seller and trainer of pyromancies.
 
 She is voiced by Jenny Funnel, who also voiced the Darkmoon Knightess in the same game, Yuria and Selen Vinland in Demon's Souls, Annalise and Iosefa in Bloodborne, and Karla and the Old Woman of Londor in Dark Souls III.
-
-__TOC__
 
 ## Location
 

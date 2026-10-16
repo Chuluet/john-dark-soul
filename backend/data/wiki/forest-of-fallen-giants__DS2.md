@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Forest_of_Fallen_Giants
 
 # Forest of Fallen Giants (DS2)
 
-thumb|350px
 The Forest of Fallen Giants is a location in Dark Souls II.
 
 ## Description
@@ -35,29 +34,6 @@ Cale the Cartographer
 Benhart of Jugo (if conditions are met)
 Merchant Hag Melentia
 Mild-Mannered Pate
-
-## Respawning
-
-Flame Salamander
-Hollow Infantry
-Hollow Soldier
-Old Ironclad Soldier
-Royal Swordsman 
-Ogre 
-Dark Spirit Old Ironclad Soldier (only appears in NG+ or by burning a Bonfire Ascetic)
-Dark Spirit Hollow Soldier (only appears in NG+ or by burning a Bonfire Ascetic)
-
-## Non-respawning
-
-Crystal Lizard
-Heide Knight (DSII)
-Royal Guard 
-Armorer Dennis 
-Royal Sorcerer Navlaan (invades if conditions are met)
-Forlorn (invades randomly, SotFS)
-Dark Spirit Catarina Knight (only appears in NG+ or by burning a Bonfire Ascetic)
-Dark Spirit Syan Knight (only appears in NG+ or by burning a Bonfire Ascetic)
-Dark Spirit Heide Sword Knight (only appears in NG+ or by burning a Bonfire Ascetic)
 
 ## Bosses
 
@@ -126,7 +102,7 @@ Soul of the Pursuer (The Pursuer - drop)
 
 ## Upgrade materials
 
-Titanite Chunk  (chest)
+Titanite Chunk (chest)
 Titanite Shard ×2 (chest and corpse)
 Titanite Slab (chest)
 

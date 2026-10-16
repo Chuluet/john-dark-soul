@@ -39,18 +39,3 @@ Lunging Uppercut: Lunges his spear forward and afterwards proceeds to perform an
 Impale: Grips his spear with 2 hands and lunges it at the player. Unblockable; if the attack connects the player will be impaled, lifted up in the air, and thrown back down. This attack is similar to 'super' Ornstein's lightning impale technique in Dark Souls. Has a defense boost for a few seconds during the attack. This attack can instantly kill players who don't have very high max HP.
 Dark Banzai: His body will emit a dark aura, then he will proceed to jump into the air and land on the ground, exploding in a dark AoE attack. Very similar to 'super' Ornstein's banzai move from Dark Souls, except this one explodes in dark energy, and not electricity. Evading this attack entirely is highly recommended.
 Dark Barrage: The spear glows in a dark aura and he lunges it forward, and doing so will fire off several dark bolts at the player. It is highly recommended to evade the bolts entirely, if nimble enough, or block the attack with a shield that provides both decent stability and dark defense.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=OxxgAA3F3Go
-
-Category:Dark Souls II: Bosses
-Category:Dark Souls II: Optional Bosses
-
-es:Viejo matadragones
-pl:Stary zabójca smoków
-ru:Древний Драконоборец

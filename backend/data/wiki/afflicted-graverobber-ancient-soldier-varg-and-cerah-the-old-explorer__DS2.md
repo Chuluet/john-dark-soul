@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Afflicted_Graverobber,_Ancient_Soldier
 
 # Afflicted Graverobber, Ancient Soldier Varg, and Cerah the Old Explorer (DS2)
 
-The , , and  are a trio of bosses in Dark Souls II: Crown of the Sunken King.
+The , , and are a trio of bosses in Dark Souls II: Crown of the Sunken King.
 
 Found at the end of the Cave of the Dead, a location past the Priestess' Chamber bonfire in Shulva, they are all fought at once and each have their own individual health bar.
 
@@ -55,34 +55,8 @@ The AI pathing also seems to have a slight preference for taking the ramps down 
 
 Another good strategy is to use the NPC summons Ruined Aflis and Rapacious Andrei to distract either Graverobber or Varg, preferably both, then repeatedly backstab them while they focus on the summons. They will likely turn their attention back to you afterward, but retreating or switching targets can cause them to focus on the summons again, allowing the strategy to be repeated. It is still important to watch for Cerah’s arrows while doing this. Once Graverobber and Varg are defeated, Cerah will be left alone, making the end of the fight much easier, especially if one or both summons are still alive. Or if preferred, focusing on Cerah after just one of his allies is killed in an attempt to eliminate the arrows. Again, the summons should keep the other distracted if you choose to do it this way.
 
-## Defenses
-
-Graverobber=
-
-|-|
-Varg=
-
-|-|
-Cerah=
-
 ## Equipment
 
-Graverobber=
+|-|
 
 |-|
-Varg=
-
-|-|
-Cerah=
-
-## Music
-
-https://www.youtube.com/watch?v=1Hf8eO5E-AE
-
-Category:Dark Souls II: Bosses
-Category:The Lost Crowns: CotSK
-Category:Dark Souls II: Optional Bosses
-
-es:Ladrona de tumbas afligida, Antiguo soldado Varg y Cerah, el Viejo Explorador
-pl:Chora hiena cmentarna, Prastary żołnierz Varg i Stary odkrywca Cerah
-ru:Варг, Церах и Разорительница Гробниц

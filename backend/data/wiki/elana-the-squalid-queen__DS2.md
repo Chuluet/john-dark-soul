@@ -27,36 +27,6 @@ Somehow, Elana survived the siege, and became furious and vengeful for her city'
 
 Elana is a tall female humanoid who appears to be skinless, having red and white exposed flesh and a skirt made of vein-like branches. She wields a similarly flesh-like poleaxe.
 
-## Elana
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Velstadt (summoned by Elana)
-
-HP: 2,530   NG+ HP: 3,542 (Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--10% strike means taking 110% damage.
-
-## Skeleton x 3 (summoned by Elana)
-
-HP: 380   NG+ HP: 456 (Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--50% strike means taking 150% damage.
-
-## Small Undead Boar (summoned by Elana)
-
-HP: 460   NG+ HP: 552 (Stats are from Param Studio and are not estimated)
-
 ## Quotes
 
 Click to see dialogue (contains spoilers)GreetingHuh! You were not deserving of the mire...Alternate GreetingYou... forever you shall rot...
-
-## Music
-
-https://www.youtube.com/watch?v=8v42ndwW4to
-
-Category:Dark Souls II: Child of Dark
-Category:The Lost Crowns: CotSK
-Category:Enemy Pages Missing Data
-
-es:Elana, la Reina Escuálida
-pl:Elana, Plugawa Królowa
-ru:Скверная королева Элана

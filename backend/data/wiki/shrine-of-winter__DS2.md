@@ -25,16 +25,6 @@ Shaded Woods
 Drangleic Castle
 Frozen Eleum Loyce (via portal)
 
-## Respawning
-
-Royal Swordsman
-Forest Guardian 
-Goblin
-
-## Non-respawning
-
-Heide Knight (removed in SotFS)
-
 ## Items
 
 Miscellaneous

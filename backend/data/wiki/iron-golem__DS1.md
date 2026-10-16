@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Iron_Golem
 
 The Iron Golem (アイアンゴーレム) is a boss in Dark Souls.
 
-__TOC__
-
 ## Location
 
 At the top of Sen's Fortress.
@@ -48,58 +46,40 @@ There is a glitch, that if the Iron Golem does its grab attack and gets attacked
 
 ## Blade of Wind
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeParryableTrackingSpeed553000NormalNoNeitherMedium
-From a distance, the Iron Golem will charge up a swing, and slash the air sending a sharp wind projectile toward the player. 
-
-center
+Attack TypeParryableTrackingSpeed553000NormalNoNeitherMedium
+From a distance, the Iron Golem will charge up a swing, and slash the air sending a sharp wind projectile toward the player.
 
 ## Axe Combo
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed000NormalNoNeitherMedium
 At close range, the Golem will swing its axe in a horizontal motion up to three times.
-
-center
 
 ## Iron Foot Stomp
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeParryableTrackingSpeed551000NormalNoNeitherModerate
+Attack TypeParryableTrackingSpeed551000NormalNoNeitherModerate
 If you stay close at its feet for too long, the Iron Golem will stomp either three times in a row with its left foot, or two times in a row with its right foot.
-
-center
 
 ## Ground Punch
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed532000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed532000NormalNoNeitherMedium
 The Golem will slowly bring its hand up and then punch the ground in front with full force. This can be avoided by quickly rolling through its legs, and then attack it as it hits the ground.
-
-center
 
 ## Axe Slam
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed564000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed564000NormalNoNeitherMedium
 The Iron Golem will slam its axe downward with full force. Attempting to block the attack will knock the player back a fair bit. This can be avoided by running or rolling away.
-
-center
 
 ## Grab and Hurl
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed361000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed361000NormalNoNeitherMedium
 The enemy will attempt to grab the player with its hand; the hitbox is located in front and between its legs. If it connects, the Golem will throw the player into the ground or off the ledge, causing huge damage and possibly death.
-
-center
 
 ## Sweep
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed542000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed542000NormalNoNeitherMedium
 If the player is positioned behind the Iron Golem for too long, it will sweep its foot backward.
 
 ## Side Slash
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed542000NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed542000NormalNoNeitherMedium
 The Golem will swing its axe toward the ground vertically by its legs. This attack has a large hitbox and it can be very difficult to try and roll through it.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=AbLrslmcH8s

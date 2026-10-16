@@ -23,7 +23,6 @@ After lighting all the flames on the map he will give the player his armor, Cale
 
 ## Questline
 
-thumb|The initial, unlit state of the stone map in Majula
 In order to complete Cale's questline, the player must first light all the fires on the map found in Majula's mansion. This can be achieved by satisfying the following requirements:
 Defeat The Last Giant.
 Defeat the Lost Sinner.

@@ -7,10 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Tomb_of_the_Giants
 
 # Tomb of the Giants (DS1)
 
-320px|right|Tomb of the Giants
-The Tomb of the Giants (巨人墓場, "Tombs of the Giants")  is a location in Dark Souls.
-
-__TOC__
+The Tomb of the Giants (巨人墓場, "Tombs of the Giants") is a location in Dark Souls.
 
 ## Description
 
@@ -36,20 +33,6 @@ Paladin Leeroy (Red Phantom)
 Patches (if answered "Yes")
 Nico of Thorolund (Hollowed)
 Vince of Thorolund (Hollowed)
-
-## Respawning
-
-Baby Skeleton
-Bone Tower
-Giant Skeleton
-Pinwheel Servant
-Skeletal Beast
-Skeleton
-
-## Non-respawning
-
-Black Knight
-Crystal Lizard
 
 ## Bosses
 

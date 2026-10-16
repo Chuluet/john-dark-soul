@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Crystal_Cave
 
 # Crystal Cave (DS1)
 
-right|300px
 Crystal Cave is a location in Dark Souls.
 
 ## Location
@@ -19,17 +18,6 @@ The Crystal Cave is connected to The Duke's Archives, close to the last bonfire.
 This area is characterized by walkways of which some are invisible. Snowflakes falling from the ceiling and orange guidance signs etched from other worlds can guide the player on these walkways. The player can also shoot arrows at the air, or drop Prism Stones to see if they stick. The enemies may prove to be an annoyance when on narrow crystal walkways. This makes it easy for the player to fall off with or without being hit.
 
 Crystal Cave is a good location for farming Twinkling Titanite because it's a common drop from Giant Clams, especially with raised Item Discovery. Killing Seath first to unlock the bonfire in the boss area just next to the cave with a group of Giant Clams makes for easy farming.
-
-## Respawning
-
-Crystal Golem
-Giant Clam
-Crystal Butterfly
-
-## Non-respawning
-
-Crystal Lizard
-Golden Crystal Golem
 
 ## Bosses
 

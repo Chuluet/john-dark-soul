@@ -31,7 +31,7 @@ The Dragon is found at the very top of the Dragon Shrine in a large, open arena 
 
 Vengarl of Forossa can be summoned for this fight if his dialogue is exhausted in the Shaded Woods and his body is defeated. His summon sign is down the corridor towards the fog door.
 Melinda the Butcher can also be summoned for this fight. Her summon sign is found just before the staircase to the boss.
-In , the summon sign of Bashful Ray can be found near the wooden chest that used to be a Mimic in the base game.
+In Scholar of the First Sin, the summon sign of Bashful Ray can be found near the wooden chest that used to be a Mimic in the base game.
 
 ## Attacks
 
@@ -41,19 +41,3 @@ Bite: The dragon will attempt to bite the player, sweeping from right to left.
 Tail Slam: When the player is at the tip of the tail, the dragon will raise it and slam it into the ground twice.
 Flying Flame Breath: The dragon will fly up and breath fire onto the arena, covering a large area.
 Inner Flame: If the player remains beneath the dragon, the dragon will look between its forelegs and blow fire at the player.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=grdraZc4wgI
-
-Category:Dark Souls II: Characters
-Category:Dark Souls II: Optional Bosses
-Category:Dragons
-
-es:Dragón antiguo
-pl:Starożytny smok
-ru:Древний Дракон

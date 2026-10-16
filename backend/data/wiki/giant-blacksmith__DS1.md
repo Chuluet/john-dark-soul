@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Giant_Blacksmith
 
 The Giant Blacksmith is a character in Dark Souls. A simple but friendly being, the Giant Blacksmith offers players unique weapon upgrades. He is voiced by Daniel Flynn, who also voiced Solaire of Astora and Vamos.
 
-__TOC__
-
 ## Location
 
 In Anor Londo after rotating the bridge between the Bell Gargoyles, ascend some steps towards a large building guarded by two Sentinels and several Batwing Demons. The door on the left leads towards the Giant Blacksmith, but initially it is locked and can only be opened from the other side, which can be accessed only after clearing most of Anor Londo.

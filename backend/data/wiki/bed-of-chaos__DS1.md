@@ -11,55 +11,38 @@ The Bed of Chaos (混沌の苗床) is a boss in Dark Souls. A hideous lifeform w
 
 Although the traditional way of reaching the Bed involves slaying both the Demon Firesage and the Centipede Demon, a shortcut can be opened by offering Quelaag's Sister 30 Humanity through the Chaos Servant covenant.
 
-__TOC__
-
 ## Double Swipe
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed624000StrikeNoBothMedium
+Attack TypeParryableTrackingSpeed624000StrikeNoBothMedium
 The Bed of Chaos will use this attack as the player nears the middle area. Its left hand will swipe across the floor and subsequently do the same with its right hand. This attack can be blocked, but consumes a large amount of stamina, making the second attack harder to block.
-
-center
 
 ## Slam
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed624000StrikeNoNeitherMedium
+Attack TypeParryableTrackingSpeed624000StrikeNoNeitherMedium
 It will raise its hand up into the air and then slam it onto the ground. Players can avoid this attack by running away from the arm before it hits the floor.
-
-center
 
 ## Fire Pick
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed12006000Strike/FireNoNeitherMedium
+Attack TypeParryableTrackingSpeed12006000Strike/FireNoNeitherMedium
 After destroying one root, the enemy will gain an arm made of fire. The enemy attacks by hitting the floor and then digging in a straight line towards itself. You can avoid this attack by running or rolling to the side as it only travels in a straight line. It can be blocked, but a shield with high resistance to fire is recommended.
-
-center
 
 ## Double Fire Pick
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed12006000Strike/FireNoNeitherMedium
+Attack TypeParryableTrackingSpeed12006000Strike/FireNoNeitherMedium
 After destroying the second root, the enemy will gain a second arm made of fire. This attack will use both arms to attack, but can still be avoided in the same way.
-
-center
 
 ## Volcanic Chaos
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed008160FireNoAoEMedium
+Attack TypeParryableTrackingSpeed008160FireNoAoEMedium
 
 The enemy can only use this attack after both roots are destroyed. It will begin to make flames appear in the area from which it then erupts, causing heavy fire damage. When the surroundings begin to flame up, one must remain in the areas where flames do not appear in order to safely avoid this attack.
 
-center
-
 ## Flaming Mass Spread
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed008000FireNoBothMedium
+Attack TypeParryableTrackingSpeed008000FireNoBothMedium
 The enemy uses this attack very rarely when one or both roots are destroyed. It will charge inward and then expand, sending multiple flaming projectiles both at the direction of player and around them.
 
 ## Flame Aura
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed007440FireNoAoEMedium
+Attack TypeParryableTrackingSpeed007440FireNoAoEMedium
 Used if the player lingers at the mouth of the Tree Beast without going inside. The Fire Aspect crosses its arms and then swings them open after a distinctive shriek, engulfing the entire area in fire. Hits multiple times.
-center
-
-## Music
-
-https://www.youtube.com/watch?v=84C6vd2_t-k

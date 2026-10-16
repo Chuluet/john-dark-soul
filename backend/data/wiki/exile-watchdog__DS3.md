@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Exile_Watchdog
 
 # Exile Watchdog (DS3)
 
-Great Hammer =
-
-|-|Greatsword =
 The Exile Watchdogs are a pair of enemy characters in Dark Souls III.
 
 ## Location

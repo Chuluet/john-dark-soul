@@ -7,12 +7,10 @@ fuente: https://darksouls.fandom.com/wiki/Manscorpion_Tark
 
 # Manscorpion Tark (DS2)
 
-300px|right
 Manscorpion Tark is a character in Dark Souls II.
 
 ## Description
 
-left
 Manscorpion Tark is a large half-human, half-scorpion hybrid residing in the Shaded Woods. He can be summoned for the boss battle against Scorpioness Najka once his dialogue is exhausted, though the Ring of Whispers is required to do so. His sign can be found on the ground directly outside Najka's fog gate.
 
 ## Plot
@@ -20,7 +18,7 @@ Manscorpion Tark is a large half-human, half-scorpion hybrid residing in the Sha
 Manscorpion Tark and Scorpioness Najka were once a peaceful couple living a quiet existence in the Shaded Ruins. But as time passed, Najka slowly began losing her mind and became more and more violent and unreasonable. A conflict began between Tark and Najka, and has been waged for many years before the player's arrival. If spoken to while wearing the Ring of Whispers, Tark requests that the player defeat Najka, leading to the placing of his summon sign outside her fog door.
 If spoken to after defeating Scorpioness Najka, he will gift the player a Fragrant Branch of Yore.
 If spoken to after defeating The Duke's Dear Freja, he congratulates the player for killing his "master" and will gift the player a Second Dragon Ring. Killing him at any time will yield the ring as well.
-Scholar of The First Sin: 
+Scholar of The First Sin:
 If talked to after The Duke's Dear Freja's defeat, he will gift the player the Black Scorpion Stinger.
 
 ## Lore

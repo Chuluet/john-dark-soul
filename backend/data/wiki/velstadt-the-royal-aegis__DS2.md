@@ -44,22 +44,3 @@ Back slash: While the player is behind him but at his weapon side, he will swing
 Two-Hand Swipe: Grips his hammer with two hands and performs one horizontal swipe. Can be dodged by rolling towards the swing. Will sometimes follow up with another attack if the player is within range.
 
 Kick: Kicks the player if he/she is blocking consistently. High stamina drain if blocked.
-
-## Defenses
-
-Velstadt (prior to self buff)
-
- (Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--10% strike means taking 110% damage.
-
-Velstadt (after self buff)
-
-## Music
-
-https://www.youtube.com/watch?v=yxKEnAIv0Lw
-
-Category:Dark Souls II: Bosses
-
-es:Velstadt el Escudo Real
-pl:Velstadt, Królewska Tarcza
-ru:Вельстадт, королевский защитник

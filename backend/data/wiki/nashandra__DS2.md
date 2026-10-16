@@ -7,10 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Nashandra
 
 # Nashandra (DS2)
 
-Boss=
-
-|-|Character=
-
 Nashandra or Queen Nashandra is a boss and the main antagonist of Dark Souls II. She is fought at the end of the Throne of Want area, only after the player has obtained the Giant's Kinship; if the Throne Watcher and Defender have not already been defeated, Nashandra's boss fight will trigger automatically after theirs.
 
 Although she is the final boss of the base game, the Scholar of the First Sin expansion added Aldia as a potential "true" final boss, whose battle triggers after Nashandra's if conditions are met. Prior to her boss fight, she appears as a special character in human form atop Drangleic Castle, where she can be talked to from afar.
@@ -26,9 +22,9 @@ A tall humanoid creature wielding a long scythe in her right hand. Her left hand
 
 ## Lore
 
-Nashandra began her life as a small fragment of Manus, Father of the Abyss. When Manus was defeated, he was reborn as many fragments varying in sizes. Nashandra was the incarnation of her "father's" want, and thus began desiring what she did not have: power. 
+Nashandra began her life as a small fragment of Manus, Father of the Abyss. When Manus was defeated, he was reborn as many fragments varying in sizes. Nashandra was the incarnation of her "father's" want, and thus began desiring what she did not have: power.
 
-Nashandra travelled to the land of Drangleic, and set her sights on its powerful ruler, King Vendrick. Deciding to seduce Vendrick, Nashandra assumed a human form of unparalleled beauty and warned him of a supposed looming threat beyond the sea: the Giants. She convinced him to invade the land of the giants to claim their power, which Vendrick did successfully. Vendrick then made Nashandra his queen, and under their leadership, Drangleic entered into a Dark-like peace. The rulership of Drangleic however, was not enough to quell Nashandra’s want, and she desired an even greater power: the First Flame, which she intended to claim for herself by using Vendrick and the Throne of Want. 
+Nashandra travelled to the land of Drangleic, and set her sights on its powerful ruler, King Vendrick. Deciding to seduce Vendrick, Nashandra assumed a human form of unparalleled beauty and warned him of a supposed looming threat beyond the sea: the Giants. She convinced him to invade the land of the giants to claim their power, which Vendrick did successfully. Vendrick then made Nashandra his queen, and under their leadership, Drangleic entered into a Dark-like peace. The rulership of Drangleic however, was not enough to quell Nashandra’s want, and she desired an even greater power: the First Flame, which she intended to claim for herself by using Vendrick and the Throne of Want.
 
 When Drangleic was ravaged by the second war with the giants and the spread of the Undead Curse, Vendrick came to realize the true nature and identity of Nashandra, and what she had coveted all along. Knowing that his time was short and that his queen had to be stopped, Vendrick created several impasses that would prevent Nashandra from seizing the throne, and sealed himself away in the Undead Crypt. This left Nashandra the sole ruler of Drangleic, albeit without much left to rule at all, as the kingdom had been all but destroyed.
 
@@ -37,7 +33,3 @@ Left without a king and with no means to claim the Throne of Want, Nashandra’s
 Once the Bearer of the Curse has finally cleared the way to the Throne and acquired the means to access it, Nashandra will intercept them and reveal her true form. She then declares the Bearer of the Curse worthy to assume her intended role for Vendrick, to have their power usurped by her so she can claim the throne for herself.
 
 The Bearer of the Curse has grown too strong however, and Nashandra falls at their hand.
-
-## Music
-
-https://www.youtube.com/watch?v=DNeaqHKtKn0

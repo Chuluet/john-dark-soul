@@ -155,3 +155,47 @@ def listar_fuentes(store: PGVector | None = None) -> list[str]:
             return [fila.fuente for fila in filas]
     except Exception:  # noqa: BLE001
         return []
+
+def huella_guardada(fuente: str) -> str | None:
+    """Huella (tamaño + fecha) con la que se indexó un archivo, o None si no está.
+
+    La ingesta la compara con la del archivo actual para saltarse los que no
+    cambiaron (por ejemplo, no volver a transcribir un video).
+    """
+    sentencia = text(
+        """
+        SELECT e.cmetadata->>'huella'
+        FROM langchain_pg_embedding e
+        JOIN langchain_pg_collection c ON e.collection_id = c.uuid
+        WHERE c.name = :coleccion
+          AND e.cmetadata->>'fuente' = :fuente
+        LIMIT 1
+        """
+    )
+    try:
+        with _get_motor().connect() as conexion:
+            return conexion.execute(
+                sentencia, {"coleccion": config.PG_COLLECTION, "fuente": fuente}
+            ).scalar()
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def titulos_por_juego() -> list[tuple[str, str]]:
+    """Pares (título, juego) de las páginas indexadas; alimentan services.juegos."""
+    sentencia = text(
+        """
+        SELECT DISTINCT e.cmetadata->>'title' AS titulo, e.cmetadata->>'juego' AS juego
+        FROM langchain_pg_embedding e
+        JOIN langchain_pg_collection c ON e.collection_id = c.uuid
+        WHERE c.name = :coleccion
+          AND e.cmetadata->>'title' IS NOT NULL
+          AND e.cmetadata->>'juego' IS NOT NULL
+        """
+    )
+    try:
+        with _get_motor().connect() as conexion:
+            filas = conexion.execute(sentencia, {"coleccion": config.PG_COLLECTION})
+            return [(fila.titulo, fila.juego) for fila in filas]
+    except Exception:  # noqa: BLE001
+        return []

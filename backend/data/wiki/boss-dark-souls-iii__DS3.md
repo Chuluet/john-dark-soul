@@ -14,13 +14,3 @@ Upon defeat, most bosses drop individual souls specific to themselves. These may
 Once an area boss has been defeated, cooperation with friendly phantoms is disabled. However, the player will still be able to summon dark spirits and mad phantoms for PvP.
 
 There are also minibosses in the game that do not respawn once killed. For the purposes of this wiki, those minibosses who drop a unique itemized soul are included in this article.
-
-## Minibosses
-
-Category:Dark Souls III: Bosses
-Category:Dark Souls III: Minibosses
-Category:Dark Souls III: Optional Bosses
-
-es:Jefes de Dark Souls III
-pl:Bossowie w grze Dark Souls III
-ru:Боссы (Dark Souls III)

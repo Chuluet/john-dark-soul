@@ -8,7 +8,6 @@ fuente: https://darksouls.fandom.com/wiki/Andre_of_Astora
 # Andre of Astora (DS1)
 
 Andre of Astora (アストラのアンドレイ) is a character in Dark Souls. He is a blacksmith that will likely prove invaluable to the player throughout the game. Andre is voiced by Sean Barrett, who also voiced Ingward and Petrus of Thorolund.
-__TOC__
 
 ## Location
 

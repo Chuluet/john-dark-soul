@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Chancellor_Wellager
 
 # Chancellor Wellager (DS2)
 
-is a character and merchant in Dark Souls II.
+Chancellor Wellager is a character and merchant in Dark Souls II.
 
 He is voiced by Andrew Tiernan.
 
@@ -33,7 +33,7 @@ However, the Giants would return with a vengance, and shortly after the king wou
 
 ## Gifts
 
-link=Royal DirkRoyal Dirklink=Espada RoperaEspada Roperalink=Llewellyn Armor   link=Llewellyn Gloves   link=Llewellyn ShoesLlewellyn Set(SotFS)Drangleic Castle - After the Giant Lord is defeated
+Royal DirkEspada Ropera Llewellyn Set(SotFS)Drangleic Castle - After the Giant Lord is defeated
 
 ## Wares
 

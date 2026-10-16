@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Aldia,_Scholar_of_the_First_Sin
 
 # Aldia, Scholar of the First Sin (DS2)
 
-Aldia, Scholar of the First Sin is an optional boss as well as a character in Dark Souls II. He was originally only a mentioned character as Lord Aldia, a mysterious researcher who conducted horrible experiments in his mansion, Aldia's Keep, but was added into the game proper via the  Scholar of the First Sin enhanced edition named after him.
+Aldia, Scholar of the First Sin is an optional boss as well as a character in Dark Souls II. He was originally only a mentioned character as Lord Aldia, a mysterious researcher who conducted horrible experiments in his mansion, Aldia's Keep, but was added into the game proper via the Scholar of the First Sin enhanced edition named after him.
 
 In Scholar of the First Sin, Aldia, the older brother of King Vendrick, hints at a path for the Bearer of the Curse that differs from the one presented to them. If the conditions are met, he can serve as the final boss of Dark Souls II, with his fight triggering after Nashandra's; he, notably, is the only boss in any Dark Souls game not to die when defeated, and as such drops no souls nor items, with the player instead gaining the option of an alternate ending in which the Bearer of the Curse is hinted to as following this mysterious other path at Aldia's side. He is also a mentioned character in Dark Souls III via the Soul Stream description, which refers to him as "the first of the Scholars". He is voiced by David Gant, who also voiced Oswald of Carim in Dark Souls.
 
@@ -56,19 +56,3 @@ Aldia slams a root into the ground, causing numerous tree roots to come out of t
 
 Teleport:
 Aldia can teleport at any time. Upon finishing a teleport, he emits an area of effect attack immediately. How to avoid: watch the red light that appears at the location where Aldia is teleporting, then stand back to avoid the blast (similar to Smelter Demon's fire blast). After that immediately run up to him to land a few hits before his flames go up.
-
-## Defenses
-
-"Burnt out" mode: low Lightning and Physical-type damage resistance, moderate resistance to Magic and Fire.
-
-"Flame" mode, 1st phase: moderate resistance to Lightning and Physical-type damage, high resistance to Magic and Fire.
-
-"Flame" mode, 2nd phase: high resistance to Lightning and Physical-type damage, very high resistance to Magic and Fire.
-
-## Initial stats
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -10% slash means taking 110% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=JVvxYMq0tSw

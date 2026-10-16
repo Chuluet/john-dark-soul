@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Sinh,_the_Slumbering_Dragon
 
 # Sinh, the Slumbering Dragon (DS2)
 
-is a boss in Dark Souls II: Crown of the Sunken King.
+Sinh, the Slumbering Dragon is a boss in Dark Souls II: Crown of the Sunken King.
 
 ## Encounters
 
@@ -52,20 +52,3 @@ Claw Swipe: Triggered when standing in front of Sinh. He will swipe with his rig
 Tail Whip: Sinh will whip around up to three times, pausing slightly after the second before spinning a third time. This attack is highly damaging and can catch players by surprise because of its range and speed. The safest place to be is directly beneath Sinh.
 
 Nosedive: One of Sinh's airborne attacks. He will dive-bomb the player and attempt to hit them with his snout. Like the rest of his aerial attacks, the safest strategy to avoid the nosedive is to run straight towards him the instant he takes flight. Failing that, the attack can be dodged by rolling to either side.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=v0s_Z8aIm-s
-
-Category:Dark Souls II: Bosses
-Category:The Lost Crowns: CotSK
-Category:Enemy Pages Missing Data
-Category:Dragons
-
-es:Sinh, el dragón durmiente
-pl:Sinh, śpiący smok
-ru:Син Дремлющий дракон

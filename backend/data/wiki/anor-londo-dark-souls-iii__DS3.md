@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Anor_Londo_(Dark_Souls_III)
 
 # Anor Londo (Dark Souls III) (DS3)
 
-right|350px
-
 Anor Londo is a location in Dark Souls III. It is a subsection of Irithyll of the Boreal Valley.
 
 ## Description

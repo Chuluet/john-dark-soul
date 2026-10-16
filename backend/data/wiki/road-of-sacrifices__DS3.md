@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Road_of_Sacrifices
 
 # Road of Sacrifices (DS3)
 
-right|350px
-
 The Road of Sacrifices is a location in Dark Souls III.
 
 ## Description
@@ -38,30 +36,6 @@ Orbeck of Vinheim
 ## Phantoms
 
 Eygon of Carim
-
-## Respawning
-
-Black Knight
-Evangelist
-Corvian
-Corvian Storyteller
-Festering Starved Hound
-Great Crab
-Hollow Manservant
-Lesser Crab
-Lycanthrope
-Lycanthrope Hunter
-Poisonhorn Bug
-Sage's Devout
-Sage's Prentice
-Starved Hound
-
-## Non-respawning
-
-Crystal Lizard (×3)
-Isabella the Mad
-Exile Watchdog (great club)
-Exile Watchdog (greatsword)
 
 ## Invaders
 

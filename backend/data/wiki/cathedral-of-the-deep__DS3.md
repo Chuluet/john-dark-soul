@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Cathedral_of_the_Deep
 
 # Cathedral of the Deep (DS3)
 
-right|350px
-The  is a location in Dark Souls III.
+The is a location in Dark Souls III.
 
 ## Description
 
@@ -42,34 +41,6 @@ Anri of Astora
 Horace the Hushed
 Sirris of the Sunless Realms*
 * If required conditions are met.
-
-## Respawning
-
-Evangelist
-Grave Warden
-Cathedral Knight
-Corpse Grub
-Deacon
-Devout Bomber
-Devout of the Deep
-Infested Corpse
-Large Devout of the Deep
-Man-grub
-Reanimated Corpse
-Starved Hound
-Thrall
-Writhing Rotten Flesh
-
-## Non-respawning
-
-Brigand
-Crystal Lizard (×2)
-Deep Accursed
-Fallen Knight
-Giant Slave
-Man-grub (non-hostile, ×2)
-Mimic (×1)
-Ravenous Crystal Lizard
 
 ## Invaders
 

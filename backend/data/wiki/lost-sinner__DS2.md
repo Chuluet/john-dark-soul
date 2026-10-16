@@ -31,7 +31,7 @@ Sellsword Luet (SotFS only) can also be summoned for this battle. His summon sig
 
 ## Attacks
 
-Horizontal Slash Combo: Many versions of her horizontal slash combo. Her most common attack, often done twice in a row. It can be blocked. One where she performs a horizontal slash, then followed up by an overhead attack, large stamina drain. Another combo she does is when she slashes twice in a row then followed by a thrust strike.  
+Horizontal Slash Combo: Many versions of her horizontal slash combo. Her most common attack, often done twice in a row. It can be blocked. One where she performs a horizontal slash, then followed up by an overhead attack, large stamina drain. Another combo she does is when she slashes twice in a row then followed by a thrust strike.
 
 Quick Thrust: A powerful stabbing attack that is easily dodged by rolling under. Staying close and circling around her can give a good chance for the player to counterattack.
 
@@ -41,18 +41,10 @@ Jumping Attack: Jumps out of view and attempts to hit the player with a falling 
 
 She either has two variations of this, only one of which removes lock on, or she may randomly combo her Jumping Attack with other combos.
 
-Parry: She will go into a stance where she holds her weapons hilt against her face, if attacked during this stance she will block with her greatsword and perform a parry and riposte them. This can cause massive damage and will likely kill the player. 
+Parry: She will go into a stance where she holds her weapons hilt against her face, if attacked during this stance she will block with her greatsword and perform a parry and riposte them. This can cause massive damage and will likely kill the player.
 
 Quick Swipe: Swipes her blade quickly, sometimes she follows it up with a back step.
 
 Charge: There are two variations of this. The first is if the player has created distance between her, she will perform a charging thrust attack. The second is that she will charge, then swipe diagonal from her right (the player's left). This is one of, if not the easiest to dodge.
 
 Backstab: If the player turns their back to Lost Sinner, she'll backstab them dealing not as much damage as Parry but will deal a large amount of damage; footnote: Horizontal Slash Combo deals more damage if all hits land.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=vnPEdN5oBNY

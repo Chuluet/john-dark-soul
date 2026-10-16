@@ -7,9 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Sanctuary_Guardian
 
 # Sanctuary Guardian (DS1)
 
-is a boss and later a respawning enemy in Dark Souls. It is exclusive to the Artorias of the Abyss DLC.
-
-__TOC__
+Sanctuary Guardian is a boss and later a respawning enemy in Dark Souls. It is exclusive to the Artorias of the Abyss DLC.
 
 ## Location
 
@@ -38,31 +36,21 @@ If you missed the tail the first time and are struggling with the two Lesser San
 
 Attacks rapidly in combos of 2 or 4 with its paws and horns. Two sequential paw or horn attacks is a 2 string attack. A paw attack followed by a horn attack, or vice versa, is a 4 string attack.
 
-center
-
 ## Pound
 
 After rearing on its hind legs, it will proceed to slam its front paws down at the player.
-
-center
 
 ## Charge
 
 Performs a quick charge and then thrusts its head upwards, launching the player into the air if it connects. Its tail will be lowered to the ground for a short time after this attack, providing an opportunity for the player to cut it.
 
-center
-
 ## Flying Charge
 
 Gallops into the air and the swoops down to attack with its horns. Its tail will be lowered to the ground for a short time after this attack, providing an opportunity for the player to cut it.
 
-center
-
 ## Pounce
 
 The Sanctuary Guardian will fly up into the air and pause before launching straight at the player with lightning speed. If avoided it will be vulnerable to attack for a short time, however if the attack hits it will instead somersault backwards through the air landing far away from the player.
-
-center
 
 ## Wind Blast
 
@@ -70,65 +58,34 @@ Its wings are used to project a wave of water and wind in front of it. If blocke
 
 Will occasionally follow up with a Charge attack if player stays in front of it.
 
-center
-
 ## Lightning Shot
 
 Lowers its head to charge, then releases a large ball of lightning at the target. Has an identical telegraph to Lightning Repeater.
-
-center
 
 ## Lightning Repeater
 
 Fires four lightning projectiles in moderately quick succession. Can be avoided by strafing to either side. Has an identical telegraph to Lightning Shot.
 
-center
-
 ## Lightning Strafe
 
 Strafes around the target whilst flying, firing a heavy lightning projectile.
-
-center
 
 ## Lightning Overhead
 
 Flies over the target, releasing a heavy lightning ball at the end of its flight. Can be effectively dodged by rolling backwards after the guardian has passed over the player.
 
-center
-
 ## Tail Sweep
 
 Sweeps its tail from right to left, causing medium poison buildup.
-
-center
 
 ## Tail Spin
 
 It will spin slightly above ground in 360 degrees, sweeping with its tail, causing heavy poison buildup.
 
-center
-
 ## Hind Kick
 
 The Sanctuary Guardian will kick with its hind legs if the player is too close to its rear.
 
-center
-
 ## Retreat
 
 The Guardian will fly backwards far away from the player, causing them to lose target lock.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=fnciEKtYqiU
-
-## Footnotes
-
-Category:Artorias of the Abyss
-Category:Dark Souls: Minibosses
-
-es:Guardián del Santuario
-pl:Strażnik Sanktuarium
-ru:Страж Святилища

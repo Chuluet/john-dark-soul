@@ -17,7 +17,7 @@ He is Found in Firelink Shrine, at the end of the hallway that leads to the back
 
 ## Description
 
-Andre is a relatively short man, sporting long white hair that is tied back into a long ponytail, and a long white beard. Andre appears to have various scars and burn marks on his upper body and arms, whilst wearing pants, a belt, and gloves. He can always be found sitting at an anvil, forging an Estoc with a hammer. He has a multitude of tools and weapons lying around him. While similar in appearance to Andre of Astora from Lordran, it is unknown for certain whether or not the Andre found in Dark Souls 3 is the same person. Some theorize that they are different people, but Andre's knowledge of the Giant Blacksmith, and references to knowing him for ages, has led some to believe that they are in fact one and the same. 
+Andre is a relatively short man, sporting long white hair that is tied back into a long ponytail, and a long white beard. Andre appears to have various scars and burn marks on his upper body and arms, whilst wearing pants, a belt, and gloves. He can always be found sitting at an anvil, forging an Estoc with a hammer. He has a multitude of tools and weapons lying around him. While similar in appearance to Andre of Astora from Lordran, it is unknown for certain whether or not the Andre found in Dark Souls 3 is the same person. Some theorize that they are different people, but Andre's knowledge of the Giant Blacksmith, and references to knowing him for ages, has led some to believe that they are in fact one and the same.
 
 After exhausting his dialogue, he teaches the "Hurrah!" gesture.
 

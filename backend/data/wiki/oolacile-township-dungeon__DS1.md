@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Oolacile_Township_Dungeon
 
 # Oolacile Township Dungeon (DS1)
 
-thumb|300px
 The Oolacile Township Dungeon is a location in Dark Souls that is part of the Artorias of the Abyss DLC.
 
 ## Adjacent locations
@@ -22,7 +21,3 @@ The Oolacile Township Dungeon is a very short area, containing no loot, supplyin
 ## Enemies
 
 A single, non-respawning Bloathead.
-
-Category:Artorias of the Abyss
-
-es:Mazmorra municipal de Oolacile

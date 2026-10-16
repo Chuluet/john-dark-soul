@@ -7,12 +7,12 @@ fuente: https://darksouls.fandom.com/wiki/Witch_Beatrice
 
 # Witch Beatrice (DS1)
 
-is a character and summon-able white phantom in Dark Souls. She is a spellcaster providing some ranged Magic support for the player.
+Witch Beatrice is a character and summon-able white phantom in Dark Souls. She is a spellcaster providing some ranged Magic support for the player.
 
 ## Locations
 
 Darkroot Garden – Witch Beatrice can be summoned as a phantom for the Moonlight Butterfly boss fight. Her summon sign can be found under the staircase leading up to the Moonlight Butterfly (only if the player has had hollowing reversed).
- New Londo Ruins – Her summon sign is later found behind a pillar before the fog door leading to the Four Kings fight in the Abyss. The Moonlight Butterfly must be defeated with Beatrice's help for her sign to appear here. (Summoning and Challenging Moonlight Butterfly is enough, Usage of Black Separation Crystal after the fight has begun still counts as helping.)
+New Londo Ruins – Her summon sign is later found behind a pillar before the fog door leading to the Four Kings fight in the Abyss. The Moonlight Butterfly must be defeated with Beatrice's help for her sign to appear here. (Summoning and Challenging Moonlight Butterfly is enough, Usage of Black Separation Crystal after the fight has begun still counts as helping.)
 
 ## Plot
 
@@ -30,10 +30,7 @@ Witch Beatrice is mentioned to be one of the few catalyst-users that did not hai
 
 ## Equipment
 
-Darkroot Garden=
-
 |-|
-New Londo Ruins=
 
 ## Child Beatrice
 

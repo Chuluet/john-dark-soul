@@ -17,7 +17,7 @@ From the Pontiff Sulyvahn bonfire, proceed onward until reaching the building at
 
 ## Lore
 
-McDonnell, along with Archdeacons Royce and Klimt, was an archdeacon of the Way of White. The three men managed the Cathedral of the Deep, overseeing its rituals of purification from stagnant Darkness. 
+McDonnell, along with Archdeacons Royce and Klimt, was an archdeacon of the Way of White. The three men managed the Cathedral of the Deep, overseeing its rituals of purification from stagnant Darkness.
 
 At one point, the cathedral welcomed Aldrich, an exiled Irithyllian priest who derived pleasure from eating humans. Aldrich shared his perverse behaviour with others in the cathedral, and sacrifices were brought to him to appease his hunger and grant him the strength to link the First Flame and become a Lord of Cinder.
 

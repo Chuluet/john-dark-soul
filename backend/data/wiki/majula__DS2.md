@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Majula
 
 # Majula (DS2)
 
-right|400px
 Majula is a location in Dark Souls II.
 
 ## Description
@@ -55,16 +54,6 @@ Sweet Shalquoir
 Rosabeth of Melfia - Moves to the monument from the forest area north of Majula near Benhart of Jugo if conditions are met.
 Stone Trader Chloanne - Moves to just outside Lenigrast's workshop after exhausting her dialogue in Harvest Valley.
 
-## Respawning
-
-Enslaved Pig
-Undead Boar
-
-## Non-respawning
-
-Skeleton
-Giant Undead Boar
-
 ## Miscellaneous
 
 Binoculars (corpse)
@@ -102,7 +91,3 @@ Cleric's Sacred Chime (corpse)
 Crimson Parma (chest)
 Morning Star (corpse)
 Short Bow (chest)
-
-## Music
-
-https://www.youtube.com/watch?v=BeJ-Kscdp4w

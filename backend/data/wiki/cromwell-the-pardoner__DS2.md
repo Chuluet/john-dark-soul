@@ -26,6 +26,6 @@ He dons the Judgment Set, similarly to how Oswald of Carim donned the Black Set,
 ## Pardoning
 
 When requesting absolution or being pardoned for your sins Cromwell will absolve you the first time for free, but after which a hefty amount of souls will be needed:
-To find how much you will need, multiply your current soul level by 1000. [Soul Level x 1000] 
+To find how much you will need, multiply your current soul level by 1000. [Soul Level x 1000]
 For example, a player who has a soul level of 285 will need 285,000 souls in order to request absolution. Another example would be, if a player is level 75 and wanting to request absolution, then they would need 75,000 souls in order to do so.
 Having the insufficient amount of souls will result in you being unable to be pardoned, with a clever remark from Cromwell himself.

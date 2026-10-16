@@ -24,8 +24,4 @@ The Old Demon King was one of the many demons born from the Chaos Flame, and the
 ## Summons
 
 Great Swamp Cuculus: Her summon sign can be found near the staircase leading to the boss arena.
- Knight Slayer Tsorig: If the player defeated Tsorig as a Dark Spirit in the Catacombs of Carthus, he can be summoned to help with this boss fight. His summon sign can be found near the Demon Ruins Bonfire (Defeating him again in the Smouldering Lake does not negate this).
-
-## Music
-
-https://www.youtube.com/watch?v=qAkC30rxD38
+Knight Slayer Tsorig: If the player defeated Tsorig as a Dark Spirit in the Catacombs of Carthus, he can be summoned to help with this boss fight. His summon sign can be found near the Demon Ruins Bonfire (Defeating him again in the Smouldering Lake does not negate this).

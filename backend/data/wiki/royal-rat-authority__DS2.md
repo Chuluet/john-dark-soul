@@ -24,11 +24,3 @@ There are no NPCs that can be summoned as a phantom for this fight. It seems tha
 ## Fight overview
 
 Once you enter the fog door, the boss fight does not start immediately. This gives the player some time to devise a plan to take on the first phase. Whatever choice the player makes, it needs to be acted on quickly once the rats are aggroed because the boss will soon jump down and join the fight. The small rats can inflict large amounts of Toxic and stunlock the player, while the Rat Authority can take the player out with one attack.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=jfpw3BcXCkU

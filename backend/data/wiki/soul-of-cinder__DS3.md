@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Soul_of_Cinder
 
 # Soul of Cinder (DS3)
 
-The  is the final boss of Dark Souls III.
+The is the final boss of Dark Souls III.
 
 ## Location
 
@@ -46,11 +46,6 @@ Staff/Sorceries: Casts a variety of powerful spells, varying from Crystal Soul S
 
 ## Phase 2
 
-right|250px
 The Soul of Cinder's second phase begins once the first phase's health bar has been depleted. After restoring its health to full in a damaging explosion of fire, he will abandon its previous moveset (reverting his sword to its default form if necessary) in favor of a moveset very similar to Gwyn, Lord of Cinder's moveset from Dark Souls, with the exception of a few new attacks. The Soul of Cinder will increase in speed and damage at this point. One of its new attacks involves three unique uses of the Sunlight Spear miracle; the first being a standard Sunlight Spear hurled forward, and the second being a Sunlight Spear that is thrown upward into the air. After a brief period, a cloud will form in the sky, an audible thunderclap is heard and shower of homing Sunlight Spears will rain down upon the player from the cloud, dealing massive damage, similar to Splintering Lightning Spear from Dark Souls II. You can see the cloud if you run away from Soul of Cinder and look upward above it. The final attack is where the Soul of Cinder throws a Sunlight Spear into the ground, causing a small, ground-based area-of-effect of heavy lightning damage on impact, similarly to the Lightning Stake miracle.
 
 Its sword attacks are identical to Gwyn's and can be dodged in a similar manner. However, the Soul of Cinder will have a new, fast combo that, if caught up in, will juggle the player in the air. The last attack of this combo is a stab into the ground that causes a large, fiery explosion that encompasses a very large area around him. The combo attacks have a fire projectile that will damage the player at range, so it is advised to roll through each attack carefully and keep away as the chain progresses further. It's one of the most powerful attacks in the series, almost completely depleting a player's health if caught and unblocked.
-
-## Music
-
-https://www.youtube.com/watch?v=x0euNw-4YOo

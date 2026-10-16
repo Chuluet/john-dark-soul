@@ -7,12 +7,11 @@ fuente: https://darksouls.fandom.com/wiki/Brightstone_Cove_Tseldora
 
 # Brightstone Cove Tseldora (DS2)
 
-thumb|400px
 Brightstone Cove Tseldora is a location in Dark Souls II.
 
 ## Description
 
-Brightstone Cove Tseldora was once a mining settlement of Drangleic. The town was founded by the Duke Tseldora, a man know for his fascination with spiders, after the discovery of the brightstone, a crystal-like substance found in the deep underground. The town was  built by the Duke in order to mine the newfound stone, an effort which paid back as the town flourished and Tseldora amassed a personal fortune though the mining of brightstone.
+Brightstone Cove Tseldora was once a mining settlement of Drangleic. The town was founded by the Duke Tseldora, a man know for his fascination with spiders, after the discovery of the brightstone, a crystal-like substance found in the deep underground. The town was built by the Duke in order to mine the newfound stone, an effort which paid back as the town flourished and Tseldora amassed a personal fortune though the mining of brightstone.
 
 However, as the town prospered, it’s inhabitants became snared by the bewitching properties of the brightstone, said to be the fragments of a being who once roamed the entrails of the earth and whose influence could still be felt on the land. The brightstone stoke flame of the desires of the people of Tseldora, they became consumed by greed and lost in a eternal search for “that which they lacked”, leading the town into ruin.
 
@@ -36,29 +35,6 @@ Creighton of Mirrah
 Cromwell the Pardoner - After defeating the Prowling Magus, exit the room and turn left. Climb the ladder and he will be at the top with a few items on the ground.
 Mild-Mannered Pate
 Weaponsmith Ornifex - If freed from her cell in the Shaded Woods.
-
-## Respawning
-
-Enslaved Pig
-Falconer 
-Hollow Mage
-Parasite Spider
-Parasitized Undead
-Sand Basilisk
-Undead Boar
-Undead Peasant
-
-## Non-respawning
-
-Duke Tseldora
-Giant Undead Boar
-Hollow Priest (part of the Congregation)
-Porcine Peasant
-Red Crystal Lizard
-Undead Supplicant (part of the Congregation)
-Undead Laborer (part of the Congregation)
-Vengarl's Body (moved to the Shaded Woods in SotFS)
-Bowman Guthry
 
 ## Boss
 

@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Huntsman's_Copse
 
 # Huntsman's Copse (DS2)
 
-400px|right
 The Huntsman's Copse is a location in Dark Souls II.
 
 ## Description
@@ -41,23 +40,6 @@ Bashful Ray (shade, SotFS) : Summon sign located inside the cell behind the firs
 ## Characters
 
 Merciless Roenna (dark spirit)
-
-## Respawning
-
-Artificial Undead
-Captive Undead
-Great Moth
-Rogue
-Skeleton
-Torturer
-Undead Laborer
-Giant Basilisk
-
-## Non-respawning
-
-Bonewheel Skeleton
-Necromancer
-Royal Guard
 
 ## Bosses
 

@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Royal_Wood
 
 # Royal Wood (DS1)
 
-320px|right
 The Royal Wood is a location in Dark Souls, but can only be accessed in the Artorias of the Abyss DLC.
 
 ## Plot
@@ -27,16 +26,6 @@ Chasm of the Abyss
 ## Characters
 
 Marvellous Chester (merchant)
-
-## Respawning
-
-Abyss Attack Dog
-Guardian
-Wooden Scarecrow
-
-## Non-respawning
-
-Crystal Lizard x3
 
 ## Bosses
 

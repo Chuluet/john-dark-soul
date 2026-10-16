@@ -23,19 +23,4 @@ They are found in the Throne of Want, behind the King's Gate in Drangleic Castle
 
 Vengarl of Forossa and Benhart of Jugo can be summoned for the fight, both summon signs can be found right outside the fog door.
 
-In , Bradley of the Old Guard can also be summoned for this fight.
-
-## Throne Watcher
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-Throne Defender
-
-## Music
-
-https://www.youtube.com/watch?v=mwUV46JM1b8
-
-Category:Dark Souls II: Enemy Pages Missing Data
-
-es:Vigilante y Defensor del trono
-pl:Opiekun tronu i Strażnik tronu
-ru:Защитник трона и Смотритель трона
+In Scholar of the First Sin, Bradley of the Old Guard can also be summoned for this fight.

@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Court_Sorcerer_Eamon
 
 # Court Sorcerer Eamon (DS3)
 
-is an enemy character in Dark Souls III.
+Court Sorcerer Eamon is an enemy character in Dark Souls III.
 
 ## Description
 

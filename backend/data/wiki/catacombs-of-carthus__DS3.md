@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Catacombs_of_Carthus
 
 # Catacombs of Carthus (DS3)
 
-right|350px
-
 The Catacombs of Carthus is a location in Dark Souls III.
 
 ## Description
@@ -38,23 +36,6 @@ Smouldering Lake
 ## Characters
 
 Anri of Astora
-
-## Respawning
-
-Giant Hound Rat
-Hound Rat
-Lesser Crab
-Skeleton
-Skeleton Boulder
-Skeleton Swordsman
-Skeleton Wheel
-Writhing Rotten Flesh
-
-## Non-respawning
-
-Crystal Lizard (×2)
-Demon (mini-boss)
-Mimic (×1)
 
 ## Invaders
 

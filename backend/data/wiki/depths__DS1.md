@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Depths
 
 # Depths (DS1)
 
-right|300px
-
 The Depths are a location in Dark Souls. It is a large, dark sewer system accessed via a door in the lower Undead Burg. The door requires the Key to Depths to unlock, which is obtained from the Capra Demon.
 
 ## Plot
@@ -40,21 +38,6 @@ Knight Lautrec of Carim (White phantom) - Can be summoned for the Gaping Dragon 
 ## Characters
 
 Kirk, Knight of Thorns (Invader)
-
-## Respawning
-
-Attack Dog
-Basilisk
-Hollow
-Large Undead Rat
-Slime
-Small Undead Rat
-
-## Non-respawning
-
-Butcher (×2)
-Channeler
-Giant Undead Rat
 
 ## Bosses
 

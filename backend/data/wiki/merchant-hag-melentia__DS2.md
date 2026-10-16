@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Merchant_Hag_Melentia
 
 # Merchant Hag Melentia (DS2)
 
-is a character and merchant in Dark Souls II.
+Merchant Hag Melentia is a character and merchant in Dark Souls II.
 
 She is voiced by Marcia Warren.
 
@@ -35,7 +35,6 @@ Beneath her crazed facade, the old merchant hides a dark secret. Her hands are p
 
 ## Gifts
 
-link=Covetous Silver Serpent Ring (Dark Souls II)
 Covetous Silver Serpent Ring +1Forest of Fallen Giants or Majula - Spending 10,000 souls in her shop
 
 ## Wares
@@ -44,10 +43,4 @@ Covetous Silver Serpent Ring +1Forest of Fallen Giants or Majula - Spending 10,0
 
 ## Gravestone
 
-Category:Dark Souls II: Characters
-Category:Dark Souls II: Merchants
-Category:Dark Souls II: Exiles
-es:Vieja mercader Melentia
-ja:行商メレンティラ
-pl:Wiedźma Melentia
 Time taken to spawn the first timeCost of summoning NPC spiritLocation1.5 Hours4,000Forest of Fallen Giants - next to the Cardinal Tower bonfireMajula - next to the wall where she moves to after leaving the forest

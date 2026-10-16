@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Shaded_Woods
 
 # Shaded Woods (DS2)
 
-right|400px
 The Shaded Woods is a location in Dark Souls II.
 
 ## Description
@@ -34,24 +33,6 @@ Head of Vengarl
 Darkdiver Grandahl
 Manscorpion Tark
 Weaponsmith Ornifex
-
-## Respawning
-
-Goblin
-Basilisk
-Lion Clan Warrior
-Forest Guardian
-SotFS: Falconer (left path from the Ruined Fork Road)
-SotFS: Forest Guardian (left path, in the Shaded Ruins area)
-SotFS: Kobold (path to Aldia's Keep)
-SotFS: Ogre (path to Aldia's Keep)
-SotFS: Great Moth (Shaded Ruins)
-
-## Non-respawning
-
-Giant Basilisk (removed in SotFS)
-SotFS: Royal Guard (path to Aldia's Keep, inside Shaded Ruins and beyond the body of Vengarl)
-SotFS: Body of Vengarl (behind a petrified hollow near Manscorpion Tark)
 
 ## Boss
 

@@ -30,18 +30,3 @@ Fire Balls: Raises all four arms into the air, creating a large orange orb above
 Explosion: The Darklurker gathers its arms together and leans backward. It then creates an explosion in a wide area around it, dealing heavy damage. The area is somewhat wider in front of it.
 
 Split: When the Darklurker reaches around 60% health, it will cross all of its arms around itself, fold its wings in, and a purple cloud will appear around it and focus in. The Darklurker will then split into two; it is vulnerable to attacks during and shortly after this spell. Both share the boss's HP and must be fought at once as the fight goes on. The copy is identical to the original, and both can use any of the Darklurker's attacks and spells at any time. Note that while this move can be stopped through staggering, the time window for doing so is extremely small as the move only takes about two to three seconds.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=cuMVciFF38I
-
-Category:Dark Souls II: Bosses
-Category:Dark Souls II: Optional Bosses
-
-es:Morador de la Oscuridad
-pl:Mroczny łowca
-ru:Прячущийся во тьме

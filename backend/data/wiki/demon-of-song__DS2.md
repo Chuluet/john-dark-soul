@@ -31,7 +31,7 @@ In Scholar of the First Sin, it is possible to summon Lone Hunter Schmidt as a s
 
 The Demon of Song is near impervious to damage and only its face and arms can be damaged. When it attacks, it emerges from the frog skin momentarily and becomes vulnerable to damage. A good strategy here is to skirt around either its left or right side and wait for it to attack, then go in and hit it as it recovers from its attacks. Simply rinse and repeat, and try to avoid its attacks as best as possible, as they are highly damaging. 
 
-A ranged character will have a much easier time with this fight. The player is able to let loose three shots with a standard bow right after coming through the fog gate. Then running up to the boss and standing right in front of it will bait it to attack with its hands, allowing for further attacks. 
+A ranged character will have a much easier time with this fight. The player is able to let loose three shots with a standard bow right after coming through the fog gate. Then running up to the boss and standing right in front of it will bait it to attack with its hands, allowing for further attacks.
 
 The status build-up of Poison Mist, Toxic Mist, and Dark Fog will continue to apply even when the Demon is in its frog skin. Poison and Toxic Mist can prove particularly useful as they have no stat requirements and only require a single attunement slot each. Both statuses can also be applied at the same time for massive damage over time.
 
@@ -50,17 +50,3 @@ Vertical Takeoff: The Demon jumps up into the air and slams into the ground. Th
 Aquatic Artillery Salvo and Barrage: The Demon spits out balls of water at the player. This varies based on the distance between the player and it. At close range it will just spit out one volley, while at long range it will launch a volley to the left, then the middle, and finally to the right.
 
 Amphibious Assault: The Demon has a grab attack with a wind up similar to the Arm Slap, does very high damage and will likely kill.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=Ca9a-EKkOn8
-
-Category:Dark Souls II: Bosses
-
-es:Diablesa de la Canción
-pl:Demon pieśni
-ru:Демон песни

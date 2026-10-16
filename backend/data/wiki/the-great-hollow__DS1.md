@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/The_Great_Hollow
 
 # The Great Hollow (DS1)
 
-right|320px
-The Great Hollow (大樹のうつろ, "The Cavity of the Great Tree")  is a location in Dark Souls.
+The Great Hollow (大樹のうつろ, "The Cavity of the Great Tree") is a location in Dark Souls.
 
 ## Adjacent locations
 
@@ -28,16 +27,6 @@ It is possible to speed through to the bottom by making a series of short drops 
 Waiting until the Lordvessel is obtained can make the journey back up through the tree significantly easier.
 Due to the Basilisks, the Cursebite Ring can help as they are a greater threat than in the depths.
 The Antiquated Set, which can be obtained fairly early in the game, makes even The Great Hollow's Basilisks a much lesser threat.
-
-## Respawning
-
-Basilisk
-Mushroom Child
-Mushroom Parent
-
-## Non-respawning
-
-Crystal Lizard
 
 ## Rings
 

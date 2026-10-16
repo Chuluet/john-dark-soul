@@ -27,91 +27,54 @@ After Lord Gwyn sacrificed himself to link the First Flame and prolong the Age o
 
 ## Swing
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed211000RegularNoneNoBothSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed211000RegularNoneNoBothSlow
 
 ## Two Handed Swing
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed226000RegularNoneNoBothSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed226000RegularNoneNoBothSlow
 
 ## Stab
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed255000RegularNoneNoNeitherMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed255000RegularNoneNoNeitherMedium
 
 ## Shield Bash
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed221000RegularNoneNoNeitherSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed221000RegularNoneNoNeitherSlow
 
 ## One Handed Slam
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed275000RegularNoneNoNeitherSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed275000RegularNoneNoNeitherSlow
 
 ## Two-Handed Slam
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed2880Fire0RegularNoneNoNeitherSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed2880Fire0RegularNoneNoNeitherSlow
 
 ## Front Tail Whip
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed000RegularNoneNoNeitherMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed000RegularNoneNoNeitherMedium
 
 ## Back Tail Whip
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed000RegularNoneNoNeitherMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed000RegularNoneNoNeitherMedium
 
 ## Flying Swing
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed3190Fire0RegularNoneNoNeitherSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed3190Fire0RegularNoneNoNeitherSlow
 
 ## Flying Tail Whip
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed365000RegularNoneNoNeitherSlow
-
-center
+Attack TypeStatusParryableTrackingSpeed365000RegularNoneNoNeitherSlow
 
 ## Landing Attack
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed2250Fire0RegularNoneNoNeitherFast
-
-center
+Attack TypeStatusParryableTrackingSpeed2250Fire0RegularNoneNoNeitherFast
 
 ## Flame Breath
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed002810FireNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed002810FireNoneNoNeitherMedium
 More commonly used after the appearance of the second gargoyle.
-
-center
 
 ## Aerial Flame
 
-28px|link=Physical28px|link=Magic (Damage Type)28px|link=Fire (Damage Type)28px|link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed000FireNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed000FireNoneNoNeitherMedium
 Only used after the appearance of the second gargoyle, but can only be performed by the original gargoyle.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=tIoqLD-e1ME
-
-Category:Dark Souls: Enemies
-Category:Dark Souls: Minibosses
-
-es:Gárgolas campana
-pl:Gargulce Dzwonu
-ru:Горгулья

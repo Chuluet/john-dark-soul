@@ -9,21 +9,19 @@ fuente: https://darksouls.fandom.com/wiki/Boss_(Dark_Souls_II)
 
 A boss is a powerful, non-respawning enemy in Dark Souls II. Bosses are distinguishable from normal enemies as their name and health are displayed at the bottom of the screen once encountered, and they are usually on the opposite side of a white fog door.
 
-In addition to bosses, there are a number of enemies that don't respawn upon death and are sometimes referred to as minibosses.
-
 Unlike the bosses found in Dark Souls, the majority of bosses found in Dark Souls II can be considered optional, due to the Shrine of Winter's flexible requirements for passing. The list of bosses below is treated under the assumption that the player takes the most linear route, collecting the four Lord Souls, and at least passes through each major location.
 
 In addition to the main game, there are three additional downloadable content purchases that add additional areas and bosses to the game. The bosses for each area are listed as optional or not based on the need to defeat them for completion of the DLC.
 
 Forest of Fallen Giants
 The Last Giant
-The Pursuer *  (Optional if Flexile Sentry is defeated. Must be defeated to gain entry into the Memory of Orro.)
+The Pursuer * (Optional if Flexile Sentry is defeated. Must be defeated to gain entry into the Memory of Orro.)
 Heide's Tower of Flame
 Dragonrider
 Cathedral of Blue
 Old Dragonslayer *
 No-man's Wharf
-Flexile Sentry *  (optional if The Pursuer and Ruin Sentinels are defeated)
+Flexile Sentry * (optional if The Pursuer and Ruin Sentinels are defeated)
 The Lost Bastille
 Ruin Sentinels *
 Belfry Luna
@@ -101,11 +99,3 @@ Frigid Outskirts
 Lud, the King's Pet & Zallen, the King's Pet *
 
 Asterisks (*) denote optional bosses.
- 
-Category:Dark Souls II: Enemies
-Category:Dark Souls II: Optional Bosses
-
-de:Bosse (Dark Souls II)
-es:Jefes de Dark Souls II
-pl:Bossowie w grze Dark Souls II
-ru:Боссы (Dark Souls II)

@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Moaning_Knight
 
 # Moaning Knight (DS3)
 
-The  is a dark spirit in the Dark Souls III: The Ringed City DLC.
+The is a dark spirit in the Dark Souls III: The Ringed City DLC.
 
 ## Location
 
@@ -30,4 +30,4 @@ The Ashen One will encounter him on their way to the Church of Filianore, among 
 ## Artifacts
 
 Moaning Shield
- Blindfold Mask
+Blindfold Mask

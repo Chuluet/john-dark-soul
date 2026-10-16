@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Kirk,_Knight_of_Thorns
 
 Kirk, Knight of Thorns (トゲの騎士カーク), also known as Knight Kirk, is an enemy in Dark Souls.
 
-__TOC__
-
 ## Location
 
 Kirk is an invader that can assault the player three times in a playthrough:
@@ -32,7 +30,4 @@ Miyazaki has stated that Kirk is actually a Chaos Servant, and is invading other
 
 ## Equipment
 
-The Depths=
-
 |-|
-Demon Ruins/Lost Izalith=

@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Patches
 
 Patches (鉄板のパッチ), also known as Trusty Patches, is a character in Dark Souls. He is an opportunistic trickster with a strong animosity towards clerics.
 
-__TOC__
-
 ## Location
 
 Patches is initially encountered in The Catacombs, up the ladder before the spiky bridge. Once Reah and her companions depart for the Catacombs, or the player enters the Tomb of the Giants, Patches will relocate to the Tomb.
@@ -31,7 +29,7 @@ Patches remains in the Tomb of the Giants until Gravelord Nito is defeated, afte
 
 ## Lore
 
-Little is known about Patches or his background, although he has previously been acquainted with Shiva of the East, Solaire of Astora, Lautrec of Carim, and Petrus of Thorolund. He claims to be "Undead Outcasts" with you, thus implying that he too is Undead. Like many things he says, though, this is perhaps not to be listened to. 
+Little is known about Patches or his background, although he has previously been acquainted with Shiva of the East, Solaire of Astora, Lautrec of Carim, and Petrus of Thorolund. He claims to be "Undead Outcasts" with you, thus implying that he too is Undead. Like many things he says, though, this is perhaps not to be listened to.
 
 However, Patches never lies to you about another NPC, in Dark Souls or any of his other appearances. He warns you about Lautrec, Petrus, and Shiva (who had cut content where he would challenge you for the Chaos Blade; Alvina also has misgivings about Shiva for the same reason), and advises you stay on the good side of Solaire, as he "happens to be an awfully strong idiot"; a perspective Solaire himself understands and even says is "not far off."
 

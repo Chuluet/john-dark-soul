@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Bearer_of_the_Curse
 
 # Bearer of the Curse (DS2)
 
-thumb|250px|The Bearer of the Curse, as seen in many official artwork.
 The Bearer of the Curse is the player character and the protagonist of Dark Souls II and its expansions, The Lost Crowns.
 
 The Bearer of the Curse travels to Drangleic by a compulsion to find a way to break the curse of the undead and avoid Hollowing at any cost.
@@ -22,7 +21,6 @@ Also, like the Chosen Undead, the character's personality is portrayed as an arc
 
 ## Prologue
 
-right|200px
 The Bearer of the Curse became undead at some point, hollowing until they had no recollection of their former life. Desperate to find a cure, they were drawn to the walled off kingdom of Drangleic, where a cure to the undead curse was rumored to exist. Journeying through a portal and guided by a Fire Keeper, the Bearer of the Curse found themselves in the Things Betwixt. Finding there a hut with the remaining Fire Keepers, the Bearer of the Curse is made to remember more of their past and is cured of their hollowing through a Human Effigy. The Bearer is then guided towards Majula to seek the Emerald Herald.
 
 The Herald, in turn, tells the Bearer of the Curse to seek the king, Vendrick, to find their answers and claim the throne, but warns that the Bearer will never find the king with a soul so pallid, instructing them to seek out the four Great Ones and to claim their power.
@@ -65,7 +63,7 @@ The Ancient Dragon will give the Bearer the Ashen Mist Heart, which allows one t
 
 ## The Three Crowns
 
-Should the Bearer of the Curse choose to do so, they may use the Ashen Mist Heart on Vendrick's belongings in the Undead Crypt. Doing so will allow the Bearer to speak directly to the king as he was before he hollowed. Bitter and resigned to defeat, the king will council the Bearer of the Curse, warning them of the futility in seeking fire, of the dark that lies within them, and of the children of Manus, Father of the Abyss. He will tell the Bearer to seek three crowns of power, belonging to fallen kings. He will also warn the Bearer of his wife, Nashandra, revealing that she too is a child of the Abyss. 
+Should the Bearer of the Curse choose to do so, they may use the Ashen Mist Heart on Vendrick's belongings in the Undead Crypt. Doing so will allow the Bearer to speak directly to the king as he was before he hollowed. Bitter and resigned to defeat, the king will council the Bearer of the Curse, warning them of the futility in seeking fire, of the dark that lies within them, and of the children of Manus, Father of the Abyss. He will tell the Bearer to seek three crowns of power, belonging to fallen kings. He will also warn the Bearer of his wife, Nashandra, revealing that she too is a child of the Abyss.
 
 The Bearer of the Curse will journey through the Black Gulch to find the fallen kingdom of Shulva, Sanctum City, once ruled by the Sunken King. The king ruled the city, centred around the worship of a slumbering dragon known as Sinh, until his kingdom was invaded by the Drakeblood Knights lead by Sir Yorgh, who sought to claim the dragon's blood. Sir Yorgh slew the king, and awoke the dragon, which proceeded to kill him and lay waste to the city with its poison. The Bearer of the Curse slays Elana, the Squalid Queen, a child of the Abyss, and the dragon Sinh to claim the Sunken King's crown.
 
@@ -85,11 +83,10 @@ Below Drangleic Castle, the Throne of Want awaits. Here the Emerald Herald will 
 
 After defeating the Throne Watcher and Defender, the Bearer of the Curse will be greeted by Nashandra, now in her true form, as a child of Manus, Father of the Abyss. The Bearer of the Curse defeats Nashandra.
 
-If Vendrick is defeated before Nashandra, and the Bearer of the Curse has spoken to Aldia in the three mentioned locations, answering yes to both questions asked by Aldia, after Nashandra's defeat, Aldia will appear saying that "many monarchs have come and gone" and requires the Bearer of the Curse's answer as "conqueror of adversities".  Aldia will then test the Bearer of the Curse to see if they are truly worthy of receiving the throne by confronting them himself. The Bearer of the Curse defeats Aldia. After Aldia, The Scholar of the First Sin is defeated, the Bearer of the Curse is given two endings.
+If Vendrick is defeated before Nashandra, and the Bearer of the Curse has spoken to Aldia in the three mentioned locations, answering yes to both questions asked by Aldia, after Nashandra's defeat, Aldia will appear saying that "many monarchs have come and gone" and requires the Bearer of the Curse's answer as "conqueror of adversities". Aldia will then test the Bearer of the Curse to see if they are truly worthy of receiving the throne by confronting them himself. The Bearer of the Curse defeats Aldia. After Aldia, The Scholar of the First Sin is defeated, the Bearer of the Curse is given two endings.
 
 ## Epilogue
 
-thumb|220x220px
 Proceed to the Throne: In this ending, the Bearer of the Curse will accept their part in the cycle of the world, and take the throne. Doing so means that they will either sacrifice themselves to link the flame, or allow the flame to continue fading and become the Dark Lord. Which the Bearer of the Curse chooses is unknown.
-thumb|218x218px
+
 Leave the Throne: In this ending, the Bearer of the Curse rejects the throne, and bitterly walks away, seemingly to seek another, more permanent way to end the curse.

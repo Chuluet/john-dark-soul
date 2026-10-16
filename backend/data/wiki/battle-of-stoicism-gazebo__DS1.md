@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Battle_of_Stoicism_Gazebo
 
 # Battle of Stoicism Gazebo (DS1)
 
-300px|right
-The  is a location in Dark Souls, available only in the Artorias of the Abyss DLC.
+The Battle of Stoicism Gazebo is a location in Dark Souls, available only in the Artorias of the Abyss DLC.
 
 ## Location
 
@@ -16,4 +15,4 @@ It is located right before the Oolacile Township, after the battle with Knight A
 
 ## Description
 
-The  is a very small area that serves only for players to get into the Battle of Stoicism.
+The Battle of Stoicism Gazebo is a very small area that serves only for players to get into the Battle of Stoicism.

@@ -12,12 +12,11 @@ The Darkmoon Knightess, also known as the Darkmoon Knight, the Lady of the Dark
 Found at the first bonfire in Anor Londo, she is a Fire Keeper who will turn hostile if the player shows themselves a threat to the Gods.
 
 She is voiced by Jenny Funnel, who also voiced Quelana of Izalith in the same game, Yuria and Selen Vinland in Demon's Souls, Annalise and Iosefa in Bloodborne, and Karla and the Old Woman of Londor in Dark Souls III.
-__TOC__
 
 ## Locations
 
 At the first bonfire in Anor Londo. After arriving from Sen's Fortress, go down the stairs and head left.
-If Gwynevere is killed, the  will be found close to the rotating stairs.
+If Gwynevere is killed, the Darkmoon Knightess will be found close to the rotating stairs.
 
 ## Plot
 

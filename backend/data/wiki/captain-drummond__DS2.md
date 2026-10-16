@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Captain_Drummond
 
 # Captain Drummond (DS2)
 
-is a character and summonable phantom in Dark Souls II.
+Captain Drummond is a character and summonable phantom in Dark Souls II.
 
 He is voiced by Andy Beckwith.
 
@@ -27,16 +27,11 @@ After defeating the Giant Lord he'll gift the Drangleic Helm to the player, whic
 
 ## Gifts
 
-link=Drangleic Helm
 Drangleic HelmMemory of Vammar - After the Giant Lord is defeated
 
 ## Gravestone
 
 Time taken to spawn the first timeCost of summoning NPC spiritLocation1.5 Hours2,000Memory of Vammar - At the start of the area, where he once stood
-
-## Achievements
-
-ImageNameDescriptionPointsTrophyFile:Holder of the Fort Trophy Updated.pngHolder of the FortInherit Captain Drummond's equipment30File:Silver Trophy.png
 
 ## Lore
 
@@ -53,8 +48,8 @@ What happened to Drummond afterwards is never stated, but his armor, sword and s
 ## Artifacts
 
 Drangleic Sword
- Drangleic Shield
- Drangleic Set
+Drangleic Shield
+Drangleic Set
 
 ## Theories
 

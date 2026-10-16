@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Covetous_Demon
 
 # Covetous Demon (DS2)
 
-Earthen Peak =
-
-|-|Frozen Eleum Loyce =
 The Covetous Demon is a boss in Dark Souls II.
 
 ## Locations
@@ -41,20 +38,4 @@ Leap: The Demon pauses for a moment, then jumps into the air in an attempt to l
 
 Vomit: The Demon spits out multiple balls of an unidentified liquid. They have a rather short range, so simply run away from the Demon to avoid.
 
-Eat:  Grabs the player with his mouth and chews on them a few times, dealing heavy damage. All the player's items are unequipped (armor, weapons, rings, etc.). If this happens, find an opening after one of its attacks and re-equip one item at a time. Due to the ease of dodging its attacks, a weapon and possibly shield are all that really need to be re-equipped.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--35% thrust means taking 135% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=u61kJNpHynw
-
-Category:Dark Souls II: Bosses
-
-es:Demonio codicioso
-pl:Chciwy demon
-ru:Алчный Демон
-Category:Dark Souls II: Minibosses
+Eat: Grabs the player with his mouth and chews on them a few times, dealing heavy damage. All the player's items are unequipped (armor, weapons, rings, etc.). If this happens, find an opening after one of its attacks and re-equip one item at a time. Due to the ease of dodging its attacks, a weapon and possibly shield are all that really need to be re-equipped.

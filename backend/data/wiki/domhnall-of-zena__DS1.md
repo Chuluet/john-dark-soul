@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Domhnall_of_Zena
 
 Domhnall of Zena (ゼナのドーナル) is a merchant in Dark Souls. He is voiced by Matt Morgan, who also voiced the Crestfallen Warrior.
 
-__TOC__
-
 ## Location
 
 Domhnall of Zena is found in the sewers of the Depths, inside the room with the door to Blighttown.

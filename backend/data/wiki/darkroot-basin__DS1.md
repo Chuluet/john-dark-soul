@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Darkroot_Basin
 
 # Darkroot Basin (DS1)
 
-right|400pxDarkroot Basin is a location in Dark Souls.
+Darkroot Basin is a location in Dark Souls.
 
 ## Description
 
@@ -18,7 +18,7 @@ The Darkroot Basin is located right after the Darkroot Garden. It can be access
 Darkroot Garden
 Undead Burg
 Valley of Drakes
-Sanctuary Garden
+Sanctuary Garden Artorias of the Abyss
 
 ## Characters
 
@@ -27,17 +27,6 @@ Dusk of Oolacile will be released from the Golden Crystal Golem after defeating 
 ## Characters
 
 Havel the Rock - (although technically within the Undead Burg, Havel can be encountered in the nearby watchtower with either the Watchtower Basement Key or Master Key)
-
-## Respawning
-
-Crystal Golem
-
-## Non-Respawning
-
-Black Knight (wields a Black Knight Halberd)
-Crystal Lizard
-Hydra
-Golden Crystal Golem (appears after defeating the Hydra)
 
 ## Armor
 

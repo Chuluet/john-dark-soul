@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Isabella_the_Mad
 
 # Isabella the Mad (DS3)
 
-is an enemy character in Dark Souls III.
+Isabella the Mad is an enemy character in Dark Souls III.
 
 ## Description
 

@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Grand_Archives
 
 # Grand Archives (DS3)
 
-right|350px
 The Grand Archives (大書庫 Daishogo, The Great Library) is a location in Dark Souls III. It is a subsection of Lothric Castle.
 
 ## Description
@@ -49,28 +48,6 @@ Lothric Castle
 ## Bonfires
 
 The Grand Archives is a subsection of Lothric Castle and comprises the following bonfires:
-
-## Respawning
-
-Clawed Curse
-Corvian
-Corvian Storyteller
-Gargoyle
-Gertrude's Knight
-Grand Archives Scholar
-Hollow Soldier
-Lothric Knight
-Man-grub
-Thrall
-
-## Non-respawning
-
-Black Hand Kamui
-Boreal Outrider Knight
-Crystal Lizard ×8
-Crystal Sage (mini-boss)
-Daughter of Crystal Kriemhild
-Lion Knight Albert
 
 ## Boss
 
@@ -131,10 +108,3 @@ Undead Bone Shard
 Witch's Locks
 
 * If required conditions are met.
-
-## Reference
-
-Category:Dark Souls III: Locations
-
-es:Gran Archivo
-ru:Великий архив

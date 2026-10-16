@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Chasm_of_the_Abyss
 
 # Chasm of the Abyss (DS1)
 
-thumb|300px|The Chasm of the Abyss
 The Chasm of the Abyss is a location in Dark Souls, and can only be accessed through the Artorias of the Abyss DLC.
 
 ## Adjacent locations
@@ -24,16 +23,6 @@ Located at the lower portion of Oolacile, it is found after the player exits the
 Alvina of the Darkroot Wood
 Dusk of Oolacile
 Sif (summonable phantom)
-
-## Respawning
-
-Bloathead Sorcerer
-Bloathead
-Humanity Phantoms
-
-## Non-respawning
-
-Crystal Lizard
 
 ## Boss
 

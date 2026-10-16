@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Memory_of_Jeigh
 
 # Memory of Jeigh (DS2)
 
-thumb|400px
 The Memory of Jeigh is a location in Dark Souls II.
 
 ## Description
@@ -29,11 +28,6 @@ Forest of Fallen Giants
 Captain Drummond: The sign should be seen as soon as the player enters this memory. It's only a few steps in front and to the right of the player.
 Benhart of Jugo: To the left of the stairs leading to the boss fight, next to a crumbled wall.
 Note: only one character can be summoned at a time.
-
-## Respawning
-
-Elite Giant
-Royal Soldier
 
 ## Bosses
 

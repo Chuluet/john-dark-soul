@@ -27,8 +27,8 @@ Benhart of Jugo can be summoned for the boss fight. His summon sign is located o
 
 In Dark Souls II: Scholar of the First Sin, two additional summons were added:
 
- Ashen Knight Boyd's summon sign can be found just outside the boss arena.
- Sellsword Luet can be summoned as a shade. His summon sign can be found in the room adjacent to the golem that activates the elevator.
+Ashen Knight Boyd's summon sign can be found just outside the boss arena.
+Sellsword Luet can be summoned as a shade. His summon sign can be found in the room adjacent to the golem that activates the elevator.
 
 ## Attacks
 
@@ -43,11 +43,3 @@ Lightning Blade: Uses the lightning to electrify his sword and makes a horizonta
 Balls of Lightning: Uses the lightning to electrify his sword and makes a horizontal swipe that shoots out five electricity balls. They spread out as they proceed and can be stepped through. They do not fan out for very long; being a fair distance away will avoid them completely.
 
 Lightning Trail: Uses the lightning to electrify his sword and performs an overhead attack that sends a lightning trail that follows the player. Can be dodged by rolling to either side.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -20% strike means taking 120% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=10vjsZNPPLM

@@ -22,7 +22,3 @@ As Humanity is offered to her through the Chaos Servant covenant, her legs appea
 ## Lore
 
 Quelaag's Sister was a Daughter of Chaos before the disaster that befell Izalith. While most of her sisters were transformed into "full" demons, she and Quelaag were able to escape with their sanity intact, although they were fused at the waist to demon spiders in the process. Quelaag and her sister took an entourage of servants with them, who suffered from a parasitic disease. Out of pity, Quelaag's sister did her best to help against Quelaag's orders, weakening and blinding herself in the process.
-
-## Music
-
-https://www.youtube.com/watch?v=J8m9bBOdY7w

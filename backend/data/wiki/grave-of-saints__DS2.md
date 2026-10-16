@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Grave_of_Saints
 
 # Grave of Saints (DS2)
 
-thumb|400px
 The Grave of Saints is a location in Dark Souls II.
 
 ## Description
@@ -31,13 +30,6 @@ Rat King covenant
 ## Characters
 
 Rat King
-
-## Respawning
-
-Undead Prisoner
-Corpse Rat
-Rhoy the Explorer (multiple invasions)
-Undead Citizen
 
 ## Boss
 

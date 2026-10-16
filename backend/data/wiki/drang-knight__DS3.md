@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Drang_Knight
 
 # Drang Knight (DS3)
 
-Hammers =
-
-|-|Twinspears =
 The Drang Knights are a pair of enemy characters in Dark Souls III.
 
 ## Location

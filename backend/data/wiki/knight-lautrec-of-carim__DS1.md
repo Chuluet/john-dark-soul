@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Knight_Lautrec_of_Carim
 
 Knight Lautrec of Carim (女神の騎士ロートレク), also known as Lautrec the Embraced or Lautrec the Guilty when invading, is a character in Dark Souls. He is voiced by either Daniel Roberts or Will Vanderpuye.
 
-__TOC__
-
 ## Location
 
 Lautrec is found imprisoned on the top floor of the church in Undead Parish, before climbing the ladders to the roof where the Bell Gargoyles are fought. The Mystery Key that opens his cell (which can also be opened with the Master Key) is found in the cellar-like area next to the Fang Boar guarding the gates to the inner parish.
@@ -29,7 +27,4 @@ Lautrec's goals were never explained in the game. He mentions that he is on a "m
 
 ## Equipment
 
-Undead Parish/Firelink Shrine=
-
 |-|
-Anor Londo=

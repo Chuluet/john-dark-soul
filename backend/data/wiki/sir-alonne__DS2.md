@@ -38,18 +38,3 @@ Impale: Sir Alonne will charge up for a moment before lunging towards the player
 Parry and Riposte: Similar to The Lost Sinner, Sir Alonne will sometimes change the way he holds his sword, almost appearing as though he is attempting to block. Should the player attempt to attack him in this pose, Sir Alonne is able to parry and then riposte the player, dealing a large amount of damage.
 
 Kick: He will kick the player if they are constantly shielding oneself. High stamina drain.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=IN9kRFay02s
-
-Category:Dark Souls II: Bosses
-Category:The Lost Crowns: CotOIK
-
-es:Sir Alonne
-pl:Sir Alonne
-ru:Сэр Алонн

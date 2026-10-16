@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Demon_Firesage
 
 The Demon Firesage (デーモンの炎司祭) is an optional boss in Dark Souls, located in the Demon Ruins.
 
-__TOC__
-
 ## Location
 
 The Demon Firesage is found in the Demon Ruins, down the staircase from the second bonfire and past the Taurus Demon present there. In order to enter the fog gate, the Lordvessel must have been placed at the Firelink Altar.
@@ -27,34 +25,28 @@ The Chosen Undead encountered the Demon Firesage in the Demon Ruins, after they 
 
 ## Swing
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed644000RegularNoneNoBothSlow
-center
+Attack TypeStatusParryableTrackingSpeed644000RegularNoneNoBothSlow
 
 ## Hammer Smash
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed644000RegularNoneNoNeitherSlow
-center
+Attack TypeStatusParryableTrackingSpeed644000RegularNoneNoNeitherSlow
 
 ## Leaping Hammer Smash
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed713000RegularNoneNoNeitherMedium
+Attack TypeStatusParryableTrackingSpeed713000RegularNoneNoNeitherMedium
 If the player gets too far, the demon will cover a great distance very quickly after the starting animation.
-center
 
 ## Butt Slam
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed713000StrikeNoneNoAoESlow
+Attack TypeStatusParryableTrackingSpeed713000StrikeNoneNoAoESlow
 It will fly up into the air to perform this attack.
-center
 
 ## Exploding Swing
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed044900MagicNoneNoAoESlow
+Attack TypeStatusParryableTrackingSpeed044900MagicNoneNoAoESlow
 It will only affect the area in front of it and being behind it is a safe zone.
-center
 
 ## Exploding Hammer Drive
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed043700MagicNoneNoAoESlow
+Attack TypeStatusParryableTrackingSpeed043700MagicNoneNoAoESlow
 It smashes its hammer into the ground. Affects the area all around it.
-center

@@ -22,7 +22,3 @@ This boss is a large tree with humanoid limbs, covered in pus-filled sacs. It is
 ## Lore
 
 The Greatwood was once a spirit tree which the residents of the Undead Settlement would use in desperation to seal away the worst of their curses. However, these curses eventually took their toll on the tree, creating this abomination.
-
-## Music
-
-https://www.youtube.com/watch?v=Z2bo-e_9xGA

@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Battle_of_Stoicism
 
 # Battle of Stoicism (DS1)
 
-right|200px
-The  is an online gameplay function in Dark Souls.
+The Battle of Stoicism is an online gameplay function in Dark Souls.
 
 ## Location
 
@@ -28,7 +27,7 @@ In this one, four players must battle against each other, and every player kille
 
 ## Rules
 
-There are a set of rules that are applied to all the three modes of the , listed below:
+There are a set of rules that are applied to all the three modes of the Battle of Stoicism, listed below:
 
 No healing items allowed.
 The battle is timed (3 minutes); in the end, the winner dons a great crown.
@@ -43,12 +42,3 @@ After the player chooses a game mode, they are transported to the lobby, in whic
 There are two types of trap doors, the hosting trap door, and the common trap door. The hosting trap door turns the player standing on it a host, inviting other players that are standing on the common trap doors. More common trap doors become available depending on the mode chosen, each leading to an arena with other players. The players take no damage when the trap door opens.
 
 If the player decides to leave the lobby, there is a special bonfire that teleports them back to the gazebo.
-
-## Music
-
-https://www.youtube.com/watch?v=NwK0SRie1wU
-
-Category:Dark Souls: Gameplay
-Category:Artorias of the Abyss
-
-es:Batalla de Estoicismo

@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Lothric_Castle
 
 # Lothric Castle (DS3)
 
-right|350px
-
 Lothric Castle is a location in Dark Souls III.
 
 ## Description
@@ -33,23 +31,6 @@ Eygon of Carim*
 Sirris of the Sunless Realms*
 
 * If required conditions are met.
-
-## Respawning
-
-Hollow Assassin
-Hollow Soldier
-Large Hollow Soldier
-Lothric Knight
-Lothric Priest
-Pus of Man
-Winged Knight
-
-## Non-respawning
-
-Boreal Outrider Knight
-Crystal Lizard (×1)
-Lothric Wyvern (×2)
-Mimic (×2)
 
 ## Boss
 

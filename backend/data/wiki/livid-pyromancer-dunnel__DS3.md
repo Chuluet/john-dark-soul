@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Livid_Pyromancer_Dunnel
 
 # Livid Pyromancer Dunnel (DS3)
 
-is a mad dark spirit in the Dark Souls III: Ashes of Ariandel DLC.
+Livid Pyromancer Dunnel is a mad dark spirit in the Dark Souls III: Ashes of Ariandel DLC.
 
 ## Location
 
@@ -28,7 +28,7 @@ His phantom seems to manifest inside a derelict tower-like structure that resemb
 ## Artifacts
 
 Floating Chaos
- Pyromancer's Parting Flame
+Pyromancer's Parting Flame
 
 ## Theories
 

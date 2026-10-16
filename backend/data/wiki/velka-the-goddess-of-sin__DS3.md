@@ -18,5 +18,3 @@ The statue of Velka can be found within the sewers of the Undead Settlement, to 
 Request Absolution: The player can be cleansed of sin in exchange for souls equal to the player's Soul Level times 1,000.
 Request Dissolution: The player can reset Hollowing buildup in exchange for souls equal to the player's Soul Level times 100. Does not remove Dark Sigils from the player's inventory and thus does not anger Yuria of Londor.
 Reinstate the King's Decree: After defeating Halflight, Spear of the Church in The Ringed City, paying a fee equal to the player's Soul Level times 500 will revive Judicator Argo.
-
-es:Velka diosa del Pecado

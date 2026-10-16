@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Crypt
 
 # Undead Crypt (DS2)
 
-thumb|380px
 Undead Crypt is a location in Dark Souls II.
 
 ## Description
@@ -27,25 +26,6 @@ Undead Ditch - After the first Fog Gate, end of the hall and on the left side.
 
 Grave Warden Agdayne
 
-## Respawning
-
-Grave Warden
-Imperious Knight
-Leydia Pyromancer
-Leydia Witch
-Royal Guard
-Skeleton 
-Undead Laborer
-Undead Prisoner
-Wall Warrior
-
-## Non-respawning
-
-Dragonrider 
-Great Moth 
-Insolent (after lighting the large brazier in SotFS)
-Nameless Usurper
-
 ## Invaders
 
 Nameless Usurper
@@ -60,7 +40,7 @@ Velstadt, the Royal Aegis
 Crushed Eye Orb
 Divine Blessing
 Dragon Charm
-Fragrant Branch of Yore 
+Fragrant Branch of Yore Scholar of the First Sin
 Great Lightning Spear
 Large Soul of a Nameless Soldier
 Old Radiant Lifegem

@@ -7,9 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Kiln_of_the_First_Flame_(Dark_Souls_II
 
 # Kiln of the First Flame (Dark Souls III) (DS3)
 
-right|350px
-
-The  is a location in Dark Souls III.
+The is a location in Dark Souls III.
 
 ## Description
 
@@ -24,7 +22,7 @@ The Dreg Heap - Should the player own The Ringed City DLC, they can access the D
 
 ## Enemies
 
-•  None
+• None
 
 ## Boss
 

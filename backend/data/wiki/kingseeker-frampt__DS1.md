@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Kingseeker_Frampt
 
 # Kingseeker Frampt (DS1)
 
-is a character in Dark Souls. He is a primordial serpent who seeks a human successor to Gwyn, Lord of Cinder. He is voiced by Peter Marinker, who also voiced Darkstalker Kaathe and Eingyi.
+Kingseeker Frampt is a character in Dark Souls. He is a primordial serpent who seeks a human successor to Gwyn, Lord of Cinder. He is voiced by Peter Marinker, who also voiced Darkstalker Kaathe and Eingyi.
 
 ## Location
 
@@ -37,27 +37,19 @@ Red Titanite Slab breaks to: Red Titanite Chunk ×2
 
 Feeding weapons and armor to him is not very profitable; most weapons only produce 50 souls while most armor produces 100. Special weapons can produce much more, such as the Drake Sword, which results in 5,000.
 
-Items=
+|-|
 
 |-|
-Souls=
 
 |-|
-Upgrade Materials=
-
-|-|
-Weapons=
 
 Indented weapons are the exception.
 |-|
-Ammunition=
 
 |-|
-Armor=
 
 Indented Armor pieces and sets are the exception. Sets represent the value of each piece.
 |-|
-Rings=
 
 Indented Rings are the exception.
 
@@ -65,6 +57,6 @@ Indented Rings are the exception.
 
 The following is content that is present within the code of Dark Souls, but not actually implemented in the game. Text was found from a text dump which can be found at: http://pastebin.com/hA42TwK8.
 
- Click to see removed contentSome removed dialogue of Kingseeker Frampt suggests that he was supposed to be able to sell Humanity to the player.
+Click to see removed contentSome removed dialogue of Kingseeker Frampt suggests that he was supposed to be able to sell Humanity to the player.
 
- Ahh, one other thing. You will require humanity to remain yourself while Undead. This I can provide you, but only in trade for souls.
+Ahh, one other thing. You will require humanity to remain yourself while Undead. This I can provide you, but only in trade for souls.

@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Dragon_Slayer_Ornstein_and_Executioner
 
 Dragon Slayer Ornstein and Executioner Smough (竜狩りオーンスタイン / 処刑者スモウ) are dual bosses in Dark Souls. They are both fought at once with individual health bars; when one is slain, the other powers up and regains their health for the battle's second phase.
 
-__TOC__
-
 ## Location
 
 Encountered guarding a cathedral in central Anor Londo.
@@ -53,97 +51,93 @@ If Smough is defeated first, Ornstein will increase greatly in size, drastically
 
 ## Swinging Combo
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed390000Regular510 (PHYS)NoneNoBothMedium
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed390000Regular510 (PHYS)NoneNoBothMedium
 Ornstein swings his spear up to four times in a row. This attack can be blocked, and generally offers a good chance to counter-attack.
- Toggle Gifcentercenter
+Toggle Gif
 
 ## Thrust Combo
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothMedium
- Toggle Gifcentercenter
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothMedium
+Toggle Gif
 
 ## Heavy Combo
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothSlow
- Toggle Gifcentercenter
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothSlow
+Toggle Gif
 
 ## Jumping Attack
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed420000Thrust520 (PHYS)NoneNoNeitherMedium
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed420000Thrust520 (PHYS)NoneNoNeitherMedium
 Ornstein jumps up, and then either stabs at the player, or smashes his spear into the ground where the player is standing. Both deal the same amount of damage, and can be blocked.
- Toggle Gifcentercenter
+Toggle Gif
 
 ## Charging Spear
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed440000Thrust570 (PHYS)NoneNoBothMedium
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed440000Thrust570 (PHYS)NoneNoBothMedium
 Ornstein glides towards the player, and then stabs with his spear. The attack can be blocked or dodged, and a counterattack is possible to achieve. Note that this attack can (rarely) cause Ornstein to move through a pillar.
- Toggle Gifcentercenter
+Toggle Gif
 
 ## Lightning Spear Charge
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed00Regular (PHYS) (LGHT)NoneNoBothSlow
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed00Regular (PHYS) (LGHT)NoneNoBothSlow
 Rare attack that is identical to Charging Spear, except Ornstein imbues his spear with lightning before charging.
- Toggle Gifcentercenter|100px
+Toggle Gif
 
 ## Evasive Swing
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothFast
- Toggle Gifcentercenter
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed000Regular (PHYS)NoneNoBothFast
+Toggle Gif
 
 ## Lightning Banzai Drop
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000 660LightningMove is only used in Large Form.NoneNoNeitherMedium
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000 660LightningMove is only used in Large Form.NoneNoNeitherMedium
 Only used if Smough was killed first. Ornstein jumps up, pauses mid-air, then falls onto the ground, causing a wide lightning field created from the point of impact. This cannot be fully blocked, and can only be dodged by keeping one's distance. Smough's distinct laughter can be heard during this attack.
- Toggle Gifcenter
+Toggle Gif
 
 ## Quick Lightning Spear
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000Lightning -NoneNoNeitherFast
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000Lightning -NoneNoNeitherFast
 Ornstein uses his weapon's power to shoot a small burst of lightning at the player. This attack is rarely used.
- Toggle Gifcentercenter
+Toggle Gif
 
 ## Heavy Lightning Spear
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000530Lightning530 (LGHT)NoneNoNeitherSlow
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000530Lightning530 (LGHT)NoneNoNeitherSlow
 Ornstein charges up a lightning bolt that he fires at the player. This Lightning Bolt is unusually slow once fired and has strong homing capabilities.
- Toggle Gifcenter|100pxcenter
+Toggle Gif
 
 ## Lightning Impale
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000480LightningGrabMove is only used in Large Form.NoneNoNeitherMedium
+Attack TypeLarge Form DamageStatus EffectParryableTrackingSpeed 000480LightningGrabMove is only used in Large Form.NoneNoNeitherMedium
 In Ornstein's large form, he will charge his spear with lightning, and then lunge at the player in a quick stabbing motion. If this attack connects, Ornstein will raise the player and release the charged lightning, dealing huge amounts of damage.
- Toggle Gifcenter
+Toggle Gif
 
 ## Joust
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed440000Strike440 (PHYS)240 (LGHT)NoneNoBothMedium
+Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed440000Strike440 (PHYS)240 (LGHT)NoneNoBothMedium
 Smough charges at the player with his hammer, then swings it upwards diagonally when he reaches the player. This deals heavy damage, especially when in lightning form. It can be avoided by running directly away or with the right dodging speed. Blocking will break the player's guard if they are using a shield of inadequate stability. While pillars will block Smough's movement, the hammer itself will go through the pillar.
- Toggle Gifcenter
+Toggle Gif
 
 ## Swing
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed364000Strike354 (PHYS)240 (LGHT)NoneNoNeitherSlow
+Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed364000Strike354 (PHYS)240 (LGHT)NoneNoNeitherSlow
 Smough swings his weapon. It is possible to roll under this attack and start attacking before Smough has time to recover. Blocking this attack may use a large amount of stamina. May follow up with a second swing.
- Toggle Gifcenter
+Toggle Gif
 
 ## Smash
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed420000Strike420 (PHYS)240 (LGHT)NoneNoBothSlow
+Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed420000Strike420 (PHYS)240 (LGHT)NoneNoBothSlow
 Smough slowly raises his weapon and then hammers the ground in front of him. This attack can go through pillars. May follow up with a swing.
- Toggle Gifcenter
+Toggle Gif
 
 ## Jumping Hammer
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed480000Strike480 (PHYS)240 (LGHT)NoneNoNeitherSlow
+Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed480000Strike480 (PHYS)240 (LGHT)NoneNoNeitherSlow
 Smough jumps into the air and then hammers the ground as close to the player as he can get. This can be avoided by rolling in any direction while Smough is airborne.
- Toggle Gifcenter
+Toggle Gif
 
 ## Banzai Drop
 
-link=Physicallink=Magic (damage type)link=Fire (damage type)link=Lightning (damage type)Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed480000Normal480 (PHYS)600 (LGHT)NoneNoNeitherSlow
+Attack TypeLightning Form DamageStatus EffectParryableTrackingSpeed480000Normal480 (PHYS)600 (LGHT)NoneNoNeitherSlow
 Smough jumps into the air and then crashes into the ground below. Smough takes a while to recover after using this attack. When in his more powerful form, there is a lightning area of effect upon landing. The only way to fully avoid the lightning damage is to roll when Smough lands on the floor. It can also be partially blocked with a shield.
- Toggle Gifcentercenter
-
-## Music
-
-https://www.youtube.com/watch?v=hOxLVIPkHTs
+Toggle Gif
