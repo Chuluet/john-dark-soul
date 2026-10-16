@@ -22,6 +22,7 @@ from langchain_community.document_loaders import (
     TextLoader,
 )
 from langchain_core.documents import Document
+import ollama
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from rich.console import Console
 from rich.table import Table
@@ -51,6 +52,58 @@ def _separar_frontmatter(documento: Document) -> Document:
     return documento
 
 
+PROMPT_TEXTO = "Transcribe all the text in this image. If there is no text, answer only NO_TEXT."
+PROMPT_DESCRIPCION = (
+    "Describe this image. If it shows a boss, character, location or item from a video game "
+    "(especially Dark Souls), describe it in detail and name it if you recognize it. "
+    "If it does not, answer only NONE."
+)
+
+
+def _preguntar_imagen(ruta: Path, prompt: str) -> str:
+    """Envía la imagen al modelo de visión local con el cliente de ollama."""
+    cliente = ollama.Client(host=config.OLLAMA_BASE_URL)
+    return cliente.chat(
+        model=config.VISION_MODEL,
+        messages=[{"role": "user", "content": prompt, "images": [ruta.read_bytes()]}],
+        options={"temperature": 0},
+    ).message.content.strip()
+
+
+def _describir_imagen(ruta: Path) -> list[Document]:
+    """Indexa una imagen: primero su texto; si no tiene, su descripción.
+
+    Si no tiene texto ni muestra algo de videojuego, no se indexa.
+    """
+    texto = _preguntar_imagen(ruta, PROMPT_TEXTO)
+    if "NO_TEXT" not in texto:
+        return [Document(page_content=texto, metadata={"tipo_imagen": "texto"})]
+
+    descripcion = _preguntar_imagen(ruta, PROMPT_DESCRIPCION)
+    if "NONE" in descripcion[:20]:
+        return []
+    return [Document(page_content=descripcion, metadata={"tipo_imagen": "descripcion"})]
+
+
+def _transcribir(ruta: Path) -> list[Document]:
+    """Transcribe el audio de un video o mp3 con Whisper local.
+
+    Cada línea lleva su marca de tiempo para poder citar el minuto exacto.
+    """
+    # Import aquí: faster-whisper es pesado y solo se necesita para audio/video.
+    from faster_whisper import WhisperModel
+
+    modelo = WhisperModel(config.WHISPER_MODEL, device="cpu", compute_type="int8")
+    segmentos, info = modelo.transcribe(str(ruta))
+    lineas = [
+        f"[{int(s.start // 60):02d}:{int(s.start % 60):02d}] {s.text.strip()}"
+        for s in segmentos
+    ]
+    if not lineas:
+        return []
+    return [Document(page_content="\n".join(lineas), metadata={"tipo": "video", "idioma": info.language})]
+
+
 def _cargar_archivo(ruta: Path) -> list[Document]:
     """Elige el loader adecuado según la extensión y devuelve los documentos."""
     sufijo = ruta.suffix.lower()
@@ -59,6 +112,10 @@ def _cargar_archivo(ruta: Path) -> list[Document]:
         # PyPDFLoader genera un Document por página, lo que da trazabilidad
         # de página en las citas.
         return PyPDFLoader(str(ruta)).load()
+    if sufijo in {".jpg", ".jpeg", ".png"}:
+        return _describir_imagen(ruta)
+    if sufijo in {".mp4", ".mp3"}:
+        return _transcribir(ruta)
     if sufijo == ".docx":
         return Docx2txtLoader(str(ruta)).load()
     if sufijo in {".html", ".htm"}:
@@ -148,7 +205,7 @@ def ingestar(reset: bool = False) -> int:
 
         fragmentos = _fragmentar(documentos, fuente)
         if not fragmentos:
-            console.print(f"[yellow]· {fuente}: sin texto extraíble (¿PDF escaneado?)[/yellow]")
+            console.print(f"[yellow]· {fuente}: sin contenido útil (¿PDF escaneado o imagen sin texto ni personaje?)[/yellow]")
             continue
 
         # Reingesta idempotente: borramos los fragmentos previos de este
