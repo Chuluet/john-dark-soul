@@ -1,0 +1,53 @@
+{
+  "realm": "john-dark-soul",
+  "displayName": "john-dark-soul",
+  "enabled": true,
+  "registrationAllowed": true,
+  "registrationEmailAsUsername": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "resetPasswordAllowed": false,
+  "rememberMe": true,
+  "sslRequired": "external",
+  "accessTokenLifespan": 900,
+  "ssoSessionIdleTimeout": 1800,
+  "defaultRoles": ["user"],
+  "roles": {
+    "realm": [
+      { "name": "user", "description": "Usuario de la aplicación" }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "frontend",
+      "name": "Frontend john-dark-soul",
+      "enabled": true,
+      "publicClient": true,
+      "protocol": "openid-connect",
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "implicitFlowEnabled": false,
+      "serviceAccountsEnabled": false,
+      "redirectUris": ["http://localhost:5173/*"],
+      "webOrigins": ["http://localhost:5173"],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "http://localhost:5173/*"
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "demo",
+      "email": "demo@john-dark-soul.local",
+      "firstName": "Demo",
+      "lastName": "Chosen Undead",
+      "enabled": true,
+      "emailVerified": true,
+      "credentials": [
+        { "type": "password", "value": "demo", "temporary": false }
+      ],
+      "realmRoles": ["user"]
+    }
+  ]
+}

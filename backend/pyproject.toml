@@ -16,6 +16,7 @@ dependencies = [
     "langgraph>=1.2.15",
     "mwparserfromhell>=0.7.2",
     "psycopg[binary]>=3.3.6",
+    "pyjwt[crypto]>=2.15.1",
     "pypdf>=6.20.1",
     "python-dotenv>=1.2.4",
     "python-multipart>=0.0.32",
@@ -28,3 +29,7 @@ dependencies = [
 dev = [
     "pytest>=9.1.1",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

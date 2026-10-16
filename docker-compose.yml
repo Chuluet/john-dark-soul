@@ -32,6 +32,27 @@ services:
               capabilities: [gpu]
     restart: unless-stopped
 
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.4
+    container_name: darksoul-keycloak
+    # start-dev: HTTP sin certificados, suficiente para desarrollo local.
+    # --import-realm carga el realm de ./keycloak la primera vez (si ya existe, lo omite).
+    command: start-dev --import-realm
+    ports:
+      - "8080:8080"
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-admin}
+      # URL pública fija: así el `iss` del token es el mismo aunque el backend
+      # consulte a Keycloak por la red interna (http://keycloak:8080).
+      KC_HOSTNAME: ${KEYCLOAK_URL:-http://localhost:8080}
+      KC_HOSTNAME_BACKCHANNEL_DYNAMIC: "true"
+      KC_HEALTH_ENABLED: "true"
+    volumes:
+      - ./keycloak:/opt/keycloak/data/import:ro
+      - keycloak-data:/opt/keycloak/data
+    restart: unless-stopped
+
   backend:
     build: ./backend
     container_name: darksoul-backend
@@ -43,11 +64,14 @@ services:
       # Dentro de Docker se usan los nombres de los servicios, no localhost.
       DATABASE_URL: postgresql+psycopg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
       OLLAMA_BASE_URL: http://ollama:11434
+      KEYCLOAK_INTERNAL_URL: http://keycloak:8080
     depends_on:
       - db
       - ollama
+      - keycloak
     restart: unless-stopped
 
 volumes:
   pgdata:
   ollama-models:
+  keycloak-data:
