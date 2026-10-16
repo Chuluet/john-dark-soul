@@ -83,21 +83,13 @@ VIDEO_BLOQUE_SEGUNDOS = _int("VIDEO_BLOQUE_SEGUNDOS", 90)
 # --- Recuperación y control de alucinaciones -------------------------------
 RETRIEVER_K = _int("RETRIEVER_K", 5)
 
-# Traduce la pregunta al inglés con LLM_MODEL antes de buscar (la wiki está en
-# inglés) y, en la misma llamada, descarta las que no son de Dark Souls.
-RETRIEVER_TRADUCIR = os.getenv("RETRIEVER_TRADUCIR", "true").lower() not in {"0", "false", "no"}
-
-# Candidatos que se traen de pgvector antes de reordenar y diversificar.
+# Candidatos que se traen de pgvector por cada versión de la pregunta (la
+# original y la reescrita en inglés) antes de quedarse con los K mejores.
 RETRIEVER_FETCH_K = _int("RETRIEVER_FETCH_K", 40)
 
-# Máximo de fragmentos del mismo archivo en el resultado: evita que una sola
-# página (o el video) ocupe todo el contexto.
+# Máximo de fragmentos del mismo archivo en el contexto: evita que una sola
+# página (o el video) lo ocupe todo y deje fuera a la que responde.
 RETRIEVER_MAX_POR_FUENTE = _int("RETRIEVER_MAX_POR_FUENTE", 1)
-
-# Puntos que se suman a un fragmento del juego que detecta la pregunta (y se
-# restan si es claramente de otro). Nunca descarta: la pregunta puede no decir
-# el juego, o decirlo mal.
-RETRIEVER_BONO_JUEGO = _float("RETRIEVER_BONO_JUEGO", 0.08)
 
 # Fragmentos por debajo de este puntaje se descartan; si no queda ninguno,
 # el agente rechaza la pregunta.

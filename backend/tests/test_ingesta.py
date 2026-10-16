@@ -14,9 +14,8 @@ from pypdf.generic import DecodedStreamObject, DictionaryObject, NameObject
 
 from app import config
 from services import ingest_service as ing
-from services.juegos import IndiceJuegos
 
-INDICE = IndiceJuegos([("Lothric", "DS3"), ("Vendrick", "DS2"), ("Lordran", "DS1"), ("Gwyn, Lord of Cinder", "DS1"),
+INDICE = ing.IndiceJuegos([("Lothric", "DS3"), ("Vendrick", "DS2"), ("Lordran", "DS1"), ("Gwyn, Lord of Cinder", "DS1"),
                        ("Gwyn, Lord of Cinder", "DS3")])
 
 
@@ -180,3 +179,16 @@ def test_video_vuelve_a_cpu_si_la_gpu_falla(tmp_path, whisper_falso, monkeypatch
 
     assert whisper_falso["dispositivos"] == ["cuda", "cpu"]
     assert len(documentos) == 3
+
+
+def test_detecta_mencion_explicita():
+    assert INDICE.detectar("What happens in Dark Souls 2?") == ["DS2"]
+    assert INDICE.detectar("en el tercer juego") == ["DS3"]
+    assert INDICE.detectar("DS1 y Dark Souls III") == ["DS1", "DS3"]
+    assert INDICE.detectar("Dark Souls II") == ["DS2"]  # no confundir con "Dark Souls I"
+
+
+def test_no_adivina_cuando_no_hay_pista():
+    assert INDICE.detectar("Who is Gwyn?") == []                 # está en varios juegos
+    assert INDICE.detectar("Dark Souls is hard") == []           # "Dark Souls" a secas es la saga
+    assert ing.IndiceJuegos([("Boss", "DS1")]).detectar("the boss") == []  # palabras comunes no cuentan
