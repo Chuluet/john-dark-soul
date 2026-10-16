@@ -16,7 +16,3 @@ Found in the Cemetery of Ash, near the entrance to Firelink Shrine. He is first 
 ## Description
 
 Gundyr towers above the player character. He wears intricate cast-iron armor and wields a halberd. On his back, oily black tendrils indicate that he is infested with the Pus of Man.
-
-## Music
-
-https://www.youtube.com/watch?v=h5PP1zeK0_I

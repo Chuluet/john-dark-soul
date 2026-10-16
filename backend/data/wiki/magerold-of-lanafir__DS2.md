@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Magerold_of_Lanafir
 
 # Magerold of Lanafir (DS2)
 
-is a character and merchant in Dark Souls II.
+Magerold of Lanafir is a character and merchant in Dark Souls II.
 
 He is voiced by Joe Sims, who also voiced Creighton the Wanderer.
 
@@ -33,7 +33,7 @@ Magerold also displays a fascination with dragons, secretly being an adherent of
 
 ## Gifts
 
-link=Covetous Gold Serpent Ring (Dark Souls II)Covetous Gold Serpent Ring +1link=Ancient Dragon SealAncient Dragon Seallink=Dragon Eye (Dark Souls II)Dragon EyeIron Keep - Spending 10,000 souls in his shopIron Keep - Giving the Petrified Egg away
+Covetous Gold Serpent Ring +1Ancient Dragon SealDragon EyeIron Keep - Spending 10,000 souls in his shopIron Keep - Giving the Petrified Egg away
 
 ## Wares
 
@@ -42,7 +42,3 @@ link=Covetous Gold Serpent Ring (Dark Souls II)Covetous Gold Serpent Ring +1link
 ## Gravestone
 
 Time taken to spawn the first timeCost of summoning NPC spiritLocation4.5 Hours8,500Iron Keep - In the side corridor at the entrance of the Keep
-
-## Achievements
-
-ImageNameDescriptionPointsTrophyFile:Covenant of Ancients Trophy.jpgCovenant of AncientsDiscover an ancient covenant10File:Bronze Trophy.png

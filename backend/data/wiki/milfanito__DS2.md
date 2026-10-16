@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Milfanito
 
 # Milfanito (DS2)
 
-thumb|right|300px
-
 The Milfanito are a race in Dark Souls II.
 
 There are four of them found in-game as non-playable characters, all unnamed; three are located in the Shrine of Amana, while a fourth is held captive inside a cage in Drangleic Castle; two of them vanish upon being talked to, while the others have dialogue. Each of them has a different design.
@@ -28,7 +26,7 @@ The Milfanito are secluded maidens who reside within the Shrine of Amana and sin
 
 The Key to the Embedded is obtained after the player defeats the Demon of Song; this key will grant access to the Milfanito imprisoned at the top of Drangleic Castle. When freed, she will sigh and disappear, dropping the Ring of the Dead. A brief singing can be heard while on the elevator leading back to the lower floor. Talking to each of the other two Milfanito afterward will reward the player with one Divine Blessing. After defeating the Demon of Song, the Milfanito will express their gratification for silencing "that cursed singing" and reward the player with an item.
 
-In , they will reward the player with a Petrified Something after killing the Demon of Song. Talking to the Milfanito before said boss, will reward the player with a Fire Seed.
+In Scholar of the First Sin, they will reward the player with a Petrified Something after killing the Demon of Song. Talking to the Milfanito before said boss, will reward the player with a Fire Seed.
 
 ## Lore
 
@@ -43,7 +41,3 @@ In the realm plagued by the Curse, the Milfanito and the Fenito seemingly assume
 The altar that the fourth Milfanito prays to can be used to reverse hollowing. The player must not have any Human Effigies in their inventory or item box for this to work. Dropped effigies on the ground will also prevent the shrine from working. Praying at the Shrine while still having an effigy will result in the message "Alas, nothing happened".
 
 The altar is located near the Rise of the dead bonfire, in Shrine of Amana.
-
-## Music
-
-https://www.youtube.com/watch?v=hf3XOEgSsXU

@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Farron_Keep
 
 # Farron Keep (DS3)
 
-right|350px
-
 The Farron Keep is a location in Dark Souls III. It is a subsection of the Road of Sacrifices.
 
 ## Description
@@ -22,7 +20,7 @@ The surrounding area is covered in a sprawling poisonous swamp, some parts of wh
 After the third flaming tower is extinguished, the door to the next area opens. Beyond it is a stretch of forest where a group of Corvians surrounds a Corvian Storyteller on a ledge, and further on are two Darkwraiths on their way to clash with a group of Ghrus in front of the mausoleum. To the right is the Farron Keep Perimeter, which leads back to the poisonous swamp and the Crucifixion Woods, with a Ravenous Crystal Lizard along the way.
 
 Defeating the Abyss Watchers can be done with the help of Black Hand Gotthard. Once they are defeated, the way to the Catacombs of Carthus opens.
- Farron Keep has a 1 summon limit (2 with dried finger) because they are covenant invasion areas. Every other place is the usual 2 (3 max)
+Farron Keep has a 1 summon limit (2 with dried finger) because they are covenant invasion areas. Every other place is the usual 2 (3 max)
 
 ## Adjacent locations
 
@@ -44,22 +42,6 @@ Sirris of the Sunless Realms*
 Londor Pale Shade*
 Yellowfinger Heysel*
 * If required conditions are met.
-
-## Respawning
-
-Basilisk
-Corvian
-Corvian Storyteller
-Darkwraith
-Elder Ghru
-Ghru
-Great Crab
-Rotten Slug
-
-## Non-respawning
-
-Crystal Lizard (×4)
-Ravenous Crystal Lizard
 
 ## Invaders
 

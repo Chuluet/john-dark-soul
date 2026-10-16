@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Firelink_Altar
 
 # Firelink Altar (DS1)
 
-right|300px
-
 The Firelink Altar is a location in Dark Souls.
 
 ## Description

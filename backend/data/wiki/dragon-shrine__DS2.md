@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Dragon_Shrine
 
 # Dragon Shrine (DS2)
 
-thumb|350px|Dragon Shrine viewed from the Dragon Aerie.
 The Dragon Shrine is a location in Dark Souls II.
 
 ## Description
@@ -31,18 +30,6 @@ Dragon Aerie
 ## Characters
 
 Ancient Dragon
-
-## Respawning
-
-Drakekeeper
-Dragon Knight
-Dark Priestess (removed in SotFS)
-Mimic (removed in SotFS)
-
-## Non-respawning
-
-Dragonfang Villard
-Greatsword-wielding Dragon Knight
 
 ## Bosses
 

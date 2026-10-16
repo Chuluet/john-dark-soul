@@ -30,23 +30,3 @@ The Royal Rat Vanguard is one of the many loyal subjects of the Rat King, and se
 The boss itself and the normal rats share the same attacks.
 Rearing Bite: The rat rears back and bites. Inflicts poison buildup.
 Lunging Bite: The rat leaps forward and bites. Inflicts poison buildup.
-
-## Defenses
-
-All Rats in the game have the below stats except that physical defense changes slightly, and the Mongrel Rat has only 50% poison resistance.
-
-All rats except the boss have 30% curse resist. The boss has 100% curse resistance. (Stats are from Param Studio and are not estimated)
-
-## Video
-
-thumb|center|400px|How To Beat Royal Rat Vanguard
-
-## Music
-
-https://www.youtube.com/watch?v=yqvt8V_tvaw
-
-Category:Dark Souls II: Optional Bosses
-
-es:Vanguardia Real de las Ratas
-pl:Straż przednia szczurów królewskich
-ru:Боец крысиной гвардии

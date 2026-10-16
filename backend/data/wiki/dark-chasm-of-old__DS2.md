@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Dark_Chasm_of_Old
 
 # Dark Chasm of Old (DS2)
 
-thumb|300px|A player traverses the Dark Chasm of Old located underneath Drangleic Castle.
-thumb|300px|The portal leads you to darkness.
-
 The Dark Chasm of Old (古き闇の穴, Furuki yami no ana) is a location in Dark Souls II. It is only accessible through the Pilgrims of Dark covenant.
 
 ## Overview
@@ -39,11 +36,3 @@ When the player arrives, they should be careful, as they can fall down and die i
 Once he's taken care of, a shade can be found to the left, Undead Prince Ricard in a tunnel straight ahead (which also joins to the left), and a female phantom who inflicts Bleed to the right. The latter is fought in an area with a pit in the center, and it is fairly easy to position her back towards it and attack her until she falls down.
 
 The sconce is on the left path, and the exit pit is on the right, just past the female phantom.
-
-## Achievements/Trophies
-
-Although there is no dedicated Achievement/Trophy for completing the Dark Chasm of Old or defeating the Darklurker, there are two hexes that can only be unlocked through completion of these areas.
-
-Climax is unlocked after completing all three areas of the Dark Chasm of Old and defeating the Darklurker. Return and speak to Darkdiver Grandahl to advance to the third and final rank of the Pilgrims of Dark covenant, whereupon Grandahl will reward the player with this hex.
-
-Lifedrain Patch requires that the player trade the Darklurker Soul and 5,000 Souls to Straid of Olaphis at The Lost Bastille (players will need a Fragrant Branch of Yore to free him if they have not done so first).

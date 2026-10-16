@@ -15,7 +15,7 @@ An ambiguous character with potentially nefarious intentions, his storyline revo
 
 Pate is a treasure hunter who, as his nickname indicates, is known for his gentle and friendly demeanor towards others. Pate is encountered in several locations throughout Drangleic and he will lend his hand to the player in many ways, such as offering his assistance for fighting one of the bosses or pointing the way toward various treasures, not before warning the player, telling them that they will have to overcome several traps ahead if they attempt to get the treasure.
 
-Although Pate may come off as trustworthy, his sinister side is revealed later in the game. His former partner in crime, Creighton of Mirrah, claims that Pate is a deceiving and greedy man, as well as an expert manipulator who uses his charming behavior to trick other people. Creighton alleges that Pete derives pleasure from hurting others, using murder to get all the loot for himself. 
+Although Pate may come off as trustworthy, his sinister side is revealed later in the game. His former partner in crime, Creighton of Mirrah, claims that Pate is a deceiving and greedy man, as well as an expert manipulator who uses his charming behavior to trick other people. Creighton alleges that Pete derives pleasure from hurting others, using murder to get all the loot for himself.
 
 Why Pate helps the player is uncertain, though it could be a ploy to gain the player's trust so that they side with Pate in his final confrontation against Creighton. His "friendliness" seems to mirror Creighton's paranoia and thinly-veiled bloodlust, while both sides ultimately commit similar treachery at the end of their questline.
 

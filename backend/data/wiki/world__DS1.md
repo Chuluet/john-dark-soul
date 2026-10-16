@@ -8,7 +8,6 @@ fuente: https://darksouls.fandom.com/wiki/World
 # World (DS1)
 
 The World of Dark Souls is as rich and vast as it is mysterious.
-650px
 
 ## Locations
 
@@ -78,5 +77,3 @@ Great Swamp
 Thorolund
 Vinheim
 Zena
-Category:Dark Souls
-Category:Dark Souls: Locations

@@ -7,14 +7,13 @@ fuente: https://darksouls.fandom.com/wiki/Dusk_of_Oolacile
 
 # Dusk of Oolacile (DS1)
 
-, also known as Princess Dusk, is a character and merchant in Dark Souls. She is voiced by Emma Pierson, who also voiced Anastacia of Astora.
-__TOC__
+Dusk of Oolacile, also known as Princess Dusk, is a character and merchant in Dark Souls. She is voiced by Emma Pierson, who also voiced Anastacia of Astora.
 
 ## Location
 
 Dusk is trapped inside a Golden Crystal Golem located in an alcove past the Hydra in Darkroot Basin. After defeating the Hydra, players may need to go through a load screen for the golem to spawn.
- After killing the golem, Dusk will be available as a summon sign on the lake shore where the player fought the Hydra, next to a tree in front of the Knight Set loot. Reverse hollowing is not required to summon her (her summon sign vanishes after the Chosen Undead obtains the Broken Pendant).
- Immediately after Manus, Father of the Abyss is defeated, Dusk appears in the arena and can be spoken to, but will vanish if the player leaves the area. Her summon sign will return as before in Darkroot Basin.
+After killing the golem, Dusk will be available as a summon sign on the lake shore where the player fought the Hydra, next to a tree in front of the Knight Set loot. Reverse hollowing is not required to summon her (her summon sign vanishes after the Chosen Undead obtains the Broken Pendant).
+Immediately after Manus, Father of the Abyss is defeated, Dusk appears in the arena and can be spoken to, but will vanish if the player leaves the area. Her summon sign will return as before in Darkroot Basin.
 
 ## Plot
 

@@ -7,12 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Demon_Prince
 
 # Demon Prince (DS3)
 
-|-|Demon in Pain =
-
-|-|Demon from Below =
-
-|-|Demon Prince =
-
 The Demon in Pain and the Demon from Below are dual bosses in Dark Souls III, exclusive to The Ringed City DLC. They are found at the end of The Dreg Heap area, before the access to titular Ringed City.
 
 They are both fought at once with individual health bars; when both are depleted, whichever demon was slain last powers up, regains its health and becomes the Demon Prince who makes up the battle's second phase; depending on which of the two bosses is the last one standing, the Demon Prince will have a different moveset.
@@ -34,8 +28,4 @@ At the end of the Age of Fire, reality has partially collapsed onto itself, gath
 ## Summons
 
 Slave Knight Gael can be summoned to aid in this fight.
- Amnesiac Lapp can be summoned if the player has encountered him at the Earthen Peak Ruins and exhausted his dialogue.
-
-## Music
-
-https://www.youtube.com/watch?v=ozsLo-LOTwg
+Amnesiac Lapp can be summoned if the player has encountered him at the Earthen Peak Ruins and exhausted his dialogue.

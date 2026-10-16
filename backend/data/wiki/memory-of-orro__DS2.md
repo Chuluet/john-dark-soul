@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Memory_of_Orro
 
 # Memory of Orro (DS2)
 
-thumb|400px
 The Memory of Orro is a location in Dark Souls II. It is a fragment of memory of the giant warrior, Orro.
 
 ## Description

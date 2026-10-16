@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Dragon's_Rest
 
 # Dragon's Rest (DS2)
 
-right|300px
 Dragon's Rest is a location in Dark Souls II: Crown of the Sunken King.
 
 ## Description
@@ -48,10 +47,3 @@ Yorgh's Ring (corpse)
 
 Soul of Elana, Squalid Queen
 Soul of Sinh, the Slumbering Dragon
-
-Category:Dark Souls II: Locations
-Category:The Lost Crowns: CotSK
-
-es:Descanso del Dragón
-pl:Odpoczynek Smoka
-ru:Убежище дракона

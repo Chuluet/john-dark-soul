@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Lordran
 
 # Lordran (DS1)
 
-350px|right|Lordran
 Lordran is the setting for Dark Souls.
 
 ## Lore

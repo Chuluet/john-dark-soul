@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Irithyll_of_the_Boreal_Valley
 
 # Irithyll of the Boreal Valley (DS3)
 
-right|350px
 Irithyll of the Boreal Valley is a location in Dark Souls III.
 
 ## Description
@@ -36,27 +35,6 @@ Sirris of the Sunless Realms (summons player via sign)*
 Anri of Astora*
 Black Hand Gotthard
 Londor Pale Shade*
-
-## Respawning
-
-Evangelist
-Corvian
-Deacon
-Fire Witch
-Giant Slave
-Irithyllian Beast-Hound
-Irithyllian Slave
-Pontiff Knight
-Sewer Centipede
-Silver Knight
-
-## Non-respawning
-
-Crystal Lizard (×5)
-Drang Knight (×2)
-Mimic (×1)
-Silver Knight (×3, gallery room near the Distant Manor)
-Sulyvahn's Beast (×3)
 
 ## Invaders
 

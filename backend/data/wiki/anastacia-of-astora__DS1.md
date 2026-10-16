@@ -21,8 +21,8 @@ Initially, she is unable to speak, for her tongue has been removed sometime ago.
 
 If Knight Lautrec of Carim is in Firelink Shrine, he will kill Anastacia when either of the following occurs:
 
- The player rings both Bells of Awakening.
- The player picks up the Fire Keeper Souls in the Undead Parish and in Blighttown.
+The player rings both Bells of Awakening.
+The player picks up the Fire Keeper Souls in the Undead Parish and in Blighttown.
 
 While Anastacia is dead the bonfire in Firelink Shrine is inactive and unusable. She leaves behind the Dingy Set and the Black Eye Orb. The Black Eye Orb is an invasion item, allowing players to find and invade Lautrec's world to defeat him and retrieve Anastacia's Fire Keeper Soul.
 

@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Boss
 
 # Boss (DS1)
 
-thumb|300px|Iron Golem engaging the Chosen Undead.
-
 A boss is a powerful, non-respawning enemy in Dark Souls. Bosses are distinguishable from normal enemies as their name and HP are displayed at the bottom of the screen once encountered, and they are usually on the opposite side of a white fog door.
 
 While players will generally end up fighting most of the bosses, not all of them need to be killed in order to beat the game.

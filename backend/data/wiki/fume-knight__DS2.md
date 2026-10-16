@@ -29,14 +29,6 @@ Fire sword: Second phase only. Raime will slowly swing his sword from the player
 
 Fire orbs: Second phase only. Raime points his greatsword downward and slams it into the ground, emitting an area of effect fire attack. This attack also releases several fire orbs that expand outward from the knight, slowly spreading out as they go. As with the fire sword, this attack is highly damaging and difficult to avoid, especially if the player is close to Raime. The best way to avoid it is to roll back immediately when the player sees Raime turn his greatsword upside down, then wait for the fire orbs to spread out. If the player is far enough back, they can simply step through a gap between two orbs. Can also be rolled under, though one has to be very careful when doing so. Can also be parried using a spell-parry shield.
 
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
 ## Summoning
 
 Steelheart Ellie and Carhillion of the Fold can be summoned for this battle. Ellie's sign is right next to the nearby bonfire, while Carhillion's sign is in front of the fog gate.
-
-## Music
-
-https://www.youtube.com/watch?v=m2eBZjhZ3n8

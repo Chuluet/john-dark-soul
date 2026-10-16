@@ -36,18 +36,3 @@ Horizontal Slash: A simple slash with his sword. 
 Backwards Sweep: A powerful slash that covers his right side and back. Can be followed up with an overhead slam.
 
 Stomp: He will stomp the player once he is under him.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=m1KAsKEmILc
-
-Category:Dark Souls II: Bosses
-Category:Giants (Dark Souls II)
-
-es:Señor de los Gigantes
-pl:Lord olbrzymów
-ru:Повелитель гигантов

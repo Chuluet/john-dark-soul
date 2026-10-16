@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Dragon's_Sanctum
 
 # Dragon's Sanctum (DS2)
 
-right|350px
 Dragon's Sanctum is a location in Dark Souls II: Crown of the Sunken King.
 
 ## Description
@@ -24,19 +23,6 @@ Dragon's Rest
 Hidden Sanctum Chamber: The bonfire is hidden in a secret chamber located on the other side of a gap on the second floor, just as one climbs up the ladder from ground level (floor with spikes). To access this room, the player needs to activate a switch located high above and to the right of the back wall, just as one descends the narrow staircase found in this area.
 Lair of the Imperfect: The bonfire is located in plain sight, in a corner found by first proceeding straight and then slightly to the left as one enters the big flooded cavern inhabited by many Imperfects.
 Sanctum Interior: The third bonfire is hidden behind an illusory wall in the big area that has some dilapidated towers and which leads down to Queen Elana's chamber. This wall can be found on the right side after climbing down a large, broken staircase on the back wall. As reference, two Drakeblood Knights should be visible on the floor below.
-
-## Respawning
-
-Corrosive Egg Insect
-Drakeblood Knight
-Sanctum Knight
-Sanctum Priestess
-Sanctum Soldier
-The Imperfect
-
-## Non-respawning
-
-Jester Thomas (invasion)
 
 ## Miscellaneous
 

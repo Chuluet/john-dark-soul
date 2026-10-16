@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Prince_Ricard
 
 Undead Prince Ricard (不死の王子リカール) is a special enemy in Dark Souls.
 
-__TOC__
-
 ## Location
 
 Prince Ricard is a hollowed enemy found near the top of a tower in the latter half of Sen's Fortress, beyond the Berenike Knight.

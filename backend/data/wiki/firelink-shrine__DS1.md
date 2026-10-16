@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Firelink_Shrine
 
 # Firelink Shrine (DS1)
 
-right|320px
-
 Firelink Shrine is a location in Dark Souls.
 
 The first area visited after the player escapes the Undead Asylum, it serves as the entry point into Lordran for newcomers and a crucial central hub for explorers.
@@ -24,7 +22,7 @@ If any key item (such as a Lord Soul or the Covenant of Artorias) is dropped dur
 This is a list of characters who start at or relocate to Firelink Shrine during the course of the game:
 Crestfallen Warrior: Seated by the bonfire, he will disappear after the player speaks to him once Kingseeker Frampt arrives.
 Anastacia of Astora: The local Fire Keeper, located in a cage at the bottom of the stairs by the Crestfallen Warrior.
-Petrus of Thorolund: Teacher of  miracles, found near the stairs to the elevator.
+Petrus of Thorolund: Teacher of miracles, found near the stairs to the elevator.
 Reah of Thorolund : Teacher of advanced miracles, found near Petrus. Note that she will not offer any spells while at Firelink.
 Vince of Thorolund: Reah's friend and bodyguard who will disappear along with her.
 Nico of Thorolund: Reah's friend and bodyguard who will disappear along with her.
@@ -85,12 +83,3 @@ Pyromancy Flame (Laurentius: gift)
 Talisman (chest)
 Winged Spear (corpse)
 Zweihander (corpse)
-
-## Music
-
-https://www.youtube.com/watch?v=Gjht7acg9d4
-
-de:Feuerband-Schrein (Dark Souls)
-es:Santuario de Enlace de Fuego
-pl:Kaplica Firelink
-ru:Храм Огня

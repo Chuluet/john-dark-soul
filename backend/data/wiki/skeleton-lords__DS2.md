@@ -32,15 +32,3 @@ There are no characters that can be summoned for this fight in the original vers
 In Scholar of the First Sin, the player can summon up to two phantoms for this fight, Bashful Ray and Creighton the Wanderer.
 
 Bashful Ray's summoning sign can be found inside one of the jail huts found between the two Artificial Undead spawn points. Creighton's summoning sign can be found in the cave inhabited by skeletons and necromancers after exhausting his dialogue.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -50% strike means taking 150% damage.Curse Resist is 50%.
-
-## Music
-
-https://www.youtube.com/watch?v=phg_XUUozbM
-
-es:Señores de los Esqueletos
-pl:Lordowie szkieletów
-ru:Повелители скелетов

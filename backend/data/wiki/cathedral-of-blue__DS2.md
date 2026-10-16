@@ -7,14 +7,13 @@ fuente: https://darksouls.fandom.com/wiki/Cathedral_of_Blue
 
 # Cathedral of Blue (DS2)
 
-340px|right
 The Cathedral of Blue is a location in Dark Souls II.
 
 ## Description
 
 The Cathedral of Blue is a small area accessible from Heide's Tower of Flame. The area is a dead end and contains an optional boss, the Old Dragonslayer, and the leader of the Blue Sentinels covenant, Blue Sentinel Targray. A bonfire is also located here, giving Blue Sentinel covenant members easy access to their covenant leader.
 
-To access the Cathedral of Blue, the player must first lower the drawbridge by defeating the Old Knight in front of the cathedral (or Guardian Dragon in ) and activating the switch that appears. Given that the knights will pursue the player all the way to the cathedral, it is generally a good idea to clear them out before attempting to lower the bridge.
+To access the Cathedral of Blue, the player must first lower the drawbridge by defeating the Old Knight in front of the cathedral (or Guardian Dragon in Scholar of the First Sin) and activating the switch that appears. Given that the knights will pursue the player all the way to the cathedral, it is generally a good idea to clear them out before attempting to lower the bridge.
 
 ## Bonfires
 
@@ -53,5 +52,5 @@ Old Dragonslayer Soul (Old Dragonslayer - drop)
 
 ## Weapons
 
-Cleric's Parma (chest) 
+Cleric's Parma (chest) Scholar of the First Sin
 Tower Shield (chest)

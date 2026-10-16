@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Earthen_Peak
 
 # Earthen Peak (DS2)
 
-290px|right
-
 The Earthen Peak is a location in Dark Souls II.
 
 ## Description
@@ -40,18 +38,6 @@ Mild-Mannered Pate
 ## Characters
 
 Crescent Sickle Phantom (DSII only)
-
-## Respawning
-
-Desert Sorceress
-Grave Warden
-Manikin
-Poison Horn Beetle
-Undead Steelworker
-
-## Non-respawning
-
-Mimic
 
 ## Bosses
 
@@ -113,9 +99,3 @@ Mirrah Shield (chest)
 Pike (chest)
 Poison Broadsword (corpse)
 Work Hook (Mimic - crop)
-
-Category:Dark Souls II: Locations
-
-es:Pico terrenal
-pl:Strażnica Żniw
-ru:Земляной Пик

@@ -62,13 +62,46 @@ VISION_MODEL = os.getenv("VISION_MODEL", "qwen2.5vl:3b")
 # Modelo de Whisper para transcribir audio/video (tiny, base, small, medium).
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "small")
 
+# "auto" (GPU si hay, si no CPU), "cuda" o "cpu". La GPU necesita cuBLAS 12 y
+# cuDNN 9: `uv sync --extra gpu` los instala. Si la GPU falla, se usa la CPU.
+WHISPER_DEVICE = os.getenv("WHISPER_DEVICE", "auto")
+
+# Nombres propios que Whisper suele escribir mal ("Framped" en vez de "Frampt").
+# Se aplican a todo el audio, no solo al principio.
+WHISPER_HOTWORDS = os.getenv(
+    "WHISPER_HOTWORDS",
+    "Gwyn, Gwynevere, Gwyndolin, Lordran, Anor Londo, Firelink Shrine, Sen's Fortress, "
+    "Quelaag, Frampt, Kaathe, Ornstein, Smough, Artorias, Seath, Nito, Izalith, Manus, "
+    "Oolacile, Lothric, Lorian, Drangleic, Vendrick, Aldia, Nashandra, Aldrich, Sulyvahn, "
+    "Irithyll, Yhorm, Ludleth, Ashen One, Hollow, Undead",
+)
+
+# Duración de cada bloque de transcripción (cada bloque = una sección citable).
+VIDEO_BLOQUE_SEGUNDOS = _int("VIDEO_BLOQUE_SEGUNDOS", 90)
+
 
 # --- Recuperación y control de alucinaciones -------------------------------
-RETRIEVER_K = _int("RETRIEVER_K", 4)
+RETRIEVER_K = _int("RETRIEVER_K", 5)
+
+# Traduce la pregunta al inglés con LLM_MODEL antes de buscar (la wiki está en
+# inglés) y, en la misma llamada, descarta las que no son de Dark Souls.
+RETRIEVER_TRADUCIR = os.getenv("RETRIEVER_TRADUCIR", "true").lower() not in {"0", "false", "no"}
+
+# Candidatos que se traen de pgvector antes de reordenar y diversificar.
+RETRIEVER_FETCH_K = _int("RETRIEVER_FETCH_K", 40)
+
+# Máximo de fragmentos del mismo archivo en el resultado: evita que una sola
+# página (o el video) ocupe todo el contexto.
+RETRIEVER_MAX_POR_FUENTE = _int("RETRIEVER_MAX_POR_FUENTE", 1)
+
+# Puntos que se suman a un fragmento del juego que detecta la pregunta (y se
+# restan si es claramente de otro). Nunca descarta: la pregunta puede no decir
+# el juego, o decirlo mal.
+RETRIEVER_BONO_JUEGO = _float("RETRIEVER_BONO_JUEGO", 0.08)
 
 # Fragmentos por debajo de este puntaje se descartan; si no queda ninguno,
 # el agente rechaza la pregunta.
-SIMILARITY_THRESHOLD = _float("SIMILARITY_THRESHOLD", 0.5)
+SIMILARITY_THRESHOLD = _float("SIMILARITY_THRESHOLD", 0.46)
 
 
 # --- Autenticación (Keycloak) -----------------------------------------------

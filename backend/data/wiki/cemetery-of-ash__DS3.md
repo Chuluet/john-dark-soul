@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Cemetery_of_Ash
 
 # Cemetery of Ash (DS3)
 
-right|350px
-
 The Cemetery of Ash (灰の墓所 Hai no Bosho, Cemetery of Ash) is the player's starting location in Dark Souls III.
 
 ## Description
@@ -22,17 +20,6 @@ If following Irina of Carim's questline, she and Eygon will appear just beyond t
 ## Adjacent locations
 
 Firelink Shrine
-
-## Respawning
-
-Gravetender Hollow
-Starved Hound
-
-## Non-respawning
-
-Crystal Lizard (×1)
-Ravenous Crystal Lizard
-Sword Master
 
 ## Boss
 
@@ -48,11 +35,3 @@ Soul of an Unknown Traveler / Soul of an Intrepid Hero
 Speckled Stoneplate Ring+1
 Titanite Scale (drop: Ravenous Crystal Lizard)
 Titanite Shard
-
-## Reference
-
-Category:Dark Souls III: Locations
-
-es:Cementerio de Ceniza
-pl:Cmentarz Popiołu
-ru:Кладбище пепла

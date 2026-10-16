@@ -46,18 +46,3 @@ Soul Spear: This attack is executed while she is half burrowed, which only happe
 Stinger Swipe: While the player lingers around the side of her double stingers she will swipe them in the direction of the player. To safely dodge this move, move to her front and the attack will completely miss.
 
 Stinger Slam: If the player is behind her for a while she will slam both stingers into the ground at once.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
--35% thrust means taking 135% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=MRycDbWgAG0
-
-Category:Dark Souls II: Bosses
-
-es:Najka la Escorpión
-pl:Skorpionica Najka
-ru:Скорпион Нажка

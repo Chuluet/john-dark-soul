@@ -13,17 +13,17 @@ The Guardian Dragon is a boss in Dark Souls II.
 
 A thin red drake trapped in a cage in Aldia's Keep. Three are later encountered as non-respawning enemies in Dragon Aerie.
 
-Only in : There is one at Heide's Tower of Flame, in front of the drawbridge leading into the Cathedral of Blue.
+Only in Scholar of the First Sin: There is one at Heide's Tower of Flame, in front of the drawbridge leading into the Cathedral of Blue.
 
 ## Lore
 
-The "Guardian Dragon" is a wyvern that guards the way to Dragon Aerie. Thanks to his experiments and magic, Aldia learned how to control wyverns, commanding this subject to act as a guardian and closing it inside a improvised cage located between his Keep and the Aerie. 
+The "Guardian Dragon" is a wyvern that guards the way to Dragon Aerie. Thanks to his experiments and magic, Aldia learned how to control wyverns, commanding this subject to act as a guardian and closing it inside a improvised cage located between his Keep and the Aerie.
 
 In the ruins of Heide, another "Guardian Dragon" can be found guarding the Cathedral of Blue. It is possible that it is the mount of the Dragonrider who resides nearby in Heide, the elite knights of Vendrick who once rode earth dragons and that would mount wyverns after Aldia learned to control them.
 
 ## Summoning
 
-In , Sellsword Luet can be summoned from the bottom level of the large room with the dragon skeleton.
+In Scholar of the First Sin, Sellsword Luet can be summoned from the bottom level of the large room with the dragon skeleton.
 
 ## Attacks
 
@@ -44,21 +44,3 @@ Aerial Turning Fire Breath: The dragon flies up in the air and breathes fire aro
 Grounded Sweeping Fire Breath: Breathes fire from right to left. Difficult to avoid.
 
 Diagonal Fire Breath: Clings to the wall and breathes fire in a non-sweeping diagonal direction.
-
-## Defenses
-
-Guardian Dragon (boss)
-
- (Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=1KVsJfSiGK8
-
-Category:Dragons
-
-es:Dragón guardián
-pl:Smok strażnik
-ru:Дракон-Страж
-
-Category:Dark Souls II: Minibosses

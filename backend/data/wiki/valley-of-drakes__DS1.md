@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Valley_of_Drakes
 
 # Valley of Drakes (DS1)
 
-thumb|350px
 The Valley of Drakes is a location in Dark Souls.
 
 ## Description
@@ -19,14 +18,6 @@ Home to multiple Wyverns and a slumbering Undead Dragon.
 Blighttown
 Darkroot Basin
 New Londo Ruins
-
-## Respawning
-
-Blue Drake
-
-## Non-respawning
-
-Undead Dragon
 
 ## Armor
 

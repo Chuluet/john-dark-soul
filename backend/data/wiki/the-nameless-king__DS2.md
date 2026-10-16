@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/The_Nameless_King
 
 # The Nameless King (DS2)
 
-thumb|The ruins of an altar to the God of the Sun near Alken 
-At some point the followers of the god of the sun reached Drangleic. In the Harvest Valley, a region under the control of Alken, the remains of an altar that venerated the Nameless King can be found in the form of an exact replica of his ancient statues, implying that the god of the sun was worshipped until the fall of the kingdom. 
+At some point the followers of the god of the sun reached Drangleic. In the Harvest Valley, a region under the control of Alken, the remains of an altar that venerated the Nameless King can be found in the form of an exact replica of his ancient statues, implying that the god of the sun was worshipped until the fall of the kingdom.
 
 The ancient Warriors of Sunlight, as of the time of Drangleic, are either no longer extant or lack the desire to make their presence known. Nevertheless, their very absence has made the tales of their brave deeds all the more alluring. Solaire of Astora's deeds in particular have been memorialized and his artifacts passed down in the cult of the Heirs of the Sun, who continue to act to help other warriors in times of need, following the original philosophy of the cult of the sun and collecting evidence of their successes in the form of ancient medals with the symbol of the sun to honor the most worthy servants of the sun god.
 

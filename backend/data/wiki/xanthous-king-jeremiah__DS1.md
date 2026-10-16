@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Xanthous_King,_Jeremiah
 
 Xanthous King, Jeremiah (黄の王ジェレマイア) is a character and phantom in Dark Souls.
 
-__TOC__
-
 ## Location
 
 Jeremiah invades in the Painted World of Ariamis, near the headstones in the area to the right of Phalanx from the bonfires.

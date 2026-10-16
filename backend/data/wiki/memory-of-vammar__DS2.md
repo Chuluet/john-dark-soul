@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Memory_of_Vammar
 
 # Memory of Vammar (DS2)
 
-thumb|400px
 The Memory of Vammar is a location in Dark Souls II.
 
 ## Description
@@ -23,11 +22,6 @@ Forest of Fallen Giants
 ## Characters
 
 Captain Drummond
-
-## Respawning
-
-Giant (pyromancer)
-Giant (warrior)
 
 ## Items
 

@@ -23,4 +23,4 @@ Should the player defeat his phantom, they will find Leeroy's armor in Gravelord
 
 ## Lore
 
-Paladin Leeroy was the first Undead knight to serve in the Way of White: because how meaningful his presence in the Church's ranks was, his figure was produced and appointed on him by an intense propaganda effort.  Wielding the legendary treasures Grant and Sanctus, relics of the Church which were granted to him for his task, he ventured into Lordran on the first Undead mission of the Way of White.
+Paladin Leeroy was the first Undead knight to serve in the Way of White: because how meaningful his presence in the Church's ranks was, his figure was produced and appointed on him by an intense propaganda effort. Wielding the legendary treasures Grant and Sanctus, relics of the Church which were granted to him for his task, he ventured into Lordran on the first Undead mission of the Way of White.

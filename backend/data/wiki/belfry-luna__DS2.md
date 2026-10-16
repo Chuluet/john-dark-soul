@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Belfry_Luna
 
 # Belfry Luna (DS2)
 
-right|350px
 Belfry Luna is a location in Dark Souls II.
 
 ## Description
@@ -32,13 +31,6 @@ Bell Keepers
 
 Bell Keeper of Alken
 Vorgel the Sinner
-
-## Respawning
-
-Bell Keeper
-Bell Keeper (Dark Spirit)
-Stray Hound
-Darkspirit Stray Hound (only appears in NG+ or by burning a Bonfire Ascetic)
 
 ## Bosses
 

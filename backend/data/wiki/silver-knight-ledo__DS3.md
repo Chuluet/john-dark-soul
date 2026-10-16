@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Silver_Knight_Ledo
 
 # Silver Knight Ledo (DS3)
 
-is a dark spirit in the Dark Souls III: The Ringed City DLC.
+Silver Knight Ledo is a dark spirit in the Dark Souls III: The Ringed City DLC.
 
 ## Location
 

@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Desert_Pyromancer_Zoey
 
 # Desert Pyromancer Zoey (DS3)
 
-is an enemy character in the Dark Souls III: The Ringed City DLC.
+Desert Pyromancer Zoey is an enemy character in the Dark Souls III: The Ringed City DLC.
 
 ## Location
 
@@ -28,4 +28,4 @@ In spite of that good nature, she appears to be mistrustful of outsiders, which 
 ## Artifacts
 
 Flame Fan
- Desert Pyromancer Set
+Desert Pyromancer Set

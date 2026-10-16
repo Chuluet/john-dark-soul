@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Vengarl_of_Forossa
 
 # Vengarl of Forossa (DS2)
 
-Head=
-|-|Body=Vengarl of Forossa is a character  in Dark Souls II. He is voiced by Jason Pitt, who also voiced the Bell Keeper of Alken, Satsuki in Demon's Souls and Valtr, Master of the League in Bloodborne.
+|-|Body=Vengarl of Forossa is a character in Dark Souls II. He is voiced by Jason Pitt, who also voiced the Bell Keeper of Alken, Satsuki in Demon's Souls and Valtr, Master of the League in Bloodborne.
 
 The name refers to two separate entities: the Head of Vengarl, a severed head and friendly merchant, and its headless body, a special enemy named the Body of Vengarl. After the Body is slain, Vengarl as a whole becomes a summonable phantom for up to five boss battles, including for Lud and Zallen in Crown of the Ivory King.
 

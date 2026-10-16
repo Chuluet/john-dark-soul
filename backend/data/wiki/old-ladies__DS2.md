@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Old_Ladies
 
 # Old Ladies (DS2)
 
-right|200px
 Strowen, Morrel, and Griant, known together as the Old Ladies or the Fire Keepers, are characters in Dark Souls II.
 
 They are sisters and Fire Keepers attended by Milibeth the Housekeeper, and welcome newcomers such as the Bearer of the Curse to Drangleic when they pass through Things Betwixt. Their names can only be learned in-game via the Gravestone system, after killing them; Strowen is the specific Old Lady whose services are helpful to the player.

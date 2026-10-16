@@ -37,11 +37,3 @@ Double Strike: Swings his sword twice in a row, sometimes follows up with a jump
 Jumping attack: Leaps towards the player and plunges his sword in the ground for a while. May decide to do an AoE explosion attack or simply take the sword out of the ground.
 Flame Aura: After some health has been taken off the demon, will start an animation and buff himself up. This buff gives a flame aura that does damage while the player is really close to the demon.
 Fire Blade: Stabs his belly with his sword and imbues it with fire.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -10% strike means taking 110% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=rxQyt1o3jR0

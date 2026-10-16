@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Centipede_Demon
 
 Centipede Demon (百足のデーモン) is an optional boss in Dark Souls.
 
-__TOC__
-
 ## Location
 
 The Centipede Demon is found in the Demon Ruins, specifically in the lower levels of the area.
@@ -29,19 +27,13 @@ The Chosen Undead encountered the Centipede Demon in the Demon Ruins and slayed 
 
 At long range, the Centipede Demon throws its right arm at the player, dealing substantial damage if it connects. The Centipede Demon will only track the player until halfway through its charging animation. Otherwise, it is easily side-dodged if timed properly.
 
-center
-
 ## Wind-Up Smash
 
 This medium-range attack can be avoided with a precisely timed roll. Players will see the Centipede Demon jump whilst spinning in preparation for a ground smash using one of its heads.
 
-center
-
 ## Swipe
 
 The Centipede Demon will swipe at the ground with its hand. This can be avoided by rolling under it or running away.
-
-center
 
 ## Consume
 
@@ -49,25 +41,17 @@ A swipe with its left arm. If it connects, grabs the player and devours them wit
 
 An attentive player may either avoid or take minimal damage by rapidly mashing the left and right-hand light attack buttons immediately as the player is grabbed, breaking free of the demon's grasp.
 
-center
-
 ## High Jump
 
 The Centipede Demon leaps into the air and brings its vast weight down nearly exactly where it jumped from. Extremely damaging, yet simple to avoid — move away when it jumps. The Centipede Demon tends to roar after this attack, leaving it vulnerable.
-
-center
 
 ## Lava Trample
 
 If the player consistently stays near its Achillies tendon or back, the Centipede Demon will stomp its feet one foot to the other foot to take moderate damage for the player.
 
-center
-
 ## Exploding Jump
 
 When the Centipede Demon's health is low, it will often leap into the air and throw a giant fireball at the ground. It deals high fire damage and has a wide area of effect.
-
-center
 
 ## Thrash
 
@@ -77,14 +61,6 @@ Wildly swings its arm and tail in a circle around itself.
 
 Throws two fireballs from its back. Only performed when player is at extreme range.
 
-center
-
 ## Demon Head Bug
 
 Chopping off the Centipede Demon's tail or arm will have the severed appendage crawl and bite at the player. While not especially threatening, it can prove a fatal distraction if not dispatched quickly. Up to five heads can chase after the player.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=cTklxS0kdm4

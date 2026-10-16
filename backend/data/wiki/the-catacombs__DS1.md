@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/The_Catacombs
 
 # The Catacombs (DS1)
 
-right|350px
 The Catacombs is a location in Dark Souls. It can be reached via the graveyard near Firelink Shrine. It leads to the Tomb of the Giants.
 
 ## General information
@@ -27,23 +26,9 @@ Gravelord Servant - Although technically within the Tomb of the Giants, players 
 
 ## Characters
 
-Patches - Found at the switch next to the second bonfire. Has a mini-event associated with him here (click his link for more information). Appears here only if Reah and her company have not yet left Firelink Shrine and if Pinwheel hasn't been defeated. 
+Patches - Found at the switch next to the second bonfire. Has a mini-event associated with him here (click his link for more information). Appears here only if Reah and her company have not yet left Firelink Shrine and if Pinwheel hasn't been defeated.
 Vamos (merchant and blacksmith) - He can be found after falling to his location from above. He will open a shortcut to the valley of Bonewheel Skeletons.
 Paladin Leeroy (White Phantom) - His sign is found on a ledge close to the boss room; it can only be reached by falling from above.
-
-## Respawning
-
-Bonewheel Skeleton
-Skeleton Swordsmen
-Wisp
-
-## Non-respawning
-
-Black Knight
-Crystal Lizard x2
-Giant Skeleton
-Necromancer
-Titanite Demon
 
 ## Bosses
 

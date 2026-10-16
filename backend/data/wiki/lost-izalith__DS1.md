@@ -7,10 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Lost_Izalith
 
 # Lost Izalith (DS1)
 
-thumb|382x382px
 Lost Izalith is a location in Dark Souls. It is found beyond the Centipede Demon's room, or right before the Demon Firesage if you activate the Chaos Servant shortcut.
-
-__TOC__
 
 ## Description
 
@@ -34,19 +31,6 @@ Solaire of Astora
 Daughter of Chaos
 Kirk, Knight of Thorns (Red Phantom)
 Solaire of Astora (if wearing the Sunlight Maggot)
-
-## Respawning
-
-Chaos Eater
-Chaos Bug
-Demonic Statue
-Titanite Demon
-
-## Non-respawning
-
-Bounding Demons of Izalith
-Crystal Lizard
-Four Chaos Eaters related to Siegmeyer's quest
 
 ## Bosses
 

@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Oolacile_Sanctuary
 
 # Oolacile Sanctuary (DS1)
 
-right|300px
 The Oolacile Sanctuary is a location in Dark Souls, but can only be accessed in the Artorias of the Abyss DLC.
 
 ## Description

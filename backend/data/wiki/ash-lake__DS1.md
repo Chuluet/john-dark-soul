@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Ash_Lake
 
 # Ash Lake (DS1)
 
-right|350px
 Ash Lake is a location in Dark Souls.
 
 ## Description
@@ -30,16 +29,6 @@ Sieglinde of Catarina
 Siegmeyer of Catarina (cannot interact)
 Stone Dragon
 
-## Respawning
-
-Basilisk
-Giant Clam
-Mushroom Parent
-
-## Non-Respawning
-
-Black Hydra
-
 ## Miracles
 
 Great Magic Barrier (Corpse)
@@ -58,11 +47,3 @@ Titanite Slab (Sieglinde of Catarina - Gift for Siegmeyer's questline)
 ## Weapons
 
 Dragon Greatsword (Stone Dragon - Sever tail)
-
-## Music
-
-https://www.youtube.com/watch?v=3bWizcifhRI
-
-es:Lago de la Ceniza
-pl:Popielne Jezioro
-ru:Озеро Золы

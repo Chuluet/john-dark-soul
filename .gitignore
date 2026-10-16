@@ -18,7 +18,7 @@ build/
 .idea/
 .DS_Store
 
-   # Archivos pesados de la base de conocimiento
-   backend/data/wiki/*.mp4
-   backend/data/wiki/*.mp3
-   data/embeddings.dump
+# Archivos pesados de la base de conocimiento
+backend/data/wiki/*.mp4
+backend/data/wiki/*.mp3
+data/embeddings.dump

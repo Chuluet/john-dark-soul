@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Purgatory
 
 # Undead Purgatory (DS2)
 
-right|368px
 The Undead Purgatory is a location in Dark Souls II.
 
 ## Description

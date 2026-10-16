@@ -7,11 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Painted_World_of_Ariamis
 
 # Painted World of Ariamis (DS1)
 
-right|350px
-
 The Painted World of Ariamis (エレーミアス絵画世界) is an optional location in Dark Souls, accessible through Anor Londo.
-
-__TOC__
 
 ## Description
 
@@ -31,7 +27,6 @@ If Priscilla is attacked, attempting to leave by jumping off the ledge will resu
 
 ## Lore
 
-thumb|The painting containing the Painted World of Ariamis. 
 The Painted World of Ariamis, as the name suggests, was created by Ariamis. Painting Guardians were ordered to protect it through generations, however, at some point, the Guardians were not able to recall the reason for doing so.
 
 The Painted World of Ariamis was created as a sanctuary for Crossbreed Priscilla, so that she could be left alone. The key to entering this land is the Peculiar Doll. Once considered an abomination which has no place in this world, Priscilla clutched this doll tightly and was eventually drawn into the lonely, painted world. This abomination was the birth of the Dragon Crossbreed, which is considered a bastard child. She was considered an abomination because the gods of Anor Londo feared her Lifehunt ability, seen as the antithesis of all life and a threat to their immortality.
@@ -49,20 +44,6 @@ Black Phantom Xanthous King, Jeremiah will invade unhollowed players that ventur
 ## Characters
 
 Xanthous King, Jeremiah (Black Phantom)
-
-## Respawning
-
-Berenike Knight
-Bonewheel Skeleton
-Crow Demon
-Engorged Zombie
-Phalanx
-Snow Rat
-Hollow
-
-## Non-respawning
-
-Undead Dragon
 
 ## Boss
 

@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Judicator_Argo
 
 # Judicator Argo (DS3)
 
-is a character and special enemy in the Dark Souls III: The Ringed City DLC.
+Judicator Argo is a character and special enemy in the Dark Souls III: The Ringed City DLC.
 
 He is voiced by Pete Gallagher.
 

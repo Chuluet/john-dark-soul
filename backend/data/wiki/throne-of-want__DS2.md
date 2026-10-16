@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Throne_of_Want
 
 # Throne of Want (DS2)
 
-right|300px
 The Throne of Want (渇望の玉座, Katsubō no gyokuza) is a location in Dark Souls II.
 
 ## Description
@@ -22,7 +21,7 @@ The Throne of Want serves as a means to link the First Flame, in a way similar t
 
 While it’s exact origins are unknown, the structure and ashes surrounding the Throne imply that it is much more ancient than the Kingdom of Drangleic.
 
-According to Vendrick and Nashandra, once Vendrick sougth the fire, for he believed that by linking it he could end the Undead Curse. But he would later discover that this was a lie, since the flame would fade again and the curse return every time, he then refused to sit on the Throne and decided to search for a permanent way to end the curse. 
+According to Vendrick and Nashandra, once Vendrick sougth the fire, for he believed that by linking it he could end the Undead Curse. But he would later discover that this was a lie, since the flame would fade again and the curse return every time, he then refused to sit on the Throne and decided to search for a permanent way to end the curse.
 
 At a certain moment during his reign, Nashandra came to Drangleic, she coveted the Throne of Want and the power of the First Flame, and seduced Vendrick in order to use him as a means to accomplish her goal, becoming his queen.
 
@@ -47,8 +46,3 @@ Aldia, Scholar of the First Sin
 Benhart of Jugo
 Bradley of the Old Guard
 Vengarl of Forossa
-Category:Dark Souls II: Locations
-
-es:Trono del querer
-pl:Tron pragnień
-ru:Трон Желания

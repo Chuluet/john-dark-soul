@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Doors_of_Pharros
 
 # Doors of Pharros (DS2)
 
-thumb|300px
 The Doors of Pharros is a location in Dark Souls II.
 
 ## Description
@@ -32,19 +31,6 @@ Ordeal's End: The room past the first bonfire is the domain of the Rat King, tra
 
 Lonesome Gavlan
 Rat King
-
-## Respawning
-
-Gyrm Warrior
-Gyrm
-Primal Knight
-Dog Rat
-
-## Non-respawning
-
-Mimic
-Crystal Lizard
-Bowman Guthry
 
 ## Boss
 

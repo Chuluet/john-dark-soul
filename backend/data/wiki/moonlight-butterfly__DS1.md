@@ -27,34 +27,20 @@ It is possible to theorize that Seath used a human as the basis to create the Mo
 
 ## Magic Bolt Spread
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed0 195 0 0MagicNoneNoBothMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed0 195 0 0MagicNoneNoBothMedium
 
 ## Homing Soul Mass
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed0 270 0 0MagicNoneNoBothMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed0 270 0 0MagicNoneNoBothMedium
 
 ## Moonlight Beam
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed0 375 0 0MagicNoneNoNeitherMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed0 375 0 0MagicNoneNoNeitherMedium
 
 ## Charged Explosion
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed0 360 0 0MagicNoneNoNeitherMedium
-
-center
+Attack TypeStatusParryableTrackingSpeed0 360 0 0MagicNoneNoNeitherMedium
 
 ## Soul Sphere
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeStatusParryableTrackingSpeed0 363 0 0MagicNoneNoBothMedium
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=7akAeZR5Ubw
+Attack TypeStatusParryableTrackingSpeed0 363 0 0MagicNoneNoBothMedium

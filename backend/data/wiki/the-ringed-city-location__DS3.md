@@ -7,13 +7,11 @@ fuente: https://darksouls.fandom.com/wiki/The_Ringed_City_(Location)
 
 # The Ringed City (Location) (DS3)
 
-right|350px
-
 The Ringed City (輪の都, Wa no Miyako, lit. 'Ringed Capital) is a location in Dark Souls III: The Ringed City.
 
 ## Description
 
-The Ringed City is said to be located at world's end. Despite the First Flame fading, there is still a sun in the sky. 
+The Ringed City is said to be located at world's end. Despite the First Flame fading, there is still a sun in the sky.
 The cathedral at the centre of the city protects the sleep of Princess Filianore and hides the Dark Soul.
 
 ## Adjacent locations
@@ -29,24 +27,6 @@ Amnesiac Lapp
 Filianore
 Pygmy King
 Shira, Knight of Filianore
-
-## Respawning
-
-Harald Legion Knight
-Hobbled Cleric
-Judicator Giant (Judicator Argo)
-Ringed Knight
-Ruin Knight (summon)
-Silver Knight Ledo (dark spirit and summon)
-Skeleton
-Undead Cleric
-White-faced Locust
-Zullie the Witch (summon)
-
-## Non-respawning
-
-Iron Dragonslayer
-Mimic
 
 ## Bosses
 
@@ -67,7 +47,7 @@ Titanite Chunk (×2)
 Titanite Scale (×2)
 One is found immediately behind the landing zone where the Batwing Demons drop the player.
 One is dropped by a Crystal Lizard in the ruins adjacent to the grave gauntlet.
-Twinkling Titanite  (drop: Crystal Lizard)
+Twinkling Titanite (drop: Crystal Lizard)
 
 ## Ringed Inner Wall
 

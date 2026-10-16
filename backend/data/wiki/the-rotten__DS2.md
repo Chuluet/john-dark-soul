@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/The_Rotten
 
 # The Rotten (DS2)
 
-is a boss in Dark Souls II.
+The Rotten is a boss in Dark Souls II.
 
 ## Description
 
@@ -20,7 +20,7 @@ The Rotten is in the Black Gulch. After seemingly failing to put a statue’s he
 ## Summoning
 
 Lone Hunter Schmidt can be summoned for this battle outside the boss fight underneath the Giant shortcut.
-In , his summoning sign has been moved to just before the two Razorback Nightcrawlers.
+In Scholar of the First Sin, his summoning sign has been moved to just before the two Razorback Nightcrawlers.
 Lucatiel of Mirrah can also be summoned in the Hidden Chamber bonfire room, but only after speaking to her beforehand. She can physically be found by falling off and landing on a ledge just outside the first bonfire; use a torch to see the ledge clearly. After falling, follow the path to her – it also leads to the raised area with the poison-spitting statues. The ledge that one falls on should not be confused with the later ledge with a door that can be opened with the Forgotten Key (that leads to Darkdiver Grandahl) and the two Giants.
 In Scholar of the First Sin, Bashful Ray can also be summoned. His summon sign is found near the Razorback Nightcrawlers next to Lone Hunter Schmidt's summoning sign.
 
@@ -38,15 +38,3 @@ Oil Vomit: Vomits and douses the player with two blobs of oil. If the player the
 Dark Aura Explosion: Charges up with a Dark aura around him and explodes in an area of effect radius.
 Dark Knife Slam: Slams his knife in the same manner as the normal Knife Slam, but fires off a Dark attack upon hitting the ground.
 Grab: Grabs the player with the free hand, then twists with both hands like drying a towel. Unblockable and inflicts heavy damage.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -35% thrust means taking 135% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=B2YiJX3xnLM
-
-es:El Podrido
-pl:Przegniły
-ru:Гниющий

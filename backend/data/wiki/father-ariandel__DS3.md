@@ -17,8 +17,7 @@ He is bound and tied to a chair where he sinks his head inside a large Lordvesse
 
 ## Lore
 
-thumb|279x279px|Father Ariandel became furious when Friede died and was willing to reignite the flame to bring her back.
-Father Ariandel is the keeper of the Painted World of Ariandel, thought to have been the most recent one to restore it after the Painted World of Ariamis rotted away. When he met the Unkindled Sister Elfriede, she convinced him to forgo the destruction of his rotting world, and to stifle the flame that would burn it to be replaced by a new world by the next restorer, choosing to rot together 
+Father Ariandel is the keeper of the Painted World of Ariandel, thought to have been the most recent one to restore it after the Painted World of Ariamis rotted away. When he met the Unkindled Sister Elfriede, she convinced him to forgo the destruction of his rotting world, and to stifle the flame that would burn it to be replaced by a new world by the next restorer, choosing to rot together
 
 He constantly flails himself, bleeding onto the flame, to prevent the fire from burning his world, for he used blood in the restoration, and only that blood could prevent the fire from blazing again. When Friede's blood flows to the bowl containing the flame, the sight of her corpse enrages Father Ariandel, causing him to break free and strike the bowl against her unkindled blood to spark the flame and revive her by restoring her ember as an unkindled.
 

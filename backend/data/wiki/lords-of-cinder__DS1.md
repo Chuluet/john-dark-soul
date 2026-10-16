@@ -7,11 +7,11 @@ fuente: https://darksouls.fandom.com/wiki/Lords_of_Cinder
 
 # Lords of Cinder (DS1)
 
-The  are characters who have linked the First Flame throughout the history of the Dark Souls universe. 
+The are characters who have linked the First Flame throughout the history of the Dark Souls universe.
 
-To "link the First Flame" is to reach it, be powerful enough to withstand its power, and rekindle the flame anew; it is done in order to stop the First Flame from withering out and dying, a process that occurs naturally over time and would mean both the end of the Age of Fire and the coming of an Age of Dark. To attempt to link the flame, one must typically reach the kiln built around the First Flame and defeat the empty husk of the previous Lords of Cinders guarding it against those not worthy of its power. 
+To "link the First Flame" is to reach it, be powerful enough to withstand its power, and rekindle the flame anew; it is done in order to stop the First Flame from withering out and dying, a process that occurs naturally over time and would mean both the end of the Age of Fire and the coming of an Age of Dark. To attempt to link the flame, one must typically reach the kiln built around the First Flame and defeat the empty husk of the previous Lords of Cinders guarding it against those not worthy of its power.
 
-The original Lord of Cinder was Gwyn, although more would link the flame and extend the Age of Fire in subsequent eras. Becoming a Lord of Cinder entails a sacrifice, as the Lord is consumed by the First Flame in the process. After Gwyn linked the flame, only his mere husk defended it; with each subsequent linking of the Flame, remnants of each new Lord of Cinder would merge with the previous ones' and strengthen the First Flame's guardian, eventually taking the form of the Soul of Cinder. 
+The original Lord of Cinder was Gwyn, although more would link the flame and extend the Age of Fire in subsequent eras. Becoming a Lord of Cinder entails a sacrifice, as the Lord is consumed by the First Flame in the process. After Gwyn linked the flame, only his mere husk defended it; with each subsequent linking of the Flame, remnants of each new Lord of Cinder would merge with the previous ones' and strengthen the First Flame's guardian, eventually taking the form of the Soul of Cinder.
 
 Throughout history, countless aspiring Lords were lost attempting to reach the Flame; among those who succeeded, some ultimately lacked the strength to withstand its power, and were burned to ash by the Flame instead of linking it. These individuals came to be known as Unkindled: ill-fated champions who were buried in the Cemetery of Ash, a graveyard which scarcely saw any visitors.
 
@@ -28,5 +28,5 @@ By the events of Dark Souls III, Prince Lothric, who was raised to become a Lord
 Although the system that managed the linking of the First Flame had rung the bells to resurrect the past Lords of Cinder when needed, not all of them have awakened from their resting places. Consequently, once the Flame eventually goes out, at some point these Lords of Cinder from the past will rise again and wander the lands like tiny flames. These beings will possess fragments of the First Flame stored within their bodies in the form of cinders, giving them the powers of the Flame in a world that will be enveloped in Darkness.
 
 Gwyn, Lord of Cinder: One of the possessors of the primordial Lord Souls and king of the gods. He linked the First Flame to prolong the Age of Fire, becoming the first Lord of Cinder.
- Chosen Undead: A human who followed the prophecy of the Chosen Undead and ended up in Lordran, overcame multiple challenges and gathered powerful souls before gaining access to the Kiln of the First Flame.
- Solaire of Astora (In his own time/world)
+Chosen Undead: A human who followed the prophecy of the Chosen Undead and ended up in Lordran, overcame multiple challenges and gathered powerful souls before gaining access to the Kiln of the First Flame.
+Solaire of Astora (In his own time/world)

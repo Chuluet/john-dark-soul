@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/The_Lost_Bastille
 
 # The Lost Bastille (DS2)
 
-350px|right
 The Lost Bastille is a location in Dark Souls II.
 
 ## Description
@@ -40,21 +39,8 @@ Exile Holding Cells: From the Servant's Quarters bonfire, exit the room with the
 Steady Hand McDuff
 Lucatiel of Mirrah
 Pilgrim Bellclaire
-Felicia the Brave 
+Felicia the Brave Scholar of the First Sin
 Straid of Olaphis
-
-## Respawning
-
-Bell Keeper
-Royal Swordsman
-Stray Hound
-Undead Citizen
-Undead Jailer
-
-## Non-respawning
-
-Heide Knight (not present in SotFS)
-The Pursuer
 
 ## Boss
 

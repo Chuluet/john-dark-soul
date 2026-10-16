@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Irithyll_Dungeon
 
 # Irithyll Dungeon (DS3)
 
-right|350px
 The Irithyll Dungeon is a location in Dark Souls III.
 
 ## Description
@@ -16,7 +15,7 @@ Irithryll Dungeon serves as a transit area between Irithyll of the Boreal Valley
 
 ## Lore
 
-Irithyll Dungeon serves as a prison, which the  Jailers guard for Pontiff Sulyvahn, after having survived the destruction of the Profaned Capital. They loiter throughout the prison, wielding branding iron as a weapon against foes. The dungeon's first prisoner was the Giant Slave, residing to this day in his cell; then cells for humans were built. Irithyll Dungeon appears as a harsh place. It is described as a catacombs, of which escape is possible only by a small, barred window leading to an empty black pit, as it was the Jailers' cruel joke on escapees. Jailer Handmaids, encountered later at the Profaned Capital, are said to take pleasure in wounding others. Karla, imprisoned in Irithyll Dungeon, at first mistakes the Ashen One asone of them surrounding her cell, described as skinny little heretics. She warns thr player that this is the land of monstrosities. Screams can be heard from cells. Prisoners were kept captive for no reason, and most have become Hollows. The prisoner chief has never left the prison, unable to use all the items he was storing in his cell.
+Irithyll Dungeon serves as a prison, which the Jailers guard for Pontiff Sulyvahn, after having survived the destruction of the Profaned Capital. They loiter throughout the prison, wielding branding iron as a weapon against foes. The dungeon's first prisoner was the Giant Slave, residing to this day in his cell; then cells for humans were built. Irithyll Dungeon appears as a harsh place. It is described as a catacombs, of which escape is possible only by a small, barred window leading to an empty black pit, as it was the Jailers' cruel joke on escapees. Jailer Handmaids, encountered later at the Profaned Capital, are said to take pleasure in wounding others. Karla, imprisoned in Irithyll Dungeon, at first mistakes the Ashen One asone of them surrounding her cell, described as skinny little heretics. She warns thr player that this is the land of monstrosities. Screams can be heard from cells. Prisoners were kept captive for no reason, and most have become Hollows. The prisoner chief has never left the prison, unable to use all the items he was storing in his cell.
 
 One of the prisoners are Wretches. These dragon-like creatures are mutilating themselves, so their screams of agony are being heard in the whole dungeon. They are said to be wretched and failed attempts at becoming Dragons. They are the only enemies that drop Pale Pine Resin, said to contain bloody red substance apparently showing there's more to it than just resin. One of the Wretches is protecting a Simple Gem, an object of fascination to stunted ones, which further suggests some kind of failure or deformation afflicting Wretches.
 
@@ -32,26 +31,6 @@ Profaned Capital
 
 Karla
 Siegward of Catarina
-
-## Respawning
-
-Basilisk
-Cage Spider
-Corpse Grub
-Giant Hound Rat
-Hound Rat
-Infested Corpse
-Jailer
-Lycanthrope
-Peasant Hollow
-Reanimated Corpse
-Wretch
-
-## Non-respawning
-
-Crystal Lizard (×2)
-Mimic (×4)
-Giant Slave
 
 ## Invaders
 

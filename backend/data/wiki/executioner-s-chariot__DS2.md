@@ -45,18 +45,4 @@ Stomp: Rears up on its hind legs, and crashes down on the player. Has moderate t
 Headbutt: The horse swings its head left or right, hitting the player for low damage. Usually executes this attack when the player is at close range, can be easily blocked.
 Back Kick: Using its hind legs to kick the player, normally if the player is near its rear or side arc. Unblockable and deals high damage and knockback, but has relatively short range and can be evaded by backing away.
 Charge: The horse lowers both its heads, then charges at the player. Unblockable and deals high damage and knockback. It can perform this attack at any range, but the attack can be dodged by rolling to the side, giving players an opportunity to counterattack.
-Defenses(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=8dV4NTEtRyc
-
-Category:Dark Souls II: Enemies
-Category:Dark Souls II: Bosses
-Category:Dark Souls II: Optional Bosses
-
-es:Carro del Verdugo
-ja:処刑人チャリオット
-pl:Rydwan kata
-ru:Колесница палача
-Category:Dark Souls II: Minibosses
+Defenses

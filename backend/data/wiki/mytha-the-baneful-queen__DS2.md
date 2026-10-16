@@ -30,14 +30,14 @@ A man that is believed to have loved her followed alongside. However, as she was
 ## Theory
 
 It's possible that the poison which turned Mytha into a snake-woman is the same absorbed and later released by Sinh.
- Snakes are failed-to-be dragons, and some of their descendants. Therefore, Mytha could have achieved an imperfect dragon-form by absorbing the poison released by Sinh.
- For her bossfight, we can summon Jester Thomas, which was Elana's personal jester; this may imply that somehow Mytha's operations are interfering with Elana's plans.
+Snakes are failed-to-be dragons, and some of their descendants. Therefore, Mytha could have achieved an imperfect dragon-form by absorbing the poison released by Sinh.
+For her bossfight, we can summon Jester Thomas, which was Elana's personal jester; this may imply that somehow Mytha's operations are interfering with Elana's plans.
 
 ## Summoning
 
 Jester Thomas can be summoned from a sign just to the right of two Grave Wardens outside the corridor to Mytha's fog gate. He is a ranged ally, dual-wielding two pyromancy flames. His powerful fireballs can often cause Mytha to focus completely on him, leaving her defenseless against attacks from behind. He can defeat her all by himself.
 
-In , two additional summons are available: Devotee Scarlett and Bashful Ray, below and above Central Earthen Peak, respectively.
+In Scholar of the First Sin, two additional summons are available: Devotee Scarlett and Bashful Ray, below and above Central Earthen Peak, respectively.
 
 ## Attacks
 
@@ -56,11 +56,3 @@ Arrow Spread Shot: The Queen raises her severed head and shoots out multiple bo
 Retreating Swipe: Mytha slashes horizontally with her spear while leaping backward.
 
 Head Bomb: Mytha throws her severed head in front of her and it explodes after a short delay. Be sure to dodge the attack as it can do very high damage.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -20% thrust means taking 120% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=HrkUOrsrTVA

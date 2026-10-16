@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/New_Londo_Ruins
 
 # New Londo Ruins (DS1)
 
-right|350px
 New Londo Ruins (小ロンド遺跡, Ruins of Small Londo), is a location in Dark Souls.
 
 ## Description
@@ -18,9 +17,9 @@ The area is highly dangerous: ghosts will constantly ambush the player from wall
 
 There are no bonfires in the New Londo Ruins, the closest being Firelink Shrine. The area's unique threats make death costly in terms of time and effort, so careful preparation and progression is necessary. Fortunately, the area has numerous shortcuts that can be unlocked to make the journey easier in time.
 
-New Londo was a small country of humans close to Anor Londo, the city of the gods. When the Four Kings, the great leaders of the land  were recognized for their abilities and foresight, Gwyn, Lord of Sunlight rewarded them with a fragment of his powerful Lord Soul and the title of kings, using his power to bind and hold close to him the powerful humans, as the god also allowed them to build their civilization near his city. Over time their city of humans grew to host countless lives and becoming a robust and flourishing culture. The advanced civilization even managed to develop healing sorceries that reduced bleeding and poisoning, like Remedy, an art unique to New Londo that was practiced by sorcerers called Healers. However, at some point, the First Flame began to fade out, leading to the emergence of the Curse of Undeathbut the city continued to exist and function as an Undead city, implying a good governance by the Four Kings who managed to adapt to the change.
+New Londo was a small country of humans close to Anor Londo, the city of the gods. When the Four Kings, the great leaders of the land were recognized for their abilities and foresight, Gwyn, Lord of Sunlight rewarded them with a fragment of his powerful Lord Soul and the title of kings, using his power to bind and hold close to him the powerful humans, as the god also allowed them to build their civilization near his city. Over time their city of humans grew to host countless lives and becoming a robust and flourishing culture. The advanced civilization even managed to develop healing sorceries that reduced bleeding and poisoning, like Remedy, an art unique to New Londo that was practiced by sorcerers called Healers. However, at some point, the First Flame began to fade out, leading to the emergence of the Curse of Undeathbut the city continued to exist and function as an Undead city, implying a good governance by the Four Kings who managed to adapt to the change.
 
-After Gwyn sacrificed himself to link the fading First Flame, the Primordial Serpent Kaathe began searching for a human strong enough to become the Dark Lord capable of leading humans and ushering in an Age of Dark. At some point Kaathe arrived in New Londo and managed to seduce the Four Kings to follow his ideals, teaching them the art of Lifedrain so that they could preserve their humanity even while Undead and so cast off the shackles placed upon them by the gods. But his dark influence did not stop with the kings; in fact, their entire army followed them. The knights of New Londo became Darkwraiths, servants of the Dark who learned the art of Lifedrain and used it to absorb humanity. As the Four Kings' were able to open an Abyss in the center of their city, their very bodies were mutated by their freed Dark Soul and the Darkwraiths' armor transformed too as they began to employ the Red Eye Orbs granted by Kaathe to seek humanity and plunge further into the powers of the Dark, 
+After Gwyn sacrificed himself to link the fading First Flame, the Primordial Serpent Kaathe began searching for a human strong enough to become the Dark Lord capable of leading humans and ushering in an Age of Dark. At some point Kaathe arrived in New Londo and managed to seduce the Four Kings to follow his ideals, teaching them the art of Lifedrain so that they could preserve their humanity even while Undead and so cast off the shackles placed upon them by the gods. But his dark influence did not stop with the kings; in fact, their entire army followed them. The knights of New Londo became Darkwraiths, servants of the Dark who learned the art of Lifedrain and used it to absorb humanity. As the Four Kings' were able to open an Abyss in the center of their city, their very bodies were mutated by their freed Dark Soul and the Darkwraiths' armor transformed too as they began to employ the Red Eye Orbs granted by Kaathe to seek humanity and plunge further into the powers of the Dark,
 
 A nation of humans was now freed from the shackles of the Darksign and not only began to understand the powers of their Dark Soul but had an entire army at their disposal that shared this power. This represented an unparalleled threat to the gods of Anor Londo who branded the Darkwraiths as diabolical enemies of man and of every living thing. For this reason Artorias, one of the Four Knights of Gwyn, was sent to fight the soldiers of New Londo and was given a Silver Pendant to deflect the Dark of the Abyss in its magical forms. However this did not prove sufficient to cross the Abyss of the Four Kings and Artorias was forced to forge a covenant with the "beasts of the Abyss", obtaining a ring that would allow him to cross the Abyss but also cursing his Greatsword. Artorias thus became known as the "Abysswalker" and hunted the Darkwraiths but failed to eliminate the Four Kings and thus eliminate the Abyss of New Londo.
 
@@ -43,17 +42,6 @@ Witch Beatrice - White Phantom.
 ## Characters
 
 Crestfallen Warrior (hollowed)
-
-## Respawning
-
-Banshee
-Ghost
-Darkwraith
-
-## Non-respawning
-
-Mass of Souls
-Wisp
 
 ## Bosses
 

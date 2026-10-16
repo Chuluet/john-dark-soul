@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Ruin_Sentinels
 
 # Ruin Sentinels (DS2)
 
-The Lost Bastille =
-
-|-|Drangleic Castle =
 The Ruin Sentinels are an optional trio of bosses in Dark Souls II. Respectively named Ruin Sentinel Alessia, Ruin Sentinel Ricce and Ruin Sentinel Yahim, the boss versions are all technically fought at once, although it is possible to first face Yahim one-on-one without the others involved.
 
 Avoiding the boss fight will leave the player unable to access Belfry Luna or turn the lights on for the Lost Sinner fight. Additionally, five respawning Ruin Sentinels appear in Drangleic Castle in adjacent locked rooms.
@@ -46,11 +43,3 @@ Spin: If the Sentinel is not within attack range of the player, they may crouch 
 Running Lunge: Performed only by the Ruin Sentinels in the Lost Bastille. If there is a fair amount of distance between the player and the Sentinel, they may run at the player and perform a two-handed thrust attack. It is recommended to try to dodge to the side against this attack, as their forward momentum gives them very good reach which can catch players who try to back away. This attack deals a moderate amount of damage, but leaves the Sentinel vulnerable to follow-up.
 Leap Slam: When the player has made some distance, the Sentinel will crouch down slightly and then perform a leap toward the player, slamming their weapon overhead into the ground with one hand. Can be dodged by running or rolling to the side, and has a long recovery time that allows players to freely inflict damage on the Sentinel. Beware that at close range, a Sentinel may backstep into a Leap Slam, so simply being close to a Ruin Sentinel is no guarantee that they will not perform this attack.
 Somersaulting Smash: Performed only by the Ruin Sentinels in the Lost Bastille. After discarding their shields, the Sentinels are capable of performing a high-jumping smash attack. They will leap high into the air, spinning several times before bringing their hammers crashing down on top of the player; if it connects, it will deal heavy damage. This attack has relatively mediocre tracking and a thin vertical hitbox, so putting a large amount of distance away from them as they flip in the air, as well as moving to the side, can help greatly in avoiding the attack. Due to the low ceiling clearance within Drangleic Castle, they are incapable of performing this attack outside of the boss fight.
-
-## Defenses
-
-(Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense. -35% strike means taking 135% damage.
-
-## Music
-
-https://www.youtube.com/watch?v=rxQyt1o3jR0

@@ -10,7 +10,6 @@ fuente: https://darksouls.fandom.com/wiki/Vamos
 Vamos (鍛冶のバモス) is a character in Dark Souls. A reclusive, surly old skeleton, Vamos is a blacksmith by trade.
 
 He is voiced by Daniel Flynn, who also voiced Solaire of Astora and the Giant Blacksmith.
-__TOC__
 
 ## Location
 

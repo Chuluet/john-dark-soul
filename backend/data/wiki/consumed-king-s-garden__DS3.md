@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Consumed_King's_Garden
 
 # Consumed King's Garden (DS3)
 
-right|350px
-
 The Consumed King's Garden is an optional location in Dark Souls III.
 
 ## Description
@@ -35,16 +33,6 @@ The Consumed King's Garden is a subsection of the High Wall of Lothric and compr
 ## Phantoms
 
 Hawkwood the Deserter
-
-## Respawning
-
-Consumed King's Knight
-Lothric Priest
-Man Serpent
-Praying Hollow Soldier
-Pus of Man
-Rotten Slug
-Thrall
 
 ## Boss
 

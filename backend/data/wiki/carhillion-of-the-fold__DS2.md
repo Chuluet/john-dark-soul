@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Carhillion_of_the_Fold
 
 # Carhillion of the Fold (DS2)
 
-is a character, merchant and summonable phantom in Dark Souls II.
+Carhillion of the Fold is a character, merchant and summonable phantom in Dark Souls II.
 
 He is voiced by the late James Greene.
 
@@ -41,7 +41,6 @@ If he finds an apprentice he'll return to Majula, where he will also meet back w
 
 ## Gifts
 
-link=Northern Ritual Band
 Northern Ritual Band +1No-man's Wharf or Majula - After reaching 30 Intelligence
 
 ## Wares
@@ -49,8 +48,6 @@ Northern Ritual Band +1No-man's Wharf or Majula - After reaching 30 Intelligence
 *Stock becomes infinite after opening the Shrine of Winter.
 
 ## Equipment
-
-Normally=
 
 |-|
 As Phantom=Carhillion does wear leg armor. However it's a piece of clothing that players cannot obtain in any way. He also uses Dark Hail when summoned as a phantom, but he only uses it at close range.

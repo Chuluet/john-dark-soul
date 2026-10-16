@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/The_Dreg_Heap
 
 # The Dreg Heap (DS3)
 
-right|350px
-
 The Dreg Heap (吹き溜まり Fukidamari, The Drift) is a location in Dark Souls III: The Ringed City.
 
 Accessed through either of two special bonfires respectively located at the Kiln of the First Flame or at the end of the Ashes of Ariandel DLC, it serves as the first area of the Ringed City DLC, followed by the titular city as the second half.
@@ -40,20 +38,7 @@ The Ringed City
 ## Characters
 
 Stone-humped Hag
- Amnesiac Lapp
-
-## Respawning
-
-Harald Legion Knight
-Lothric Knight
-Murkman
-Poisonhorn Bug
-Thrall
-
-## Non-respawning
-
-Desert Pyromancer Zoey
-Angel
+Amnesiac Lapp
 
 ## Bosses
 

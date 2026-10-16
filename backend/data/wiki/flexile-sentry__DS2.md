@@ -7,16 +7,9 @@ fuente: https://darksouls.fandom.com/wiki/Flexile_Sentry
 
 # Flexile Sentry (DS2)
 
-Wharf =
-
-|-|S. Woods =
-
-|-|S. Rise =
-
-|-|E. Loyce =
 The Flexile Sentry is an optional boss in Dark Souls II. They are found aboard the ship in No-man's Wharf.
 
-Additionally, the game features a respawning Flexile Sentry (either in the Shaded Woods in the base game, or in Sinners' Rise in Scholar of the First Sin), plus two non-respawning ones in Frozen Eleum Loyce  (in Crown of the Ivory King).
+Additionally, the game features a respawning Flexile Sentry (either in the Shaded Woods in the base game, or in Sinners' Rise in Scholar of the First Sin), plus two non-respawning ones in Frozen Eleum Loyce (in Crown of the Ivory King).
 
 ## Location
 
@@ -40,12 +33,3 @@ Sword Flurry: Slashes both blades in a flurry then finishes with a leaping doubl
 Sword Combo: Slashes twice and ends with a thrust attack.
 Grab: The sword half will skewer the player. If the player is fighting the club half then the club half will bend over, allowing the sword half to lean upwards and stab the ground over him. If caught by either attack, the player will be sent above the sentry and in quick succession, stabbed and mauled by the creature with great speed.
 Conjoined combo: Uses both halves of the creature to attack the player with several outlandish attacks.
-
-## Defenses
-
-+Defense stats are always the same except for Physical Defense.LocationPhysical DefenseHealthNo-man's Wharf (Boss)4063150Sinners' Rise4283460Everywhere else5561310Eleum Loyce6353760
- (Stats are from Param Studio and are not estimated)Strike/Slash/Thrust defense are applied on top of Physical Defense.
-
-## Music
-
-https://www.youtube.com/watch?v=MKgGyj_F_nU

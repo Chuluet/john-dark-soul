@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Iron_Keep
 
 # Iron Keep (DS2)
 
-right|350px
 The Iron Keep is a location in Dark Souls II.
 
 ## Description
@@ -41,20 +40,6 @@ Eygil's Idol: Advance through the Iron Keep towards the Old Iron King. Upon reac
 Magerold of Lanafir (merchant)
 Lucatiel of Mirrah (White Phantom - summonable for the Smelter Demon boss battle; her sign is located next to the drawbridge near the fog gate.)
 
-## Respawning
-
-Alonne Knights
-Alonne Knight Captains
-Ironclad Soldiers
-
-## Non-respawning
-
-Mimic
-The Pursuer (spawns in the room where the Smelter Demon was after defeating it)
-Oliver the Collector 
-Armorer Dennis 
-Fencer Sharron
-
 ## Bosses
 
 Smelter Demon
@@ -64,7 +49,7 @@ Old Iron King
 
 Dull Ember (corpse, not present in SotFS)
 Lightning Winged Spear (guaranteed drop from Mimic)
-Pharros' Lockstone (chest) 
+Pharros' Lockstone (chest)
 Black Knight Greataxe (corpse)
 Black Knight Greatsword (chest)
 Grand Spirit Tree Shield (chest)

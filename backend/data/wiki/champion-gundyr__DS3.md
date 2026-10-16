@@ -20,8 +20,8 @@ Champion Gundyr is a large warrior clad in heavy cast-iron armor and armed with 
 ## Lore
 
 Gundyr was an ancient champion who was charged with linking the First Flame. For his duty he received an iron halberd which would never crumble, and was sent to the Firelink Shrine. However, here the king found himself restrained by a chain that blocked him in his path, and he fell into an abyss, getting lost in the folds of time. Gundyr drifted into a moment of time when the Firelink Shrine had no fire and ended up arriving "late" for the celebrations that awaited his fate. The Fire Keeper who was supposed to welcome her champion never met him and the ensuing tragic farce became a favorite tale of the masses of Lothric, a stain on the reputation of the realm.
-thumb|Gundyr's unbreakable halberd, a symbol of his preordained duty.
-It was not chance that bound him to this fate, however: The one who had charged him with his duty had also condemned him to eternal service from the beginning. Imprisoned, Gundyr was defeated by an unknown warrior and became sheath to a coiled sword. Transformed into an indestructible golem, he became the ritual test of strength for those who would attempt to link the First Flame after him. Over time an arena complete with stands was built around his remains, in which the now Iudex Gundyr would "judge" those who aspired to become Lords. 
+
+It was not chance that bound him to this fate, however: The one who had charged him with his duty had also condemned him to eternal service from the beginning. Imprisoned, Gundyr was defeated by an unknown warrior and became sheath to a coiled sword. Transformed into an indestructible golem, he became the ritual test of strength for those who would attempt to link the First Flame after him. Over time an arena complete with stands was built around his remains, in which the now Iudex Gundyr would "judge" those who aspired to become Lords.
 
 When the First Flame once again began to fade and the previous Lords of Cinder refused to serve as kindling again, the Unkindled buried in the Cemetery of Ash were resurrected. The remains of Gundyr's golem became the judge of these potential champions trying to reach Firelink Shrine. However, after his lifetime of service, the fire that was burned into Gundyr by the Coiled Sword had died down, leaving him open to the pus of man overtaking his body. In his final battle, Iudex Gundyr's raging humanity would erupt in a violent outbreak of dark pus, driven by an untamable fury.
 
@@ -47,7 +47,3 @@ Gundyr can be parried and riposted, greatly trivializing an otherwise difficult 
 ## Summons
 
 Sword Master: If the player has defeated him at the Firelink Shrine, the Sword Master can be summoned for this fight. His summon sign can be found at the entrance to the arena, to the right.
-
-## Music
-
-https://www.youtube.com/watch?v=h5PP1zeK0_I

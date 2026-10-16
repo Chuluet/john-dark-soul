@@ -7,8 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Untended_Graves
 
 # Untended Graves (DS3)
 
-right|350px
-The  is an optional location in Dark Souls III. It is accessed through an illusory wall in the chambers beyond Oceiros, the Consumed King.
+The is an optional location in Dark Souls III. It is accessed through an illusory wall in the chambers beyond Oceiros, the Consumed King.
 
 ## Adjacent locations
 
@@ -39,19 +38,6 @@ Shrine Handmaid
 ## Phantoms
 
 Sword Master
-
-## Respawning
-
-Black Knight
-Grave Warden
-Corvian Storyteller
-Corvian
-Gravetender Hollow
-Starved Hound
-
-## Non-respawning
-
-Ravenous Crystal Lizard ×2
 
 ## Invaders
 

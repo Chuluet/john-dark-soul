@@ -33,7 +33,6 @@ Alvina thus founded the Forest Hunter covenant, a clan of hunters bound with the
 
 ## Artorias of the Abyss
 
-right|thumb|Alvina in the Chasm.
 Alvina can be encountered briefly during the events of the Artorias of the Abyss DLC, in the Chasm of the Abyss. She cannot be interacted with, in the traditional sense, and has no dialogue.
 
 She is found after falling through an illusory floor, and leads the player to an injured but protected Sif. Here the Chosen Undead may choose to secure the white wolf by clearing the area of humanity phantoms, receiving the Cleansing Greatshield as a gift.

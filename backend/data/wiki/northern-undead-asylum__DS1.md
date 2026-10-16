@@ -7,10 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Northern_Undead_Asylum
 
 # Northern Undead Asylum (DS1)
 
-right|350px
 The Northern Undead Asylum is a location in Dark Souls.
-
-__TOC__
 
 ## Plot
 
@@ -43,11 +40,6 @@ The second is found at the bottom of some steps in the area immediately after th
 Oscar, Knight of Astora
 Snuggly the Crow
 
-## Respawning
-
-Hollow
-Hollow Soldier
-
 ## Boss
 
 Asylum Demon
@@ -69,15 +61,6 @@ Demon's Great Hammer (Asylum Demon - drop from first encounter)
 ## Characters
 
 Oscar, Knight of Astora (Hollowed)
-
-## Respawning
-
-Hollow Soldier
-Hollows
-
-## Non-respawning
-
-Black Knight ×2
 
 ## Boss
 

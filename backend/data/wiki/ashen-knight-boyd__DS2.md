@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Ashen_Knight_Boyd
 
 # Ashen Knight Boyd (DS2)
 
-60px|left250px|right
 Ashen Knight Boyd is a character in Dark Souls II.
 
 ## Description

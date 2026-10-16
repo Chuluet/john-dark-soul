@@ -7,10 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Blighttown
 
 # Blighttown (DS1)
 
-right|350px
 Blighttown is a location in Dark Souls.
-
-__TOC__
 
 ## Adjacent locations
 
@@ -72,20 +69,6 @@ It is possible to access Blighttown immediately after arriving in Firelink Shrin
 
 Laurentius of the Great Swamp (hollowed)
 Maneater Mildred (red phantom)
-
-## Respawning
-
-Cragspider
-Flaming Attack Dog
-Giant Leech
-Giant Mosquito
-Infested Barbarian
-Infested Ghoul
-
-## Non-respawning
-
-Blowdart Sniper
-Parasitic Wall Hugger
 
 ## Bosses
 

@@ -7,11 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Anor_Londo
 
 # Anor Londo (DS1)
 
-300px|right|Anor Londo, bird's eye
-
 Anor Londo is a location in Dark Souls.
-
-__TOC__
 
 ## Plot
 
@@ -55,20 +51,6 @@ Knight Lautrec of Carim (Invaded by the player)
 Lautrec's Comrade, Sorcerer (With Lautrec)
 Lautrec's Comrade, Warrior (With Lautrec)
 
-## Respawning
-
-Batwing Demon
-Painting Guardian
-Royal Sentinel
-Sentinel
-Silver Knight
-
-## Non-respawning
-
-Bell Gargoyles
-Mimic
-Titanite Demon
-
 ## Bosses
 
 Dark Sun Gwyndolin (optional)
@@ -77,10 +59,10 @@ Dragon Slayer Ornstein and Executioner Smough
 ## Armor
 
 Black Iron Set (Corpse at the end of the room with the Painted World)
- Brass Set (In a chest in a room after Dark Sun Gwyndolin has been defeated)
- Havel's Set (Located in several chests down a hidden path after the 3rd bonfire)
- Set of Favor (Located on a corpse above the area where Ornstein and Smough is fought, but only if Knight Lautrec of Carim has been defeated in an invasion using the Black Eye Orb)
- Silver Knight Set (In two chests guarded by two Silver Knights)
+Brass Set (In a chest in a room after Dark Sun Gwyndolin has been defeated)
+Havel's Set (Located in several chests down a hidden path after the 3rd bonfire)
+Set of Favor (Located on a corpse above the area where Ornstein and Smough is fought, but only if Knight Lautrec of Carim has been defeated in an invasion using the Black Eye Orb)
+Silver Knight Set (In two chests guarded by two Silver Knights)
 
 ## Keys
 

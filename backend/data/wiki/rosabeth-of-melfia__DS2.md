@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Rosabeth_of_Melfia
 
 # Rosabeth of Melfia (DS2)
 
-is a character and merchant in Dark Souls II.
+Rosabeth of Melfia is a character and merchant in Dark Souls II.
 
 She is voiced by Carina Reeves, who also voices one of the Milfanito.
 
@@ -19,7 +19,7 @@ After being unpetrified and given spare clothing, she will move in front of the 
 
 ## Plot
 
-Rosabeth initially appears as an obstacle, keeping the player from entering the Shaded Woods until they unpetrify her. The player must use a Fragrant Branch of Yore to do so, a rare item found across Drangleic. After being saved, she will thank the player and give them a Prism Stone as a gift. 
+Rosabeth initially appears as an obstacle, keeping the player from entering the Shaded Woods until they unpetrify her. The player must use a Fragrant Branch of Yore to do so, a rare item found across Drangleic. After being saved, she will thank the player and give them a Prism Stone as a gift.
 
 With that done, the way forward will be revealed, but it's not fully advised to open the door immediately after freeing her. Doing that will trap both the player and Rosabeth in the enclosed room while many Goblins are released into it, which could lead to her accidental death. For that reason it is best to either move her to Majula right away, or simply leave the area and come back, which will cause her to stand outside, next to Benhart of Jugo. In the Scholar of the First Sin edition, it's easier to save her, as there are some barrels filled with gunpowder nearby. Making them explode will make all the Goblins come out from their cells without closing the entrance of the structure, allowing the player to deal with them before freeing Rosabeth from her petrification.
 
@@ -39,19 +39,15 @@ Even should they reunite in Majula, Rosabeth will decide to practice on her own,
 
 ## Gifts
 
-link=Prism Stone (Dark Souls II)Prism StoneEntrance of Shaded Woods - After unpetrifying her with a Fragrant Branch of Yore
+Prism StoneEntrance of Shaded Woods - After unpetrifying her with a Fragrant Branch of Yore
 
 ## Equipment
 
-Note that the armor will change depending on the equipment you have given her. However, this will not increase her defense, as it is merely a cosmetic change.  There are a few exceptions to this, like the Moon Butterfly Set, which will have her inflict poison on anyone who comes near her, and the Symbol of Avarice, which will slowly kill her.
+Note that the armor will change depending on the equipment you have given her. However, this will not increase her defense, as it is merely a cosmetic change. There are a few exceptions to this, like the Moon Butterfly Set, which will have her inflict poison on anyone who comes near her, and the Symbol of Avarice, which will slowly kill her.
 
 ## Gravestone
 
 Time taken to spawn the first timeCost of summoning NPC spiritLocation2.5 Hours4,000Entrance of Shaded Woods - just outside the Old AkelarreMajula - in front of the village's monument
-
-## Achievements
-
-ImageNameDescriptionPointsTrophyFile:Change of Clothes Trophy.jpgChange of ClothesGive Rosabeth of Melfia something to wear30File:Silver Trophy.png
 
 ## Bugs
 

@@ -7,11 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Alva,_Seeker_of_the_Spurned
 
 # Alva, Seeker of the Spurned (DS3)
 
-Base Game =
-
-|-|DLC =
-
- is a dark spirit in Dark Souls III. He also appears as a dark spirit in The Ringed City DLC, where he is known simply as .
+Alva, Seeker of the Spurned is a dark spirit in Dark Souls III. He also appears as a dark spirit in The Ringed City DLC, where he is known simply as .
 
 ## Locations
 
@@ -27,10 +23,7 @@ Unlike his base game counterpart, The Ringed City DLC's Seeker of the Spurned wi
 
 ## Equipment
 
-Irithyll Dungeon=
-
 |-|
-The Ringed City=
 
 ## Lore
 
@@ -43,4 +36,4 @@ However, the White-Faced Locusts preach of a way for the lovers to be reunited i
 ## Artifacts
 
 Murakumo (Dark Souls III)
- Alva Set (Dark Souls III)
+Alva Set (Dark Souls III)

@@ -7,13 +7,9 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Burg
 
 # Undead Burg (DS1)
 
-right|300px|Upper Undead Burg
-
 The Undead Burg (城下不死街, "City of the Immortals under the walls") is a location in Dark Souls. 
 
 It is a fortified town surrounded by large walls and watchtowers, filled with hostile undead. It consists of both an upper and lower section. The lower section can be accessed with the Basement Key at the door atop the bridge, opposite the Hellkite Dragon.
-
-__TOC__
 
 ## Adjacent locations
 
@@ -40,27 +36,9 @@ Undead Female Merchant (merchant)
 
 Havel the Rock
 
-## Respawning
-
-Hollow
-Hollow Warrior
-Hollow Soldier
-
-## Non-respawning
-
-Crystal Lizard
-Black Knight
-Hellkite Dragon
-
 ## Boss
 
 Taurus Demon
-
-## Respawning
-
-Attack Dog
-Hollow
-Hollow Thief
 
 ## Boss
 

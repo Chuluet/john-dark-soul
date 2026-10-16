@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Smouldering_Lake
 
 # Smouldering Lake (DS3)
 
-right|350px
 The Smouldering Lake is an optional location in Dark Souls III. It is a subsection of the Catacombs of Carthus.
 
 ## Description
@@ -37,29 +36,6 @@ Catacombs of Carthus
 ## Phantoms
 
 Great Swamp Cuculus
-Knight Slayer Tsorig
-
-## Respawning
-
-Basilisk
-Black Knight
-Demon Cleric
-Demon Statue
-Giant Hound Rat
-Great Crab
-Hound Rat
-Lesser Crab
-Skeleton Swordsman
-Skeleton Wheel
-Smouldering Ghru
-Writhing Rotten Flesh
-
-## Non-respawning
-
-Carthus Sand Worm
-Crystal Lizard (×3)
-Demon
-Horace the Hushed
 Knight Slayer Tsorig
 
 ## Boss

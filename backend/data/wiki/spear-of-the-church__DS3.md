@@ -7,15 +7,9 @@ fuente: https://darksouls.fandom.com/wiki/Spear_of_the_Church
 
 # Spear of the Church (DS3)
 
-|-|Halflight =
+The is a boss battle in the Dark Souls III: The Ringed City DLC.
 
-|-|Argo =
-
-|-|Guardians =
-
-The  is a boss battle in the Dark Souls III: The Ringed City DLC.
-
-It is composed by Judicator Argo, a  for each phase of the boss fight, as well as one Spear of the Church, acting as the actual boss. The Spear will either be an invading player member of the Spears of the Church covenant, or a special character, , who will appear if the player is offline.
+It is composed by Judicator Argo, a for each phase of the boss fight, as well as one Spear of the Church, acting as the actual boss. The Spear will either be an invading player member of the Spears of the Church covenant, or a special character, , who will appear if the player is offline.
 
 ## Location
 
@@ -39,10 +33,7 @@ Starting the boss battle counts as a betrayal of the Spears of the Church covena
 
 ## Equipment
 
-Halflight=
-
 |-|
-Church Guardians=
 
 ## Stat Increases
 
@@ -66,20 +57,16 @@ These holy warriors are all that stands between the Ashen One and the sleeping p
 ## Spears of the Church
 
 Spears of the Church (item)
- Filianore's Spear Ornament
- Ritual Spear Fragment
- Divine Spear Fragment
- Young Grass Dew
+Filianore's Spear Ornament
+Ritual Spear Fragment
+Divine Spear Fragment
+Young Grass Dew
 
 ## Halflight
 
 White Birch Bow
- Antiquated Plain Set
+Antiquated Plain Set
 
 ## Church Guardians
 
 Church Guardian Shiv
-
-## Music
-
-https://www.youtube.com/watch?v=8k_RkTWD1OI

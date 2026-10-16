@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Memory_of_the_King
 
 # Memory of the King (DS2)
 
-right|300px
 The Memory of the King is a location in Dark Souls II.
 
 ## Description

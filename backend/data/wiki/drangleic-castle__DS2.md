@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Drangleic_Castle
 
 # Drangleic Castle (DS2)
 
-350px|right
 Drangleic Castle is a location in Dark Souls II.
 
 ## Description
@@ -44,28 +43,6 @@ The King's Passage is an adjoining area of Drangleic Castle. When the undead cur
 ## Throne of Want
 
 The Throne of Want is an area separated from Drangleic Castle by a King's Gate. It houses the true throne of Drangleic, and all those who gain the right to sit upon it know true power.
-
-## Respawning
-
-Alonne Knight Captain
-Blue-eyed Durgo (NG+)
-Royal Guard
-Royal Swordsman
-Primal Knight
-Ruin Sentinels
-Stone Knight
-Stone Soldier
-Belfry Gargoyle (SotFS)
-Desert Sorceress (SotFS)
-Manikin (SotFS)
-Old Knight (SotFS)
-Wall Warrior (SotFS)
-
-## Non-respawning
-
-Nameless Usurper
-Executioner's Chariot (horse only, SotFS)
-The Pursuer (×2, NG+)
 
 ## Bosses
 

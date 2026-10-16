@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Maughlin_the_Armorer
 
 # Maughlin the Armorer (DS2)
 
-is a character and merchant in Dark Souls II.
+Maughlin the Armorer is a character and merchant in Dark Souls II.
 
 He is voiced by Richard Standing.
 
@@ -37,7 +37,7 @@ At some point he will even forget his first customer and their patronage, and hi
 
 ## Gifts
 
-link=Helm of Aurous (transparent)   link=Armor of Aurous (transparent)   link=Gauntlets of Aurous (transparent)   link=Leggings of Aurous (transparent)Aurous' Set (transparent)Majula - Talking to him with no souls after spending 15,000 souls at his shop
+Aurous' Set (transparent)Majula - Talking to him with no souls after spending 15,000 souls at his shop
 
 ## Wares
 

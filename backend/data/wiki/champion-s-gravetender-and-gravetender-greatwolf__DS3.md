@@ -7,10 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Champion's_Gravetender_and_Gravetender
 
 # Champion's Gravetender and Gravetender Greatwolf (DS3)
 
-Gravetender =
-
-|-|Greatwolf =
-The  and the  are an optional duo boss in the Dark Souls III: Ashes of Ariandel DLC. The Greatwolf also appears as a powerful enemy outside of the designated boss fight.
+The and the are an optional duo boss in the Dark Souls III: Ashes of Ariandel DLC. The Greatwolf also appears as a powerful enemy outside of the designated boss fight.
 
 ## Location
 
@@ -45,8 +42,4 @@ They will only be relieved of their duty by the Ashen One, who finds their way t
 ## Artifacts
 
 Valorheart
- Champion's Bones
-
-## Music
-
-https://www.youtube.com/watch?v=qWlkczHVEoE
+Champion's Bones

@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Undead_Settlement
 
 # Undead Settlement (DS3)
 
-right|350px
 The Undead Settlement (不死街 Fujigai, Undying Town) is a location in Dark Souls III.
 
 ## Description
@@ -35,24 +34,6 @@ Irina of Carim
 Siegward of Catarina
 Velka, the Goddess of Sin
 Yoel of Londor
-
-## Respawning
-
-Cage Spider
-Evangelist
-Giant Hound Rat
-Hollow Manservant
-Hound Rat
-Peasant Hollow
-Skeleton
-Starved Hound
-Thrall
-
-## Non-respawning
-
-Boreal Outrider Knight
-Crystal Lizard (×2)
-Demon (mini-boss)
 
 ## Invaders
 

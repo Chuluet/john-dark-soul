@@ -13,13 +13,13 @@ Ringfinger Leonhard is a character and enemy in Dark Souls III. He is voiced by 
 
 Firelink Shrine — Found leaning against the central (Lothric's) throne
 
- First appearance after exploring the High Wall of Lothric
+First appearance after exploring the High Wall of Lothric
 
- Second appearance after coming into possession of a Pale Tongue
+Second appearance after coming into possession of a Pale Tongue
 
 Cathedral of the Deep (after Red Eye Orb has been obtained)
 
- Leaning on the wall just inside the entrance to Rosaria's Bed Chamber, after offering 1 Pale Tongue to Rosaria (no area reload required)
+Leaning on the wall just inside the entrance to Rosaria's Bed Chamber, after offering 1 Pale Tongue to Rosaria (no area reload required)
 
 ## Description
 

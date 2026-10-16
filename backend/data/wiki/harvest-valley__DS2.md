@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Harvest_Valley
 
 # Harvest Valley (DS2)
 
-350px|right
 The Harvest Valley is a location in Dark Souls II.
 
 ## Description
@@ -32,21 +31,6 @@ Heirs of the Sun: To the left of the entrance to Earthen Peak is a road which le
 
 Stone Trader Chloanne (merchant): Located close to the entrance from Huntsman's Copse, Chloanne is a Titanite merchant who will move to Majula outside her father's workshop after her dialogue is exhausted.
 Lonesome Gavlan (merchant): Found in a cave reached through the large basin filled with poisonous mist which lying between the two area bonfires, as long as the player has previously spoken to him in No-man's Wharf.
-
-## Respawning
-
-Artificial Undead
-Mounted Overseer
-Skeleton
-Undead Laborer
-Undead Steelworker
-Undead Supplicant 
-Desert Sorceress 
-Manikin
-
-## Non-respawning
-
-Crystal Lizard
 
 ## Miscellaneous
 
@@ -94,9 +78,3 @@ Titanite Shard ×4 (corpses)
 
 Old Knight Greatshield (corpse)
 Old Knight Pike (corpse)
-
-Category:Dark Souls II: Locations
-
-es:Valle de la cosecha
-pl:Dolina Żniw
-ru:Долина Жатвы

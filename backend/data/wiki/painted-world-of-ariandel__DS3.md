@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Painted_World_of_Ariandel
 
 # Painted World of Ariandel (DS3)
 
-right|350px
 The Painted World of Ariandel is a location in Dark Souls III, accessible through the downloadable content Ashes of Ariandel.
 
 ## Entering
@@ -33,23 +32,6 @@ Sir Vilhelm
 Sister Friede
 Forlorn Corvian Settler
 The Painter
-
-## Respawning
-
-Birch Woman
-Corvian Knight
-Corvian
-Farron Follower
-Forlorn Corvian Settler
-Giant Fly
-Great Crab
-Millwood Knight
-Sewer Centipede
-Wolf
-
-## Non-respawning
-
-Sir Vilhelm
 
 ## Bosses
 
@@ -96,7 +78,7 @@ Large Soul of a Weary Warrior / Soul of a Venerable Old Hand
 Large Titanite Shard (×2, drop: Crystal Lizard)
 Onyx Blade (drop: Sir Vilhelm)
 Rusted Coin (×2)
-Rusted Gold Coin  (×3)
+Rusted Gold Coin (×3)
 Simple Gem
 Slave Knight Set
 Soul of a Crestfallen Knight / Soul of a Champion

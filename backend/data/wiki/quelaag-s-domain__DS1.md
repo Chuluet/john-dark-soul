@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Quelaag's_Domain
 
 # Quelaag's Domain (DS1)
 
-right|300px
 Quelaag's Domain is a short area in Dark Souls located between the base of Blighttown and the Demon Ruins.
 
 ## Description
@@ -28,11 +27,6 @@ Chaos Servant - The covenant is located down the flight of stairs next to the Be
 
 Eingyi (merchant) - Behind an illusory wall, guarding Quelaag's Sister.
 Quelaag's Sister - With Eingyi behind the illusory wall. Can initiate players into the Chaos Servant covenant.
-
-## Respawning
-
-Egg Burdened
-Vile Maggot
 
 ## Boss
 

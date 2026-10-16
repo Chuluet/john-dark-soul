@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Milibeth_the_Housekeeper
 
 # Milibeth the Housekeeper (DS2)
 
-thumb|250px
 Milibeth the Housekeeper is a character in Dark Souls II.
 
 ## Description

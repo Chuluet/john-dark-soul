@@ -24,6 +24,6 @@ He will give the player his unique Melu Scimitar as a gift for purchasing the lo
 
 ## Lore
 
-Gilligan is from the western land of Volgen. He developed an infamous reputation in his hometown as a trouble-maker and conniver, especially when it came to money. Gilligan was eventually forced to flee Volgen after running afoul of some "old pals". He fled eastward to the ruined kingdom of Drangleic, making a living by renting out his ladders and selling goods. 
+Gilligan is from the western land of Volgen. He developed an infamous reputation in his hometown as a trouble-maker and conniver, especially when it came to money. Gilligan was eventually forced to flee Volgen after running afoul of some "old pals". He fled eastward to the ruined kingdom of Drangleic, making a living by renting out his ladders and selling goods.
 
 When the Sulyvahn discovered the Profaned Capital, he hired Gilligan to install ladders that would lead them to the Capital. During the journey, Gilligan would die, but whether he was killed by Sulyvahn, by the Sewer Centipedes or by the inhabitans of the Capital is unknown.

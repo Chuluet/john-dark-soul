@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Things_Betwixt
 
 # Things Betwixt (DS2)
 
-340px|right|Firekeeper's Dwelling
 Things Betwixt is a location in Dark Souls II.
 
 ## Description
@@ -32,19 +31,6 @@ Milibeth the Housekeeper
 
 Bastard Sword Dark Spirit (SotFS - only appears when all braziers in the area have been lit)
 Heavy Crossbow Dark Spirit (only appears in NG+ or by burning a Bonfire Ascetic)
-
-## Respawning
-
-Falconer (only appears in NG+ or by burning a Bonfire Ascetic)
-Kobold
-Undead Traveler
-Basilisk
-
-## Non-respawning
-
-Ogre
-The Pursuer 
-Dark Spirit Goblins (only appear in NG+ or by burning a Bonfire Ascetic)
 
 ## Weapons
 

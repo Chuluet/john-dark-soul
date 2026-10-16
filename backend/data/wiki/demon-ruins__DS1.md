@@ -7,14 +7,13 @@ fuente: https://darksouls.fandom.com/wiki/Demon_Ruins
 
 # Demon Ruins (DS1)
 
-right|350px
 The Demon Ruins is a location in Dark Souls.
 
 ## Location
 
 Found shortly after Quelaag's Domain. The Demon Ruins lead to Lost Izalith; however, Lost Izalith cannot be accessed until the player has retrieved the Lordvessel from Anor Londo and placed it in the Firelink Altar.
 
-On arrival, most of the area is flooded with lava until the Ceaseless Discharge is slain. Once the lava is drained, the lower section of the area may be accessed, and it is here that the route to Lost Izalith lies, initially blocked by the Lordvessel-related orange fog gate. 
+On arrival, most of the area is flooded with lava until the Ceaseless Discharge is slain. Once the lava is drained, the lower section of the area may be accessed, and it is here that the route to Lost Izalith lies, initially blocked by the Lordvessel-related orange fog gate.
 
 The area just after the Demon Firesage has an elevator that will transport the player back up to the Bell of Awakening in Queelag's Domain.
 
@@ -33,15 +32,6 @@ Kirk, Knight of Thorns will invade the player here as a red phantom.
 
 Kirk, Knight of Thorns
 Solaire of Astora
-
-## Respawning
-
-Burrowing Rockworm
-Capra Demon
-Demonic Statue
-Egg Burdened
-Taurus Demon
-Vile Maggot
 
 ## Bosses
 

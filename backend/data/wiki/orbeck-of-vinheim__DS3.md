@@ -37,36 +37,24 @@ Upon giving Orbeck all four Sorcery scrolls and learning every available spell f
 
 ## Default
 
-<table-progress-tracking table-id="1" unique-column-index="2">
 QuantityItemCost1Soul Arrow1,0001Great Soul Arrow3,0001Heavy Soul Arrow2,0001Great Heavy Soul Arrow4,0001Farron Dart5001Soul Greatsword5,0001Farron Flashsword3,0001Magic Weapon3,0001Magic Shield3,0001Spook2,0001Aural Decoy2,000
-</table-progress-tracking>
 
 ## Unlocked by giving any scroll
 
-<table-progress-tracking table-id="2" unique-column-index="2">
 QuantityItemCost1Pestilent Mist1,000
-</table-progress-tracking>
 
 ## Sage's Scroll
 
-<table-progress-tracking table-id="3" unique-column-index="2">
 QuantityItemCost1Great Farron Dart2,0001Farron Hail5,000
-</table-progress-tracking>
 
 ## Golden Scroll
 
-<table-progress-tracking table-id="4" unique-column-index="2">
 QuantityItemCost1Cast Light1,0001Repair2,0001Hidden Weapon1,5001Hidden Body3,0001Twisted Wall of Light6,000
-</table-progress-tracking>
 
 ## Logan's Scroll
 
-<table-progress-tracking table-id="5" unique-column-index="2">
 QuantityItemCost1Homing Soulmass6,0001Soul Spear5,000
-</table-progress-tracking>
 
 ## Crystal Scroll
 
-<table-progress-tracking table-id="6" unique-column-index="2">
 QuantityItemCost1Homing Crystal Soulmass18,0001Crystal Soul Spear15,0001Crystal Magic Weapon10,000
-</table-progress-tracking>

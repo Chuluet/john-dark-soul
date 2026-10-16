@@ -7,9 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Reah_of_Thorolund
 
 # Reah of Thorolund (DS1)
 
-is a character and merchant who appears in Dark Souls. She is voiced by Charlie Cameron, who also voiced Quelaag's Sister and Sieglinde of Catarina.
-
-__TOC__
+Reah of Thorolund is a character and merchant who appears in Dark Souls. She is voiced by Charlie Cameron, who also voiced Quelaag's Sister and Sieglinde of Catarina.
 
 ## Location
 

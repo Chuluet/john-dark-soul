@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Darkroot_Garden
 
 # Darkroot Garden (DS1)
 
-right|320px
 Darkroot Garden is a location in Dark Souls.
 
 ## Description
@@ -44,20 +43,6 @@ Forest Hunter Cleric (respawning)
 Forest Hunter Knight ×2 (non-respawning)
 Forest Hunter Sorcerer (respawning)
 Forest Hunter Thief (respawning)
-
-## Respawning
-
-Demonic Foliage
-Frog-Ray
-Mushroom Child
-Mushroom Parent
-Stone Knight
-Tree Lizard
-
-## Non-respawning
-
-Great Feline x3
-Possessed Tree ×2
 
 ## Bosses
 

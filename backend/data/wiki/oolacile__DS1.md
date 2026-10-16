@@ -7,8 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Oolacile
 
 # Oolacile (DS1)
 
-right|300px
-
 The lost land of Oolacile is a location that no longer exists by the events of Dark Souls. Several sources allude to its existence centuries beforehand and its focus on sorceries. Dusk of Oolacile states that the land "was reduced to ashes" long ago.
 
 The later version of the game, Dark Souls: Prepare to Die Edition, comes with extra content that takes place in Oolacile 200-300 years before the events of the game, where the Chosen Undead must take the place of Artorias the Abysswalker and rescue Dusk from Manus, Father of the Abyss. During this period, Oolacile is slowly being swallowed by the Abyss. The content was later added as DLC to the console versions of the game as Artorias of the Abyss.

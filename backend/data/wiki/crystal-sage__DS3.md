@@ -7,9 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/Crystal_Sage
 
 # Crystal Sage (DS3)
 
-Road of Sacrifices =
-
-|-|Grand Archives =
 The Crystal Sage is a boss and later a miniboss in Dark Souls III.
 
 ## Locations
@@ -37,7 +34,3 @@ Eventually, in a pact of uncertain terms, one of the Sages joined the Undead Leg
 ## Summons
 
 Eygon of Carim: If the player speaks to Eygon in the Undead Settlement after rescuing Irina of Carim, he can be summoned for this fight. In the pillar chamber leading to the arena, his summon sign can be found behind the third pillar on the left.
-
-## Music
-
-https://www.youtube.com/watch?v=4bo0HZ7uWTE

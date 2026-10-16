@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Pinwheel
 
 Pinwheel (三人羽織) is a boss in Dark Souls.
 
-__TOC__
-
 ## Location
 
 Pinwheel is found in The Catacombs. Players must defeat this boss in order to reach the Tomb of the Giants.
@@ -39,42 +37,28 @@ Pinwheel's high fire damage can be greatly reduced through the use of Flash Swea
 
 ## Quick Fireball
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed002910NormalNoBothMedium
+Attack TypeParryableTrackingSpeed002910NormalNoBothMedium
 His six arms will glow and spin before firing it. This is easy to dodge with the right timing.
-
-center
 
 ## Cleansing Fireball
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed003260NormalNoBothMedium
+Attack TypeParryableTrackingSpeed003260NormalNoBothMedium
 Slower, larger fireball that does more damage and has a bigger hitbox, though it takes Pinwheel longer to charge. Note that Pinwheel can also use this while jumping at a downward angle.
-
-center
 
 ## Combustion
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed003840NormalNoBothMedium
+Attack TypeParryableTrackingSpeed003840NormalNoBothMedium
 A close range melee attack that does big damage. Pinwheel will telegraph this by moving in close and begin spinning and igniting his arms.
 
 ## Flamethrower
 
-link=Physicallink=Magic (Damage Type)link=Fire (Damage Type)link=Lightning (Damage Type)Attack TypeParryableTrackingSpeed002910NormalNoNeitherMedium
+Attack TypeParryableTrackingSpeed002910NormalNoNeitherMedium
 Extremely powerful mid-range attack. There is a long delay before this attack is executed. Blocking it is unwise, as it hits multiple times, breaking the player's guard, and potentially dealing a fair bit of damage.
-
-center
 
 ## Clone
 
 Pinwheel will spin in the air and give off a purple light before conjuring an identical clone of himself. The clones are exactly the same as Pinwheel and there's no easy way to distinguish one from the other without keeping track of the original. The clone can also use all of Pinwheel's attacks but will disappear instantly when hit. There is no known limit to how many clones Pinwheel can spawn.
 
-center
-
 ## Vanish
 
 When the real Pinwheel is approached, he may attempt to flee by disappearing, leaving the player at the mercy of his clones. A short time later he will reappear in a fashion similar to the spawning of the clones.
-
-center
-
-## Music
-
-https://www.youtube.com/watch?v=3cYmf8dsOTg

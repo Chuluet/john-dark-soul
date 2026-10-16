@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/King's_Passage
 
 # King's Passage (DS2)
 
-right|400px
 The King's Passage is a location in Dark Souls II.
 
 ## Description
@@ -25,11 +24,6 @@ Shrine of Amana
 
 Benhart of Jugo - Available as a summon for the Looking Glass Knight.
 Ashen Knight Boyd - Available as a summon for the Looking Glass Knight.
-
-## Respawning
-
-Stone Knight
-Royal Guard
 
 ## Boss
 

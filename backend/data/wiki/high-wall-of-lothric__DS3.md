@@ -7,7 +7,6 @@ fuente: https://darksouls.fandom.com/wiki/High_Wall_of_Lothric
 
 # High Wall of Lothric (DS3)
 
-right|350px
 The High Wall of Lothric is a location in Dark Souls III.
 
 ## Description
@@ -30,24 +29,6 @@ Undead Settlement
 
 Emma, High Priestess of Lothric Castle
 Greirat of the Undead Settlement
-
-## Respawning
-
-Darkwraith
-Hollow Assassin
-Hollow Soldier
-Large Hollow Soldier
-Lothric Knight
-Praying Hollow Soldier
-Pus of Man
-Starved Hound
-Winged Knight
-
-## Non-respawning
-
-Crystal Lizard (×1)
-Lothric Wyvern
-Mimic (×1)
 
 ## Bosses
 

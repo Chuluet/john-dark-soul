@@ -7,7 +7,7 @@ fuente: https://darksouls.fandom.com/wiki/Blacksmith_Lenigrast
 
 # Blacksmith Lenigrast (DS2)
 
-is a character and blacksmith in Dark Souls II.
+Blacksmith Lenigrast is a character and blacksmith in Dark Souls II.
 
 He is voiced by Michael Kilgarriff.
 
@@ -33,7 +33,6 @@ Despite his dislike of aimless travelers, he will offer his services and advice 
 
 ## Gifts
 
-link=Blacksmith's Hammer
 Blacksmith's HammerMajula - Spending 8,000 souls reinforcing equipment
 
 ## Gravestone

@@ -9,8 +9,6 @@ fuente: https://darksouls.fandom.com/wiki/Stray_Demon
 
 The Stray Demon (はぐれデーモン) is an optional boss in Dark Souls, located in the Northern Undead Asylum. It can only be fought by players upon returning to the asylum, after they leave the facility for the first time.
 
-__TOC__
-
 ## Location
 
 The Stray Demon is found in the Northern Undead Asylum. When first exiting the prison cell at the beginning of the game, the Stray Demon can be seen wandering around its boss arena through the bars to the right. However, it is impossible to reach at this point in the game since players need to return to the asylum after leaving for the first time. Upon returning, the Stray Demon can be fought by falling through the floor in the middle of the main hall, where players originally fought the Asylum Demon.
@@ -27,42 +25,38 @@ The Stray Demon is a greater demon spawned from the Bed of Chaos, the entity tha
 
 Two horizontal swings of the Demon's hammer. Similar to the Asylum Demon's attack. Can be blocked, but heavy stamina drain occurs. Can also be rolled under, allowing the player to attack the Demon.
 
- Toggle Gifcenter
+Toggle Gif
 
 ## Power Smash
 
 An overhead hammer smash with exceptionally long reach. Can be avoided by dodging to the left or right.
 
- Toggle Gifcenter
+Toggle Gif
 
 ## Double Power Smash
 
 Can only be used after the first Power Smash. The Stray Demon raises its hammer, then smashes it down again. Can be dodged by rolling to the left or right.
 
- Toggle Gifcenter
+Toggle Gif
 
 ## Leaping Hammer Smash
 
-Toggle Gifcenter
+Toggle Gif
 
 ## Butt Slam
 
 The Stray Demon flies up, pauses momentarily to rotate itself to face the player, then falls to the ground. Can be avoided by retreating away.
 
- Toggle Gifcenter
+Toggle Gif
 
 ## Flame Explosion
 
 The Stray Demon brings the hammer to its left (player's right), then waves it horizontally, causing a massive explosion in front of it. Unlike the Hammer Drive attack, it doesn't have any backwards hitbox and can be dodged by getting behind, or even under, the demon. Despite the attacks name, it deals purely Magic damage.
 
- Toggle Gifcenter
+Toggle Gif
 
 ## Hammer  Explosion
 
 The Stray Demon grips the hammer in both hands, pointing downward, and drives it into the ground in front of it. Similar to the Asylum Demon's attack, however, once the hammer hits the ground, a massive explosion occurs at the point of impact, which can deal damage in an area behind it.
 
- Toggle Gifcenter
-
-## Music
-
-https://www.youtube.com/watch?v=FbKoy15fwZw
+Toggle Gif

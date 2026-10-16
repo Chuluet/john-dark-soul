@@ -45,7 +45,3 @@ Black Hand Gotthard: His summon sign will appear before the stairs leading up to
 Londor Pale Shade: If the player has done Yoel of Londor's questline and met Yuria of Londor, the Londor Pale Shade can be summoned for the fight. His summon sign can be found near the Farron Keep Perimeter bonfire.
 Sirris of the Sunless Realms: If the player has given the Dreamchaser's Ashes to the Shrine Handmaid and then talked to Sirris afterward, she can be summoned for this fight. Her sign will be located to the left of the door leading into the boss arena.
 Yellowfinger Heysel: If the player has defeated Heysel when she invades the player either in Crucifixion Woods or Farron Keep, and then encountered Rosaria, Mother of Rebirth at the Cathedral of the Deep and deepened devotion to her covenant, Heysel can be summoned for this fight. Her sign can be found between the Keep Ruins bonfire and the door leading to the mausoleum, next to the ruined tower covered in Rotten Slugs.
-
-## Music
-
-https://www.youtube.com/watch?v=Qwya6SEVR9o
