@@ -69,3 +69,31 @@ RETRIEVER_K = _int("RETRIEVER_K", 4)
 # Fragmentos por debajo de este puntaje se descartan; si no queda ninguno,
 # el agente rechaza la pregunta.
 SIMILARITY_THRESHOLD = _float("SIMILARITY_THRESHOLD", 0.5)
+
+
+# --- Autenticación (Keycloak) -----------------------------------------------
+# URL pública de Keycloak: es la que ve el navegador y la que aparece en el
+# claim `iss` de los tokens.
+KEYCLOAK_URL = os.getenv("KEYCLOAK_URL", "http://localhost:8080").rstrip("/")
+KEYCLOAK_REALM = os.getenv("KEYCLOAK_REALM", "john-dark-soul")
+
+# Cliente del frontend: los tokens que emite traen `azp` igual a este valor.
+KEYCLOAK_CLIENT_ID = os.getenv("KEYCLOAK_CLIENT_ID", "frontend")
+
+# URL desde la que el backend descarga las llaves públicas. En Docker es
+# `http://keycloak:8080` (red interna); fuera de Docker coincide con la pública.
+KEYCLOAK_INTERNAL_URL = os.getenv("KEYCLOAK_INTERNAL_URL", KEYCLOAK_URL).rstrip("/")
+
+KEYCLOAK_ISSUER = f"{KEYCLOAK_URL}/realms/{KEYCLOAK_REALM}"
+KEYCLOAK_JWKS_URL = (
+    f"{KEYCLOAK_INTERNAL_URL}/realms/{KEYCLOAK_REALM}/protocol/openid-connect/certs"
+)
+
+
+# --- API --------------------------------------------------------------------
+# Orígenes permitidos por CORS, separados por coma (el frontend en desarrollo).
+CORS_ORIGINS = [
+    origen.strip()
+    for origen in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")
+    if origen.strip()
+]
