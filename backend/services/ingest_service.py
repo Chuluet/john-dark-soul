@@ -12,6 +12,7 @@ Ejecutar con (desde backend/):
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -93,7 +94,8 @@ def _transcribir(ruta: Path) -> list[Document]:
     # Import aquí: faster-whisper es pesado y solo se necesita para audio/video.
     from faster_whisper import WhisperModel
 
-    modelo = WhisperModel(config.WHISPER_MODEL, device="cpu", compute_type="int8")
+    # cpu_threads: usa todos los hilos del procesador (por defecto solo usa 4).
+    modelo = WhisperModel(config.WHISPER_MODEL, device="cpu", compute_type="int8", cpu_threads=os.cpu_count())
     segmentos, info = modelo.transcribe(str(ruta))
     lineas = [
         f"[{int(s.start // 60):02d}:{int(s.start % 60):02d}] {s.text.strip()}"
