@@ -65,16 +65,6 @@ Con Docker:
 docker compose run --rm backend python -m services.ingest_service
 ```
 
-## Medir y calibrar la búsqueda
-
-```bash
-uv run python -m evaluacion.evaluar              # con la configuración actual
-uv run python -m evaluacion.evaluar --calibrar   # recomienda RETRIEVER_* y SIMILARITY_THRESHOLD
-```
-
-Las preguntas están en `evaluacion/preguntas.json`; añade las que el agente
-responda mal y vuelve a calibrar.
-
 ## Notas
 
 - Sin `--reset`, los archivos que no cambiaron (mismo tamaño y fecha) se saltan:

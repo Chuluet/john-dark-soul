@@ -181,21 +181,21 @@ def huella_guardada(fuente: str) -> str | None:
         return None
 
 
-def titulos_por_juego() -> list[tuple[str, str]]:
-    """Pares (título, juego) de las páginas indexadas; alimentan services.juegos."""
+def listar_titulos() -> list[str]:
+    """Títulos distintos de los documentos indexados (las páginas de la wiki)."""
     sentencia = text(
         """
-        SELECT DISTINCT e.cmetadata->>'title' AS titulo, e.cmetadata->>'juego' AS juego
+        SELECT DISTINCT e.cmetadata->>'title' AS titulo
         FROM langchain_pg_embedding e
         JOIN langchain_pg_collection c ON e.collection_id = c.uuid
         WHERE c.name = :coleccion
+          AND e.cmetadata->>'tipo' = 'wiki'
           AND e.cmetadata->>'title' IS NOT NULL
-          AND e.cmetadata->>'juego' IS NOT NULL
         """
     )
     try:
         with _get_motor().connect() as conexion:
             filas = conexion.execute(sentencia, {"coleccion": config.PG_COLLECTION})
-            return [(fila.titulo, fila.juego) for fila in filas]
+            return [fila.titulo for fila in filas]
     except Exception:  # noqa: BLE001
         return []
