@@ -1,0 +1,24 @@
+---
+title: Seath the Scaleless
+juego: DS2
+categoria: Dark Souls: Bosses
+fuente: https://darksouls.fandom.com/wiki/Seath_the_Scaleless
+---
+
+# Seath the Scaleless (DS2)
+
+thumb|Some of the experiments of Seath, such as Najka, survived and reached Drangleic. 
+In the region and times of Drangleic, Seath's name had been forgotten, merely referred to as an "Old One"; the legend of a pale dragon was nonetheless passed on in various locales, even if each account was fragmentary. His Moonlight Sword that shone like the brilliant rays of the moon and was born from his white being had become a thing of the oldest legends, rarely spoken of. The smithing techniques of Seath that used souls to create artifacts were preserved by a clan of Crow Demons, though they remembered the dragon only as a white grotesque being that existed in the distant past. 
+
+Following the death of their creator, multiple moon butterflies survived over the centuries, migrating to Drangleic and mutating into lesser Great Moths and developing poisoning abilities. They remained rare and mysterious creatures that appeared only on full-moon nights in winter, and whose larvae were never once spotted. Other creations of Seath that reached Drangleic included Manscorpion Tark and Scorpioness Najka: Two of Seath's many experiments on humans, the pale dragon's crossbreeding experiments had seemingly cursed their souls into being together. The two were well aware of being the product of Seath's madness and his obsessive attempt to achieve immortality.
+
+thumb|Brightstone Cove Tseldora, built over the remnants of Seath's Crystal Cave (white crystals pictured here), which had drifted to Drangleic. 
+The structures of Seath's Crystal Cave endured and "drifted" to settle underground in southern Drangleic, the power of the white dragon lingering on as radiance within the crystals. The crystals infused with the souls of Seath became known as "Brightstones" and the kingdom of Olaphis mined these gems, refining and polishing them to be incorporated into their staves and rings, used as amplifiers for their sorceries. 
+
+Centuries after the fall of Olaphis, the territory of the Brightstone mines came under the control of the Duchy of Tseldora. Under the reign of Vendrick, the Duke of Tseldora rediscovered the precious crystals and, starting to extract and sell them again, made a fortune with brightstone. The citizens of Tseldora flourished thanks to the gem trade, and accumulated luxuries as well as knowledge of witchcraft. However, Seath's obsession that radiated from these crystals would bewitch the town inhabitants with a burning desire, insatiated by the prosperity they acquired, always searching for something they lacked.
+
+thumb|Freja, the powerful spider possessed by the fragments of Seath's soul.
+Eons past his demise, the soul of the Paledrake remanifested in Drangleic, albeit in a lessened form, and possessed a mere spider. Its shape and condition notwithstanding, the obsession within "the Writhing Ruin", as it came to be known, led the spider to doggedly seek out its desires. Namely, it sought its "home" deep inside the mines of Tseldora, the old crystal cave of Seath, and where the petrified corpse of an ancient archdragon was found, and made it into its lair.
+
+thumb|The hidden archives of the Duke of Tseldora.
+The Duke of Tseldora, continuing to mine the brightstone, discovered the stone body of the archdragon, as well as the spider possessed by Seath's soul. He eventually built his hidden chamber among the ruins deep within the mines, amassing a large library and conducting research on sorcery. Since he was an oddball who loved and was fascinated by spiders, the Duke eventually found the one possessed by Seath and decided to take it in as his pet, naming it "Freja" and locking it in a cage in the library where he led his studies. "Freja" eventually escaped from her cage and the numerous Parasite Spiders of its lair began to swarm the town of Tseldora, overrunning it and taking control of the bodies of their inhabitants as their hosts, while the Duke, driven mad, simply remained to gaze at their infestation with satisfaction. The spider haunted by Seath thus returned to the depths of the mines next to the petrified body of the ancient dragon and began to accumulate the souls gathered in the lands of Tseldora, absorbing them from people until they grew immensely. Though Freja was ultimately slain, Tark was doubtful it would be the end of Seath.

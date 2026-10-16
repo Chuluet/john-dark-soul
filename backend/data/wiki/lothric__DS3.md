@@ -1,0 +1,209 @@
+---
+title: Lothric
+juego: DS3
+categoria: Dark Souls III: Locations
+fuente: https://darksouls.fandom.com/wiki/Lothric
+---
+
+# Lothric (DS3)
+
+right|350px
+
+ is the setting of Dark Souls III.
+
+__TOC__
+
+## Description
+
+Lothric is a kingdom located in the far south of Drangleic. Its main city is situated upon a massive protrusion of rock, whose walls and castles are a testament to its former might and glory. However, upon the Ashen One's arrival, the kingdom is in ruin: almost all of the inhabitants have been reduced to Hollows, and the courtyards and castle pathways are littered with the remains of deceased knights and soldiers, indicating a recent battle. The kingdom is also suffering from an infestation of Pus of Man and has been cut off from the other lands.
+
+## Dragonslaying Foundation
+
+thumb|The knights of Lothric worshipped the god of the sun.
+The origins of the kingdom of Lothric can be traced to the legacy of Drangleic. Survivors of Forossa and Vendrick's Kingdom, together with followers of the Way of Blue and the Heirs of the Sun, were the first inhabitants of Lothric, bringing with them artifacts such as the Spirit Tree and Golden Wing Crest Shields, the Sunlight Straight Sword and even the same Priest's Chimes to their new home.
+
+thumb|The ancient armor of Lothric dragonslayers.
+The new inhabitants of the region soon found themselves facing large numbers of wyverns and had to rise to the challenge, ascending common knighthood. The old knights of Lothric turned to the Firstborn of Lord Gwyn for aid, once venerated as a god of war and the sun, and built an altar for him in their city, beginning to worship the ancient deity who in return gave them the tools to face the wyverns. From the sun god they would learn how to infuse their weapons with the power of lightning, lethal against dragons, and the ancient techniques for hunting archdragons developed in the war between the gods and the Everlasting Dragons. They also learned of his miracles on manipulating lightning as a weapon.
+
+In further preparation, the first armors of the old knights of Lothric were crafted: heavy masses of iron capable of withstanding dragon fire, similar in design to the ancient armor of the dragonslayers of Anor Londo, with their shields boasting lightning absorption befitting of a dragonslayer's arms.  
+
+The people of Lothric successfully hunted down the wyverns that resided in their region; moreover, by observing how their god commanded such creatures, they even learned how to tame and ride them, gaining a terrifying arsenal and advantage over their human enemies. By the time the wyvern problem had been resolved, the nascent people of Lothric had gone through a socio-political transformation; alongside the royal family, the army, clergy and scholars consolidated their respective domains as the three pillars of the government of Lothric.
+
+## Three Pillars (三柱)
+
+The kingdom of Lothric is organized around three distinct political entities that administer with a certain degree of autonomy the army, religion and archives of the realm: the Three Pillars that supports the royal rule.
+
+## The Knight (騎士)
+
+thumb|120px|The symbol of the Knight.
+The Knight's Pillar represents the army of the kingdom of Lothric and the armed wing of the royal family since its foundation, tasked with the defense of the kingdom's borders and the security within the city walls. The knights have long abandoned their old and heavy armor, purpose-built for hunting wild wyverns, in favor of lighter armor more suitable for conventional warfare. Nevertheless, the knights of Lothric continue to maintain the traditions linked to wyvern hunts: their shields still bear high lightning absorption and their weapons are imbued with lightning, and they preserve their dragon-hunting tools in their arsenal, should the need arise.
+
+Given their status as a pillar of the kingdom, the knights freely befriended the wyverns and even kept them in barracks inside the city, as the creatures would become part of their army and rode with them into battle. When the Convergence of lands towards Lothric brought the lands of the Lords of Cinder to their frontiers, the knights were forced to repel the newfound threats, battling against enemy realms with great help from their wyverns. Their achievements likely cemented the Knights and the wyverns as symbols of Lothric.
+
+Following the alliance between Lothric and Irithyll, knights would employ crossbows that employed lightning bolts produced by the giant blacksmiths of the city of the gods.
+
+thumb|The modern armor of Lothric's knights.
+Sometime after the founding of the kingdom, when the scholars gained control of the Grand Archives and emerged as the third Pillar, the Knight and the Priestess strengthened their ties to maintain the power balance. The army provided the upper clergy with a guard armed with greatshields blessed by the priestesses with high magic absorption, while the clergy created miracles for the army's use such as blessings for their weapons, healing miracles, and magical barriers effective against magic. These miracles were written in Braille tomes, typical of Carim's new Way of White culture, implying cultural and religious exchange between the two nations. It was even said that no knight inside Lothric Castle could fall since they were blessed with divine protection, a testament to the strong ties between the Knight and the Priestess. The knights would take their vows in the Lothric cathedral, in a ceremony in which they would shed their blood in a ritual basin in front of the statue of a beheading knight. Throughout the kingdom are such statues of knights in the act of ceremonially cutting off their own heads. The city-wide presence of this imagery hearkens back to Lord Gwyn's selfless act of linking the Flame, whose mantle has since been taken up by the kings of Lothric, the self-designated keepers of the Flame.
+
+The cult of the Nameless King, god of the sun, is still widespread among the knights of Lothric, as one of his altars can be found near the military barracks. The knights are part of the Warriors of Sunlight covenant and as such have access to the lightning miracles used in battle.
+
+thumb|The knights of Lothric befriended wyverns.
+Their veneration of a god who rode with dragons into battle, along with the significance of dragons in their military culture, encouraged the knights to themselves become the creatures they rode. The knights of Lothric made pilgrimages to Irithyll of the Boreal Valley, where they meditated to reach the residence of the Nameless King on the Archdragon Peak. These knights would obtain special stoneplate rings, granted only to those seeking to become dragons, as well as stones infused with the power of the everlasting dragons, to achieve a transformation of the torso and head into that of a draconic creature, the first steps in secret rituals that sought a complete transformation into a Dragon. Despite the long and arduous process involved, the attempts to perfectly imitate the shape of an ancient dragon were successful, as some of these knights managed to transform themselves into wyverns, returning to Lothric or remaining to guard their sacred place.
+
+## The Priestess (祭儀長)
+
+thumb|130px|The symbol of the Priestess.
+The Priestess's Pillar represents the Lothric clergy and the religious wing of the royal family since its foundation. They were responsible for the ecclesiastical structures in the city, as well as supporting the knights and citizens with healing and protective miracles. The High Priestess additionally served as the wet nurse of the prince and cared for them during childhood. Lothric Cathedral, the first building welcoming the arrivals through the city's main gate, served as a bridge between the outside world and Lothric Castle and the Royal Garden.
+
+thumb|130px|The symbol of the ancient accord of the Way of Blue.
+The religion of Lothric has its roots in the Way of Blue originating from Heide in the region of Drangleic. Consequently it venerates the ancient gods of Anor Londo and in particular Dark Sun Gwyndolin, king of the gods and god of the darkmoon. The High Priestess holds the parchment of the moon, symbol of the ancient accord of the Way of Blue and the protection of its members.
+
+Sometime after the founding of the kingdom, when the scholars gained control of the Grand Archives and emerged as the third Pillar, the Knight and the Priestess strengthened their ties to maintain the power balance. The army provided the upper clergy with a guard armed with greatshields blessed by the priestesses with high magic absorption, while the clergy created miracles for the army's use such as blessings for their weapons, healing miracles, and magical barriers effective against magic. These miracles were written in Braille tomes, typical of Carim's new Way of White culture, implying cultural and religious exchange between the two nations. It was even said that no knight inside Lothric Castle could fall since they were blessed with divine protection, a testament to the strong ties between the Knights and the High Priestess.thumb|The braille tome of miracles for knights.
+When Gwynevere reached Lothric and became the queen of the kingdom, marrying into the bloodline of its monarchs, she resumed her role as a divinity and was worshipped by the population of Lothric as a symbol of bounty and fertility. Her "heavenly daughter" Gertrude also became her holy maiden, whose miracles were taught to her personal knights.
+
+The current High Priestess is Emma, who, as tradition dictated, was also Prince Lothric's wet nurse. She deeply wished for him to fulfill his destiny and become the designated Lord of Cinder, and blessed the holy sword that he was expected to wield with strong magic.
+
+## The Scholar (賢者)
+
+thumb|130px|The symbol of the Scholar.
+The Scholar's Pillar represents the scholars of the kingdom of Lothric and the academic wing of the establishment. They are responsible for the management of the knowledge of the kingdom, the academic structures in the city and the support of the realm with research and sorceries.
+
+The history of the scholars began in a nascent Lothric when Aldia, Scholar of the First Sin reached the developing kingdom, becoming the "first of the scholars" and teaching them his sorceries. The scholars had access to the Grand Archives, home to all the knowledge of the kingdom and the field to their scientific research. Over time, scholars accumulated an immense amount of knowledge and the Grand Archives became an enormous structure containing a commensurate volume of works. However, the knowledge within the tomes, said to "[all too easily] wash away its inquirers' anchors of reason", posed a threat to the sanity of the scholars. The "foulness" that permeated the books manifested physically as well, in the form of ghostly and pale limbs that attacked and cursed those who came too close. The scholars took steps to shield themselves from the adverse effects of the Archives, including dousing their heads and robes in ivory wax, a coating that reduced exposure to the tomes' curse and allowed them to continue their work in peace.
+
+thumb|The great library of the Grand Archives.
+Although the scholars were sorcerers foremost, they were also pious, tending to their candles with reverence, signifying how the Flame guided their research and shielded them from the cursed knowledge of the Archives. Their candlesticks not only allowed them to reinforce their sorceries, but also functioned as weapons; a "guiding light" in their research as well as a tool of self-restraint.
+
+thumb|One of the Crystal Sages, gurus of the Grand Archives.
+At some point, the Crystal Sages reached Lothric and became the spiritual guides of the scholars of the Grand Archives. The twin sages were inspired by the grand sage Logan, wearing hats similar to that of the legendary sorcerer as a symbol of their pedigree. They possessed a scroll containing the crystal sorceries of Seath, a branch of sorcery that the two sages had carried on, allowing them to replicate Logan's sorceries that utilize the power of crystals to their fullest as a medium for souls. The Crystal Sages introduced to Lothric not only crystal gems but also the heretical cult of the pale dragon Seath and his maddening knowledge. The sages even took pupils and crafted weapons and casting tools that used crystals to enhance their magical power, the fruits of lifetimes of research. One of the sages would eventually depart to ally with Farron's Undead Legion, leaving the other as the sole mentor of the Scholars.
+
+More recently, Aldia, who had survived throughout the kingdom's history, became Prince Lothric's mentor in secret, teaching him powerful and refined spells and privately divulging to the Prince his skepticism about the linking of the First Flame.
+
+## The Hunter (狩人)
+
+thumb|130px|The symbol of the Hunters.
+
+The Hunters are a de facto Pillar of Lothric, a shadowy order of assassins who act in the shadows to serve the interests of the royal family. Their task was of vital importance to the royal government, being employed to act against and secretly punish the Three Pillars when they acted outside the king's interests, covertly eliminating internal dissidents. For this task they donned leather armors with a black cape cover like those of an assassin's that shrouded them in darkness. 
+
+Among the Hunters were also the "Black Hands", an honorific title bestowed on select hunters who served successive generations of kings. The Black Hands distinguished themselves with their exceptional dexterity, proficiency in their work, and loyalty to the royal family. This title was awarded to very few, with only three Black Hands having been named in the entire history of the kingdom. Two of these are currently known: Gotthard, a hunter who rose through the ranks of the knights and was recognized for his unequaled swordsmanship; and Kamui, a foreigner from the Undead Settlement who became part of the prince's private guard. The Black Hands came to be identified with paired swords, their weapons of choice.
+
+## Firelinking Duty
+
+thumb|A statue of the Primordial Serpent inside Lothric.
+The tradition of linking the Flame plays a central role in Lothric, testified by the Firelink Shrine's location just outside the city walls, connected to the Royal Gardens. A large number of people throughout the long history of the kingdom came here to take part in the ritual initiated by Lord Gwyn's sacrifice. Those who failed, becoming the Unkindled, were buried near the Shrine in the Cemetery of Ash. Next to the Cemetery was an arena complete with stands, where Iudex Gundyr's golem judged those who aspired to become Lords, testing their strength. The ritual of the linking of the Flame permeated the kingdom at every level up to the royal family, who were obsessed with producing a worthy Champion in their line to preserve their divine mandate as the guardians of the Age of Fire.
+
+During the founding of Lothric, the First Flame drifted north towards the kingdom, forever marking the history and culture of its people. Due the presence of the Flame, the lands of the world began a geographical and temporal drift towards the city of Lothric, owing to the space-time altering effects of Convergence. One or more Primordial Serpents developed an interest in propagating the cult of Firelinking within Lothric, to uphold the Age of Fire and the tradition started with Gwyn's sacrifice. Eventually Frampt or other serpents affiliated with his ideology reached the city. Over time, serpents passed on the Firelinking culture to the royal family of Lothric, pushing them to uphold the tradition and actively produce heirs capable of becoming Lords of Cinder. Primordial serpents were depicted in numerous statues, on par with the Three Pillars of Lothric, with elegant clothes and angelic wings, showing their central role within the kingdom and their perception as divine messengers. 
+
+As the kingdom of Lothric found itself managing the system of Firelinking, coupled with their subscription to the Way of Blue faith, it inevitably came into contact with Irithyll of the Boreal Valley. Ruled by Gwyndolin, the king of the gods, Irithyll and Lothric recognized a common ground in their Firelinking legacy, as well as their faith which venerated the moon god. Soon after, the two kingdoms established diplomatic relations: the scholars and knights of Lothric would travel to Irithyll, and Lothric knights would adopt crossbows that used lightning bolts produced by the giant blacksmiths of Anor Londo. The Boreal Valley also became a place of pilgrimage for the knights of Lothric, who sought to reach the residence of their patron deity in Archdragon Peak through meditation.
+
+The relations between the two realms soon blossomed into an alliance, formalized by the incorporation of the sword of Lothric, a symbol of that realm, into the insignia of the Blades of the Darkmoon, the predecessors of the Blue Sentinels and the Way of Blue. In practice, the unification of cultural and religious symbols of the kingdoms allowed the usage of transport demons by those bearing the banner of Lothric.
+
+thumb|130px|The symbol crest of the Blade of the Darkmoon depicting the moon of Gwyndolin and the sword of Lothric.
+Now in possession of the knowledge provided by the primordial serpents and the ancient gods of Anor Londo, the kingdom of Lothric developed its role in the linking of the Flame, building the Firelink Shrine just outside the city walls, neighbouring the Royal Gardens, in order to guarantee safe and regulated passage to the Kiln of the First Flame. The shrine would once again accept Fire Keepers who assisted Champions that aspired to link the Flame, drawing out the strength of the souls they acquired to aid them in their journey.
+
+120px|thumb|The dark secrets of the first Fire Keeper of Lothric. 
+In the beginning, the first Fire Keeper had a vision of the end of the Age of Fire and the beginning of an Age of Dark, a barren plane of endless darkness. Acting to ward off an Age of Dark, Ludleth, a student of the art of transposition of Courland, rose to the challenge of becoming a Lord of Cinder, to link the First Flame again and repel the dark vision of the Fire Keeper. Despite his feeble appearance, Ludleth managed to muster the strength necessary to become a Lord, something for which he himself expresses remorse, asking to be forgiven. Ludleth was exiled from his country and collaborated with Lothric to ensure that the Fire Keeper was deprived of her eyes, as well as all future maidens, to prevent them from observing a future without the Flame. The original eyes were sealed away in an enigmatic instance of Firelink Shrine, where the First Flame had all but gone out.
+
+thumb|The arena where those aspiring to link the Fire were judged.
+At one point, a champion with an armor modelled after a king, Gundyr, was charged with linking the First Flame. Bestowed with an iron halberd which would never crumble, Champion Gundyr was sent to the Firelink Shrine to fulfill his duty. However, the champion found himself restrained by a chain that blocked him in his path, and he fell into an Abyss, getting lost in the folds of time. In this strange realm, the Firelink Shrine had no fire, and Gundyr ended up arriving "late" for the celebrations that awaited his fate. The Fire Keeper who was supposed to welcome her champion never met him, with the ensuing tragic farce becoming a favorite tale of the masses of Lothric, a stain on the reputation of future kings of the realm. However, the fate of Gundyr was not by chance, as the one who had charged him with his duty had also condemned him to eternal service from the beginning. Gundyr would be defeated by an unknown warrior, becoming sheath to a coiled sword and transforming into an indestructible golem. He would comprise the ritual test of strength and worthiness of those who would attempt to link the Flame, acquiring the title Iudex (Latin for "judge"). 
+
+thumb|The statue of a beheading knight inside the Cathedral of Lothric.
+Over time, the ritual of the Linking of the Fire evolved, from a simple temple inside the Royal Gardens to an arena complete with stands, in which Iudex Gundyr's golem would judge those who aspired to become Lords. Countless people throughout the long history of the kingdom came here to take part in the ritual started with Gwyn's sacrifice. All the Fire Keepers who served their purpose of guiding their Champions would be disposed of and dropped inside the Bell Tower of Firelinking Shrine, piling in up in the dozens. Even more were those Champions who tried and failed to link the Flame, becoming the Unkindled, and were buried near the shrine in the Cemetery of Ash, a graveyard of all those who failed in their task.
+ 
+At some point, Gwynevere would leave Irithyll and reach Lothric to marry into the bloodline of its monarchs, becoming the queen of the kingdom. The goddess resumed her role as a divinity in the city, producing holy water with healing properties and being worshipped by the citizens as a symbol of "bounty and fertility". Her "heavenly daughter" Gertrude became her holy maiden, and her healing miracles were taught to Gertrude's personal knights. For the time that Lothric managed the system of Firelinking, the goddess alone cared for the Cemetery of Ash, the resting place for the Unkindled, beings who had failed to link the flame and whose graves saw no visitors.
+
+## Royal Madness
+
+thumb|The tragic delusions of the royal family.
+Oceiros, upon being crowned King of Lothric, became the representative of the Firelinking culture of the kingdom, which entailed making amends for the failure of Champion Gundyr. The king married Gwynevere, Queen of Lothric, with whom he conceived the divine princes of the kingdom. Lorian, the crown prince, received the ancient brass armor handed down by the royal family, complete with a crown patterned with flame, a symbol of the kingdom's tradition of Firelinking. Lorian was raised as a knight and proved his incredible prowess on the battlefield, leading a war against the remnants of the Chaos Demons, even capturing some of them to serve as slaves for Lothric. Lorian went on to face the Demon Prince, defeating him single-handedly in a battle that eternally scorched his greatsword with the flame of chaos and stained his armor black.
+
+thumb|The fronton celebrating the coming Prince of Cinders.
+Lothric, the younger prince, was the destined Lord of Cinder, who would sacrifice himself as fuel for the First Flame to uphold the Age of Fire. The prince, born a sickly, frail child, was nevertheless viewed as the "last hope of his line", the culmination of generations of Lothric rulers obsessed with producing worthy Champions for the Flame. For the anticipated journey of the young prince, a platinum sword was crafted and blessed with strong magic by the High Priestess, long before he would fulfill his destiny. Oceiros created extensive propaganda around Lothric, not only giving him the name of the kingdom, but also building statues that depicted him with his sacred sword ready to complete his task, as well as preparing his throne at the Firelink Shrine in advance. However, the hopes of the royal family would soon fade, as Lothric remained a shriveled child from birth into adulthood, never even growing out of his baby clothes.  
+
+Aldia, the first of the Grand Archives scholars, seemingly became a private mentor to Prince Lothric. The young prince likely received his skepticism on the nature of the Age of Fire from his private tutor. The prince also demonstrated talent for sorcery, for which he did not need a medium—being the son of a deity—and learned several powerful and refined spells.
+
+When the royal family realized that Lothric would not improve from his condition, they resorted to repulsive acts in an attempt to obtain a worthy Champion for the linking: the rulers bound the souls of the two princes together with a curse. Although the exact motive behind this act is unknown, it is likely that the rulers intended for Prince Lothric to draw out some of the strength of his elder brother's soul, which could have allowed him to qualify as worthy Ash for the First Flame. It was even said that Lorian willingly submitted to the curse, even as it crippled him. The resulting Soul of the Twin Princes was one worthy of providing kindling for the First Flame, even as the princes were physically incapable of overcoming the obstacles involved in linking the Flame. Unable and unwilling to fulfill their destiny, the princes retreated to their chamber to await the end of the world. 
+
+thumb|Oceiros consumed in his madness.
+In his later years, dismayed by failures to find a worthy Champion, Oceiros developed a fascination for dragons that sent him into his descent into madness, eventually turning to the cursed knowledge of the Grand Archives. Here Oceiros found the heretical worship of the white dragon Seath, becoming deeply engrossed in it to the point where he wore a dragonscale ring and had his army use shields decorated with a "white dragon", while giving his royal guard magic rings that enhanced sorcery. By now lost in his madness, Oceiros became known as the "Consumed King"; many assassins were sent to kill him to remove him from power, but he managed to ward off the threat, attributing his salvation to the divine protection of the dragon scale.
+
+Continuing to study the sorceries and knowledge contained in the Archives and brought by the Crystal Sages to Lothric, Oceiros found himself walking the same path as Big Hat Logan, one that led to enlightenment only to be followed by madness. The deluded king believed he had to become a dragon himself in order to produce an heir strong enough to link the Flame. Eventually he managed to transform himself into a scaleless dragon, albeit an imperfect and distorted one, even obtaining the sorcery of Seath's crystal breath. His desire for transcendence satiated, Oceiros once again fathered a child with Gwynevere, believing that a descendant of dragons would make a worthy Champion. Once he secured his child Ocelotte, Oceiros retreated with his royal guard to the royal gardens, completely ignoring the state of his kingdom to protect the "child of dragons", the culmination of his desires and the only thing left in his life. Despite his efforts, the king was not even able to see Ocelotte, merely holding him tightly in his palm. Moreover, the secrets of the moonlight, central to his frenzied search, eluded him in the end.
+
+After delivering Ocelotte, Gwynevere quietly disappeared from the kingdom of Lothric. Realizing that the Flame would soon fade and that it would be necessary to bring back even the Unkindled to search for a new champion, the queen enshrined her ring in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.
+
+## Angelic Heresy
+
+thumb|An Angel shares a revelation to Gertrude.
+Gertrude, the Holy Maiden of the Queen, was one day visited by an Angel, a luminescent humanoid that evolved from the fermented humanity of the pilgrims of Londor that were arriving at the kingdom of Lothric. The Angel imparted its tale to Gertrude, a manifestation of pillars of light, and with it a religious doctrine which contradicted that of Lothric culture. The holy maiden was transformed by this enlightenment and began to spread the worship of the angels, earning herself the title "Angel's Daughter". However this faith was viewed as heresy in Lothric, as it opposed the worship of the ancient gods and the duty to continue linking the First Flame, and consequently went unrecognized by any of the Three Pillars that governed the realm.
+
+thumb|A civil war of faith ravages Lothric.
+Due to the danger that her new faith posed to the kingdom, and despite her close position to the Queen, Gertrude was imprisoned in the ceiling cell inside the Grand Archives. Here she was subjected to the experiments of scholars, who even toyed with her sacred chime, using crystals to make a catalyst that was suitable for casting both miracles and sorceries. Eventually the abuses of the scholars led the maiden to lose both her voice and her sight, but she remained determined to write down the story of the Angel, even if in the form of incoherent scrawls.
+
+Although Gertrude was still in captivity, her incomprehensible writings somehow reached the rest of Lothric and became the foundation of the "Angelic Faith" that venerated angels despite the Three Pillars' condemnation of heresy. Over time, this heretical faith also spread among the knights of Lothric who, despite maintaining the symbols and armor of the kingdom, swore themselves to the Angels. These soldiers went so far as to create iconography and art of their new faith, depicting themselves as angelic executioners beneath a solar eclipse; their steadfast faith even led them to grow angelic wings similar to those of the objects of their worship. Viewed as heretics despite still bearing the insignia of Lothric, these Winged Knights armed themselves with weapons more befitting of executioners, and clashed with the Three Pillars and Lothric's loyalist army.
+
+In the final days of the reign of Lothric and the First Flame, Gertrude died, still in her cage, surrounded by feathers and clutching onto her writings. The Winged Knights continue to patrol various locations within Lothric and the Castle; Gertrude's most loyal Knights, who managed to grow large feathered wings, remain positioned to defend their saint's resting place.
+
+## Lothric's Refusal
+
+When the First Flame began to fade and the time came for Prince Lothric to fulfill his destiny and become a Lord of Cinder, he refused the call. After reflecting on his mentor's teachings, the state of the kingdom and the world, his accursed life, and the atrocities committed for the Flame, the prince decided to ignore his duty, refusing to continue the legacy of the Lords, and instead chose to await the Flame's death from the distance. The prince retired to the peak of Lothric Castle together with his brother Lorian with whom he shared a soul, protected by their royal guard and the exponents of the Three Pillars: Lion Knight Albert, Black Hand Kamui and Daughter of Crystal Kriemhild.
+
+## The Outrider Knights
+
+After Pontiff Sulyvahn rose to power in Irithyll, he began looking for strategies to expand his influence and power. As such, he established a force of Outrider Knights, who would serve as his militia-in-exile. These knights were bestowed rings that allowed their surveillance by the Pontiff. Unbeknownst to the knights, these rings would eventually drive them insane, and transform them into savage mindless beasts. Part of his strategy consisted of corrupting and destabilizing Lothric. By sending his Outrider Knights, who acted as fierce and relentless invaders, he created chaos and began to undermine the stability of Lothric, making it easier for him to exert control.
+
+Two of the most notable Outrider Knights were Vordt, and the Dancer of the Boreal Valley. Vordt is encountered at the end of the High Wall of Lothric, in a ruined gate to the Undead Settlement. Not much is known about Vordt's past, except that he was a distant descendant of the Old Gods of Anor Londo, and resided in Irithyll of the Boreal Valley. After Sulyvahn imprisoned the Dark Sun Gwyndolin, Vordt was ordered to serve as an Outrider Knight. Like the others, he was given a ring known as Pontiff's left eye, which would eventually devolve him into a frenzied beast, causing his armor to fuse with his own hide.
+
+Vordt was sent to Lothric as a companion to the Dancer of the Boreal Valley. The Dancer is a direct descendant of Gwynevere, and was among the Irithyllians (Human and God hybrid) to inhabit Irithyll of the Boreal Valley. Once the Pontiff took control of the city, he initially ordered the daughter of Gwynevere to serve as his personal "dancer". Later, he bestowed upon her two enchanted swords, mirroring the design of his own blades, along with the same ring given to other Outrider Knights. He then sent her to Lothric, which was his equivalent of exile. She positioned herself in the cathedral to guard High Priestess Emma and the entrance to Lothric Castle.
+
+thumb|The conflict leads to heavy losses among the knights.
+Despite the great losses of the regular army, the knights managed to regroup and maintain key positions in the city, rallying to protect the Cathedral and the High Priestess Emma, ​​securing the military barracks and the Castle. 
+
+Following the civil conflict that would have made the streets of the city unsafe, most of the population would have tried to find safety on the walls, along with the rest of the army's infantry that deserted from the ranks. However, they would soon meet their end here, as they were slowly reduced to murderers and thieves,  and eventually Hollows. The lack of regular army forces to patrol the city's borders would have led thieves from the Undead Settlement to scale the walls as well. However, they would have stopped here in their raids as they were frightened by the rumors coming from the Castle, in which anyone who entered disappeared.thumb|A manifestation of the Pus of Man.
+The fading of the Flame and the erosion of their faith made the citizens of Lothric more and more desperate, some of whom were transformed into humanoid trees that were turned in prayer towards Lothric Castle. Furthermore, the undead of the city began to show signs of an epidemic, in which their Dark Soul would explode from their bodies and manifest as an amorphous black blob with bestial features which attacked anything with destructive ferocity. The infestation of these Pus of Man led to the permanent closure of the Grand Archives' doors, with the scholars isolating themselves from the desperate situation of the kingdom to continue their work.
+
+Due to the Convergence, a massive seismic upheaval raised the Lothric plateau high above the land, cutting it off from its neighbouring regions. This new feature was called the High Wall, and removed all means of transportation in or out of the city. Lothric messengers had no means of returning, and pilgrims of Londor were unable to seek refuge, leading to the total isolation of the kingdom during its final days. The Stray Demon that was once the gatekeeper of Lothric would remain trapped on the kingdom's broken bridge, without even a trace of its flame.
+
+thumb|The eclipse and the Pilgrim Butterflies in the skies of Lothric.
+During the last days of the reign, when the Flame was at the limit of its strength, the sun itself above Lothric would have weakened, transforming into an dark eclipse barely contained by the remnants of light at its contours. Another result would have been the manifestation of the Pilgrim Butterflies, gigantic humanoid insects born from the final evolution of humans transformed into trees on the walls of Lothric or a failed evolution of the Angels born from the pilgrims of Londor. These beings with immense branch-like wings would infest the skies of the city, migrating towards the tip of the Castle and even taking control of the Dragonslayer Armour remaining in the military barracks.
+
+## Complete Ruin
+
+thumb|The ruins of Lothric.
+When the First Flame was reduced to a fading spark, the entire world would collapse in on itself, converging toward the Kiln of the Flame and piling up all kingdoms and cities into a massive pile of rubble. In those times, the citizens of the kingdom even forgot the miracles of their queen, the goddess of sunlight, ending up circulating childish but sincere stories to try to recall her image and her blessings. Despite everything, the loyalist knights managed to eliminate the problem of the heretical Winged Knights and the plague of the Pus of Man, however their victory was empty as they too were now reduced to Hollows, consumed to the point of being covered in ramifications and being reduced to patrolling the piles of ruins left of their city. What remained of Lothric's citizens would sink into the stagnant Abyss, becoming possessed by the dregs of the Dark Soul and manifesting as corrupted murkmen.
+
+## Theories
+
+The level of expertise of the ancient knights of Lothric in hunting dragons and wyverns can only be explained by the direct intervention of Gwyn's firstborn:
+The ancient dragonslayers wore armor very similar to that of Ornstein, the first knight of the Nameless King and most famous Dragonslayer; 
+they could control lightning as if it were theirs, like the firstborn of the Sun; 
+they knew techniques of archdragons hunt, which could have been learned only from someone who had taken part in the war against the archdragons before the start of the Age of Fire.
+The collaboration between the first knights of Lothric and the Firstborn of Gwyn is in fact so profound that after centuries all the knights are still part of the pact of the Warriors of Sunlight, and went on to pilgrimage to the temple of the Nameless King on the Archdragon Peak to seek ascension into dragons.
+
+## Royal Family
+
+Oceiros - King of Lothric
+Lorian - Elder Prince and Designated Heir
+Lothric - Younger Prince and Designated Lord of Cinder
+Ocelotte - Last Child of the Royal Family
+Gwynevere - Queen of Lothric
+Gertrude - Holy Maiden of the Queen
+
+## Lothric Pillars
+
+Aldia - First Scholar of the Grand Archives and Secret Mentor of the Prince
+Crystal Sage - Master of the Grand Archives
+Kriemhild - Favorite Pupil of the Crystal Sage
+Emma - High Priestess of Lothric and Wet Nurse of the Prince
+Albert - Knight of Lothric
+Gotthard - Black Hand of the King
+Kamui - Black Hand of the King
+
+## Locations
+
+Cemetery of Ash
+Firelink Shrine
+High Wall of Lothric
+Lothric Castle
+Consumed King's Garden
+Grand Archives
+Untended Graves
+Kiln of the First Flame
