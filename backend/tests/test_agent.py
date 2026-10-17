@@ -172,5 +172,37 @@ def test_save_history_skips_without_user_and_survives_db_errors(monkeypatch):
     monkeypatch.setattr(nodes.db, "guardar_mensaje", db_caida)
     estado = {"question": "q", "answer": "a", "sources": [], "rejected": False}
 
-    assert nodes.save_history(estado) == {}                       # sin user_id: no intenta guardar
-    assert nodes.save_history(estado | {"user_id": "demo"}) == {}  # Postgres caído: no revienta
+    # Sin user_id no intenta guardar en la tabla, y con Postgres caído no revienta;
+    # en ambos casos la interacción sí queda en la memoria de la sesión.
+    for resultado in (nodes.save_history(estado), nodes.save_history(estado | {"user_id": "demo"})):
+        assert [m.content for m in resultado["messages"]] == ["q", "a"]
+
+
+def test_memory_follow_up_question_sees_the_previous_turn(monkeypatch):
+    """La segunda pregunta de la sesión recibe la primera en {history}."""
+    vistos = []
+
+    def llm_que_registra(prompt):
+        vistos.append(prompt.to_string())
+        return "NO"
+
+    monkeypatch.setattr(nodes, "create_llm", lambda: RunnableLambda(llm_que_registra))
+    graph = build_graph()
+    config = {"configurable": {"thread_id": "memoria"}}
+    graph.invoke({"question": "Who is Artorias?"}, config)
+    result = graph.invoke({"question": "And his wolf?"}, config)
+
+    assert "User: Who is Artorias?" in vistos[-1]
+    assert len(result["messages"]) == 4  # 2 preguntas + 2 respuestas
+
+
+def test_format_history_keeps_last_turns_and_trims():
+    from langchain_core.messages import AIMessage, HumanMessage
+    from agents.utils import format_history
+
+    mensajes = [HumanMessage(f"q{i}") if i % 2 == 0 else AIMessage("x" * 500) for i in range(10)]
+    texto = format_history(mensajes, max_turns=2, max_chars=100)
+
+    assert texto.count("User:") == 2 and texto.count("Assistant:") == 2
+    assert "x" * 101 not in texto
+    assert format_history([]) == "(no previous messages)"

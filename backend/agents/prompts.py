@@ -42,8 +42,10 @@ INTENT_PROMPT = ChatPromptTemplate.from_messages([
      "lore, characters, bosses, places or items of the Dark Souls trilogy "
      "(Dark Souls, Dark Souls II and Dark Souls III, including their DLCs).\n"
      "The question may be written in any language.\n"
+     "If the question is a follow-up that only makes sense with the conversation "
+     "(for example 'and his wolf?'), use the conversation to decide.\n"
      "Answer only YES or NO, with no explanation."),
-    ("human", "{question}"),
+    ("human", "Conversation so far:\n{history}\n\nQuestion: {question}"),
 ])
 
 
@@ -61,9 +63,11 @@ REWRITE_PROMPT = ChatPromptTemplate.from_messages([
      "Ceniza Sin Llama -> Ashen One, Primera Llama / Llama Primigenia -> First Flame, "
      "Cama del Caos -> Bed of Chaos).\n"
      "- Keep the meaning of the question; do not answer it.\n"
-     "- Do not add names, titles or details that are not in the question.\n"
+     "- If the question refers to earlier messages (he, his, it, that boss...), replace the "
+     "reference with the name from the conversation so the question can be understood on its own.\n"
+     "- Do not add names, titles or details that are not in the question or the conversation.\n"
      "Reply with the rewritten question only."),
-    ("human", "{question}"),
+    ("human", "Conversation so far:\n{history}\n\nQuestion: {question}"),
 ])
 
 
@@ -105,6 +109,9 @@ ANSWER_PROMPT = ChatPromptTemplate.from_messages([
      "3. Cite the source in parentheses at the end of each statement, always with the word "
      "\"fuente\" and never \"source\", like this: (fuente: Knight Artorias, DS1).\n"
      "4. If the fragments contradict each other, say so and mention both versions.\n"
-     "5. If the context is not enough to answer, reply exactly: \"{rejection}\""),
-    ("human", "Context:\n{context}\n\nQuestion: {question}\n\n(Answer in {language}.)"),
+     "5. If the context is not enough to answer, reply exactly: \"{rejection}\"\n"
+     "6. The conversation so far only tells you what the question refers to "
+     "(for example who \"he\" is). Never use it as a source of facts."),
+    ("human", "Conversation so far:\n{history}\n\nContext:\n{context}\n\n"
+              "Question: {question}\n\n(Answer in {language}.)"),
 ])

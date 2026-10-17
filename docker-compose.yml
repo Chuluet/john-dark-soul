@@ -71,6 +71,25 @@ services:
       - keycloak
     restart: unless-stopped
 
+  frontend:
+    build:
+      context: ./frontend
+      # Vite fija estas variables al compilar: son las URLs que usa el NAVEGADOR,
+      # por eso van con localhost y no con los nombres de los servicios.
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+        VITE_KEYCLOAK_URL: ${KEYCLOAK_URL:-http://localhost:8080}
+        VITE_KEYCLOAK_REALM: ${KEYCLOAK_REALM:-john-dark-soul}
+        VITE_KEYCLOAK_CLIENT_ID: ${KEYCLOAK_CLIENT_ID:-frontend}
+        VITE_USE_MOCKS: ${VITE_USE_MOCKS:-false}
+    container_name: darksoul-frontend
+    # 5173: es el origen que acepta el cliente "frontend" de Keycloak y el CORS del backend.
+    ports:
+      - "5173:80"
+    depends_on:
+      - keycloak
+    restart: unless-stopped
+
 volumes:
   pgdata:
   ollama-models:
