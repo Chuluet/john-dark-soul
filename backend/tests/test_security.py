@@ -4,6 +4,7 @@ Se firma con una llave RSA generada aquí y se reemplaza el cliente JWKS
 para que devuelva su llave pública.
 """
 
+import re
 import time
 from types import SimpleNamespace
 
@@ -89,5 +90,5 @@ def test_todas_las_rutas_exigen_token(cliente):
     assert rutas
     for ruta, metodos in rutas.items():
         for metodo in metodos:
-            respuesta = cliente.request(metodo, ruta.replace("{id}", "1"))
+            respuesta = cliente.request(metodo, re.sub(r"\{\w+\}", "1", ruta))
             assert respuesta.status_code == 401, f"{metodo} {ruta} quedó expuesto"

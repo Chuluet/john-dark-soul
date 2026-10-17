@@ -82,12 +82,15 @@ def comprobar_conexion() -> tuple[bool, str]:
     return True, f"Postgres OK, pgvector {version}"
 
 
-def borrar_fuente(store: PGVector, fuente: str) -> None:
+def borrar_fuente(store: PGVector | None, fuente: str, estricto: bool = False) -> None:
     """Elimina los fragmentos de un archivo concreto.
 
     PGVector no expone borrado por filtro de metadatos, así que se hace con
     SQL sobre su propio esquema. `cmetadata->>'fuente'` extrae el campo del
     JSONB como texto.
+
+    Con `estricto=True` los errores se propagan: al borrar un documento desde
+    la API no puede quedar la fila borrada y sus fragmentos vivos.
     """
     sentencia = text(
         """
@@ -105,7 +108,8 @@ def borrar_fuente(store: PGVector, fuente: str) -> None:
                 {"coleccion": config.PG_COLLECTION, "fuente": fuente},
             )
     except Exception:  # noqa: BLE001 - las tablas pueden no existir todavía
-        pass
+        if estricto:
+            raise
 
 
 def reiniciar_coleccion() -> PGVector:

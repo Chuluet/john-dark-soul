@@ -572,6 +572,28 @@ def ingestar(reset: bool = False) -> int:
     return total
 
 
+def ingestar_archivo(ruta: Path, fuente: str) -> list[Document]:
+    """Indexa un solo archivo (el que se sube desde la web) y devuelve sus fragmentos.
+
+    Mismo pipeline que `ingestar`: cargar -> fragmentar -> embeber -> almacenar.
+    `fuente` identifica el archivo en pgvector (por ella se borra después).
+    A diferencia de `ingestar`, los errores se propagan: la API los convierte
+    en una respuesta para el usuario. Si no sale contenido útil devuelve [].
+    """
+    documentos = _cargar_archivo(ruta)
+    # El índice de nombres propios sale de la wiki: permite deducir el juego
+    # de un archivo subido que no lo dice en el nombre.
+    fragmentos = _fragmentar(documentos, fuente, _indice_juegos(_archivos_a_procesar()))
+    if not fragmentos:
+        return []
+
+    store = backend.get_vectorstore()
+    backend.borrar_fuente(store, fuente)
+    store.add_documents(fragmentos)
+    invalidar_titulos()
+    return fragmentos
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Indexa DOCS_PATH en la base de datos vectorial.")
     parser.add_argument(

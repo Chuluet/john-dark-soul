@@ -81,6 +81,9 @@ WHISPER_HOTWORDS = os.getenv(
 # Duración de cada bloque de transcripción (cada bloque = una sección citable).
 VIDEO_BLOQUE_SEGUNDOS = _int("VIDEO_BLOQUE_SEGUNDOS", 90)
 
+# Tamaño máximo de un archivo subido por la API (POST /documents), en MB.
+MAX_UPLOAD_MB = _int("MAX_UPLOAD_MB", 100)
+
 
 # --- Recuperación y control de alucinaciones -------------------------------
 RETRIEVER_K = _int("RETRIEVER_K", 5)
