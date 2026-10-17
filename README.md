@@ -104,7 +104,45 @@ uv run python -c "from agents.graph import build_graph; g = build_graph(); [prin
 uv run python -c "from agents.graph import build_graph; print(build_graph().get_graph().draw_mermaid())"
 ```
 
-### 7. Detener
+### 7. API
+
+Requiere Keycloak arriba (`docker compose up -d keycloak`). Desde `backend/`:
+
+```powershell
+uv run uvicorn app.main:app --reload
+```
+
+Documentación interactiva en http://localhost:8000/docs (botón **Authorize** para pegar el token).
+Todos los endpoints exigen `Authorization: Bearer <token>`; sin token responden 401.
+
+| Método | Ruta | Qué hace |
+|---|---|---|
+| `GET` | `/me` | Usuario autenticado (`sub`, `username`, `email`, `roles`) |
+| `POST` | `/chat` | `{"question", "session_id"?}` → `{"answer", "sources", "rejected"}` |
+| `GET` | `/chat/history?limit=50` | Historial del usuario, del más reciente al más antiguo |
+| `POST` | `/documents` | Sube un archivo (`multipart`, campo `archivo`), lo indexa y lo registra |
+| `GET` | `/documents` | Archivos subidos por el usuario |
+| `DELETE` | `/documents/{id}` | Borra el archivo y sus fragmentos de la base vectorial |
+
+Códigos de error: `401` sin token o token inválido · `404` documento inexistente o de otro
+usuario · `413` archivo mayor a `MAX_UPLOAD_MB` · `415` formato no soportado · `422` archivo
+vacío, dañado o sin texto útil · `503` Ollama o Postgres no responden.
+
+La base de conocimiento es compartida: lo que sube un usuario lo usa el agente para todos,
+pero cada usuario solo ve y borra sus propios archivos. Un rechazo del agente (sin información
+suficiente) no es un error: responde `200` con `"rejected": true`.
+
+```powershell
+# Token del usuario de prueba y una pregunta
+$t = Invoke-RestMethod -Method Post http://localhost:8080/realms/john-dark-soul/protocol/openid-connect/token -Body @{grant_type='password'; client_id='frontend'; username='demo'; password='demo'}
+$h = @{Authorization = "Bearer $($t.access_token)"}
+Invoke-RestMethod -Method Post http://localhost:8000/chat -Headers $h -ContentType 'application/json; charset=utf-8' -Body '{"question": "¿Quién es Artorias?"}'
+
+# Subir un documento
+curl.exe -H "Authorization: Bearer $($t.access_token)" -F "archivo=@C:\ruta\gael__DS3.pdf" http://localhost:8000/documents
+```
+
+### 8. Detener
 
 ```powershell
 docker compose down        # conserva modelos y datos
