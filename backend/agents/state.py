@@ -54,6 +54,8 @@ class AgentState(TypedDict):
     # porque el checkpointer conserva el estado de la pregunta anterior.
     error: str | None
 
+    # Memoria de la conversación: save_history agrega la pregunta y la respuesta.
     # Annotated[..., add_messages] cambia cómo se actualiza esta clave: en vez de
-    # REEMPLAZAR la lista, add_messages AGREGA los mensajes nuevos al final.
+    # REEMPLAZAR la lista, add_messages AGREGA los mensajes nuevos al final, y el
+    # checkpointer la conserva entre preguntas del mismo thread_id.
     messages: Annotated[list, add_messages]

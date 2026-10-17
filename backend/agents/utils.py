@@ -72,6 +72,24 @@ def message_text(message: Any) -> str:
     return str(content).strip()
 
 
+def format_history(messages, max_turns: int = 3, max_chars: int = 400) -> str:
+    """Últimos intercambios de la sesión como texto, para entender preguntas de seguimiento.
+
+    Solo sirve para saber a qué se refiere la pregunta ("¿y su lobo?"); nunca
+    como fuente de información. Las respuestas largas se recortan.
+    """
+    if not messages:
+        return "(no previous messages)"
+    lines = []
+    for message in messages[-2 * max_turns:]:
+        role = "User" if getattr(message, "type", "") == "human" else "Assistant"
+        text = message_text(message)
+        if len(text) > max_chars:
+            text = text[:max_chars].rstrip() + "…"
+        lines.append(f"{role}: {text}")
+    return "\n".join(lines)
+
+
 def _normalize(text: str) -> str:
     """Minúsculas, sin comillas al borde y con los espacios colapsados."""
     return " ".join(text.strip().strip("\"'“”«»").lower().split())

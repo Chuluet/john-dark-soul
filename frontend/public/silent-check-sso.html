@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <body>
+    <!-- Keycloak carga esta página en un iframe para saber si ya hay sesión sin recargar la app. -->
+    <script>
+      parent.postMessage(location.href, location.origin)
+    </script>
+  </body>
+</html>

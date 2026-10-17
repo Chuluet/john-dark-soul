@@ -13,6 +13,8 @@ from __future__ import annotations
 
 import logging
 
+from langchain_core.messages import AIMessage, HumanMessage
+
 from app import config, db
 from agents.llm import create_llm
 from agents.prompts import (
@@ -31,6 +33,7 @@ from agents.utils import (
     expand_names,
     extract_sources,
     format_context,
+    format_history,
     is_rejection,
     language_name,
     merge_results,
@@ -62,7 +65,10 @@ def validate_intent(state: AgentState) -> dict:
     language = detect_language(state["question"])
     try:
         # prompt | llm: el ChatPromptTemplate rellena {question} y el resultado va al modelo.
-        response = (INTENT_PROMPT | create_llm()).invoke({"question": state["question"]})
+        response = (INTENT_PROMPT | create_llm()).invoke({
+            "question": state["question"],
+            "history": format_history(state.get("messages")),
+        })
     except Exception as exc:  # noqa: BLE001 - Ollama caído o modelo sin descargar
         return {"language": language, "on_topic": False} | _error("validate_intent", exc)
     return {"on_topic": _is_yes(response), "language": language, "error": None}
@@ -75,7 +81,11 @@ def rewrite_query(state: AgentState) -> dict:
     completa después los nombres cortos con los títulos de la wiki.
     """
     try:
-        response = (REWRITE_PROMPT | create_llm()).invoke({"question": state["question"]})
+        # Con el historial, "¿y su lobo?" se reescribe como "Who was Artorias' wolf?".
+        response = (REWRITE_PROMPT | create_llm()).invoke({
+            "question": state["question"],
+            "history": format_history(state.get("messages")),
+        })
         search_query = message_text(response).strip().strip('"')
     except Exception:  # noqa: BLE001 - si falla, se busca solo con la pregunta original
         search_query = state["question"]
@@ -138,6 +148,7 @@ def generate(state: AgentState) -> dict:
         response = (ANSWER_PROMPT | create_llm()).invoke({
             "question": state["question"],
             "context": format_context(state["docs"]),
+            "history": format_history(state.get("messages")),
             "language": language_name(language),
             "rejection": rejection_message(language),
         })
@@ -171,14 +182,19 @@ def handle_error(state: AgentState) -> dict:
 
 
 def save_history(state: AgentState) -> dict:
-    """Guarda la pregunta y la respuesta (o el rechazo) en la tabla `messages`.
+    """Guarda la interacción en la memoria de la sesión y en la tabla `messages`.
 
-    Sin `user_id` (pruebas por consola) no se guarda nada. Si Postgres falla,
+    Memoria: la pregunta y la respuesta se agregan a `messages` del estado
+    (add_messages las acumula y el checkpointer las conserva por thread_id), así
+    la siguiente pregunta de la misma sesión puede referirse a esta.
+
+    Tabla: sin `user_id` (pruebas por consola) no se guarda. Si Postgres falla,
     la respuesta ya está lista: se registra el error y no se pierde.
     """
+    memory = {"messages": [HumanMessage(state["question"]), AIMessage(state["answer"])]}
     user_id = state.get("user_id")
     if not user_id:
-        return {}
+        return memory
     try:
         db.guardar_mensaje(
             user_id=user_id,
@@ -189,7 +205,7 @@ def save_history(state: AgentState) -> dict:
         )
     except Exception:  # noqa: BLE001
         logger.exception("No se pudo guardar el historial de %s", user_id)
-    return {}
+    return memory
 
 
 # --- Rutas (las usan los edges condicionales de graph.py) --------------------
