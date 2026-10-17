@@ -1,8 +1,8 @@
 """Endpoints del chat con el agente."""
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Path, Query
 
-from app.schemas import ChatRequest, ChatResponse, MessageOut
+from app.schemas import ChatRequest, ChatResponse, ConversationOut, MessageOut
 from app.security import Usuario, get_current_user
 from services import chat_service, history_service
 
@@ -42,3 +42,31 @@ def historial(
 ) -> list[dict]:
     """Historial del usuario, del mensaje más reciente al más antiguo."""
     return history_service.listar(usuario.sub, limit)
+
+
+@router.get(
+    "/conversations",
+    response_model=list[ConversationOut],
+    summary="Conversations",
+    description="The user's conversations (messages grouped by `session_id`), most recent first.",
+)
+def conversaciones(
+    limit: int = Query(20, ge=1, le=100, description="Maximum number of conversations to return."),
+    usuario: Usuario = Depends(get_current_user),
+) -> list[dict]:
+    """Conversaciones del usuario, de la más reciente a la más antigua."""
+    return history_service.conversaciones(usuario.sub, limit)
+
+
+@router.get(
+    "/conversations/{session_id}",
+    response_model=list[MessageOut],
+    summary="Conversation messages",
+    description="Messages of one of the user's conversations, oldest first. 404 if it does not exist.",
+)
+def conversacion(
+    session_id: str = Path(min_length=1, max_length=100),
+    usuario: Usuario = Depends(get_current_user),
+) -> list[dict]:
+    """Mensajes de una conversación del usuario, en el orden en que se hicieron."""
+    return history_service.conversacion(usuario.sub, session_id)

@@ -185,6 +185,64 @@ def huella_guardada(fuente: str) -> str | None:
         return None
 
 
+# Los archivos subidos desde la web se guardan con fuente 'uploads/<uuid>/<nombre>';
+# todo lo demás salió de la ingesta de DOCS_PATH (la base original).
+PREFIJO_SUBIDOS = "uploads/"
+
+
+def listar_documentos_base(fuente: str | None = None) -> list[dict]:
+    """Archivos de la base original con su título, tipo, juegos y nº de fragmentos.
+
+    Con `fuente` devuelve solo ese archivo (lista vacía si no es de la base).
+    A diferencia de las otras consultas, los errores se propagan: la API los
+    convierte en un 503.
+    """
+    sentencia = text(
+        """
+        SELECT e.cmetadata->>'fuente' AS fuente,
+               min(e.cmetadata->>'title') AS title,
+               min(e.cmetadata->>'tipo') AS tipo,
+               count(DISTINCT e.id) AS chunks,
+               array_remove(array_agg(DISTINCT j.juego ORDER BY j.juego), NULL) AS juegos
+        FROM langchain_pg_embedding e
+        JOIN langchain_pg_collection c ON e.collection_id = c.uuid
+        LEFT JOIN LATERAL jsonb_array_elements_text(
+            CASE WHEN jsonb_typeof(e.cmetadata->'juegos') = 'array'
+                 THEN e.cmetadata->'juegos' ELSE '[]'::jsonb END
+        ) AS j(juego) ON true
+        WHERE c.name = :coleccion
+          AND e.cmetadata->>'fuente' IS NOT NULL
+          AND e.cmetadata->>'fuente' NOT LIKE :subidos
+          AND (CAST(:fuente AS TEXT) IS NULL OR e.cmetadata->>'fuente' = :fuente)
+        GROUP BY 1
+        ORDER BY lower(min(e.cmetadata->>'title')), 1
+        """
+    )
+    with _get_motor().connect() as conexion:
+        filas = conexion.execute(
+            sentencia,
+            {"coleccion": config.PG_COLLECTION, "subidos": f"{PREFIJO_SUBIDOS}%", "fuente": fuente},
+        )
+        return [dict(fila._mapping) for fila in filas]
+
+
+def textos_fragmentos() -> list[str]:
+    """Texto de todos los fragmentos de la colección (para sacar sus nombres propios)."""
+    sentencia = text(
+        """
+        SELECT e.document
+        FROM langchain_pg_embedding e
+        JOIN langchain_pg_collection c ON e.collection_id = c.uuid
+        WHERE c.name = :coleccion
+        """
+    )
+    try:
+        with _get_motor().connect() as conexion:
+            return [fila.document for fila in conexion.execute(sentencia, {"coleccion": config.PG_COLLECTION})]
+    except Exception:  # noqa: BLE001
+        return []
+
+
 def listar_titulos() -> list[str]:
     """Títulos distintos de los documentos indexados (las páginas de la wiki)."""
     sentencia = text(

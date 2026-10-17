@@ -1,9 +1,9 @@
 #!/bin/sh
 # Llena la base vectorial con backend/data/embeddings.dump si está vacía.
 #
-# Lo ejecuta el servicio `db-seed` de docker-compose.yml antes de arrancar el
-# backend. Si la colección ya tiene fragmentos (ingesta previa o documentos
-# subidos desde la web) no toca nada: es seguro correrlo en cada `up`.
+# Lo ejecuta el servicio `db-seed` de docker-compose.yml en cada
+# `docker compose up -d`, antes de arrancar el backend. Si la colección ya tiene
+# fragmentos (ingesta previa o documentos subidos desde la web) no toca nada.
 set -eu
 
 DUMP=/seed/embeddings.dump

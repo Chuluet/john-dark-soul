@@ -17,7 +17,7 @@ export default function LoginPage() {
           <button type="button" className="btn btn-primary btn-lg" onClick={login}>Sign in</button>
           <button type="button" className="btn btn-ghost btn-lg" onClick={register}>Create account</button>
         </div>
-        <Quote>Prepare to die</Quote>
+        <Quote>Every soul has it's dark</Quote>
         <p className="login-note">
           <LockIcon /> Authentication handled by Keycloak
         </p>

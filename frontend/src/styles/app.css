@@ -97,7 +97,8 @@ button { font: inherit; }
 .nav a:hover { background: #1a1612; color: var(--text); }
 .nav a.active { background: #231c15; color: var(--ember-hi); font-weight: 500; }
 .recent { display: flex; flex-direction: column; gap: 2px; padding: 0 12px; }
-.recent-item { font-size: 14px; color: var(--soft); text-decoration: none; padding: 6px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recent-item { font: inherit; font-size: 14px; color: var(--soft); background: transparent; border: 0; text-align: left; cursor: pointer; padding: 6px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recent-item.current { color: var(--ember-hi); }
 .recent-item:hover { color: var(--text); }
 .spacer { flex: 1; }
 .sidebar-quote { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
@@ -206,3 +207,14 @@ td:first-child { color: var(--text); }
 .num { text-align: right; }
 .strong { color: var(--text); }
 td.actions { padding: 4px 8px; text-align: right; }
+tr.inactive td { opacity: 0.55; }
+tr.inactive td:nth-last-child(-n+2) { opacity: 1; }
+.doc-name { display: block; overflow-wrap: anywhere; }
+.doc-title { display: block; margin-top: 2px; }
+.switch { position: relative; display: inline-flex; width: 40px; height: 24px; cursor: pointer; flex: none; }
+.switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.switch span { position: absolute; inset: 0; border-radius: 999px; background: #2a241e; border: 1px solid var(--line2); transition: background 0.15s; pointer-events: none; }
+.switch span::after { content: ''; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--muted); transition: transform 0.15s, background 0.15s; }
+.switch input:checked + span { background: #4a2f1b; border-color: var(--ember); }
+.switch input:checked + span::after { transform: translateX(16px); background: var(--ember-hi); }
+.switch input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 2px; }

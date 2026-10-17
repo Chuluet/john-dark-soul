@@ -19,9 +19,6 @@ export const LogoutIcon = (p) => (
 export const SendIcon = (p) => (
   <svg width="18" height="18" viewBox="0 0 24 24" {...base} {...p}><path d="M12 19V5M5 12l7-7 7 7" /></svg>
 )
-export const ExternalIcon = (p) => (
-  <svg width="13" height="13" viewBox="0 0 24 24" {...base} {...p}><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6" /></svg>
-)
 export const WarningIcon = (p) => (
   <svg width="20" height="20" viewBox="0 0 24 24" {...base} {...p}><path d="M12 3l9.5 17h-19z" /><path d="M12 10v4M12 17.5v.01" /></svg>
 )

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
-import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { getHistory } from '../api/chat'
+import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { getConversation, getConversations } from '../api/chat'
 import { useAuth } from '../auth/AuthProvider'
 import solaire from '../assets/solaire.png'
 import { Bonfire } from './Decor'
@@ -10,6 +10,13 @@ import { ChatIcon, ClockIcon, FileIcon, LogoutIcon, PlusIcon } from './Icons'
 const newId = () => window.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`
 const newSession = () => ({ id: newId(), messages: [] })
 
+// Mensajes guardados ({ question, answer, ... }) -> mensajes del chat.
+const toChatMessages = (items) =>
+  items.flatMap((item) => [
+    { role: 'user', text: item.question },
+    { role: 'agent', text: item.answer, sources: item.sources, rejected: item.rejected },
+  ])
+
 // Estructura de la app autenticada: menú lateral + la página activa.
 // La conversación vive aquí para no perderla al cambiar de página.
 export default function Layout() {
@@ -18,10 +25,12 @@ export default function Layout() {
   const [session, setSession] = useState(newSession)
   const [recent, setRecent] = useState([])
 
+  // "Recent" lista conversaciones (todas las preguntas con el mismo session_id),
+  // no preguntas sueltas.
   const refreshRecent = useCallback(() => {
-    getHistory()
-      .then((items) => setRecent(items.slice(0, 3)))
-      .catch(() => setRecent([])) // sin endpoint todavía: el menú queda sin recientes
+    getConversations(5)
+      .then(setRecent)
+      .catch(() => setRecent([])) // sin conexión: el menú queda sin recientes
   }, [])
 
   useEffect(refreshRecent, [refreshRecent])
@@ -30,6 +39,22 @@ export default function Layout() {
     setSession(newSession())
     navigate('/chat')
   }
+
+  // Abre una conversación guardada en el chat: las preguntas nuevas siguen en
+  // el mismo session_id, así que se agregan a ella.
+  const openConversation = useCallback(
+    async (sessionId) => {
+      navigate('/chat')
+      if (sessionId === session.id) return
+      try {
+        const items = await getConversation(sessionId)
+        setSession({ id: sessionId, messages: toChatMessages(items) })
+      } catch (error) {
+        setSession({ id: sessionId, messages: [{ role: 'error', text: error.message }] })
+      }
+    },
+    [navigate, session.id],
+  )
 
   return (
     <div className="app">
@@ -53,10 +78,16 @@ export default function Layout() {
           <div className="recent">
             <span className="label">Recent</span>
             {recent.map((item) => (
-              // ?open=<id>: History abre esa pregunta y la lleva a la vista.
-              <Link key={item.id} to={`/history?open=${item.id}`} className="recent-item">
-                {item.question}
-              </Link>
+              <button
+                key={item.session_id}
+                type="button"
+                className={`recent-item ${item.session_id === session.id ? 'current' : ''}`}
+                aria-current={item.session_id === session.id ? 'true' : undefined}
+                title={item.title}
+                onClick={() => openConversation(item.session_id)}
+              >
+                {item.title}
+              </button>
             ))}
           </div>
         )}
@@ -83,7 +114,7 @@ export default function Layout() {
       </aside>
 
       <main className="main">
-        <Outlet context={{ session, setSession, refreshRecent }} />
+        <Outlet context={{ session, setSession, refreshRecent, openConversation }} />
       </main>
     </div>
   )

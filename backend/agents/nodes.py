@@ -23,11 +23,12 @@ from agents.prompts import (
     INTENT_PROMPT,
     REJECTION_MESSAGES,
     REWRITE_PROMPT,
+    citation_word,
     rejection_message,
     service_error_message,
 )
 from agents.state import AgentState
-from agents.tools import get_titles, search_documents
+from agents.tools import get_names, get_titles, search_documents
 from agents.utils import (
     detect_language,
     expand_names,
@@ -36,7 +37,9 @@ from agents.utils import (
     format_history,
     is_rejection,
     language_name,
+    known_names_in,
     merge_results,
+    rare_names,
     message_text,
 )
 
@@ -57,12 +60,21 @@ def _error(node: str, exc: Exception) -> dict:
 # --- Nodos ------------------------------------------------------------------
 
 def validate_intent(state: AgentState) -> dict:
-    """¿La pregunta es sobre el lore de Dark Souls? Si no, se rechaza sin buscar.
+    """¿La pregunta es sobre el lore de Dark Souls? Decide CÓMO se busca, no SI se busca.
+
+    Con YES la pregunta se reescribe (traducción, nombres oficiales, "his" ->
+    "Artorias") antes de buscar. Con NO se busca igual, con la pregunta tal
+    cual: el clasificador no conoce todos los nombres del juego (Midir, Gael)
+    ni los temas de los documentos que suben los usuarios, así que nunca
+    rechaza solo. Rechazan el umbral y evaluate_context, que miran lo que la
+    base devolvió.
 
     También detecta el idioma de la pregunta (lo usan generate y reject) y
-    limpia `error`, que el checkpointer arrastra de la pregunta anterior.
+    limpia `error` y `search_query`, que el checkpointer arrastra de la
+    pregunta anterior.
     """
     language = detect_language(state["question"])
+    reset = {"language": language, "search_query": None}
     try:
         # prompt | llm: el ChatPromptTemplate rellena {question} y el resultado va al modelo.
         response = (INTENT_PROMPT | create_llm()).invoke({
@@ -70,8 +82,11 @@ def validate_intent(state: AgentState) -> dict:
             "history": format_history(state.get("messages")),
         })
     except Exception as exc:  # noqa: BLE001 - Ollama caído o modelo sin descargar
-        return {"language": language, "on_topic": False} | _error("validate_intent", exc)
-    return {"on_topic": _is_yes(response), "language": language, "error": None}
+        return reset | {"on_topic": False} | _error("validate_intent", exc)
+    # Si la pregunta nombra algo de la base ("quien es la gael"), también se
+    # reescribe: buscar la frase en español sin traducir no encuentra a Gael.
+    on_topic = _is_yes(response) or bool(known_names_in(state["question"], get_names()))
+    return reset | {"on_topic": on_topic, "error": None}
 
 
 def rewrite_query(state: AgentState) -> dict:
@@ -107,9 +122,12 @@ def retrieve(state: AgentState) -> dict:
     queries = list(dict.fromkeys(query for query in queries if query))  # sin repetidas
 
     try:
+        # Documentos que el usuario apagó en la página Documents.
+        user_id = state.get("user_id")
+        excluded = sorted(db.fuentes_desactivadas(user_id)) if user_id else []
         # .invoke() de la @tool: la misma herramienta del profe, pero llamada por el grafo.
         result_lists = [
-            search_documents.invoke({"query": query, "k": config.RETRIEVER_FETCH_K})
+            search_documents.invoke({"query": query, "k": config.RETRIEVER_FETCH_K, "excluded": excluded})
             for query in queries
         ]
     except Exception as exc:  # noqa: BLE001 - Postgres u Ollama (embeddings) caídos
@@ -121,9 +139,16 @@ def retrieve(state: AgentState) -> dict:
 def evaluate_context(state: AgentState) -> dict:
     """Dos controles anti-alucinación: umbral de similitud + verificación por el LLM."""
     # 1) Umbral: se descartan los fragmentos poco parecidos a la pregunta.
+    # Un nombre suelto ("who is gael") se parece poco a cualquier fragmento:
+    # entre el piso y el umbral se aceptan los que nombran lo que se pregunta.
+    # Solo nombres poco frecuentes: 'Dark Souls' sale en casi todo y no dice nada.
+    names = known_names_in(
+        f"{state['question']} {state.get('search_query') or ''}", rare_names(get_names())
+    )
     relevant = [
         (doc, score) for doc, score in state["docs"]
         if score >= config.SIMILARITY_THRESHOLD
+        or (score >= config.SIMILARITY_FLOOR and known_names_in(doc.page_content, names, cutoff=1))
     ]
     if not relevant:
         # Ninguno pasa el umbral: se rechaza sin gastar una llamada al LLM.
@@ -147,10 +172,12 @@ def generate(state: AgentState) -> dict:
     try:
         response = (ANSWER_PROMPT | create_llm()).invoke({
             "question": state["question"],
+            "search_query": state.get("search_query") or state["question"],
             "context": format_context(state["docs"]),
             "history": format_history(state.get("messages")),
             "language": language_name(language),
             "rejection": rejection_message(language),
+            "citation": citation_word(language),
         })
     except Exception as exc:  # noqa: BLE001
         return _error("generate", exc)
@@ -198,6 +225,7 @@ def save_history(state: AgentState) -> dict:
     try:
         db.guardar_mensaje(
             user_id=user_id,
+            session_id=state.get("session_id"),
             question=state["question"],
             answer=state["answer"],
             sources=state.get("sources", []),
@@ -211,10 +239,13 @@ def save_history(state: AgentState) -> dict:
 # --- Rutas (las usan los edges condicionales de graph.py) --------------------
 
 def intent_route(state: AgentState) -> str:
-    """Después de validate_intent: buscar, rechazar o manejar el error."""
+    """Después de validate_intent: reescribir y buscar, buscar directamente o manejar el error.
+
+    No hay ruta a "reject": ninguna pregunta se rechaza sin consultar la base.
+    """
     if state.get("error"):
         return "handle_error"
-    return "rewrite_query" if state["on_topic"] else "reject"
+    return "rewrite_query" if state["on_topic"] else "retrieve"
 
 
 def retrieve_route(state: AgentState) -> str:

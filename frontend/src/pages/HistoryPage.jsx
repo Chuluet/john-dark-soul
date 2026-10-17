@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useOutletContext, useSearchParams } from 'react-router-dom'
 import { getHistory } from '../api/chat'
 import gwyn from '../assets/gwyn.png'
 import { Quote } from '../components/Decor'
-import { SearchIcon } from '../components/Icons'
-import { GameTags, Sources } from '../components/Sources'
+import { ChatIcon, SearchIcon } from '../components/Icons'
+import { Sources } from '../components/Sources'
 
 export default function HistoryPage() {
+  const { openConversation } = useOutletContext()
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -82,7 +83,6 @@ export default function HistoryPage() {
                         <span className="tag-warn">No information</span>
                       ) : (
                         <>
-                          <GameTags sources={item.sources} />
                           <span className="muted small">{item.sources?.length || 0} {item.sources?.length === 1 ? 'source' : 'sources'}</span>
                         </>
                       )}
@@ -92,6 +92,11 @@ export default function HistoryPage() {
                     <div className="row-full">
                       <div className={item.rejected ? '' : 'serif answer'}>{item.answer}</div>
                       <Sources sources={item.sources} />
+                      <div>
+                        <button type="button" className="btn btn-ghost" onClick={() => openConversation(item.session_id)}>
+                          <ChatIcon /> Open conversation
+                        </button>
+                      </div>
                     </div>
                   )}
                 </div>

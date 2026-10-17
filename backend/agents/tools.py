@@ -10,6 +10,7 @@ from __future__ import annotations
 from langchain_core.documents import Document
 from langchain_core.tools import tool
 
+from agents.utils import proper_nouns
 from app import config
 from vectorstore import vectorstore as backend
 
@@ -17,6 +18,7 @@ from vectorstore import vectorstore as backend
 # embeddings), así que lo memorizamos entre llamadas.
 _store = None
 _titles = None
+_names = None
 
 
 def _get_store():
@@ -34,14 +36,25 @@ def get_titles() -> list[str]:
     return _titles
 
 
+def get_names() -> dict[str, float]:
+    """Nombres propios de la base (en minúscula) con la fracción de fragmentos en que salen."""
+    global _names
+    if not _names:
+        _names = proper_nouns(backend.textos_fragmentos())
+    return _names
+
+
 def invalidar_titulos() -> None:
-    """Olvida los títulos cacheados: la ingesta lo llama al indexar archivos nuevos."""
-    global _titles
+    """Olvida títulos y nombres cacheados: la ingesta lo llama al indexar archivos nuevos."""
+    global _titles, _names
     _titles = None
+    _names = None
 
 
 @tool
-def search_documents(query: str, k: int = config.RETRIEVER_K) -> list[tuple[Document, float]]:
+def search_documents(
+    query: str, k: int = config.RETRIEVER_K, excluded: list[str] | None = None
+) -> list[tuple[Document, float]]:
     """Search the Dark Souls lore vector database for relevant fragments.
 
     Returns (fragment, score) pairs with a score between 0 and 1: higher means
@@ -50,8 +63,12 @@ def search_documents(query: str, k: int = config.RETRIEVER_K) -> list[tuple[Docu
     Args:
         query: The question or the terms to search for, in natural language.
         k: How many fragments to return.
+        excluded: Files ('fuente') the user disabled; their fragments are skipped.
     """
-    return _get_store().similarity_search_with_relevance_scores(query, k=k)
+    # $nin filtra dentro de la propia consulta de pgvector, así siguen saliendo
+    # k fragmentos aunque los mejores fueran de un documento desactivado.
+    filtro = {"fuente": {"$nin": sorted(excluded)}} if excluded else None
+    return _get_store().similarity_search_with_relevance_scores(query, k=k, filter=filtro)
 
 
 @tool

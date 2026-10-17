@@ -21,5 +21,3 @@ build/
 # Archivos pesados de la base de conocimiento
 backend/data/wiki/*.mp4
 backend/data/wiki/*.mp3
-# backend/data/embeddings.dump SÍ se versiona: restaura la base vectorial sin
-# repetir la ingesta (el video tarda en transcribirse).

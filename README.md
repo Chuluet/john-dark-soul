@@ -10,6 +10,44 @@ frontend/   Interfaz web
 docs/       Arquitectura, documento técnico y presentación
 ```
 
+## Agente (LangGraph)
+
+Generado con `build_graph().get_graph().draw_mermaid()` (`backend/agents/graph.py`):
+
+```mermaid
+graph TD;
+	__start__([start]) --> validate_intent;
+	validate_intent -.->|del dominio| rewrite_query;
+	validate_intent -.->|fuera del dominio| retrieve;
+	validate_intent -.-> handle_error;
+	rewrite_query --> retrieve;
+	retrieve -.-> evaluate_context;
+	retrieve -.-> handle_error;
+	evaluate_context -.->|suficiente| generate;
+	evaluate_context -.->|insuficiente| reject;
+	evaluate_context -.-> handle_error;
+	generate -.-> save_history;
+	generate -.-> handle_error;
+	reject --> save_history;
+	save_history --> __end__([end]);
+	handle_error --> __end__;
+```
+
+| Nodo | Qué hace |
+|---|---|
+| `validate_intent` | Clasifica si la pregunta es de Dark Souls y detecta el idioma (español o inglés). Decide **cómo** se busca, no **si** se busca: ninguna pregunta se rechaza sin consultar la base. |
+| `rewrite_query` | Reescribe la pregunta en inglés con los nombres oficiales y resuelve referencias a la conversación ("who is his wolf" → "Who is Artorias's wolf?"). |
+| `retrieve` | Búsqueda semántica en pgvector con la pregunta original y la reescrita; excluye los documentos que el usuario desactivó. |
+| `evaluate_context` | Umbral de similitud (`SIMILARITY_THRESHOLD`) y verificación por el LLM de que los fragmentos responden la pregunta. |
+| `generate` | Responde solo con los fragmentos y cita el archivo de cada dato. |
+| `reject` | Mensaje explícito: "No tengo suficiente información en mi base de conocimiento…". |
+| `save_history` | Guarda la interacción en la memoria de la sesión y en la tabla `messages`. |
+| `handle_error` | Ollama o Postgres caídos: avisa sin inventar nada (la API responde 503). |
+
+Control de alucinaciones: umbral mínimo de similitud, nodo dedicado a validar el contexto,
+prompt que obliga a responder solo con lo recuperado, rechazo explícito y fuentes visibles
+(el archivo que generó cada fragmento) en cada respuesta.
+
 ## Puesta en marcha local
 
 ### Requisitos
@@ -135,9 +173,17 @@ Todos los endpoints exigen `Authorization: Bearer <token>`; sin token responden 
 | `GET` | `/me` | Usuario autenticado (`sub`, `username`, `email`, `roles`) |
 | `POST` | `/chat` | `{"question", "session_id"?}` → `{"answer", "sources", "rejected"}` |
 | `GET` | `/chat/history?limit=50` | Historial del usuario, del más reciente al más antiguo |
+| `GET` | `/chat/conversations?limit=20` | Conversaciones del usuario (mensajes agrupados por `session_id`) |
+| `GET` | `/chat/conversations/{session_id}` | Mensajes de una conversación, en orden |
 | `POST` | `/documents` | Sube un archivo (`multipart`, campo `archivo`), lo indexa y lo registra |
-| `GET` | `/documents` | Archivos subidos por el usuario |
+| `GET` | `/documents` | Archivos subidos por el usuario, con `active` |
+| `PATCH` | `/documents/{id}` | `{"active"}`: activa o desactiva un archivo subido |
 | `DELETE` | `/documents/{id}` | Borra el archivo y sus fragmentos de la base vectorial |
+| `GET` | `/documents/knowledge-base` | Archivos de la base original, con `active` |
+| `PATCH` | `/documents/knowledge-base` | `{"source", "active"}`: activa o desactiva un archivo de la base |
+
+Las fuentes de cada respuesta traen `document`: el archivo que generó los fragmentos.
+Desactivar un documento solo afecta las respuestas de ese usuario (tabla `disabled_sources`).
 
 Códigos de error: `401` sin token o token inválido · `404` documento inexistente o de otro
 usuario · `413` archivo mayor a `MAX_UPLOAD_MB` · `415` formato no soportado · `422` archivo
