@@ -33,8 +33,8 @@ src/
 ├── api/
 │   ├── client.js       fetch con el token y errores legibles (401, 404, 503…)
 │   ├── auth.js         GET /me
-│   ├── chat.js         POST /chat, GET /chat/history
-│   ├── documents.js    GET/POST /documents, DELETE /documents/{id}
+│   ├── chat.js         POST /chat, GET /chat/history, GET /chat/conversations
+│   ├── documents.js    /documents y /documents/knowledge-base
 │   └── mock.js         datos de ejemplo para VITE_USE_MOCKS=true
 ├── components/         Layout (menú lateral), Decor (hoguera, ascuas, frases), Sources, Icons
 ├── pages/              LoginPage, ChatPage, HistoryPage, DocumentsPage
@@ -50,15 +50,23 @@ de Keycloak. Los errores muestran el `detail` que manda el backend.
 | Método | Ruta | Cuerpo | Respuesta |
 |---|---|---|---|
 | GET | `/me` | — | `{ sub, username, email, roles }` |
-| POST | `/chat` | `{ question, session_id }` | `{ answer, sources: [{ title, game, url }], rejected }` |
-| GET | `/chat/history` | — | `[{ id, question, answer, sources, rejected, created_at }]` |
-| GET | `/documents` | — | `[{ id, filename, tipo, juegos, chunks, created_at }]` |
-| POST | `/documents` | multipart, campo `archivo` | `201 { id, filename, tipo, juegos, chunks, created_at }` |
+| POST | `/chat` | `{ question, session_id }` | `{ answer, sources: [{ title, game, document }], rejected }` |
+| GET | `/chat/history` | — | `[{ id, session_id, question, answer, sources, rejected, created_at }]` |
+| GET | `/chat/conversations` | — | `[{ session_id, title, updated_at, messages }]` |
+| GET | `/chat/conversations/{session_id}` | — | mensajes de la conversación, del más antiguo al más reciente |
+| GET | `/documents` | — | `[{ id, filename, tipo, juegos, chunks, active, created_at }]` |
+| POST | `/documents` | multipart, campo `archivo` | `201 { id, filename, tipo, juegos, chunks, active, created_at }` |
+| PATCH | `/documents/{id}` | `{ active }` | 204 |
 | DELETE | `/documents/{id}` | — | 204 |
+| GET | `/documents/knowledge-base` | — | `[{ source, title, tipo, juegos, chunks, active }]` |
+| PATCH | `/documents/knowledge-base` | `{ source, active }` | 204 |
 
 - Un rechazo del agente no es un error: `POST /chat` responde 200 con `rejected: true`.
-- `GET /documents` lista solo los archivos que subió el usuario (la wiki base no
-  aparece); la base de conocimiento es compartida entre todos.
+- "Recent" del menú lista conversaciones; al abrir una, las preguntas nuevas
+  siguen en el mismo `session_id`.
+- `GET /documents` lista solo los archivos que subió el usuario; la base original
+  sale en `GET /documents/knowledge-base`. Desactivar un documento solo cambia
+  las respuestas de ese usuario.
 - Errores de la subida: 413 (mayor a `MAX_UPLOAD_MB`), 415 (formato), 422 (vacío o
   dañado), 503 (Ollama o Postgres caídos). La respuesta llega cuando el archivo ya
   está indexado, así que audio y video tardan.
