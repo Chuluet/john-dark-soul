@@ -14,12 +14,12 @@ class Fuente(BaseModel):
 
 
 class ChatRequest(BaseModel):
-    question: str = Field(min_length=1, max_length=2000, description="Pregunta para el agente.")
+    question: str = Field(min_length=1, max_length=2000, description="Question for the agent.")
     session_id: str = Field(
         default="default",
         min_length=1,
         max_length=100,
-        description="Conversación del usuario; cada una tiene su propio estado en el grafo.",
+        description="User conversation; each one keeps its own state in the agent graph.",
     )
 
 
@@ -47,7 +47,7 @@ class DocumentOut(BaseModel):
 
     id: int
     filename: str
-    tipo: str = Field(description="Formato con el que se procesó: pdf, wiki, texto, imagen, video...")
-    juegos: list[str] = Field(description="Juegos detectados en el contenido (DS1, DS2, DS3).")
-    chunks: int = Field(description="Fragmentos guardados en la base vectorial.")
+    tipo: str = Field(description="Format it was processed as: pdf, wiki, texto, imagen, video...")
+    juegos: list[str] = Field(description="Games detected in the content (DS1, DS2, DS3).")
+    chunks: int = Field(description="Chunks stored in the vector database.")
     created_at: datetime

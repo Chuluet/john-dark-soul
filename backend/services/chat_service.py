@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from agents.graph import ask, build_graph
+from agents.prompts import DEFAULT_LANGUAGE, service_error_message
 from services.errores import ServicioNoDisponible
 
 # El grafo se compila una sola vez: su checkpointer (InMemorySaver) guarda el
@@ -26,8 +27,9 @@ def preguntar(user_id: str, pregunta: str, session_id: str) -> dict:
     """
     resultado = ask(_get_grafo(), pregunta.strip(), f"{user_id}:{session_id}", user_id)
     if resultado["error"]:
-        # Ollama o Postgres fallaron: `answer` trae el aviso en el idioma de la pregunta.
-        raise ServicioNoDisponible(resultado["answer"])
+        # Ollama o Postgres fallaron. Los errores de la API van siempre en el
+        # idioma por defecto, aunque la pregunta esté en otro.
+        raise ServicioNoDisponible(service_error_message(DEFAULT_LANGUAGE))
     return {
         "answer": resultado["answer"],
         "sources": resultado["sources"],

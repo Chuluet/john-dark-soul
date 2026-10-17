@@ -4,13 +4,13 @@
 const wait = (ms) => new Promise((r) => setTimeout(r, ms))
 
 const REJECTION =
-  'No tengo suficiente información en mi base de conocimiento para responder esa pregunta. ' +
-  'Si tienes documentos sobre ese tema, puedes subirlos para que pueda responderla.'
+  "I don't have enough information in my knowledge base to answer that question. " +
+  'If you have documents on this topic, you can upload them so I can answer it.'
 
 const ARTORIAS = {
   answer:
-    'Artorias, el Caminante del Abismo, fue uno de los cuatro caballeros de Lord Gwyn. Era conocido por su habilidad con la espada y por su voluntad inquebrantable (fuente: Knight Artorias, DS1).\n\n' +
-    'Según la leyenda, viajó a Oolacile para detener la propagación del Abismo, acompañado por el gran lobo gris Sif. Fue corrompido por el Abismo y terminó luchando contra quienes intentaba salvar (fuente: Oolacile, DS1).',
+    "Artorias the Abysswalker was one of Lord Gwyn's Four Knights, known for his swordsmanship and his unbending will (source: Knight Artorias, DS1).\n\n" +
+    'According to legend, he travelled to Oolacile to stop the spread of the Abyss, together with the great grey wolf Sif. He was corrupted by the Abyss and ended up fighting the people he meant to save (source: Oolacile, DS1).',
   sources: [
     { title: 'Knight Artorias', game: 'DS1', url: 'https://darksouls.wiki.fextralife.com/Knight+Artorias' },
     { title: 'Oolacile', game: 'DS1', url: null },
@@ -20,16 +20,15 @@ const ARTORIAS = {
 
 const now = Date.now()
 const history = [
-  { id: 3, question: '¿Quién es Solaire de Astora?', answer: 'Solaire es un caballero de Astora que busca su propio sol…', sources: [{ title: 'Solaire of Astora', game: 'DS1' }], rejected: false, created_at: new Date(now - 26 * 3600e3).toISOString() },
-  { id: 2, question: '¿Cuál es el mejor sushi de Tokio?', answer: REJECTION, sources: [], rejected: true, created_at: new Date(now - 2 * 3600e3).toISOString() },
-  { id: 1, question: '¿Quién es Artorias?', ...ARTORIAS, created_at: new Date(now - 3 * 3600e3).toISOString() },
+  { id: 3, question: 'Who is Solaire of Astora?', answer: 'Solaire is a knight of Astora searching for his own sun…', sources: [{ title: 'Solaire of Astora', game: 'DS1' }], rejected: false, created_at: new Date(now - 26 * 3600e3).toISOString() },
+  { id: 2, question: 'What is the best sushi in Tokyo?', answer: REJECTION, sources: [], rejected: true, created_at: new Date(now - 2 * 3600e3).toISOString() },
+  { id: 1, question: 'Who is Artorias?', ...ARTORIAS, created_at: new Date(now - 3 * 3600e3).toISOString() },
 ]
 
 let documents = [
-  { source: 'slave_knight_gael.md', type: 'texto', chunks: 14, created_at: new Date(now - 3600e3).toISOString() },
-  { source: 'The COMPLETE Dark Souls Series Story Retrospective.mp4', type: 'video', chunks: 276, created_at: new Date(now - 2 * 86400e3).toISOString() },
-  { source: 'ornstein_y_smough.png', type: 'imagen', chunks: 1, created_at: new Date(now - 2 * 86400e3).toISOString() },
-  { source: 'Dark Souls Wiki (DS1 · DS2 · DS3)', type: 'wiki', chunks: 2112, created_at: new Date(now - 3 * 86400e3).toISOString(), base: true },
+  { id: 3, filename: 'slave_knight_gael__DS3.md', tipo: 'wiki', juegos: ['DS3'], chunks: 14, created_at: new Date(now - 3600e3).toISOString() },
+  { id: 2, filename: 'The COMPLETE Dark Souls Series Story Retrospective.mp4', tipo: 'video', juegos: ['DS1', 'DS2', 'DS3'], chunks: 276, created_at: new Date(now - 2 * 86400e3).toISOString() },
+  { id: 1, filename: 'ornstein_y_smough.png', tipo: 'imagen', juegos: ['DS1'], chunks: 1, created_at: new Date(now - 2 * 86400e3).toISOString() },
 ]
 
 export async function getMe() {
@@ -54,9 +53,9 @@ export async function listDocuments() {
   return [...documents]
 }
 
-export async function deleteDocument(source) {
+export async function deleteDocument(id) {
   await wait(300)
-  documents = documents.filter((d) => d.source !== source)
+  documents = documents.filter((d) => d.id !== id)
   return null
 }
 
@@ -66,6 +65,7 @@ export async function uploadDocument(file, onProgress) {
     onProgress?.(Math.min(p, 100))
   }
   const chunks = Math.max(1, Math.round(file.size / 900))
-  documents = [{ source: file.name, type: 'texto', chunks, created_at: new Date().toISOString() }, ...documents]
-  return { source: file.name, chunks }
+  const doc = { id: Date.now(), filename: file.name, tipo: 'texto', juegos: [], chunks, created_at: new Date().toISOString() }
+  documents = [doc, ...documents]
+  return doc
 }

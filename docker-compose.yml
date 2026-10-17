@@ -10,7 +10,32 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
     restart: unless-stopped
+
+  # Tarea de un solo uso: si la base vectorial está vacía la llena con
+  # backend/data/embeddings.dump (así no hay que repetir la ingesta). Si ya
+  # tiene datos no hace nada.
+  db-seed:
+    image: pgvector/pgvector:pg17
+    container_name: darksoul-db-seed
+    entrypoint: ["sh", "/seed/restaurar_embeddings.sh"]
+    environment:
+      PGHOST: db
+      PGUSER: ${POSTGRES_USER}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      PGDATABASE: ${POSTGRES_DB}
+    volumes:
+      - ./db/restaurar_embeddings.sh:/seed/restaurar_embeddings.sh:ro
+      - ./backend/data/embeddings.dump:/seed/embeddings.dump:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
 
   ollama:
     image: ollama/ollama:latest
@@ -66,9 +91,12 @@ services:
       OLLAMA_BASE_URL: http://ollama:11434
       KEYCLOAK_INTERNAL_URL: http://keycloak:8080
     depends_on:
-      - db
-      - ollama
-      - keycloak
+      db-seed:
+        condition: service_completed_successfully
+      ollama:
+        condition: service_started
+      keycloak:
+        condition: service_started
     restart: unless-stopped
 
   frontend:

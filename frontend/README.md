@@ -32,9 +32,9 @@ src/
 │   └── AuthProvider.jsx  estado de sesión: login, register, logout, usuario
 ├── api/
 │   ├── client.js       fetch con el token y errores legibles (401, 404, 503…)
-│   ├── auth.js         GET /me            (ya existe en el backend)
-│   ├── chat.js         POST /chat, GET /chat/history     (por implementar)
-│   ├── documents.js    GET/POST /documents, DELETE /documents/{source} (por implementar)
+│   ├── auth.js         GET /me
+│   ├── chat.js         POST /chat, GET /chat/history
+│   ├── documents.js    GET/POST /documents, DELETE /documents/{id}
 │   └── mock.js         datos de ejemplo para VITE_USE_MOCKS=true
 ├── components/         Layout (menú lateral), Decor (hoguera, ascuas, frases), Sources, Icons
 ├── pages/              LoginPage, ChatPage, HistoryPage, DocumentsPage
@@ -44,21 +44,24 @@ src/
 
 ## Contrato con el backend
 
-Los endpoints de chat y documentos todavía no existen. Mientras falten, la
-interfaz muestra "This feature isn't available on the server yet." (404).
-Todos envían `Authorization: Bearer <token>`.
+Todos envían `Authorization: Bearer <token>`; con un 401 la app vuelve al login
+de Keycloak. Los errores muestran el `detail` que manda el backend.
 
 | Método | Ruta | Cuerpo | Respuesta |
 |---|---|---|---|
 | GET | `/me` | — | `{ sub, username, email, roles }` |
 | POST | `/chat` | `{ question, session_id }` | `{ answer, sources: [{ title, game, url }], rejected }` |
 | GET | `/chat/history` | — | `[{ id, question, answer, sources, rejected, created_at }]` |
-| GET | `/documents` | — | `[{ source, type, chunks, created_at, base }]` |
-| POST | `/documents` | multipart, campo `file` | `{ source, chunks }` |
-| DELETE | `/documents/{source}` | — | 204 |
+| GET | `/documents` | — | `[{ id, filename, tipo, juegos, chunks, created_at }]` |
+| POST | `/documents` | multipart, campo `archivo` | `201 { id, filename, tipo, juegos, chunks, created_at }` |
+| DELETE | `/documents/{id}` | — | 204 |
 
-`POST /chat` corresponde a `agents/graph.py -> ask()`; si `error` no es `None`
-debe responder 503. El historial sale de `app/db.py -> listar_mensajes()`.
+- Un rechazo del agente no es un error: `POST /chat` responde 200 con `rejected: true`.
+- `GET /documents` lista solo los archivos que subió el usuario (la wiki base no
+  aparece); la base de conocimiento es compartida entre todos.
+- Errores de la subida: 413 (mayor a `MAX_UPLOAD_MB`), 415 (formato), 422 (vacío o
+  dañado), 503 (Ollama o Postgres caídos). La respuesta llega cuando el archivo ya
+  está indexado, así que audio y video tardan.
 
 ## Docker
 

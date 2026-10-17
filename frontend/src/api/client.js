@@ -11,7 +11,8 @@ export class ApiError extends Error {
 }
 
 const MESSAGES = {
-  404: "This feature isn't available on the server yet.",
+  404: 'Not found.',
+  422: 'The file could not be processed.',
   413: 'The file is too large.',
   415: 'File type not supported.',
   503: 'The agent is not available right now. Please try again in a few moments.',

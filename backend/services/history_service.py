@@ -10,5 +10,5 @@ from services.errores import fallos_de_servicio
 
 def listar(user_id: str, limite: int) -> list[dict]:
     """Interacciones del usuario, de la más reciente a la más antigua."""
-    with fallos_de_servicio("No se pudo leer el historial: la base de datos no responde."):
+    with fallos_de_servicio("Could not load the history: the database is not responding."):
         return db.listar_mensajes(user_id, limite)

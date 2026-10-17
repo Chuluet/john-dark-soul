@@ -9,9 +9,19 @@ from services import document_service
 router = APIRouter(prefix="/documents", tags=["documents"])
 
 
-@router.post("", response_model=DocumentOut, status_code=status.HTTP_201_CREATED)
+@router.post(
+    "",
+    response_model=DocumentOut,
+    status_code=status.HTTP_201_CREATED,
+    summary="Upload a document",
+    description=(
+        "Uploads a file, processes it and stores its embeddings. Responds once the file is "
+        "indexed, so the agent can use it right away. Audio and video take longer because "
+        "they are transcribed."
+    ),
+)
 def subir(
-    archivo: UploadFile = File(description="PDF, TXT, MD, DOCX, CSV, JPG, PNG, MP3 o MP4."),
+    archivo: UploadFile = File(description="PDF, TXT, MD, DOCX, CSV, JPG, PNG, MP3 or MP4."),
     usuario: Usuario = Depends(get_current_user),
 ) -> dict:
     """Sube un archivo, lo procesa y guarda sus embeddings.
@@ -22,13 +32,18 @@ def subir(
     return document_service.subir(usuario.sub, archivo.filename, archivo.file)
 
 
-@router.get("", response_model=list[DocumentOut])
+@router.get("", response_model=list[DocumentOut], summary="List documents", description="Files uploaded by the user.")
 def listar(usuario: Usuario = Depends(get_current_user)) -> list[dict]:
     """Archivos subidos por el usuario."""
     return document_service.listar(usuario.sub)
 
 
-@router.delete("/{id}", status_code=status.HTTP_204_NO_CONTENT)
+@router.delete(
+    "/{id}",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Delete a document",
+    description="Deletes one of the user's documents and its chunks from the vector database.",
+)
 def borrar(id: int, usuario: Usuario = Depends(get_current_user)) -> Response:
     """Borra un documento del usuario y sus fragmentos de la base vectorial."""
     document_service.borrar(usuario.sub, id)

@@ -48,10 +48,10 @@ def decodificar_token(token: str) -> dict:
         # Keycloak caído o inalcanzable: no es culpa del cliente.
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail="No se pudo contactar al servidor de autenticación.",
+            detail="Could not reach the authentication server.",
         ) from error
     except jwt.PyJWTError as error:
-        raise _no_autorizado("Token inválido.") from error
+        raise _no_autorizado("Invalid token.") from error
 
     try:
         claims = jwt.decode(
@@ -64,12 +64,12 @@ def decodificar_token(token: str) -> dict:
             options={"verify_aud": False, "require": ["exp", "iat", "sub"]},
         )
     except jwt.ExpiredSignatureError as error:
-        raise _no_autorizado("El token expiró.") from error
+        raise _no_autorizado("The token has expired.") from error
     except jwt.PyJWTError as error:
-        raise _no_autorizado("Token inválido.") from error
+        raise _no_autorizado("Invalid token.") from error
 
     if claims.get("azp") != config.KEYCLOAK_CLIENT_ID:
-        raise _no_autorizado("El token no fue emitido para esta aplicación.")
+        raise _no_autorizado("The token was not issued for this application.")
     return claims
 
 
@@ -78,7 +78,7 @@ def get_current_user(
 ) -> Usuario:
     """Dependencia de FastAPI: todos los endpoints la usan."""
     if credenciales is None:
-        raise _no_autorizado("Falta el token de acceso.")
+        raise _no_autorizado("Missing access token.")
 
     claims = decodificar_token(credenciales.credentials)
     return Usuario(
