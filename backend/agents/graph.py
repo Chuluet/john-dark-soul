@@ -38,13 +38,16 @@ def build_graph():
     # Edge fijo: toda pregunta entra validando la intención.
     graph.add_edge(START, "validate_intent")
 
-    # Edge condicional: intent_route devuelve "rewrite_query", "reject" o
-    # "handle_error" (si Ollama falló). El diccionario mapea esa respuesta al
-    # nodo destino (y lo hace visible en el diagrama).
+    # Edge condicional: intent_route devuelve "rewrite_query" (pregunta del
+    # dominio: se reescribe antes de buscar), "retrieve" (fuera del dominio
+    # según el clasificador: se busca igual, con la pregunta original) o
+    # "handle_error" (si Ollama falló). No hay salida a "reject": la búsqueda
+    # es obligatoria y solo evaluate_context puede rechazar. El diccionario
+    # mapea esa respuesta al nodo destino (y lo hace visible en el diagrama).
     graph.add_conditional_edges(
         "validate_intent",
         intent_route,
-        {"rewrite_query": "rewrite_query", "reject": "reject", "handle_error": "handle_error"},
+        {"rewrite_query": "rewrite_query", "retrieve": "retrieve", "handle_error": "handle_error"},
     )
 
     # Edge fijo: la pregunta reescrita en inglés pasa a la búsqueda.
@@ -80,8 +83,25 @@ def build_graph():
     return graph.compile(checkpointer=InMemorySaver())
 
 
-def ask(graph, question: str, session: str, user_id: str | None = None) -> dict:
+def has_memory(graph, session: str) -> bool:
+    """¿El checkpointer ya tiene mensajes de esta sesión? (se pierden al reiniciar)."""
+    estado = graph.get_state({"configurable": {"thread_id": session}})
+    return bool(estado.values.get("messages"))
+
+
+def ask(
+    graph,
+    question: str,
+    session: str,
+    user_id: str | None = None,
+    session_id: str | None = None,
+    history: list | None = None,
+) -> dict:
     """Ejecuta una pregunta completa. Equivalente a answer_text() del profesor.
+
+    `history`: mensajes previos de la conversación (HumanMessage/AIMessage)
+    para una sesión que el checkpointer ya no recuerda; add_messages los agrega
+    antes de la pregunta.
 
     Devuelve {"answer", "sources", "rejected", "error"}. Con `error` distinto de
     None la API debe responder 503: el agente no rechazó, falló un servicio.
@@ -89,6 +109,10 @@ def ask(graph, question: str, session: str, user_id: str | None = None) -> dict:
     entrada = {"question": question}
     if user_id:
         entrada["user_id"] = user_id
+    if session_id:
+        entrada["session_id"] = session_id
+    if history:
+        entrada["messages"] = history
     # Con checkpointer, LangGraph EXIGE un thread_id: identifica la sesión del usuario.
     result = graph.invoke(entrada, {"configurable": {"thread_id": session}})
     return {

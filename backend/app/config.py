@@ -100,6 +100,10 @@ RETRIEVER_MAX_POR_FUENTE = _int("RETRIEVER_MAX_POR_FUENTE", 1)
 # el agente rechaza la pregunta.
 SIMILARITY_THRESHOLD = _float("SIMILARITY_THRESHOLD", 0.46)
 
+# Por debajo del umbral pero sobre este piso, un fragmento entra solo si nombra
+# a quien se pregunta (Gael, Midir...): un nombre suelto da puntajes bajos.
+SIMILARITY_FLOOR = _float("SIMILARITY_FLOOR", 0.38)
+
 
 # --- Autenticación (Keycloak) -----------------------------------------------
 # URL pública de Keycloak: es la que ve el navegador y la que aparece en el

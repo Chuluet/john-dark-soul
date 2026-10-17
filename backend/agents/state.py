@@ -16,12 +16,17 @@ class AgentState(TypedDict):
     # Si no viene (pruebas por consola), la interacción no se guarda.
     user_id: str
 
-    # Lo escribe validate_intent: idioma de la pregunta ("en", "es" u "other").
-    # El agente responde en inglés salvo que la pregunta esté en otro idioma.
+    # Conversación del frontend a la que pertenece la pregunta. save_history la
+    # guarda con el mensaje para agrupar el historial por conversación.
+    session_id: str
+
+    # Lo escribe validate_intent: idioma de la pregunta ("en" o "es").
+    # El agente responde en inglés salvo que la pregunta esté en español.
     language: str
 
-    # Lo escribe validate_intent: True si la pregunta es del lore de Dark Souls.
-    # El edge condicional lo lee para decidir entre "rewrite_query" o "reject".
+    # Lo escribe validate_intent: True si la pregunta es del lore de Dark Souls
+    # (o nombra algo de la base). El edge condicional lo lee para decidir entre
+    # "rewrite_query" (se reescribe y se busca) o "retrieve" (se busca tal cual).
     on_topic: bool
 
     # Lo escribe rewrite_query: la pregunta en inglés y con los nombres oficiales
@@ -41,7 +46,7 @@ class AgentState(TypedDict):
     answer: str
 
     # Lo escribe generate: las fuentes usadas, por ejemplo
-    #   [{"title": "Knight Artorias", "game": "DS1", "url": "https://..."}]
+    #   [{"title": "Knight Artorias", "game": "DS1", "document": "knight-artorias__DS1.md"}]
     # Sirve para mostrarlas en el frontend (estrategia anti-alucinación 3.4).
     sources: list[dict]
 

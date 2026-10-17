@@ -1,5 +1,7 @@
 """Funciones puras fáciles de probar."""
+import difflib
 import re
+from collections.abc import Collection
 from typing import Any
 
 # Palabras muy frecuentes que delatan el idioma de una pregunta corta. Los
@@ -17,49 +19,29 @@ _ENGLISH_WORDS = {
     "her", "their", "there", "story", "game", "boss", "character", "tell",
 }
 
-# Palabras frecuentes de otros idiomas cercanos (francés, portugués, italiano,
-# alemán): evitan que una pregunta en francés cuente como español por un "le".
-_OTHER_WORDS = {
-    "qui", "est", "il", "elle", "les", "des", "du", "où", "quoi", "pourquoi", "quem",
-    "não", "é", "você", "chi", "è", "perché", "wer", "ist", "der", "die", "das", "und",
-}
-
 # Nombre del idioma para pedírselo al modelo en ANSWER_PROMPT.
 LANGUAGE_NAMES = {"en": "English", "es": "Spanish"}
 
 
 def detect_language(text: str) -> str:
-    """'es', 'en' u 'other' según las palabras de la pregunta.
+    """'es' o 'en' según las palabras de la pregunta.
 
-    Solo distingue los idiomas que tienen mensaje de rechazo propio; con
-    'other' el modelo responde en el idioma de la pregunta y el rechazo sale
-    en inglés.
+    El agente solo trabaja en español e inglés: lo que no se reconoce como
+    español se responde en inglés, el idioma por defecto.
     """
     words = re.findall(r"[^\W\d_]+", text.lower())
     spanish = sum(word in _SPANISH_WORDS for word in words)
     english = sum(word in _ENGLISH_WORDS for word in words)
-    other = sum(word in _OTHER_WORDS for word in words)
-    if other > max(spanish, english):
-        return "other"
-    if spanish > english:
-        return "es"
-    if english > spanish:
-        return "en"
-    # Empate: ¿ ¡ y ñ son casi una firma del español (las tildes no: el
-    # francés o el portugués también las usan). Se miran después de las
+    if spanish != english:
+        return "es" if spanish > english else "en"
+    # Empate: ¿ ¡ ñ y las tildes delatan el español. Se miran después de las
     # palabras para que "¿Who is Solaire?" no cuente como español.
-    if re.search(r"[¿¡ñ]", text, re.IGNORECASE):
-        return "es"
-    if not words:
-        return "en"
-    # Empate (o ninguna palabra conocida): si hay letras fuera del alfabeto
-    # inglés es otro idioma; si no, se asume inglés, el idioma por defecto.
-    return "other" if re.search(r"[^\x00-\x7f]", text) else "en"
+    return "es" if re.search(r"[¿¡ñáéíóú]", text, re.IGNORECASE) else "en"
 
 
 def language_name(language: str) -> str:
-    """Instrucción de idioma para el modelo: 'English', 'Spanish' o el de la pregunta."""
-    return LANGUAGE_NAMES.get(language, "the same language as the question")
+    """Instrucción de idioma para el modelo: 'English' o 'Spanish' (inglés por defecto)."""
+    return LANGUAGE_NAMES.get(language, LANGUAGE_NAMES["en"])
 
 
 def message_text(message: Any) -> str:
@@ -77,13 +59,20 @@ def format_history(messages, max_turns: int = 3, max_chars: int = 400) -> str:
 
     Solo sirve para saber a qué se refiere la pregunta ("¿y su lobo?"); nunca
     como fuente de información. Las respuestas largas se recortan.
+
+    Los mensajes de rechazo se omiten: no dicen nada del tema y, si la misma
+    pregunta ya se rechazó una vez, el modelo tiende a repetir el rechazo.
     """
+    from agents.prompts import REJECTION_MESSAGES  # aquí para no crear un import circular
+
     if not messages:
         return "(no previous messages)"
     lines = []
     for message in messages[-2 * max_turns:]:
         role = "User" if getattr(message, "type", "") == "human" else "Assistant"
         text = message_text(message)
+        if role == "Assistant" and is_rejection(text, REJECTION_MESSAGES.values()):
+            continue
         if len(text) > max_chars:
             text = text[:max_chars].rstrip() + "…"
         lines.append(f"{role}: {text}")
@@ -107,6 +96,59 @@ def is_rejection(answer: str, rejection_messages) -> bool:
         if normalized.startswith(first_sentence):
             return True
     return False
+
+
+_WORD = re.compile(r"[^\W\d_]{4,}")
+
+
+def proper_nouns(texts, min_count: int = 2, min_ratio: float = 0.8) -> dict[str, float]:
+    """Palabras que en la base casi siempre van con mayúscula: nombres propios.
+
+    'Midir', 'Gael' o 'Lothric' salen siempre con mayúscula; 'black' o 'fire'
+    también aparecen en minúscula, así que no cuentan. Se devuelven en minúscula,
+    cada una con la fracción de textos en que aparece ('dark' ~0.7, 'gael' ~0.01).
+    """
+    texts = list(texts)
+    if not texts:
+        return {}
+    upper: dict[str, int] = {}
+    total: dict[str, int] = {}
+    in_texts: dict[str, int] = {}
+    for text in texts:
+        seen = set()
+        for word in _WORD.findall(text):
+            lower = word.lower()
+            total[lower] = total.get(lower, 0) + 1
+            if word[0].isupper():
+                upper[lower] = upper.get(lower, 0) + 1
+            seen.add(lower)
+        for lower in seen:
+            in_texts[lower] = in_texts.get(lower, 0) + 1
+    return {
+        word: in_texts[word] / len(texts)
+        for word, count in total.items()
+        if count >= min_count and upper.get(word, 0) / count >= min_ratio
+    }
+
+
+def rare_names(names: dict[str, float], max_share: float = 0.05) -> set[str]:
+    """Nombres que salen en pocos textos: 'gael' dice de qué trata algo, 'dark' no."""
+    return {word for word, share in names.items() if share <= max_share}
+
+
+def known_names_in(text: str, names: Collection[str], cutoff: float = 0.87) -> set[str]:
+    """Nombres de la base que aparecen en el texto, tolerando erratas.
+
+    'who is quelag' -> {'quelaag'}. La tolerancia solo se aplica a palabras de
+    5 letras o más: en las cortas, una letra cambia demasiado.
+    """
+    found = set()
+    for word in set(_WORD.findall(text.lower())):
+        if word in names:
+            found.add(word)
+        elif len(word) >= 5:
+            found.update(difflib.get_close_matches(word, names, n=1, cutoff=cutoff))
+    return found
 
 
 def expand_names(query: str, titles) -> str:
@@ -165,19 +207,12 @@ def format_context(docs) -> str:
     blocks = []
     for position, (document, _score) in enumerate(docs, start=1):
         meta = document.metadata or {}
-        # .md de la wiki: "Knight Artorias, DS1". Imágenes/video: el nombre del archivo.
-        title = meta.get("title") or meta.get("fuente", "unknown")
-        game = meta.get("juego")
-        reference = f"{title}, {game}" if game and game != "general" else title
-
-        # Sección del fragmento: título '##' de la wiki, "Página N" del PDF o
-        # "mm:ss - mm:ss" del video.
-        section = meta.get("seccion")
-        if section:
-            reference += f", {section}"
-
+        # El modelo cita el archivo, igual que las fuentes que muestra la
+        # interfaz. Título, juego y sección ya van en la cabecera del propio
+        # fragmento ('Knight Artorias (DS1) > Lore'), puesta por la ingesta.
+        reference = document_name(meta.get("fuente") or "unknown")
         blocks.append(
-            f"[Fragment {position} | source: {reference}]\n"
+            f"[Fragment {position} | document: {reference}]\n"
             f"{document.page_content.strip()}"
         )
 
@@ -202,6 +237,15 @@ def extract_sources(docs, puntaje_minimo: float = 0.55) -> list[dict]:
         sources.append({
             "title": meta.get("title") or file,  # imágenes/video no tienen title
             "game": meta.get("juego"),           # None si no aplica
-            "url": meta.get("url"),              # link a la wiki; None si no aplica
+            "document": document_name(file),
         })
     return sources
+
+
+def document_name(source: str) -> str:
+    """Nombre del archivo que generó los fragmentos, sin carpetas.
+
+    'uploads/<uuid>/gael__DS3.pdf' -> 'gael__DS3.pdf'. La ingesta en Windows
+    guarda las subcarpetas con '\\', por eso se cortan las dos barras.
+    """
+    return re.split(r"[\\/]", source)[-1]

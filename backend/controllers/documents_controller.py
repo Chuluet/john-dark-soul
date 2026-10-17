@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, Depends, File, Response, UploadFile, status
 
-from app.schemas import DocumentOut
+from app.schemas import BaseDocumentOut, BaseDocumentState, DocumentOut, DocumentState
 from app.security import Usuario, get_current_user
 from services import document_service
 
@@ -36,6 +36,47 @@ def subir(
 def listar(usuario: Usuario = Depends(get_current_user)) -> list[dict]:
     """Archivos subidos por el usuario."""
     return document_service.listar(usuario.sub)
+
+
+# Las rutas de /knowledge-base van antes que /{id}: si no, FastAPI intentaría
+# leer "knowledge-base" como el id numérico de un documento.
+@router.get(
+    "/knowledge-base",
+    response_model=list[BaseDocumentOut],
+    summary="List knowledge base documents",
+    description="Files of the original knowledge base, with whether the user has them enabled.",
+)
+def listar_base(usuario: Usuario = Depends(get_current_user)) -> list[dict]:
+    """Archivos de la base original, con su estado para el usuario."""
+    return document_service.listar_base(usuario.sub)
+
+
+@router.patch(
+    "/knowledge-base",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Enable or disable a knowledge base document",
+    description="Only affects the user's answers: a disabled document is not used by the agent.",
+)
+def cambiar_estado_base(
+    estado: BaseDocumentState, usuario: Usuario = Depends(get_current_user)
+) -> Response:
+    """Activa o desactiva un archivo de la base original para el usuario."""
+    document_service.cambiar_estado_base(usuario.sub, estado.source, estado.active)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.patch(
+    "/{id}",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Enable or disable an uploaded document",
+    description="Only affects the user's answers: a disabled document is not used by the agent.",
+)
+def cambiar_estado(
+    id: int, estado: DocumentState, usuario: Usuario = Depends(get_current_user)
+) -> Response:
+    """Activa o desactiva uno de los archivos que subió el usuario."""
+    document_service.cambiar_estado(usuario.sub, id, estado.active)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 
 @router.delete(

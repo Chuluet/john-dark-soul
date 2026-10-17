@@ -8,6 +8,9 @@ Flujo de carga (sección 2.4 del enunciado):
 La base de conocimiento es compartida: lo que sube un usuario le sirve al
 agente para todos. Lo que es de cada usuario es la gestión: solo ve y borra
 los archivos que subió él.
+
+Además, cada usuario puede desactivar documentos (de la base original o
+suyos): el agente deja de usarlos solo en las respuestas para ese usuario.
 """
 
 from __future__ import annotations
@@ -115,7 +118,7 @@ def subir(user_id: str, nombre: str | None, contenido: BinaryIO) -> dict:
     juegos = sorted({juego for f in fragmentos for juego in f.metadata.get("juegos", [])})
     try:
         with fallos_de_servicio("Could not register the document: the database is not responding."):
-            return db.guardar_documento(
+            documento = db.guardar_documento(
                 user_id=user_id,
                 filename=nombre,
                 fuente=fuente,
@@ -127,12 +130,56 @@ def subir(user_id: str, nombre: str | None, contenido: BinaryIO) -> dict:
         # Sin fila en `documents` nadie podría borrar esos fragmentos.
         backend.borrar_fuente(None, fuente)
         raise
+    return documento | {"active": True}
 
 
 def listar(user_id: str) -> list[dict]:
-    """Archivos que subió el usuario."""
+    """Archivos que subió el usuario, con su estado (activo o no)."""
     with fallos_de_servicio("Could not load the documents: the database is not responding."):
-        return db.listar_documentos(user_id)
+        documentos = db.listar_documentos(user_id)
+        desactivados = db.fuentes_desactivadas(user_id)
+    return [d | {"active": d["fuente"] not in desactivados} for d in documentos]
+
+
+def listar_base(user_id: str) -> list[dict]:
+    """Archivos de la base original, con su estado para el usuario.
+
+    Por defecto todos están activos; el usuario puede apagar los que no quiera
+    que el agente use al responderle.
+    """
+    with fallos_de_servicio("Could not load the knowledge base: the database is not responding."):
+        documentos = backend.listar_documentos_base()
+        desactivados = db.fuentes_desactivadas(user_id)
+    return [
+        {
+            "source": d["fuente"],
+            "title": d["title"] or d["fuente"],
+            "tipo": d["tipo"] or "texto",
+            "juegos": d["juegos"],
+            "chunks": d["chunks"],
+            "active": d["fuente"] not in desactivados,
+        }
+        for d in documentos
+    ]
+
+
+def cambiar_estado_base(user_id: str, fuente: str, activo: bool) -> None:
+    """Activa o desactiva para el usuario un archivo de la base original."""
+    with fallos_de_servicio("Could not update the document: the database is not responding."):
+        # Solo archivos de la base: los subidos se cambian por su id, así un
+        # usuario no puede tocar el estado de un archivo ajeno por su fuente.
+        if not backend.listar_documentos_base(fuente):
+            raise NoEncontrado("Document not found in the knowledge base.")
+        db.cambiar_estado_fuente(user_id, fuente, activo)
+
+
+def cambiar_estado(user_id: str, documento_id: int, activo: bool) -> None:
+    """Activa o desactiva uno de los archivos que subió el usuario."""
+    with fallos_de_servicio("Could not update the document: the database is not responding."):
+        documento = db.obtener_documento(documento_id, user_id)
+        if documento is None:
+            raise NoEncontrado("Document not found.")
+        db.cambiar_estado_fuente(user_id, documento["fuente"], activo)
 
 
 def borrar(user_id: str, documento_id: int) -> None:
