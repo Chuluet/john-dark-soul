@@ -21,6 +21,19 @@ def rejection_message(language: str) -> str:
     return REJECTION_MESSAGES.get(language, REJECTION_MESSAGES[DEFAULT_LANGUAGE])
 
 
+# Cuando falla un servicio (Ollama, Postgres) no se responde nada del lore:
+# se avisa del problema sin inventar una respuesta.
+SERVICE_ERROR_MESSAGES = {
+    "en": "The agent is not available right now. Please try again in a few moments.",
+    "es": "El agente no está disponible en este momento. Intenta de nuevo en unos instantes.",
+}
+
+
+def service_error_message(language: str) -> str:
+    """Mensaje de fallo del servicio en el idioma de la pregunta (inglés si no hay versión)."""
+    return SERVICE_ERROR_MESSAGES.get(language, SERVICE_ERROR_MESSAGES[DEFAULT_LANGUAGE])
+
+
 # --- Nodo validate_intent ---------------------------------------------------
 # Decide si la pregunta pertenece al dominio antes de buscar.
 INTENT_PROMPT = ChatPromptTemplate.from_messages([

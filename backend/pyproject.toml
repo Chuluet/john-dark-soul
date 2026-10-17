@@ -1,11 +1,13 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "API FastAPI y agente RAG (LangGraph + Ollama + pgvector) sobre el lore de Dark Souls"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "av<14",
+    "beautifulsoup4>=4.15.0",
+    "docx2txt>=0.9",
     "fastapi>=0.143.2",
     "faster-whisper>=1.2.1",
     "httpx>=0.28.1",
