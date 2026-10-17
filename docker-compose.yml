@@ -30,7 +30,7 @@ services:
       PGPASSWORD: ${POSTGRES_PASSWORD}
       PGDATABASE: ${POSTGRES_DB}
     volumes:
-      - ./db/restaurar_embeddings.sh:/seed/restaurar_embeddings.sh:ro
+      - ./backend/scripts/restaurar_embeddings.sh:/seed/restaurar_embeddings.sh:ro
       - ./backend/data/embeddings.dump:/seed/embeddings.dump:ro
     depends_on:
       db:
