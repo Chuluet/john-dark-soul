@@ -54,7 +54,9 @@ PG_COLLECTION = os.getenv("PG_COLLECTION", "darksouls")
 DOCS_PATH = BASE_DIR / os.getenv("DOCS_PATH", "data/wiki")
 CHUNK_SIZE = _int("CHUNK_SIZE", 1000)
 CHUNK_OVERLAP = _int("CHUNK_OVERLAP", 150)
-EXTENSIONES_SOPORTADAS = {".pdf", ".txt", ".md", ".jpg", ".jpeg", ".png", ".mp4", ".mp3"}
+EXTENSIONES_SOPORTADAS = {
+    ".pdf", ".txt", ".md", ".docx", ".csv", ".jpg", ".jpeg", ".png", ".mp4", ".mp3",
+}
 
 # Modelo de visión local: describe las imágenes para poder indexarlas.
 VISION_MODEL = os.getenv("VISION_MODEL", "qwen2.5vl:3b")

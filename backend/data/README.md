@@ -4,7 +4,7 @@
 subcarpetas: la ingesta recorre `DOCS_PATH` (por defecto `data/wiki`)
 recursivamente.
 
-**Formatos soportados:** `.md`, `.txt`, `.pdf`, `.jpg`, `.jpeg`, `.png`, `.mp4`, `.mp3`
+**Formatos soportados:** `.md`, `.txt`, `.pdf`, `.docx`, `.csv`, `.jpg`, `.jpeg`, `.png`, `.mp4`, `.mp3`
 
 Cada formato se embebe directamente (sin archivos intermedios) y todos los
 fragmentos salen con los mismos metadatos y una cabecera
@@ -14,6 +14,8 @@ fragmentos salen con los mismos metadatos y una cabecera
 |---|---|---|
 | `.md` de la wiki | texto + frontmatter | el título `##` |
 | `.pdf` | una página = un documento | `Página N` |
+| `.docx` | texto completo del documento | — |
+| `.csv` | una fila = un documento (`columna: valor` por línea) | `Fila N` |
 | imagen | el modelo de visión transcribe el texto (o describe la imagen si no tiene) | los títulos de la imagen |
 | video / audio | Whisper, en bloques de 90 s | `mm:ss - mm:ss` |
 

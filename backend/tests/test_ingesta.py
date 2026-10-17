@@ -192,3 +192,53 @@ def test_no_adivina_cuando_no_hay_pista():
     assert INDICE.detectar("Who is Gwyn?") == []                 # está en varios juegos
     assert INDICE.detectar("Dark Souls is hard") == []           # "Dark Souls" a secas es la saga
     assert ing.IndiceJuegos([("Boss", "DS1")]).detectar("the boss") == []  # palabras comunes no cuentan
+
+
+def _docx(ruta, parrafos):
+    """.docx mínimo: docx2txt solo lee word/document.xml del zip."""
+    import zipfile
+    cuerpo = "".join(f"<w:p><w:r><w:t>{p}</w:t></w:r></w:p>" for p in parrafos)
+    with zipfile.ZipFile(ruta, "w") as z:
+        z.writestr("word/document.xml",
+                   '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">'
+                   f"<w:body>{cuerpo}</w:body></w:document>")
+
+
+def test_docx_y_csv_estan_soportados():
+    assert {".docx", ".csv"} <= config.EXTENSIONES_SOPORTADAS
+
+
+def test_docx_sale_con_los_metadatos_comunes(tmp_path):
+    ruta = tmp_path / "slave-knight-gael__DS3.docx"
+    _docx(ruta, ["Slave Knight Gael sought the Dark Soul of the pygmies."])
+
+    fragmentos = ing._fragmentar(ing._cargar_archivo(ruta), ruta.name, INDICE)
+
+    assert fragmentos[0].page_content.startswith("slave knight gael (DS3)\n\n")
+    assert fragmentos[0].metadata.items() >= {"title": "slave knight gael", "juego": "DS3", "tipo": "docx",
+                                              "fuente": ruta.name}.items()
+    assert "source" not in fragmentos[0].metadata  # sin la ruta absoluta del loader
+
+
+def test_csv_una_fila_por_documento_con_su_seccion(tmp_path):
+    ruta = tmp_path / "jefes__DS1.csv"
+    ruta.write_text("jefe,zona\nTaurus Demon,Undead Burg\nCapra Demon,Lower Undead Burg\n", encoding="utf-8")
+
+    fragmentos = ing._fragmentar(ing._cargar_archivo(ruta), ruta.name, INDICE)
+
+    assert [f.metadata["seccion"] for f in fragmentos] == ["Fila 1", "Fila 2"]
+    assert fragmentos[1].page_content == "jefes (DS1) > Fila 2\n\njefe: Capra Demon\nzona: Lower Undead Burg"
+    assert fragmentos[1].metadata["tipo"] == "csv"
+
+
+def test_get_titles_se_refresca_tras_invalidar(monkeypatch):
+    from agents import tools
+    titulos = [["Knight Artorias"]]
+    monkeypatch.setattr(tools.backend, "listar_titulos", lambda: titulos[0])
+    tools.invalidar_titulos()
+    assert tools.get_titles() == ["Knight Artorias"]
+
+    titulos[0] = ["Knight Artorias", "Slave Knight Gael"]
+    assert tools.get_titles() == ["Knight Artorias"]  # cacheado
+    tools.invalidar_titulos()
+    assert tools.get_titles() == ["Knight Artorias", "Slave Knight Gael"]

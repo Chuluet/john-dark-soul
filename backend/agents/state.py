@@ -11,6 +11,11 @@ class AgentState(TypedDict):
     #   graph.invoke({"question": "Who is Artorias?"})
     question: str
 
+    # Usuario dueño de la pregunta (el `sub` del token de Keycloak). Lo pasa la
+    # API al invocar el grafo; save_history lo usa para guardar el historial.
+    # Si no viene (pruebas por consola), la interacción no se guarda.
+    user_id: str
+
     # Lo escribe validate_intent: idioma de la pregunta ("en", "es" u "other").
     # El agente responde en inglés salvo que la pregunta esté en otro idioma.
     language: str
@@ -39,6 +44,15 @@ class AgentState(TypedDict):
     #   [{"title": "Knight Artorias", "game": "DS1", "url": "https://..."}]
     # Sirve para mostrarlas en el frontend (estrategia anti-alucinación 3.4).
     sources: list[dict]
+
+    # Lo escriben generate y reject: True si la respuesta final es el mensaje de
+    # rechazo (también cuando lo decide el modelo dentro de generate).
+    rejected: bool
+
+    # Fallo de un servicio (Ollama o Postgres caídos). No es un rechazo: la API
+    # lo convierte en un 503. validate_intent lo limpia al empezar cada pregunta,
+    # porque el checkpointer conserva el estado de la pregunta anterior.
+    error: str | None
 
     # Annotated[..., add_messages] cambia cómo se actualiza esta clave: en vez de
     # REEMPLAZAR la lista, add_messages AGREGA los mensajes nuevos al final.

@@ -30,6 +30,7 @@ from pathlib import Path
 
 from langchain_community.document_loaders import (
     BSHTMLLoader,
+    CSVLoader,
     Docx2txtLoader,
     PyPDFLoader,
     TextLoader,
@@ -40,6 +41,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from rich.console import Console
 from rich.table import Table
 
+from agents.tools import invalidar_titulos
 from app import config
 from vectorstore import vectorstore as backend
 
@@ -147,6 +149,12 @@ def _metadatos_base(ruta: Path, tipo: str) -> dict:
     titulo = re.sub(r"[-_\s]+", " ", SUFIJO_JUEGO.sub("", ruta.stem)).strip() or ruta.stem
     juego = sufijo.group(1).upper() if sufijo and sufijo.group(1).lower() != "general" else "general"
     return {"title": titulo, "juego": juego, "tipo": tipo}
+
+
+def _con_metadatos(documento: Document, base: dict) -> Document:
+    """Reemplaza los metadatos del loader (ruta absoluta, nº de fila) por los comunes."""
+    documento.metadata = dict(base)
+    return documento
 
 
 def _separar_frontmatter(documento: Document, base: dict) -> Document:
@@ -352,7 +360,15 @@ def _cargar_archivo(ruta: Path) -> list[Document]:
     if sufijo in {".mp4", ".mp3"}:
         return _transcribir(ruta)
     if sufijo == ".docx":
-        return Docx2txtLoader(str(ruta)).load()
+        documentos = Docx2txtLoader(str(ruta)).load()
+        return [_con_metadatos(d, _metadatos_base(ruta, "docx")) for d in documentos]
+    if sufijo == ".csv":
+        # Una fila = un documento ("columna: valor" por línea), con la fila como sección.
+        documentos = CSVLoader(str(ruta), encoding="utf-8", autodetect_encoding=True).load()
+        return [
+            _con_metadatos(d, _metadatos_base(ruta, "csv") | {"seccion": f"Fila {d.metadata.get('row', i) + 1}"})
+            for i, d in enumerate(documentos)
+        ]
     if sufijo in {".html", ".htm"}:
         return BSHTMLLoader(str(ruta), open_encoding="utf-8").load()
 
@@ -541,6 +557,10 @@ def ingestar(reset: bool = False) -> int:
 
         tabla.add_row(fuente, str(len(fragmentos)))
         total += len(fragmentos)
+
+    # Los títulos nuevos deben llegar a expand_names sin reiniciar el backend.
+    if total:
+        invalidar_titulos()
 
     console.print(tabla)
     if saltados:

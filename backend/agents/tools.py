@@ -34,6 +34,12 @@ def get_titles() -> list[str]:
     return _titles
 
 
+def invalidar_titulos() -> None:
+    """Olvida los títulos cacheados: la ingesta lo llama al indexar archivos nuevos."""
+    global _titles
+    _titles = None
+
+
 @tool
 def search_documents(query: str, k: int = config.RETRIEVER_K) -> list[tuple[Document, float]]:
     """Search the Dark Souls lore vector database for relevant fragments.

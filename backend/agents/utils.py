@@ -72,6 +72,25 @@ def message_text(message: Any) -> str:
     return str(content).strip()
 
 
+def _normalize(text: str) -> str:
+    """Minúsculas, sin comillas al borde y con los espacios colapsados."""
+    return " ".join(text.strip().strip("\"'“”«»").lower().split())
+
+
+def is_rejection(answer: str, rejection_messages) -> bool:
+    """True si la respuesta empieza con la primera frase de algún mensaje de rechazo.
+
+    Se compara solo la primera frase: el modelo a veces omite la sugerencia de
+    subir documentos o cambia la puntuación del final.
+    """
+    normalized = _normalize(answer)
+    for message in rejection_messages:
+        first_sentence = _normalize(message).split(". ")[0].rstrip(".")
+        if normalized.startswith(first_sentence):
+            return True
+    return False
+
+
 def expand_names(query: str, titles) -> str:
     """Completa los nombres cortos con el título de su página de la wiki.
 

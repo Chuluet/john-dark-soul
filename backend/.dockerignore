@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .env
+# Respaldo de la base vectorial: se restaura en Postgres, no lo usa la API.
+data/embeddings.dump

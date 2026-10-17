@@ -22,7 +22,7 @@ docs/       Arquitectura, documento técnico y presentación
 Desde la raíz del proyecto (`john-dark-soul/`):
 
 ```powershell
-copy .env.example .env        # luego edita la contraseña de Postgres
+copy .env.example .env        # luego cambia las contraseñas (Postgres y admin de Keycloak)
 ```
 
 ### 2. Levantar Postgres (pgvector) y Ollama
@@ -49,7 +49,7 @@ uv sync
 ```
 
 ### 5. Cargar la base de conocimiento
-Los documentos van en `backend/data/wiki/` (`.md`, `.txt`, `.pdf`, `.jpg`, `.png`, `.mp4`, `.mp3`).
+Los documentos van en `backend/data/wiki/` (`.md`, `.txt`, `.pdf`, `.docx`, `.csv`, `.jpg`, `.png`, `.mp4`, `.mp3`).
 
 ```powershell
 # Desde backend/
@@ -58,21 +58,24 @@ uv run python -m services.ingest_service           # agrega/actualiza sin borrar
 ```
 
 **Alternativa: restaurar un respaldo** (evita repetir la ingesta, útil con videos largos).
-Desde la raíz, con el archivo en `data/embeddings.dump`:
+El respaldo está versionado en `backend/data/embeddings.dump`. Desde la raíz:
 
 ```powershell
 docker compose exec db psql -U darksoul -d darksoul -c "CREATE EXTENSION IF NOT EXISTS vector"
-docker compose cp ./data/embeddings.dump db:/tmp/embeddings.dump
+docker compose cp ./backend/data/embeddings.dump db:/tmp/embeddings.dump
 docker compose exec db pg_restore -U darksoul -d darksoul --no-owner --clean --if-exists /tmp/embeddings.dump
 ```
 
 **Generar el respaldo** (desde la raíz):
 
 ```powershell
-New-Item -ItemType Directory -Force data
 docker compose exec db pg_dump -U darksoul -d darksoul -Fc --no-owner -t langchain_pg_collection -t langchain_pg_embedding -f /tmp/embeddings.dump
-docker compose cp db:/tmp/embeddings.dump ./data/embeddings.dump
+docker compose cp db:/tmp/embeddings.dump ./backend/data/embeddings.dump
 ```
+
+El respaldo solo incluye la base vectorial; el historial (`messages`) no se
+exporta. La tabla `messages` se crea sola la primera vez que el agente guarda
+una interacción.
 
 ### 6. Probar
 Desde `backend/`:
@@ -86,6 +89,10 @@ uv run python -c "from agents.tools import buscar_en_documentos as b; [print(rou
 
 # Agente completo: pregunta con respuesta
 uv run python -c "from agents.graph import build_graph; g = build_graph(); r = g.invoke({'question': '¿Quién es Artorias?'}, {'configurable': {'thread_id': 'prueba'}}); print(r['answer']); print(r.get('sources'))"
+
+# Con user_id la interacción se guarda en la tabla messages (historial)
+uv run python -c "from agents.graph import build_graph, ask; print(ask(build_graph(), '¿Quién es Artorias?', 'prueba-h', user_id='demo'))"
+uv run python -c "from app import db; [print(m['created_at'], m['rejected'], m['question']) for m in db.listar_mensajes('demo')]"
 
 # Agente completo: pregunta fuera del dominio (debe rechazar)
 uv run python -c "from agents.graph import build_graph; g = build_graph(); r = g.invoke({'question': '¿Cómo se prepara sushi?'}, {'configurable': {'thread_id': 'prueba2'}}); print(r['answer'])"
