@@ -12,6 +12,7 @@ from fastapi.testclient import TestClient
 from langchain_core.documents import Document
 from sqlalchemy.exc import OperationalError
 
+from agents.prompts import SERVICE_ERROR_MESSAGES
 from app import config
 from app.main import app
 from app.security import Usuario, get_current_user
@@ -68,16 +69,16 @@ def test_chat_rechazo_es_200_con_rejected(cliente, monkeypatch):
     assert respuesta.json()["rejected"] is True
 
 
-def test_chat_fallo_de_ollama_es_503_con_el_aviso_del_agente(cliente, monkeypatch):
+def test_chat_fallo_de_ollama_es_503_en_ingles_aunque_pregunten_en_espanol(cliente, monkeypatch):
     monkeypatch.setattr(chat_service, "_get_grafo", lambda: None)
     monkeypatch.setattr(chat_service, "ask", lambda *a: {
-        "answer": "El servicio no está disponible.", "sources": [], "rejected": False,
+        "answer": SERVICE_ERROR_MESSAGES["es"], "sources": [], "rejected": False,
         "error": "validate_intent: ConnectionError"})
 
     respuesta = cliente.post("/chat", json={"question": "¿Quién es Artorias?"})
 
     assert respuesta.status_code == 503
-    assert respuesta.json() == {"detail": "El servicio no está disponible."}
+    assert respuesta.json() == {"detail": SERVICE_ERROR_MESSAGES["en"]}
 
 
 @pytest.mark.parametrize("cuerpo", [{}, {"question": ""}, {"question": "x" * 2001}])
@@ -182,7 +183,7 @@ def test_subir_archivo_demasiado_grande_es_413(cliente, pgvector_falso, monkeypa
 def test_subir_archivo_danado_es_422(cliente, pgvector_falso):
     respuesta = _subir(cliente, "roto.pdf", b"esto no es un pdf")
     assert respuesta.status_code == 422
-    assert "dañado" in respuesta.json()["detail"]
+    assert "corrupted" in respuesta.json()["detail"]
 
 
 def test_subir_con_ollama_caido_es_503(cliente, pgvector_falso, monkeypatch):

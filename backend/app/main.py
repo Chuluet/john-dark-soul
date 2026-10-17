@@ -13,7 +13,7 @@ from services.errores import ErrorDeServicio
 
 app = FastAPI(
     title="john-dark-soul",
-    description="Agente RAG sobre el lore de Dark Souls (DS1, DS2, DS3).",
+    description="RAG agent about the lore of Dark Souls (DS1, DS2, DS3). Every endpoint requires a Keycloak Bearer token.",
     version="0.1.0",
 )
 

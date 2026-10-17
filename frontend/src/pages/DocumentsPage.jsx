@@ -36,7 +36,7 @@ export default function DocumentsPage() {
     setUpload({ name: file.name, progress: 0 })
     try {
       const result = await uploadDocument(file, (progress) => setUpload({ name: file.name, progress }))
-      setNotice({ kind: 'ok', text: `${result?.source || file.name} uploaded · ${result?.chunks ?? '?'} chunks` })
+      setNotice({ kind: 'ok', text: `${result?.filename || file.name} uploaded · ${result?.chunks ?? '?'} chunks` })
       load()
     } catch (e) {
       setNotice({ kind: 'error', text: `${file.name}: ${e.message}` })
@@ -47,9 +47,9 @@ export default function DocumentsPage() {
   }
 
   async function handleDelete(doc) {
-    if (!window.confirm(`Delete ${doc.source} from the knowledge base?`)) return
+    if (!window.confirm(`Delete ${doc.filename} from the knowledge base?`)) return
     try {
-      await deleteDocument(doc.source)
+      await deleteDocument(doc.id)
       load()
     } catch (e) {
       setNotice({ kind: 'error', text: e.message })
@@ -57,8 +57,8 @@ export default function DocumentsPage() {
   }
 
   const totalChunks = docs.reduce((sum, d) => sum + (d.chunks || 0), 0)
-  const images = docs.filter((d) => d.type === 'imagen').length
-  const videos = docs.filter((d) => d.type === 'video').length
+  const images = docs.filter((d) => d.tipo === 'imagen').length
+  const videos = docs.filter((d) => d.tipo === 'video').length
   const isMedia = upload && /\.(mp4|mp3)$/i.test(upload.name)
 
   return (
@@ -123,26 +123,23 @@ export default function DocumentsPage() {
             <div className="table-box">
               <table>
                 <thead>
-                  <tr><th>Name</th><th>Type</th><th>Date</th><th className="num">Chunks</th><th><span className="sr">Actions</span></th></tr>
+                  <tr><th>Name</th><th>Type</th><th>Games</th><th>Date</th><th className="num">Chunks</th><th><span className="sr">Actions</span></th></tr>
                 </thead>
                 <tbody>
                   {docs.length === 0 && (
-                    <tr><td colSpan="5" className="soft">No documents yet.</td></tr>
+                    <tr><td colSpan="6" className="soft">No documents yet.</td></tr>
                   )}
                   {docs.map((doc) => (
-                    <tr key={doc.source}>
-                      <td>{doc.source}</td>
-                      <td>{TYPE_LABELS[doc.type] || doc.type}</td>
+                    <tr key={doc.id}>
+                      <td>{doc.filename}</td>
+                      <td>{TYPE_LABELS[doc.tipo] || doc.tipo}</td>
+                      <td>{doc.juegos?.length ? doc.juegos.map((g) => <span key={g} className="tag">{g}</span>) : '—'}</td>
                       <td>{doc.created_at ? new Date(doc.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—'}</td>
                       <td className="num strong">{(doc.chunks ?? 0).toLocaleString('en-US')}</td>
                       <td className="actions">
-                        {doc.base ? (
-                          <span className="muted small">Base</span>
-                        ) : (
-                          <button type="button" className="icon-btn danger" aria-label={`Delete ${doc.source}`} onClick={() => handleDelete(doc)}>
-                            <TrashIcon />
-                          </button>
-                        )}
+                        <button type="button" className="icon-btn danger" aria-label={`Delete ${doc.filename}`} onClick={() => handleDelete(doc)}>
+                          <TrashIcon />
+                        </button>
                       </td>
                     </tr>
                   ))}

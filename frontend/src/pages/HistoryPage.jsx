@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { getHistory } from '../api/chat'
 import gwyn from '../assets/gwyn.png'
 import { Quote } from '../components/Decor'
@@ -10,7 +11,18 @@ export default function HistoryPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [search, setSearch] = useState('')
-  const [open, setOpen] = useState(null)
+  // La pregunta abierta vive en la URL (?open=<id>): así el menú "Recent"
+  // puede abrir una aunque ya estemos en esta página.
+  const [params, setParams] = useSearchParams()
+  const open = Number(params.get('open')) || null
+  const setOpen = (id) => setParams(id ? { open: String(id) } : {}, { replace: true })
+
+  // Al llegar desde "Recent", la pregunta abierta puede quedar fuera de la vista.
+  useEffect(() => {
+    if (open && !loading) {
+      document.getElementById(`message-${open}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }, [open, loading])
 
   useEffect(() => {
     getHistory()
@@ -55,7 +67,7 @@ export default function HistoryPage() {
             <h2 className="label">{day}</h2>
             <div className="list">
               {list.map((item) => (
-                <div key={item.id} className="row">
+                <div key={item.id} id={`message-${item.id}`} className="row">
                   {/* Al hacer clic se muestra la respuesta completa con sus fuentes. */}
                   <button type="button" className="row-toggle" aria-expanded={open === item.id} onClick={() => setOpen(open === item.id ? null : item.id)}>
                     <span className="row-head">

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { getHistory } from '../api/chat'
 import { useAuth } from '../auth/AuthProvider'
 import solaire from '../assets/solaire.png'
@@ -53,9 +53,10 @@ export default function Layout() {
           <div className="recent">
             <span className="label">Recent</span>
             {recent.map((item) => (
-              <NavLink key={item.id} to="/history" className="recent-item">
+              // ?open=<id>: History abre esa pregunta y la lleva a la vista.
+              <Link key={item.id} to={`/history?open=${item.id}`} className="recent-item">
                 {item.question}
-              </NavLink>
+              </Link>
             ))}
           </div>
         )}

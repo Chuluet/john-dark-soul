@@ -64,7 +64,7 @@ def _copiar_con_limite(origen: BinaryIO, destino: Path) -> int:
             total += len(bloque)
             if total > limite:
                 raise ArchivoDemasiadoGrande(
-                    f"El archivo supera el máximo de {config.MAX_UPLOAD_MB} MB."
+                    f"The file exceeds the {config.MAX_UPLOAD_MB} MB limit."
                 )
             salida.write(bloque)
     return total
@@ -77,7 +77,7 @@ def subir(user_id: str, nombre: str | None, contenido: BinaryIO) -> dict:
     if extension not in config.EXTENSIONES_SOPORTADAS:
         soportadas = ", ".join(sorted(config.EXTENSIONES_SOPORTADAS))
         raise ArchivoNoSoportado(
-            f"Formato '{extension or 'sin extensión'}' no soportado. Formatos válidos: {soportadas}."
+            f"Unsupported file type '{extension or 'no extension'}'. Supported types: {soportadas}."
         )
 
     # `fuente` identifica los fragmentos en pgvector; el uuid evita chocar con
@@ -90,31 +90,31 @@ def subir(user_id: str, nombre: str | None, contenido: BinaryIO) -> dict:
     try:
         ruta = carpeta / nombre
         if _copiar_con_limite(contenido, ruta) == 0:
-            raise ArchivoSinContenido("El archivo está vacío.")
+            raise ArchivoSinContenido("The file is empty.")
 
         try:
             fragmentos = ingest_service.ingestar_archivo(ruta, fuente)
         except FALLOS_DE_SERVICIO as exc:
             raise ServicioNoDisponible(
-                "No se pudo procesar el archivo: los modelos de Ollama o la base de datos no responden."
+                "Could not process the file: the Ollama models or the database are not responding."
             ) from exc
         except Exception as exc:  # noqa: BLE001 - archivo dañado o ilegible para su loader
             logger.exception("No se pudo leer %s", nombre)
             raise ArchivoSinContenido(
-                f"No se pudo leer el archivo ({type(exc).__name__}). ¿Está dañado?"
+                f"Could not read the file ({type(exc).__name__}). Is it corrupted?"
             ) from exc
     finally:
         shutil.rmtree(carpeta, ignore_errors=True)
 
     if not fragmentos:
         raise ArchivoSinContenido(
-            "No se encontró contenido útil en el archivo "
-            "(¿PDF escaneado, imagen sin texto o audio sin voz?)."
+            "No usable content was found in the file "
+            "(scanned PDF, image without text or audio without speech?)."
         )
 
     juegos = sorted({juego for f in fragmentos for juego in f.metadata.get("juegos", [])})
     try:
-        with fallos_de_servicio("No se pudo registrar el documento: la base de datos no responde."):
+        with fallos_de_servicio("Could not register the document: the database is not responding."):
             return db.guardar_documento(
                 user_id=user_id,
                 filename=nombre,
@@ -131,7 +131,7 @@ def subir(user_id: str, nombre: str | None, contenido: BinaryIO) -> dict:
 
 def listar(user_id: str) -> list[dict]:
     """Archivos que subió el usuario."""
-    with fallos_de_servicio("No se pudo leer la lista de documentos: la base de datos no responde."):
+    with fallos_de_servicio("Could not load the documents: the database is not responding."):
         return db.listar_documentos(user_id)
 
 
@@ -142,10 +142,10 @@ def borrar(user_id: str, documento_id: int) -> None:
     reintentar, en vez de quedar fragmentos que el agente usa sin que nadie
     los vea.
     """
-    with fallos_de_servicio("No se pudo borrar el documento: la base de datos no responde."):
+    with fallos_de_servicio("Could not delete the document: the database is not responding."):
         documento = db.obtener_documento(documento_id, user_id)
         if documento is None:
-            raise NoEncontrado("El documento no existe.")
+            raise NoEncontrado("Document not found.")
         backend.borrar_fuente(None, documento["fuente"], estricto=True)
         db.borrar_documento(documento_id)
     invalidar_titulos()

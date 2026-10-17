@@ -25,6 +25,18 @@ Desde la raíz del proyecto (`john-dark-soul/`):
 copy .env.example .env        # luego cambia las contraseñas (Postgres y admin de Keycloak)
 ```
 
+**Atajo: todo con Docker.** Con el `.env` listo y los modelos descargados (paso 3):
+
+```powershell
+docker compose up -d --build
+```
+
+Levanta Postgres, Ollama, Keycloak, backend y frontend; si la base vectorial está
+vacía la llena con `backend/data/embeddings.dump`. La app queda en
+http://localhost:5173 (usuario de prueba `demo` / `demo`) y la API en
+http://localhost:8000/docs. Los pasos siguientes son para trabajar sin Docker en
+el backend.
+
 ### 2. Levantar Postgres (pgvector) y Ollama
 
 ```powershell
@@ -58,7 +70,10 @@ uv run python -m services.ingest_service           # agrega/actualiza sin borrar
 ```
 
 **Alternativa: restaurar un respaldo** (evita repetir la ingesta, útil con videos largos).
-El respaldo está versionado en `backend/data/embeddings.dump`. Desde la raíz:
+El respaldo está versionado en `backend/data/embeddings.dump`. Con `docker compose up`
+se restaura solo: el servicio `db-seed` lo carga si la base vectorial está vacía y no
+hace nada si ya tiene datos (`docker compose logs db-seed` muestra qué hizo).
+Para restaurarlo a mano, desde la raíz:
 
 ```powershell
 docker compose exec db psql -U darksoul -d darksoul -c "CREATE EXTENSION IF NOT EXISTS vector"
