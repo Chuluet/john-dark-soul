@@ -18,6 +18,20 @@ docs/       Arquitectura, documento técnico, presentación, capturas y desplieg
 | Aplicación | https://johndarksoul.netlify.app |
 | API (Swagger) | https://api.13-58-191-152.sslip.io/docs |
 
+## Tecnologías
+
+| Capa | Tecnología |
+|---|---|
+| Agente | LangChain + LangGraph (8 nodos) |
+| LLM | `qwen2.5:7b` en Ollama (local, GPU) |
+| Embeddings | `bge-m3` (multilingüe: preguntas en español o inglés) |
+| Visión y audio | `qwen2.5vl:3b` (imágenes) y Whisper `small` (video y audio) |
+| Base vectorial | PostgreSQL 17 + pgvector |
+| API | FastAPI |
+| Autenticación | Keycloak 26 (OpenID Connect, JWT) |
+| Frontend | React + Vite, servido con nginx |
+| Contenedores | Docker Compose |
+
 ## Arquitectura
 
 ![Arquitectura](docs/architecture.png)
@@ -83,6 +97,7 @@ prompt que obliga a responder solo con lo recuperado, rechazo explícito y fuent
 ### Requisitos
 - Docker Desktop (con soporte de GPU NVIDIA vía WSL2)
 - [uv](https://docs.astral.sh/uv/) para Python
+- Node.js 22 (solo para correr el frontend fuera de Docker)
 - Si tienes PostgreSQL instalado en Windows, detenlo (usa el puerto 5432):
   `Stop-Service postgresql-x64-18` (PowerShell como administrador)
 
@@ -156,6 +171,18 @@ docker compose exec db pg_dump -U darksoul -d darksoul -Fc --no-owner -t langcha
 docker compose cp db:/tmp/embeddings.dump ./backend/data/embeddings.dump
 ```
 
+**Reindexar todo con Docker** (por ejemplo después de cambiar `backend/data/wiki/`).
+`data/` se copia dentro de la imagen del backend, así que hay que reconstruirla antes:
+
+```powershell
+docker compose up -d --build
+docker compose run --rm backend python -m services.ingest_service --reset
+docker compose exec -T db psql -U darksoul -d darksoul -tA -c "select count(*) from langchain_pg_embedding;"
+```
+
+Dentro de Docker Whisper corre en CPU: con el video la ingesta tarda bastante más
+que con `uv` y la GPU.
+
 El respaldo solo incluye la base vectorial; el historial (`messages`) no se
 exporta. La tabla `messages` se crea sola la primera vez que el agente guarda
 una interacción.
@@ -168,7 +195,7 @@ Desde `backend/`:
 uv run python -c "from vectorstore import vectorstore as v; print(v.comprobar_conexion()); print(v.contar_fragmentos())"
 
 # Búsqueda semántica (puntaje de relevancia 0-1)
-uv run python -c "from agents.tools import buscar_en_documentos as b; [print(round(s,3), d.metadata.get('title')) for d,s in b.invoke({'consulta': '¿Quién es Artorias?'})]"
+uv run python -c "from agents.tools import search_documents as b; [print(round(s,3), d.metadata.get('title')) for d,s in b.invoke({'query': '¿Quién es Artorias?'})]"
 
 # Agente completo: pregunta con respuesta
 uv run python -c "from agents.graph import build_graph; g = build_graph(); r = g.invoke({'question': '¿Quién es Artorias?'}, {'configurable': {'thread_id': 'prueba'}}); print(r['answer']); print(r.get('sources'))"
@@ -233,7 +260,54 @@ Invoke-RestMethod -Method Post http://localhost:8000/chat -Headers $h -ContentTy
 curl.exe -H "Authorization: Bearer $($t.access_token)" -F "archivo=@C:\ruta\gael__DS3.pdf" http://localhost:8000/documents
 ```
 
-### 8. Detener
+### 8. Frontend sin Docker
+
+```powershell
+cd frontend
+copy .env.example .env.local
+npm install
+npm run dev                  # http://localhost:5173
+```
+
+Necesita Keycloak y el backend arriba. Con `VITE_USE_MOCKS=true` en `.env.local`
+la interfaz funciona sola, con datos de ejemplo. Más detalles en
+[frontend/README.md](frontend/README.md).
+
+### 9. Pruebas
+
+Desde `backend/`:
+
+```powershell
+uv run pytest
+```
+
+| Archivo | Qué prueba |
+|---|---|
+| `tests/test_agent.py` | Nodos y rutas del grafo, rechazos, idioma y fuentes |
+| `tests/test_api.py` | Endpoints de chat, historial y documentos |
+| `tests/test_ingesta.py` | Carga y fragmentación de los formatos soportados |
+| `tests/test_security.py` | Endpoints protegidos: sin token o con token inválido responden 401 |
+
+### 10. Variables de entorno
+
+Todas están en `.env.example`. Las principales:
+
+| Variable | Para qué |
+|---|---|
+| `POSTGRES_PASSWORD`, `DATABASE_URL` | Conexión a Postgres (la misma contraseña en las dos) |
+| `LLM_MODEL`, `EMBED_MODEL` | Modelos de Ollama |
+| `CHUNK_SIZE`, `CHUNK_OVERLAP` | Tamaño de los fragmentos en la ingesta |
+| `RETRIEVER_K`, `RETRIEVER_FETCH_K`, `RETRIEVER_MAX_POR_FUENTE` | Cuántos fragmentos llegan al LLM, cuántos se buscan y cuántos por archivo |
+| `SIMILARITY_THRESHOLD`, `SIMILARITY_FLOOR` | Umbral de similitud y piso para fragmentos que nombran lo preguntado |
+| `KEYCLOAK_*` | Realm, cliente y URLs de Keycloak |
+| `CORS_ORIGINS` | Orígenes que pueden llamar a la API (el del frontend) |
+| `VITE_API_URL`, `VITE_USE_MOCKS` | Configuración del frontend al construirlo |
+| `MAX_UPLOAD_MB` | Tamaño máximo de los archivos subidos |
+
+Con `docker compose`, el backend usa los nombres de los servicios (`db`, `ollama`,
+`keycloak`) en lugar de `localhost`; el compose los sobreescribe solo.
+
+### 11. Detener
 
 ```powershell
 docker compose down        # conserva modelos y datos
