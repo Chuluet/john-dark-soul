@@ -209,3 +209,10 @@ curl.exe -H "Authorization: Bearer $($t.access_token)" -F "archivo=@C:\ruta\gael
 docker compose down        # conserva modelos y datos
 docker compose down -v     # ⚠️ borra también modelos y base de datos
 ```
+
+## Despliegue en la nube
+
+Frontend en **Netlify** y backend (API, agente, Ollama, Postgres y Keycloak) en
+una **EC2 de AWS** detrás de Caddy con HTTPS. La guía paso a paso está en
+[docs/DESPLIEGUE.md](docs/DESPLIEGUE.md). Archivos de producción:
+`netlify.toml`, `docker-compose.prod.yml` y la carpeta `deploy/`.

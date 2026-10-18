@@ -1,0 +1,18 @@
+# Proxy inverso con HTTPS automático (Let's Encrypt) para la EC2.
+#
+# API_DOMAIN y AUTH_DOMAIN salen del .env (p. ej. api.1-2-3-4.sslip.io): sslip.io
+# resuelve ese nombre a la IP 1.2.3.4, así que no hace falta comprar dominio.
+# Caddy pide los certificados la primera vez que arranca (necesita el puerto 80 abierto).
+
+{$API_DOMAIN} {
+	encode gzip
+	# Sin límite de tiempo de respuesta: subir un video responde cuando termina
+	# de transcribirse, y con CPU puede tardar minutos.
+	reverse_proxy backend:8000
+}
+
+{$AUTH_DOMAIN} {
+	encode gzip
+	# Caddy envía X-Forwarded-For/Proto/Host; Keycloak los acepta con KC_PROXY_HEADERS.
+	reverse_proxy keycloak:8080
+}

@@ -1,0 +1,101 @@
+# Producción (EC2). Se aplica ENCIMA de docker-compose.yml:
+#
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Cambios respecto a local (ver docs/DESPLIEGUE.md):
+#   - Caddy es lo único expuesto (80/443) y pone HTTPS con Let's Encrypt.
+#   - Postgres, Ollama, Keycloak y el backend pierden sus puertos públicos:
+#     solo se ven dentro de la red de Docker.
+#   - Ollama corre en CPU (la EC2 no tiene GPU).
+#   - Keycloak en modo producción, detrás del proxy y guardando en Postgres.
+#   - El frontend no se levanta aquí: lo sirve Netlify.
+
+services:
+  caddy:
+    image: caddy:2.10-alpine
+    container_name: darksoul-caddy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      API_DOMAIN: ${API_DOMAIN:?Falta API_DOMAIN en el .env}
+      AUTH_DOMAIN: ${AUTH_DOMAIN:?Falta AUTH_DOMAIN en el .env}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      # Certificados: si se pierden, Let's Encrypt limita cuántos se piden por semana.
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - backend
+      - keycloak
+    restart: unless-stopped
+
+  db:
+    ports: !reset []
+
+  # Keycloak guarda usuarios y sesiones en el esquema `keycloak` del mismo
+  # Postgres, pero no lo crea solo: esta tarea lo crea antes de arrancarlo.
+  keycloak-schema:
+    image: pgvector/pgvector:pg17
+    container_name: darksoul-keycloak-schema
+    command: ["psql", "-c", "CREATE SCHEMA IF NOT EXISTS keycloak"]
+    environment:
+      PGHOST: db
+      PGUSER: ${POSTGRES_USER}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      PGDATABASE: ${POSTGRES_DB}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  ollama:
+    ports: !reset []
+    # Sin GPU: se quita la reserva de NVIDIA del compose base.
+    deploy: !reset {}
+    environment:
+      OLLAMA_KEEP_ALIVE: 24h
+      # Una petición a la vez: en CPU dos en paralelo solo tardan el doble cada una.
+      OLLAMA_NUM_PARALLEL: "1"
+      OLLAMA_MAX_LOADED_MODELS: "2"
+
+  keycloak:
+    # start (producción) en vez de start-dev. --import-realm carga el realm la
+    # primera vez; si ya existe en la base, lo omite.
+    command: start --import-realm
+    ports: !reset []
+    environment:
+      KC_HOSTNAME: https://${AUTH_DOMAIN}
+      # Caddy termina el HTTPS y le habla a Keycloak por HTTP dentro de Docker.
+      KC_HTTP_ENABLED: "true"
+      KC_PROXY_HEADERS: xforwarded
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://db:5432/${POSTGRES_DB}
+      KC_DB_SCHEMA: keycloak
+      KC_DB_USERNAME: ${POSTGRES_USER}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes: !override
+      - ./keycloak:/opt/keycloak/data/import:ro
+    depends_on:
+      keycloak-schema:
+        condition: service_completed_successfully
+
+  backend:
+    ports: !reset []
+    environment:
+      # Derivadas de AUTH_DOMAIN y FRONTEND_URL para que no se desincronicen:
+      # el `iss` del token debe ser exactamente la URL pública de Keycloak, y
+      # el CORS debe aceptar exactamente el origen de Netlify.
+      KEYCLOAK_URL: https://${AUTH_DOMAIN}
+      CORS_ORIGINS: ${FRONTEND_URL:?Falta FRONTEND_URL en el .env}
+      # En la EC2 no hay GPU: Whisper (audio y video) va directo a CPU.
+      WHISPER_DEVICE: cpu
+
+  # Lo sirve Netlify. El perfil evita que `up` lo levante en el servidor.
+  frontend:
+    profiles: ["local"]
+
+volumes:
+  caddy-data:
+  caddy-config:
