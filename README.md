@@ -7,8 +7,38 @@ Agente inteligente con LangChain, LangGraph y RAG.
 ```
 backend/    API (FastAPI), agente LangGraph, servicios y base vectorial
 frontend/   Interfaz web
-docs/       Arquitectura, documento técnico y presentación
+deploy/     Configuración del servidor (Caddy, .env de producción, Keycloak)
+docs/       Arquitectura, documento técnico, presentación, capturas y despliegue
 ```
+
+**Equipo:** Santiago Cardozo · Santiago Toro
+
+| | |
+|---|---|
+| Aplicación | https://johndarksoul.netlify.app |
+| API (Swagger) | https://api.13-58-191-152.sslip.io/docs |
+
+## Arquitectura
+
+![Arquitectura](docs/architecture.png)
+
+## Documentación
+
+| Archivo | Contenido |
+|---|---|
+| [docs/technical-document.pdf](docs/technical-document.pdf) | Documento técnico: los 14 apartados del enunciado |
+| [docs/presentation.pdf](docs/presentation.pdf) | Diapositivas de la sustentación |
+| [docs/architecture.png](docs/architecture.png) | Diagrama de arquitectura |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Guía de despliegue (Netlify + EC2) |
+| [docs/screenshots/](docs/screenshots/) | Capturas de la aplicación desplegada |
+
+| Login | Respuesta con fuentes |
+|---|---|
+| ![Login](docs/screenshots/login.png) | ![Respuesta](docs/screenshots/chat-answer.png) |
+| **Pregunta rechazada** | **Carga de documentos** |
+| ![Rechazo](docs/screenshots/chat-rejected.png) | ![Documentos](docs/screenshots/document-upload.png) |
+| **Historial** | **API protegida (Swagger)** |
+| ![Historial](docs/screenshots/history.png) | ![Swagger](docs/screenshots/swagger.png) |
 
 ## Agente (LangGraph)
 
@@ -214,5 +244,5 @@ docker compose down -v     # ⚠️ borra también modelos y base de datos
 
 Frontend en **Netlify** y backend (API, agente, Ollama, Postgres y Keycloak) en
 una **EC2 de AWS** detrás de Caddy con HTTPS. La guía paso a paso está en
-[docs/DESPLIEGUE.md](docs/DESPLIEGUE.md). Archivos de producción:
+[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md). Archivos de producción:
 `netlify.toml`, `docker-compose.prod.yml` y la carpeta `deploy/`.
