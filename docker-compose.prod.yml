@@ -2,7 +2,7 @@
 #
 #   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 #
-# Cambios respecto a local (ver docs/DESPLIEGUE.md):
+# Cambios respecto a local (ver docs/DEPLOYMENT.md):
 #   - Caddy es lo único expuesto (80/443) y pone HTTPS con Let's Encrypt.
 #   - Postgres, Ollama, Keycloak y el backend pierden sus puertos públicos:
 #     solo se ven dentro de la red de Docker.

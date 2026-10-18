@@ -1,4 +1,4 @@
-# Despliegue del frontend en Netlify (ver docs/DESPLIEGUE.md).
+# Despliegue del frontend en Netlify (ver docs/DEPLOYMENT.md).
 #
 # Las VITE_* (URL de la API y de Keycloak) NO van aquí: dependen de la IP de la
 # EC2 y se configuran en Site configuration -> Environment variables. Vite las
