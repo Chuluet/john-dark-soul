@@ -1,0 +1,33 @@
+# Despliegue del frontend en Netlify (ver docs/DESPLIEGUE.md).
+#
+# Las VITE_* (URL de la API y de Keycloak) NO van aquí: dependen de la IP de la
+# EC2 y se configuran en Site configuration -> Environment variables. Vite las
+# fija al compilar, así que cada cambio exige volver a desplegar.
+
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # La misma versión que usa frontend/Dockerfile.
+  NODE_VERSION = "22"
+
+# SPA: /chat, /history, /documents... los resuelve React Router. Sin esto,
+# recargar cualquier ruta que no sea / da 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Los archivos de /assets llevan un hash en el nombre: se pueden cachear para siempre.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

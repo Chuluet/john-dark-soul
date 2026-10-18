@@ -82,6 +82,10 @@ def init_db() -> None:
     if _tablas_creadas:
         return
     with get_motor().begin() as conexion:
+        # Con la base nueva, el frontend pide historial y conversaciones a la vez:
+        # dos CREATE TABLE IF NOT EXISTS simultáneos chocan en Postgres. El lock
+        # (se libera al terminar la transacción) hace que el segundo espere.
+        conexion.execute(text("SELECT pg_advisory_xact_lock(hashtext('john-dark-soul:init_db'))"))
         conexion.execute(_CREAR_TABLAS)
     _tablas_creadas = True
 
